@@ -31,7 +31,9 @@ OverallRedCount <- OverallRed %>%
 ggplot(OverallRedCount)+
   geom_col(aes(x= geomdesc, y= n))+
   ylab("Count")+
+  ylim(ymin=0,ymax=130)+
   xlab("Description of Geometery")+
-  labs(title = "Count of Geometetry based on Farm Class")+
+  labs(title = "Count of Geometetry based on Farm Class In IA001")+
   coord_flip()+
+  geom_text(aes(x=geomdesc, y=n,label =n), hjust =-.25, size= 2)+
   facet_wrap(~farmlndcl)
