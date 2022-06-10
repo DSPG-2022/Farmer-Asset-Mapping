@@ -5,18 +5,7 @@ library(FedData)
 ##List of Important Columns
 #Keys
   ##mukey, cokey, chkey 
-#Data Columns
-  ##rupreseblkmst, rupresblkdry, desgnsuffix, ecoclassname , erokind
-#Data Tables that have to many columns to list all
-  # chfrags - Horizon Fragements - Gives percent of fragements on horizon
-  # chorizon - more info about horizon
-    #partdensity
-    # Has Info like caco (Carbonate as a weight percent)
-    # gypsum, Sar(Na relative to CA and Mg)
-    # electrical conucticity 
-    # cec, phosporous
-    # etc
- #cohydriccrietia
+
 
 
 SSURGO.areas <- get_ssurgo(template = "IA001",label = "CO_TEST") #Querty Data from Web Soil Survey
@@ -25,6 +14,17 @@ SSURGO.areas.IA001 <- SSURGO.areas$spatial[SSURGO.areas$spatial$AREASYMBOL=='IA0
 
 IA001.Tabular <- SSURGO.areas$tabular  #GetTabular Data
 
+#Data Columns
+  ##rupreseblkmst, rupresblkdry, desgnsuffix, ecoclassname , erokind
+#Data Tables that have to many columns to list all
+  # chfrags - Horizon Fragements - Gives percent of fragements on horizon
+  # chorizon - more info about horizon
+   #partdensity
+    # Has Info like caco (Carbonate as a weight percent)
+    # gypsum, Sar(Na relative to CA and Mg)
+    # electrical conucticity 
+    # cec, phosporous
+    # etc
 chconsistence <- IA001.Tabular$chconsistence
 chdesgnsuffic <- IA001.Tabular$chdesgnsuffix
 chfrags <- IA001.Tabular$chfrags
@@ -48,7 +48,17 @@ componet <- IA001.Tabular$component
     #Runoff , runoff (potential), wei (tons/acre/year soil loss by wind - From WEG), tfact - soil loss tolerance factor
     #localphase could be used with compname to identify soil component
     #weg - see runoff
-    #erosion - erocl - 1997NRCS classification
+    #erosion - erocl -see image for desc
+    #hydricrating - used to indacte hydric soil
+    #drainagecl, elevation
+    # geomdesc -Component Geomorphic Description table.
+    #average air temp - might be outdated
+    #map -  precipiation data - like average air - no labels
+    #ffd - expected days between last ffreezing in spring and first freezing in fall
+    #cropprodindex - used to capacity of soil to produce spefic plant - could be explored
+    #wlgrain - sutablity of soil to produce wildlife grain - all NA's - have for alot of wildlife
+
+
 coclass <- IA001.Tabular$coecoclass
 Mapunit <- IA001.Tabular$mapunit
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
