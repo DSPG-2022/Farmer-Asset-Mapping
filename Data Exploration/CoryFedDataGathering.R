@@ -31,17 +31,25 @@ chfrags <- IA001.Tabular$chfrags
 chorizon <- IA001.Tabular$chorizon
 chstruct <- IA001.Tabular$chstruct
 chstructgrp <- IA001.Tabular$chstructgrp
-coecoclass <- IA001.Tabular$coecoclass
-coerosionacc <- IA001.Tabular$coerosionacc
 
-cohydriccrietia <- IA001.Tabular$cohydriccriteria  #might be useful
+coecoclass <- IA001.Tabular$coecoclass ##ecoloigal names
+
+coerosionacc <- IA001.Tabular$coerosionacc ##erosion
+
+cohydriccrietia <- IA001.Tabular$cohydriccriteria  #might be useful - hrydric classifcation criteria
 
 cointerp <- IA001.Tabular$cointerp ##Could be interesting
 
+comonth <- IA001.Tabular$comonth ##Ponds -Has Flood frequency about ponds
 
-
+componet <- IA001.Tabular$component 
+  ##componet Data 
+    #Slope
+    #Runoff , runoff (potential), wei (tons/acre/year soil loss by wind - From WEG), tfact - soil loss tolerance factor
+    #localphase could be used with compname to identify soil component
+    #weg - see runoff
+    #erosion - erocl - 1997NRCS classification
 coclass <- IA001.Tabular$coecoclass
-Componet <- IA001.Tabular$component
 Mapunit <- IA001.Tabular$mapunit
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
 
