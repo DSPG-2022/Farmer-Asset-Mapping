@@ -1,0 +1,44 @@
+library(ggplot2)
+library(FedData)
+
+
+##List of Important Columns
+#Keys
+  ##mukey, cokey, chkey 
+#Data Columns
+  ##rupreseblkmst, rupresblkdry, desgnsuffix
+#Data Tables that have to many columns to list all
+  # chfrags - Horizon Fragements - Gives percent of fragements on horizon
+  #chorizon - more info about horizon
+SSURGO.areas <- get_ssurgo(template = "IA001",label = "CO_TEST") #Querty Data from Web Soil Survey
+
+SSURGO.areas.IA001 <- SSURGO.areas$spatial[SSURGO.areas$spatial$AREASYMBOL=='IA001',] #Get spactial Data
+
+IA001.Tabular <- SSURGO.areas$tabular  #GetTabular Data
+
+chconsistence <- IA001.Tabular$chconsistence
+chdesgnsuffic <- IA001.Tabular$chdesgnsuffix
+chfrags <- IA001.Tabular$chfrags
+chorizon <- IA001.Tabular$chorizon
+
+
+coclass <- IA001.Tabular$coecoclass
+Componet <- IA001.Tabular$component
+Mapunit <- IA001.Tabular$mapunit
+Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
+
+OverallRed <- Overall %>%
+  select(cokey, mukey, muname,geomdesc,compname,slope.l,slope.r,slope.h,farmlndcl)
+
+OverallRedCount <- OverallRed %>%
+  group_by(farmlndcl) %>%
+  count(geomdesc)
+
+
+ggplot(OverallRedCount)+
+  geom_col(aes(x= geomdesc, y= n))+
+  ylab("Count")+
+  xlab("Description of Geometery")+
+  labs(title = "Count of Geometetry based on Farm Class")+
+  coord_flip()+
+  facet_wrap(~farmlndcl)
