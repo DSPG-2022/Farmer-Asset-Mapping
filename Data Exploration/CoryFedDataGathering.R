@@ -6,10 +6,19 @@ library(FedData)
 #Keys
   ##mukey, cokey, chkey 
 #Data Columns
-  ##rupreseblkmst, rupresblkdry, desgnsuffix
+  ##rupreseblkmst, rupresblkdry, desgnsuffix, ecoclassname , erokind
 #Data Tables that have to many columns to list all
   # chfrags - Horizon Fragements - Gives percent of fragements on horizon
-  #chorizon - more info about horizon
+  # chorizon - more info about horizon
+    #partdensity
+    # Has Info like caco (Carbonate as a weight percent)
+    # gypsum, Sar(Na relative to CA and Mg)
+    # electrical conucticity 
+    # cec, phosporous
+    # etc
+ #cohydriccrietia
+
+
 SSURGO.areas <- get_ssurgo(template = "IA001",label = "CO_TEST") #Querty Data from Web Soil Survey
 
 SSURGO.areas.IA001 <- SSURGO.areas$spatial[SSURGO.areas$spatial$AREASYMBOL=='IA001',] #Get spactial Data
@@ -20,6 +29,15 @@ chconsistence <- IA001.Tabular$chconsistence
 chdesgnsuffic <- IA001.Tabular$chdesgnsuffix
 chfrags <- IA001.Tabular$chfrags
 chorizon <- IA001.Tabular$chorizon
+chstruct <- IA001.Tabular$chstruct
+chstructgrp <- IA001.Tabular$chstructgrp
+coecoclass <- IA001.Tabular$coecoclass
+coerosionacc <- IA001.Tabular$coerosionacc
+
+cohydriccrietia <- IA001.Tabular$cohydriccriteria  #might be useful
+
+cointerp <- IA001.Tabular$cointerp ##Could be interesting
+
 
 
 coclass <- IA001.Tabular$coecoclass
