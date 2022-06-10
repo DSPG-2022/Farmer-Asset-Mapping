@@ -4,7 +4,7 @@ library(FedData)
 
 ##List of Important Columns
 #Keys
-  ##mukey, cokey, chkey ,lkey
+  ##mukey, cokey, chkey ,lkey  , musym 
 
 
 
@@ -95,10 +95,21 @@ distinterpmd <- IA001.Tabular$distinterpmd #rule interpretations name and descr 
 distlegendmd <-IA001.Tabular$distlegendmd #data for legend
   #cordate 
 
+#featdesc, featline, and featpoint are not included but may be something
 
-featdesc <- IA001.Tabular$featdesc
+laoverlap <- IA001.Tabular$laoverlap #general description of position
 
-Mapunit <- IA001.Tabular$mapunit
+legend <- IA001.Tabular$legend #legend
+
+mapunit <- IA001.Tabular$mapunit #mapunits - big connecting piece
+  #musym - mapunit from soil survey
+  #muname - name of unit
+  #mukind
+  #muacres
+  #farmlndcl -Indication of prime farmland, farmland of statewide importance, or farmland of local importance
+  
+
+
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
 
 OverallRed <- Overall %>%
