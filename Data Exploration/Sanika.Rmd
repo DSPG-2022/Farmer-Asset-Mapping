@@ -1,0 +1,12 @@
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library("readxl")
+my_data <- read_excel("Crop-Info_Farmer Asset Mapping.xlsx")
+View(my_data)
+
+
+my_data %>% gather(Types of Crops, pH-Level, -Rooting Depth ) %>% ggplot(aes(`Types of Crops, pH-Level, fill= Rooting Depth, group= Rooting Depth ))+
+  geom_bar(stat= "identity")
+
