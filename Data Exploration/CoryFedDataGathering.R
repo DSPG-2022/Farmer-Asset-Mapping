@@ -108,6 +108,31 @@ mapunit <- IA001.Tabular$mapunit #mapunits - big connecting piece
   #muacres
   #farmlndcl -Indication of prime farmland, farmland of statewide importance, or farmland of local importance
   
+mdstatdomdet <- IA001.Tabular$mdstatdomdet #choicedesc -narrative text description or definition of a member of a domain.
+
+mdstatrshipdet <- IA001.Tabular$mdstatrshipdet #Relationship insructions between table
+mdstattabcols <- IA001.Tabular$mdstattabcols # column title names
+
+muaggatt <- IA001.Tabular$muaggatt #aggragate data from mapunit
+  #mustates -mapunit
+  #slopegrad - slope gradiant
+  #wdepanmin - Water Table Depth
+  #flodfreqdcd Flood Frequency
+  #pondfreqprs Ponding frequency
+  #aws___ Avaible Water Storage
+  #drclasscdc Drainage Class
+  #hydprpdcd Hydrologic Group - shows dominant hydrologic group
+  #hydclprs Hydric Classificatoin - perecent of map that is hydric
+  
+muaoverlap <- IA001.Tabular$muaoverlap #overlap of 2 regions 
+laaoverlap <- IA001.Tabular$laoverlap
+
+sacatalog <-IA001.Tabular$sacatalog #Basic Name Info
+
+sainterp <- IA001.Tabular$sainterp # data about interpretations
+# and text descriptions with dates
+
+sdvattribute <- IA001.Tabular$sdvattribute #attributes for mapping I believe
 
 
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
@@ -118,7 +143,6 @@ OverallRed <- Overall %>%
 OverallRedCount <- OverallRed %>%
   group_by(farmlndcl) %>%
   count(geomdesc)
-
 
 ggplot(OverallRedCount)+
   geom_col(aes(x= geomdesc, y= n))+
