@@ -4,7 +4,7 @@ library(FedData)
 
 ##List of Important Columns
 #Keys
-  ##mukey, cokey, chkey 
+  ##mukey, cokey, chkey ,lkey
 
 
 
@@ -51,7 +51,7 @@ componet <- IA001.Tabular$component
     #erosion - erocl -see image for desc
     #hydricrating - used to indacte hydric soil
     #drainagecl, elevation
-    # geomdesc -Component Geomorphic Description table.
+    #geomdesc -Component Geomorphic Description table.
     #average air temp - might be outdated
     #map -  precipiation data - like average air - no labels
     #ffd - expected days between last ffreezing in spring and first freezing in fall
@@ -64,7 +64,40 @@ componet <- IA001.Tabular$component
     #taxclname - concatenation of the Soil Taxonomy subgroup and family for a soil
     #taxorder - naming of soil
 
-coclass <- IA001.Tabular$coecoclass
+
+copm <- IA001.Tabular$copm #soil parent info
+  #pmmodifier - general description of texture of parent material. Soil Survey Manual and Soil Taxonomy
+copmgrp <- IA001.Tabular$copmgrp #concat of table above
+
+corestriction <- IA001.Tabular$corestrictions #resking - restrictions of water movement
+
+cosoilmoist <- IA001.Tabular$cosoilmoist #soil moisture data
+  #soimoistdept - depth - top to upper boundary of moisture layer
+  #soimoststat - mean monthly soil water state
+  #Componet Soil Moisture Table
+
+cosoiltemp #no table for this county but supposed to have soil temp - use IEM probably
+
+cogeomordesc<- IA001.Tabular$cogeomordesc #Extra Geom Data
+#cogeomdkey
+cosurfmorphhpp <- IA001.Tabular$cosurfmorphhpp #geopgraphic data
+cosurfmorphgc <- IA001.Tabular$cosurfmorphgc #geom data
+cosurfmorphmr <- IA001.Tabular$cosurfmorphmr #geomm data
+
+cotaxfmmin <- IA001.Tabular$cotaxfmmin #taxminalogy -SOil Taxonomy
+cotaxmoistcl <- IA001.Tabular$cotaxmoistcl #taxmoistcl
+cotxfmotherv <-IA001.Tabular$cotxfmother #taxfamother
+
+cotext <- IA001.Tabular$cotext # text - text entries with date as recdate
+
+distinterpmd <- IA001.Tabular$distinterpmd #rule interpretations name and descr and time
+
+distlegendmd <-IA001.Tabular$distlegendmd #data for legend
+  #cordate 
+
+
+featdesc <- IA001.Tabular$featdesc
+
 Mapunit <- IA001.Tabular$mapunit
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
 
