@@ -57,7 +57,12 @@ componet <- IA001.Tabular$component
     #ffd - expected days between last ffreezing in spring and first freezing in fall
     #cropprodindex - used to capacity of soil to produce spefic plant - could be explored
     #wlgrain - sutablity of soil to produce wildlife grain - all NA's - have for alot of wildlife
-
+    #frostact - interpretation of susceptibility of the soil to frost heaving
+    #initsub - decrease in surface elevation due to 3 years of drainage ...
+    #hydgrp - runoff potential under simiar storm condition (NSSH)
+    #corcon - corsteel - susceptiility to corrosion when touch soil
+    #taxclname - concatenation of the Soil Taxonomy subgroup and family for a soil
+    #taxorder - naming of soil
 
 coclass <- IA001.Tabular$coecoclass
 Mapunit <- IA001.Tabular$mapunit
