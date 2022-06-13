@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Crop-Info_Farmer Asset Mapping)' inline='true' name='federated.1cx6gdv1cprv1811mwac003nc3tr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Crop-Info_Farmer Asset Mapping' name='excel-direct.1hri4rk0hf8c781cyfsvh0ndnryl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/harun/Box/DSPG 2022/Projects/AgMRC Beginning Farmer Asset Mapping and Risk Management/Crop-Info_Farmer Asset Mapping.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1hri4rk0hf8c781cyfsvh0ndnryl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:L21:no:A1:L21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Types of Crops' ordinal='0' />
+            <column datatype='string' name='Soil Types' ordinal='1' />
+            <column datatype='string' name='Rooting Depth' ordinal='2' />
+            <column datatype='string' name='pH- Level' ordinal='3' />
+            <column datatype='string' name='Type of Irrigation' ordinal='4' />
+            <column datatype='string' name='Rainfall/Precipitation' ordinal='5' />
+            <column datatype='string' name='Temperature Tolerances' ordinal='6' />
+            <column datatype='string' name='Pesticides' ordinal='7' />
+            <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='8' />
+            <column datatype='string' name='Storage Temp (  ̊F)' ordinal='9' />
+            <column datatype='string' name='Storage Humidity (%)' ordinal='10' />
+            <column datatype='string' name='Storage Life' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1hri4rk0hf8c781cyfsvh0ndnryl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:L21:no:A1:L21:0' header='yes' outcome='2'>
+            <column datatype='string' name='Types of Crops' ordinal='0' />
+            <column datatype='string' name='Soil Types' ordinal='1' />
+            <column datatype='string' name='Rooting Depth' ordinal='2' />
+            <column datatype='string' name='pH- Level' ordinal='3' />
+            <column datatype='string' name='Type of Irrigation' ordinal='4' />
+            <column datatype='string' name='Rainfall/Precipitation' ordinal='5' />
+            <column datatype='string' name='Temperature Tolerances' ordinal='6' />
+            <column datatype='string' name='Pesticides' ordinal='7' />
+            <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='8' />
+            <column datatype='string' name='Storage Temp (  ̊F)' ordinal='9' />
+            <column datatype='string' name='Storage Humidity (%)' ordinal='10' />
+            <column datatype='string' name='Storage Life' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L21:no:A1:L21:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Types of Crops</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Types of Crops]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Types of Crops</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soil Types</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Soil Types]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Soil Types</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rooting Depth</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rooting Depth]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rooting Depth</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH- Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pH- Level]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>pH- Level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type of Irrigation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type of Irrigation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Type of Irrigation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rainfall/Precipitation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rainfall/Precipitation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rainfall/Precipitation</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature Tolerances</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Temperature Tolerances]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Temperature Tolerances</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pesticides</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Pesticides]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Pesticides</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Temp (  ̊F)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Storage Temp (  ̊F)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Storage Temp (  ̊F)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Humidity (%)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Storage Humidity (%)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Storage Humidity (%)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Life</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Storage Life]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Storage Life</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FABA268D315847C1A1D6761FFCE6E153]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FABA268D315847C1A1D6761FFCE6E153]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_FABA268D315847C1A1D6761FFCE6E153'>
+            <properties context=''>
+              <relation connection='excel-direct.1hri4rk0hf8c781cyfsvh0ndnryl' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:L21:no:A1:L21:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Types of Crops' ordinal='0' />
+                  <column datatype='string' name='Soil Types' ordinal='1' />
+                  <column datatype='string' name='Rooting Depth' ordinal='2' />
+                  <column datatype='string' name='pH- Level' ordinal='3' />
+                  <column datatype='string' name='Type of Irrigation' ordinal='4' />
+                  <column datatype='string' name='Rainfall/Precipitation' ordinal='5' />
+                  <column datatype='string' name='Temperature Tolerances' ordinal='6' />
+                  <column datatype='string' name='Pesticides' ordinal='7' />
+                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='8' />
+                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='9' />
+                  <column datatype='string' name='Storage Humidity (%)' ordinal='10' />
+                  <column datatype='string' name='Storage Life' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{52EFA5A0-07B7-4D95-B7FE-0D1AF1E0B421}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cx6gdv1cprv1811mwac003nc3tr].[none:Storage Temp (  ̊F):nk]</field>
+            <field>[federated.1cx6gdv1cprv1811mwac003nc3tr].[none:Type of Irrigation:nk]</field>
+            <field>[federated.1cx6gdv1cprv1811mwac003nc3tr].[none:Types of Crops:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{86EFB7AF-CF51-487A-B34F-769F62846BB2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
