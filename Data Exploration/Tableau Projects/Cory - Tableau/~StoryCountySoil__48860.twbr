@@ -14,7 +14,6 @@
     <SetMembershipControl />
     <SheetIdentifierTracking />
     <SpatialFileLayer />
-    <VizInTooltipHideWorksheet />
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
@@ -5624,7 +5623,7 @@
       <column caption='Ph01Mcacl2.R' datatype='string' name='[ph01mcacl2.r]' role='dimension' type='nominal' />
       <column caption='Ph1To1H2O.H' datatype='real' name='[ph1to1h2o.h]' role='measure' type='quantitative' />
       <column caption='Ph1To1H2O.L' datatype='real' name='[ph1to1h2o.l]' role='measure' type='quantitative' />
-      <column caption='Ph1To1H2O.R' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
+      <column caption='pH (Reserved Value)' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
       <column caption='Ph2Osoluble.H' datatype='string' name='[ph2osoluble.h]' role='dimension' type='nominal' />
       <column caption='Ph2Osoluble.L' datatype='string' name='[ph2osoluble.l]' role='dimension' type='nominal' />
       <column caption='Ph2Osoluble.R' datatype='string' name='[ph2osoluble.r]' role='dimension' type='nominal' />
@@ -6536,17 +6535,10 @@
                 </bin>
               </calculation>
             </column>
-            <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
             <column-instance column='[ph1to1h2o.r]' derivation='Avg' name='[avg:ph1to1h2o.r:qk]' pivot='key' type='quantitative' />
             <column caption='Hzdept.R' datatype='integer' name='[hzdept.r]' role='measure' type='quantitative' />
-            <column caption='Ph1To1H2O.R' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
+            <column caption='pH (Reserved Value)' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Tooltip (Musym)]'>
-            <groupfilter function='level-members' level='[MUSYM]' user:ui-action-filter='[Action - Average pH]' user:ui-enumeration='all' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Tooltip (Musym)]</column>
-          </slices>
           <aggregation value='true' />
         </view>
         <style />
@@ -6575,7 +6567,119 @@
       </table>
       <simple-id uuid='{EC38A2A2-7AF5-4212-84E4-EDC9101AC088}' />
     </worksheet>
-    <worksheet name='Average pH -Level By Depth'>
+    <worksheet name='Soil Type All'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IA_Story_SSURGO_Mapunits.shp+ (Multiple Connections)' name='federated.1uza3oi1q86cwx1dpml5k0p8hbcs' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1uza3oi1q86cwx1dpml5k0p8hbcs'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Drainage' datatype='string' name='[drainagecl]' role='dimension' type='nominal' />
+            <column-instance column='[drainagecl]' derivation='None' name='[none:drainagecl:nk]' pivot='key' type='nominal' />
+            <column-instance column='[taxpartsize]' derivation='None' name='[none:taxpartsize:nk]' pivot='key' type='nominal' />
+            <column caption='SoilType' datatype='string' name='[taxpartsize]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]' field-type='quantitative' max='-10361918.858774342' min='-10437148.080268605' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]' field-type='quantitative' max='5193808.8012361089' min='5149807.9588564914' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
+              <color column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:taxpartsize:nk]' />
+              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:drainagecl:nk]' />
+              <geometry column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]</rows>
+        <cols>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C248148D-0ACA-4863-9009-F72434D4FC1E}' />
+    </worksheet>
+    <worksheet name='Soil Type by Type and Drainage'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IA_Story_SSURGO_Mapunits.shp+ (Multiple Connections)' name='federated.1uza3oi1q86cwx1dpml5k0p8hbcs' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1uza3oi1q86cwx1dpml5k0p8hbcs'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Drainage' datatype='string' name='[drainagecl]' role='dimension' type='nominal' />
+            <column-instance column='[MUSYM]' derivation='None' name='[none:MUSYM:nk]' pivot='key' type='nominal' />
+            <column-instance column='[drainagecl]' derivation='None' name='[none:drainagecl:nk]' pivot='key' type='nominal' />
+            <column-instance column='[taxpartsize]' derivation='None' name='[none:taxpartsize:nk]' pivot='key' type='nominal' />
+            <column caption='SoilType' datatype='string' name='[taxpartsize]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]' field-type='quantitative' max='-10383190.721110538' min='-10435423.827419717' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]' field-type='quantitative' max='5187015.7501598904' min='5156465.1126275957' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
+              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]' />
+              <geometry column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Musym:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Drainage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:drainagecl:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>SoilType:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:taxpartsize:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]</rows>
+        <cols>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]</cols>
+        <pages>
+          <column>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:taxpartsize:nk]</column>
+          <column>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:drainagecl:nk]</column>
+        </pages>
+        <page-trail-options enabled='true' />
+      </table>
+      <simple-id uuid='{E2CD79A4-9556-4DB5-9F67-D9C00DD8E761}' />
+    </worksheet>
+    <worksheet name='pH -Level By Depth'>
       <table>
         <view>
           <datasources>
@@ -6666,6 +6770,7 @@
             <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
             <column caption='Hzdept.R' datatype='integer' name='[hzdept.r]' role='measure' type='quantitative' />
             <column-instance column='[MUSYM]' derivation='None' name='[none:MUSYM:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ph1to1h2o.r]' derivation='None' name='[none:ph1to1h2o.r:qk]' pivot='key' type='quantitative' />
             <column datatype='string' name='[ph Range]' role='dimension' type='nominal'>
               <calculation class='categorical-bin' column='[ph1to1h2o.r]' new-bin='true'>
                 <bin default-name='false' value='&quot;6.0-6.4&quot;'>
@@ -6707,14 +6812,8 @@
                 </bin>
               </calculation>
             </column>
-            <column caption='Ph1To1H2O.R' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
+            <column caption='pH (Reserved Value)' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[DepthInInches (group)]' context='true'>
-            <groupfilter from='&quot;0-12 Inches&quot;' function='range' level='[DepthInInches (group)]' to='&quot;36+ Inches&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[DepthInInches (group)]</column>
-          </slices>
           <aggregation value='true' />
         </view>
         <style>
@@ -6736,16 +6835,9 @@
               <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
               <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]' />
               <color column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]' />
+              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:ph1to1h2o.r:qk]' />
               <geometry column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
             </encodings>
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor='#787878'><![CDATA[Musym: <[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]>	]]></run>
-                <run>Æ&#10;</run>
-                <run bold='true'><![CDATA[Average pH by Depth: <Sheet name="Average pH" maxwidth="300" maxheight="300" filter="<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]>">]]></run>
-                <run>Æ&#10;</run>
-              </formatted-text>
-            </customized-tooltip>
           </pane>
         </panes>
         <rows>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]</rows>
@@ -6756,118 +6848,6 @@
         </pages>
       </table>
       <simple-id uuid='{734AEBBF-4FD0-434E-9B71-2D290415D1C9}' />
-    </worksheet>
-    <worksheet name='Soil Type All'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='IA_Story_SSURGO_Mapunits.shp+ (Multiple Connections)' name='federated.1uza3oi1q86cwx1dpml5k0p8hbcs' />
-          </datasources>
-          <mapsources>
-            <mapsource name='Tableau' />
-          </mapsources>
-          <datasource-dependencies datasource='federated.1uza3oi1q86cwx1dpml5k0p8hbcs'>
-            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
-            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
-            <column caption='Drainage' datatype='string' name='[drainagecl]' role='dimension' type='nominal' />
-            <column-instance column='[drainagecl]' derivation='None' name='[none:drainagecl:nk]' pivot='key' type='nominal' />
-            <column-instance column='[taxpartsize]' derivation='None' name='[none:taxpartsize:nk]' pivot='key' type='nominal' />
-            <column caption='SoilType' datatype='string' name='[taxpartsize]' role='dimension' type='nominal' />
-          </datasource-dependencies>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]' field-type='quantitative' max='-10390495.80808848' min='-10434850.90545523' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]' field-type='quantitative' max='5187015.7501598904' min='5160402.6906823302' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='map'>
-            <format attr='washout' value='0.0' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
-              <color column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:taxpartsize:nk]' />
-              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:drainagecl:nk]' />
-              <geometry column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
-            </encodings>
-          </pane>
-        </panes>
-        <rows>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]</rows>
-        <cols>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]</cols>
-      </table>
-      <simple-id uuid='{C248148D-0ACA-4863-9009-F72434D4FC1E}' />
-    </worksheet>
-    <worksheet name='Soil Type by Type and Drainage'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='IA_Story_SSURGO_Mapunits.shp+ (Multiple Connections)' name='federated.1uza3oi1q86cwx1dpml5k0p8hbcs' />
-          </datasources>
-          <mapsources>
-            <mapsource name='Tableau' />
-          </mapsources>
-          <datasource-dependencies datasource='federated.1uza3oi1q86cwx1dpml5k0p8hbcs'>
-            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
-            <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
-            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
-            <column caption='Drainage' datatype='string' name='[drainagecl]' role='dimension' type='nominal' />
-            <column-instance column='[MUSYM]' derivation='None' name='[none:MUSYM:nk]' pivot='key' type='nominal' />
-            <column-instance column='[drainagecl]' derivation='None' name='[none:drainagecl:nk]' pivot='key' type='nominal' />
-            <column-instance column='[taxpartsize]' derivation='None' name='[none:taxpartsize:nk]' pivot='key' type='nominal' />
-            <column caption='SoilType' datatype='string' name='[taxpartsize]' role='dimension' type='nominal' />
-          </datasource-dependencies>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]' field-type='quantitative' max='-10390495.80808848' min='-10434850.90545523' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]' field-type='quantitative' max='5187015.7501598904' min='5160402.6906823302' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='map'>
-            <format attr='washout' value='0.0' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
-              <lod column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]' />
-              <geometry column='[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[clct:Geometry:nk]' />
-            </encodings>
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor='#787878'>Musym:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:MUSYM:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Drainage:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:drainagecl:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>SoilType:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:taxpartsize:nk]>]]></run>
-              </formatted-text>
-            </customized-tooltip>
-          </pane>
-        </panes>
-        <rows>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Latitude (generated)]</rows>
-        <cols>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[Longitude (generated)]</cols>
-        <pages>
-          <column>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:drainagecl:nk]</column>
-          <column>[federated.1uza3oi1q86cwx1dpml5k0p8hbcs].[none:taxpartsize:nk]</column>
-        </pages>
-        <page-trail-options enabled='true' />
-      </table>
-      <simple-id uuid='{E2CD79A4-9556-4DB5-9F67-D9C00DD8E761}' />
     </worksheet>
   </worksheets>
   <dashboards>
@@ -7023,7 +7003,7 @@
           <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
             <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
               <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
-                <zone h='98000' id='3' name='Average pH -Level By Depth' w='82400' x='800' y='1000'>
+                <zone h='98000' id='3' name='pH -Level By Depth' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7033,7 +7013,7 @@
                 </zone>
               </zone>
               <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
-                <zone h='14875' id='8' name='Average pH -Level By Depth' synchronized='1' type-v2='currpage' w='16000' x='83200' y='1000'>
+                <zone h='14875' id='8' name='pH -Level By Depth' synchronized='1' type-v2='currpage' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7058,7 +7038,7 @@
           <zones>
             <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
               <zone h='84000' id='13' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
-                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Average pH -Level By Depth' w='82400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='pH -Level By Depth' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7067,7 +7047,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='14875' id='8' name='Average pH -Level By Depth' synchronized='1' type-v2='currpage' w='16000' x='83200' y='1000'>
+                <zone h='14875' id='8' name='pH -Level By Depth' synchronized='1' type-v2='currpage' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7151,15 +7131,15 @@
       <viewpoint>
         <current-page>
           <multibucket>
-            <bucket>&quot;Somewhat poorly drained&quot;</bucket>
-            <bucket>&quot;fine&quot;</bucket>
+            <bucket>&quot;fine-loamy&quot;</bucket>
+            <bucket>&quot;Very poorly drained&quot;</bucket>
           </multibucket>
         </current-page>
         <default-map-tool-selection tool='1' />
       </viewpoint>
       <simple-id uuid='{40565C10-0E75-44DF-8958-DF9A78CB229E}' />
     </window>
-    <window class='worksheet' maximized='true' name='Average pH -Level By Depth'>
+    <window class='worksheet' maximized='true' name='pH -Level By Depth'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -7188,7 +7168,7 @@
       <viewpoint>
         <current-page>
           <multibucket>
-            <bucket>&quot;12-24 Inches&quot;</bucket>
+            <bucket>&quot;0-12 Inches&quot;</bucket>
             <bucket>&quot;Below 6&quot;</bucket>
           </multibucket>
         </current-page>
@@ -7245,7 +7225,7 @@
     </window>
     <window class='dashboard' name='Dashboard 3'>
       <viewpoints>
-        <viewpoint name='Average pH -Level By Depth'>
+        <viewpoint name='pH -Level By Depth'>
           <current-page>
             <multibucket>
               <bucket>&quot;12-24 Inches&quot;</bucket>
