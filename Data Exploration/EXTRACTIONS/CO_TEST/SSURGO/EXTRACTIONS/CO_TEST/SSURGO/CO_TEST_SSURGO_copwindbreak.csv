@@ -1,0 +1,1688 @@
+wndbrkht.l,wndbrkht.r,wndbrkht.h,plantsym,plantsciname,plantcomname,cokey,copwindbreakkey
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997048,115101382
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997048,115101374
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997048,115101325
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997048,115101294
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997048,115101258
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997048,115101227
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997048,115101196
+NA,8,NA,TIAM,Tilia americana,American basswood,21997048,115101174
+NA,3,NA,SAMBU,Sambucus,elderberry,21997048,115101088
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997048,115101061
+NA,8,NA,QUVE,Quercus velutina,black oak,21997048,115101030
+NA,8,NA,QURU,Quercus rubra,northern red oak,21997048,115101008
+NA,8,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997048,115100965
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997048,115100927
+NA,8,NA,QUAL,Quercus alba,white oak,21997048,115100869
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997048,115100838
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997048,115100807
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997048,115100785
+NA,4,NA,PRAM,Prunus americana,American plum,21997048,115100754
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997048,115100675
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997048,115100668
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997048,115100640
+NA,5,NA,PIGL,Picea glauca,white spruce,21997048,115100618
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997048,115100595
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997048,115100573
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997048,115100538
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997048,115100507
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997048,115100470
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997048,115100439
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997048,115100408
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997048,115100359
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997048,115100331
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997048,115100281
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997048,115100221
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997048,115100158
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997048,115100087
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997048,115100056
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997048,115099978
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997048,115099939
+NA,8,NA,CARYA,Carya,hickory,21997048,115099908
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997048,115099835
+NA,6,NA,ABCO,Abies concolor,white fir,21997048,115099726
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997048,115099804
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberrybush,21997049,115101369
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997049,115101259
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997049,115100982
+NA,9,NA,PIST,Pinus strobus,eastern white pine,21997049,115100676
+NA,6,NA,PINI,Pinus nigra,Austrian pine,21997049,115100662
+NA,5,NA,MAPO,Maclura pomifera,osageorange,21997049,115100502
+NA,3,NA,LOMA6,Lonicera maackii,Amur honeysuckle,21997049,115100401
+NA,3,NA,LIAM,Ligustrum amurense,Amur privet,21997049,115100396
+NA,4,NA,JUVI,Juniperus virginiana,eastern redcedar,21997049,115100360
+NA,5,NA,FRPE,Fraxinus pennsylvanica,green ash,21997049,115100282
+NA,4,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997049,115100159
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997050,115101383
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997050,115101326
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997050,115101295
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997050,115101260
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997050,115101228
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997050,115101197
+NA,10,NA,TIAM,Tilia americana,American basswood,21997050,115101175
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997050,115101141
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997050,115101126
+NA,4,NA,SAMBU,Sambucus,elderberry,21997050,115101089
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997050,115101047
+NA,10,NA,QUVE,Quercus velutina,black oak,21997050,115101031
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997050,115101009
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997050,115100966
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997050,115100928
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997050,115100891
+NA,6,NA,QUAL,Quercus alba,white oak,21997050,115100870
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997050,115100839
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997050,115100808
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997050,115100786
+NA,4,NA,PRAM,Prunus americana,American plum,21997050,115100755
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997050,115100718
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997050,115100677
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997050,115100641
+NA,6,NA,PIGL,Picea glauca,white spruce,21997050,115100619
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997050,115100596
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997050,115100574
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997050,115100539
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997050,115100508
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997050,115100471
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997050,115100440
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997050,115100409
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997050,115100361
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997050,115100339
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997050,115100283
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997050,115100252
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997050,115100222
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997050,115100160
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997050,115100122
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997050,115100088
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997050,115100057
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997050,115100011
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997050,115099979
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997050,115099940
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997050,115099910
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997050,115099888
+NA,11,NA,BENI,Betula nigra,river birch,21997050,115099852
+NA,6,NA,ABCO,Abies concolor,white fir,21997050,115099727
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997050,115099748
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997050,115099784
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997050,115099805
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997051,115101384
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997051,115101375
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997051,115101327
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997051,115101296
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997051,115101261
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997051,115101229
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997051,115101198
+NA,8,NA,TIAM,Tilia americana,American basswood,21997051,115101176
+NA,3,NA,SAMBU,Sambucus,elderberry,21997051,115101090
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997051,115101062
+NA,8,NA,QUVE,Quercus velutina,black oak,21997051,115101032
+NA,8,NA,QURU,Quercus rubra,northern red oak,21997051,115101010
+NA,8,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997051,115100967
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997051,115100929
+NA,8,NA,QUAL,Quercus alba,white oak,21997051,115100871
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997051,115100840
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997051,115100809
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997051,115100787
+NA,4,NA,PRAM,Prunus americana,American plum,21997051,115100756
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997051,115100678
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997051,115100669
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997051,115100642
+NA,5,NA,PIGL,Picea glauca,white spruce,21997051,115100620
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997051,115100597
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997051,115100575
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997051,115100540
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997051,115100509
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997051,115100472
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997051,115100441
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997051,115100410
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997051,115100362
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997051,115100332
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997051,115100284
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997051,115100223
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997051,115100161
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997051,115100089
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997051,115100058
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997051,115099980
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997051,115099941
+NA,8,NA,CARYA,Carya,hickory,21997051,115099909
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997051,115099836
+NA,6,NA,ABCO,Abies concolor,white fir,21997051,115099728
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997051,115099806
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberrybush,21997052,115101370
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997052,115101262
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997052,115100983
+NA,9,NA,PIST,Pinus strobus,eastern white pine,21997052,115100679
+NA,6,NA,PINI,Pinus nigra,Austrian pine,21997052,115100663
+NA,5,NA,MAPO,Maclura pomifera,osageorange,21997052,115100503
+NA,3,NA,LOMA6,Lonicera maackii,Amur honeysuckle,21997052,115100402
+NA,3,NA,LIAM,Ligustrum amurense,Amur privet,21997052,115100397
+NA,4,NA,JUVI,Juniperus virginiana,eastern redcedar,21997052,115100363
+NA,5,NA,FRPE,Fraxinus pennsylvanica,green ash,21997052,115100285
+NA,4,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997052,115100162
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997053,115101385
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997053,115101328
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997053,115101297
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997053,115101263
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997053,115101230
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997053,115101199
+NA,10,NA,TIAM,Tilia americana,American basswood,21997053,115101194
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997053,115101142
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997053,115101127
+NA,4,NA,SAMBU,Sambucus,elderberry,21997053,115101091
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997053,115101048
+NA,10,NA,QUVE,Quercus velutina,black oak,21997053,115101033
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997053,115101011
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997053,115100968
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997053,115100930
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997053,115100892
+NA,6,NA,QUAL,Quercus alba,white oak,21997053,115100872
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997053,115100841
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997053,115100810
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997053,115100788
+NA,4,NA,PRAM,Prunus americana,American plum,21997053,115100781
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997053,115100719
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997053,115100680
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997053,115100643
+NA,6,NA,PIGL,Picea glauca,white spruce,21997053,115100621
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997053,115100598
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997053,115100576
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997053,115100541
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997053,115100510
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997053,115100473
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997053,115100442
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997053,115100411
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997053,115100364
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997053,115100340
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997053,115100286
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997053,115100253
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997053,115100224
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997053,115100163
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997053,115100123
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997053,115100090
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997053,115100059
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997053,115100012
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997053,115099981
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997053,115099942
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997053,115099911
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997053,115099889
+NA,11,NA,BENI,Betula nigra,river birch,21997053,115099853
+NA,6,NA,ABCO,Abies concolor,white fir,21997053,115099729
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997053,115099749
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997053,115099785
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997053,115099807
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997054,115101386
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997054,115101329
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997054,115101298
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997054,115101288
+NA,2,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997054,115101231
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997054,115101200
+NA,10,NA,TIAM,Tilia americana,American basswood,21997054,115101195
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997054,115101143
+NA,3,NA,SYVU,Syringa vulgaris,common lilac,21997054,115101128
+NA,4,NA,SAMBU,Sambucus,elderberry,21997054,115101092
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997054,115101049
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997054,115101012
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997054,115100984
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997054,115100931
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997054,115100893
+NA,8,NA,QUAL,Quercus alba,white oak,21997054,115100873
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997054,115100842
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997054,115100811
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997054,115100789
+NA,4,NA,PRAM,Prunus americana,American plum,21997054,115100782
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997054,115100720
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997054,115100696
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997054,115100670
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997054,115100644
+NA,5,NA,PIGL,Picea glauca,white spruce,21997054,115100622
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997054,115100599
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997054,115100577
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997054,115100542
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997054,115100511
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997054,115100474
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997054,115100443
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997054,115100412
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997054,115100390
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997054,115100341
+NA,10,NA,GLTR,Gleditsia triacanthos,honeylocust,21997054,115100325
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997054,115100319
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997054,115100254
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997054,115100225
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997054,115100201
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997054,115100124
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997054,115100091
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997054,115100060
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997054,115100013
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997054,115099943
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997054,115099912
+NA,10,NA,CAOV2,Carya ovata,shagbark hickory,21997054,115099890
+NA,11,NA,BENI,Betula nigra,river birch,21997054,115099854
+NA,6,NA,ABCO,Abies concolor,white fir,21997054,115099730
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997054,115099750
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997054,115099786
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997054,115099808
+NA,4,NA,SAMBU,Sambucus,elderberry,21997055,115101093
+NA,11,NA,SALIX,Salix,willow,21997055,115101072
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997055,115100985
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997055,115100932
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997055,115100894
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997055,115100721
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997055,115100702
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997055,115100320
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997055,115100209
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997055,115100125
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997055,115100014
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997055,115099982
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997055,115099944
+NA,11,NA,BENI,Betula nigra,river birch,21997055,115099855
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997055,115099751
+NA,4,NA,VILE,Viburnum lentago,nannyberry,21997057,115101330
+NA,5,NA,THOC2,Thuja occidentalis,arborvitae,21997057,115101144
+NA,4,NA,SAMBU,Sambucus,elderberry,21997057,115101120
+NA,11,NA,SALIX,Salix,willow,21997057,115101073
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997057,115100986
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997057,115100959
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997057,115100895
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997057,115100722
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997057,115100703
+NA,2,NA,PHYSO,Physocarpus,ninebark,21997057,115100543
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997057,115100321
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997057,115100202
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997057,115100126
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997057,115100092
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997057,115100015
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997057,115099983
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997057,115099972
+NA,11,NA,BENI,Betula nigra,river birch,21997057,115099856
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997057,115099752
+NA,4,NA,VILE,Viburnum lentago,nannyberry,21997058,115101354
+NA,5,NA,THOC2,Thuja occidentalis,arborvitae,21997058,115101145
+NA,4,NA,SAMBU,Sambucus,elderberry,21997058,115101121
+NA,11,NA,SALIX,Salix,willow,21997058,115101074
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997058,115100987
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997058,115100960
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997058,115100896
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997058,115100723
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997058,115100704
+NA,2,NA,PHYSO,Physocarpus,ninebark,21997058,115100567
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997058,115100322
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997058,115100203
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997058,115100127
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997058,115100116
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997058,115100016
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997058,115100005
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997058,115099973
+NA,11,NA,BENI,Betula nigra,river birch,21997058,115099857
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997058,115099753
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997059,115099809
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997059,115099778
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997059,115099837
+NA,8,NA,BENI,Betula nigra,river birch,21997059,115099882
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997059,115099913
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997059,115099974
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997059,115100006
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997059,115100041
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997059,115100047
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997059,115100061
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997059,115100117
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997059,115100152
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997059,115100204
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997059,115100205
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997059,115100210
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997059,115100226
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997059,115100255
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997059,115100323
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997059,115100391
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997059,115100413
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997059,115100444
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997059,115100475
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997059,115100512
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997059,115100568
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997059,115100705
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997059,115100748
+NA,4,NA,PRAM,Prunus americana,American plum,21997059,115100783
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997059,115100812
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997059,115100843
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997059,115100921
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997059,115100961
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997059,115101002
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997059,115101063
+NA,11,NA,SALIX,Salix,willow,21997059,115101075
+NA,4,NA,SAMBU,Sambucus,elderberry,21997059,115101122
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997059,115101146
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997059,115101201
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997059,115101232
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997059,115101289
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997059,115101299
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997059,115101355
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997059,115101360
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997059,115101387
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997060,115099779
+NA,11,NA,BENI,Betula nigra,river birch,21997060,115099883
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997060,115099975
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997060,115100007
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997060,115100042
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997060,115100153
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997060,115100211
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997060,115100324
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997060,115100706
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997060,115100749
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997060,115100922
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997060,115100962
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997060,115101003
+NA,11,NA,SALIX,Salix,willow,21997060,115101076
+NA,4,NA,SAMBU,Sambucus,elderberry,21997060,115101123
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997061,115099780
+NA,11,NA,BENI,Betula nigra,river birch,21997061,115099884
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997061,115099976
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997061,115100008
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997061,115100043
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997061,115100154
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997061,115100212
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997061,115100313
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997061,115100707
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997061,115100750
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997061,115100923
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997061,115100963
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997061,115101004
+NA,11,NA,SALIX,Salix,willow,21997061,115101077
+NA,4,NA,SAMBU,Sambucus,elderberry,21997061,115101124
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997062,115099829
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997062,115099781
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997062,115099838
+NA,8,NA,BENI,Betula nigra,river birch,21997062,115099885
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997062,115099914
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997062,115099977
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997062,115100009
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997062,115100044
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997062,115100048
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997062,115100081
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997062,115100118
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997062,115100155
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997062,115100195
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997062,115100206
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997062,115100213
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997062,115100246
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997062,115100256
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997062,115100314
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997062,115100392
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997062,115100433
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997062,115100464
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997062,115100496
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997062,115100532
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997062,115100569
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997062,115100712
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997062,115100751
+NA,4,NA,PRAM,Prunus americana,American plum,21997062,115100784
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997062,115100832
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997062,115100863
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997062,115100924
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997062,115100964
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997062,115101005
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997062,115101064
+NA,11,NA,SALIX,Salix,willow,21997062,115101082
+NA,4,NA,SAMBU,Sambucus,elderberry,21997062,115101125
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997062,115101168
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997062,115101221
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997062,115101252
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997062,115101290
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997062,115101319
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997062,115101356
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997062,115101361
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997062,115101407
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997063,115099830
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997063,115099782
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997063,115099839
+NA,8,NA,BENI,Betula nigra,river birch,21997063,115099886
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997063,115099915
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997063,115099966
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997063,115100010
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997063,115100045
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997063,115100049
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997063,115100082
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997063,115100119
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997063,115100156
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997063,115100196
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997063,115100197
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997063,115100214
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997063,115100247
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997063,115100257
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997063,115100315
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997063,115100393
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997063,115100434
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997063,115100465
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997063,115100497
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997063,115100533
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997063,115100570
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997063,115100713
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997063,115100752
+NA,4,NA,PRAM,Prunus americana,American plum,21997063,115100777
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997063,115100833
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997063,115100864
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997063,115100925
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997063,115100953
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997063,115101006
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997063,115101065
+NA,11,NA,SALIX,Salix,willow,21997063,115101083
+NA,4,NA,SAMBU,Sambucus,elderberry,21997063,115101114
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997063,115101169
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997063,115101222
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997063,115101253
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997063,115101291
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997063,115101320
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997063,115101357
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997063,115101362
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997063,115101408
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997064,115099787
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997064,115099783
+NA,6,NA,ABCO,Abies concolor,white fir,21997064,115099731
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997064,115099831
+NA,11,NA,BENI,Betula nigra,river birch,21997064,115099887
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997064,115099891
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997064,115099933
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997064,115099967
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997064,115099999
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997064,115100046
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997064,115100083
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997064,115100120
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997064,115100157
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997064,115100198
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997064,115100248
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997064,115100275
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997064,115100316
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997064,115100342
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997064,115100394
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997064,115100435
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997064,115100466
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997064,115100498
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997064,115100534
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997064,115100571
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997064,115100578
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997064,115100600
+NA,6,NA,PIGL,Picea glauca,white spruce,21997064,115100623
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997064,115100645
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997064,115100697
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997064,115100753
+NA,4,NA,PRAM,Prunus americana,American plum,21997064,115100778
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997064,115100790
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997064,115100834
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997064,115100865
+NA,6,NA,QUAL,Quercus alba,white oak,21997064,115100874
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997064,115100926
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997064,115100954
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997064,115100969
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997064,115101013
+NA,10,NA,QUVE,Quercus velutina,black oak,21997064,115101034
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997064,115101050
+NA,4,NA,SAMBU,Sambucus,elderberry,21997064,115101115
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997064,115101129
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997064,115101170
+NA,10,NA,TIAM,Tilia americana,American basswood,21997064,115101192
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997064,115101223
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997064,115101254
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997064,115101292
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997064,115101321
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997064,115101358
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997064,115101409
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997065,115099788
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997065,115099772
+NA,6,NA,ABCO,Abies concolor,white fir,21997065,115099742
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997065,115099832
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997065,115099840
+NA,11,NA,BENI,Betula nigra,river birch,21997065,115099876
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997065,115099892
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997065,115099934
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997065,115099968
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997065,115100000
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997065,115100035
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997065,115100084
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997065,115100121
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997065,115100146
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997065,115100199
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997065,115100249
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997065,115100276
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997065,115100317
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997065,115100333
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997065,115100343
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997065,115100395
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997065,115100436
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997065,115100467
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997065,115100499
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997065,115100535
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997065,115100572
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997065,115100589
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997065,115100612
+NA,6,NA,PIGL,Picea glauca,white spruce,21997065,115100634
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997065,115100656
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997065,115100698
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997065,115100742
+NA,4,NA,PRAM,Prunus americana,American plum,21997065,115100779
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997065,115100801
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997065,115100835
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997065,115100866
+NA,6,NA,QUAL,Quercus alba,white oak,21997065,115100885
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997065,115100915
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997065,115100955
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997065,115100970
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997065,115101024
+NA,10,NA,QUVE,Quercus velutina,black oak,21997065,115101035
+NA,4,NA,SAMBU,Sambucus,elderberry,21997065,115101116
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997065,115101171
+NA,10,NA,TIAM,Tilia americana,American basswood,21997065,115101193
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997065,115101224
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997065,115101255
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997065,115101293
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997065,115101322
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997065,115101359
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997065,115101376
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997065,115101410
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997066,115099773
+NA,11,NA,BENI,Betula nigra,river birch,21997066,115099877
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997066,115099969
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997066,115100001
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997066,115100036
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997066,115100110
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997066,115100147
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997066,115100200
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997066,115100318
+NA,2,NA,PHYSO,Physocarpus,ninebark,21997066,115100561
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997066,115100714
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997066,115100743
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997066,115100916
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997066,115100956
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997066,115101007
+NA,11,NA,SALIX,Salix,willow,21997066,115101084
+NA,4,NA,SAMBU,Sambucus,elderberry,21997066,115101117
+NA,5,NA,THOC2,Thuja occidentalis,arborvitae,21997066,115101172
+NA,4,NA,VILE,Viburnum lentago,nannyberry,21997066,115101348
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997067,115099774
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997067,115099833
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997067,115099846
+NA,8,NA,BENI,Betula nigra,river birch,21997067,115099878
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997067,115099935
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997067,115099970
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997067,115100002
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997067,115100037
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997067,115100050
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997067,115100085
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997067,115100111
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997067,115100148
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997067,115100189
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997067,115100190
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997067,115100215
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997067,115100250
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997067,115100277
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997067,115100307
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997067,115100384
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997067,115100437
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997067,115100468
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997067,115100500
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997067,115100536
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997067,115100562
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997067,115100715
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997067,115100744
+NA,4,NA,PRAM,Prunus americana,American plum,21997067,115100780
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997067,115100836
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997067,115100867
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997067,115100917
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997067,115100957
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997067,115100996
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997067,115101066
+NA,11,NA,SALIX,Salix,willow,21997067,115101085
+NA,4,NA,SAMBU,Sambucus,elderberry,21997067,115101118
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997067,115101173
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997067,115101225
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997067,115101256
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997067,115101282
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997067,115101323
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997067,115101349
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997067,115101363
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997067,115101411
+NA,8,NA,ACSA2,Acer saccharinum,silver maple,21997068,115099775
+NA,11,NA,BENI,Betula nigra,river birch,21997068,115099879
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997068,115099971
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997068,115100003
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997068,115100038
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997068,115100112
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997068,115100149
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997068,115100191
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997068,115100308
+NA,2,NA,PHYSO,Physocarpus,ninebark,21997068,115100563
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997068,115100716
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997068,115100745
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997068,115100918
+NA,11,NA,QUMA2,Quercus macrocarpa,bur oak,21997068,115100958
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997068,115100997
+NA,11,NA,SALIX,Salix,willow,21997068,115101086
+NA,4,NA,SAMBU,Sambucus,elderberry,21997068,115101119
+NA,5,NA,THOC2,Thuja occidentalis,arborvitae,21997068,115101162
+NA,4,NA,VILE,Viburnum lentago,nannyberry,21997068,115101350
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997070,115099789
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997070,115099776
+NA,6,NA,ABCO,Abies concolor,white fir,21997070,115099743
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997070,115099834
+NA,11,NA,BENI,Betula nigra,river birch,21997070,115099880
+NA,10,NA,CAOV2,Carya ovata,shagbark hickory,21997070,115099893
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997070,115099936
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997070,115099960
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997070,115100039
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997070,115100086
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997070,115100113
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997070,115100150
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997070,115100192
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997070,115100251
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997070,115100278
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997070,115100309
+NA,10,NA,GLTR,Gleditsia triacanthos,honeylocust,21997070,115100326
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997070,115100344
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997070,115100385
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997070,115100438
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997070,115100469
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997070,115100501
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997070,115100537
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997070,115100564
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997070,115100590
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997070,115100613
+NA,5,NA,PIGL,Picea glauca,white spruce,21997070,115100635
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997070,115100657
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997070,115100671
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997070,115100699
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997070,115100746
+NA,4,NA,PRAM,Prunus americana,American plum,21997070,115100774
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997070,115100802
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997070,115100837
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997070,115100868
+NA,8,NA,QUAL,Quercus alba,white oak,21997070,115100886
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997070,115100919
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997070,115100947
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997070,115100998
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997070,115101025
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997070,115101051
+NA,4,NA,SAMBU,Sambucus,elderberry,21997070,115101108
+NA,3,NA,SYVU,Syringa vulgaris,common lilac,21997070,115101130
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997070,115101163
+NA,10,NA,TIAM,Tilia americana,American basswood,21997070,115101189
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997070,115101226
+NA,2,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997070,115101257
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997070,115101283
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997070,115101324
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997070,115101351
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997070,115101412
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997071,115099823
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997071,115099798
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997071,115099777
+NA,6,NA,ABCO,Abies concolor,white fir,21997071,115099744
+NA,11,NA,BENI,Betula nigra,river birch,21997071,115099881
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997071,115099902
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997071,115099937
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997071,115099961
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997071,115100004
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997071,115100040
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997071,115100075
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997071,115100114
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997071,115100151
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997071,115100193
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997071,115100240
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997071,115100279
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997071,115100310
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997071,115100353
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997071,115100386
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997071,115100427
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997071,115100458
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997071,115100490
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997071,115100526
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997071,115100565
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997071,115100591
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997071,115100614
+NA,6,NA,PIGL,Picea glauca,white spruce,21997071,115100636
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997071,115100658
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997071,115100700
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997071,115100747
+NA,4,NA,PRAM,Prunus americana,American plum,21997071,115100775
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997071,115100803
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997071,115100826
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997071,115100857
+NA,6,NA,QUAL,Quercus alba,white oak,21997071,115100887
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997071,115100920
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997071,115100948
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997071,115100976
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997071,115101026
+NA,10,NA,QUVE,Quercus velutina,black oak,21997071,115101041
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997071,115101052
+NA,4,NA,SAMBU,Sambucus,elderberry,21997071,115101109
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997071,115101131
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997071,115101164
+NA,10,NA,TIAM,Tilia americana,American basswood,21997071,115101190
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997071,115101215
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997071,115101246
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997071,115101284
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997071,115101313
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997071,115101352
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997071,115101401
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997072,115099799
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997072,115099824
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997072,115099766
+NA,6,NA,ABCO,Abies concolor,white fir,21997072,115099745
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997072,115099847
+NA,11,NA,BENI,Betula nigra,river birch,21997072,115099870
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997072,115099903
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997072,115099938
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997072,115099962
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997072,115099993
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997072,115100029
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997072,115100076
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997072,115100115
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997072,115100140
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997072,115100194
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997072,115100241
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997072,115100280
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997072,115100311
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997072,115100334
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997072,115100354
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997072,115100387
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997072,115100428
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997072,115100459
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997072,115100491
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997072,115100527
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997072,115100566
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997072,115100592
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997072,115100615
+NA,6,NA,PIGL,Picea glauca,white spruce,21997072,115100637
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997072,115100659
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997072,115100701
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997072,115100736
+NA,4,NA,PRAM,Prunus americana,American plum,21997072,115100776
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997072,115100804
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997072,115100827
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997072,115100858
+NA,6,NA,QUAL,Quercus alba,white oak,21997072,115100888
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997072,115100909
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997072,115100949
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997072,115100977
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997072,115101027
+NA,10,NA,QUVE,Quercus velutina,black oak,21997072,115101042
+NA,4,NA,SAMBU,Sambucus,elderberry,21997072,115101110
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997072,115101165
+NA,10,NA,TIAM,Tilia americana,American basswood,21997072,115101191
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997072,115101216
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997072,115101247
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997072,115101285
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997072,115101314
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997072,115101353
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997072,115101377
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997072,115101402
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997073,115099800
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997073,115099825
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997073,115099767
+NA,6,NA,ABCO,Abies concolor,white fir,21997073,115099746
+NA,11,NA,BENI,Betula nigra,river birch,21997073,115099871
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997073,115099904
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997073,115099927
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997073,115099963
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997073,115099994
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997073,115100030
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997073,115100077
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997073,115100104
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997073,115100141
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997073,115100183
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997073,115100242
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997073,115100269
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997073,115100312
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997073,115100355
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997073,115100388
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997073,115100429
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997073,115100460
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997073,115100492
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997073,115100528
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997073,115100555
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997073,115100593
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997073,115100616
+NA,6,NA,PIGL,Picea glauca,white spruce,21997073,115100638
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997073,115100660
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997073,115100690
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997073,115100737
+NA,4,NA,PRAM,Prunus americana,American plum,21997073,115100771
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997073,115100805
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997073,115100828
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997073,115100859
+NA,6,NA,QUAL,Quercus alba,white oak,21997073,115100889
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997073,115100910
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997073,115100950
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997073,115100978
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997073,115101028
+NA,10,NA,QUVE,Quercus velutina,black oak,21997073,115101043
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997073,115101055
+NA,4,NA,SAMBU,Sambucus,elderberry,21997073,115101111
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997073,115101135
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997073,115101166
+NA,10,NA,TIAM,Tilia americana,American basswood,21997073,115101186
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997073,115101217
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997073,115101248
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997073,115101286
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997073,115101315
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997073,115101342
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997073,115101403
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997074,115099801
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997074,115099826
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997074,115099768
+NA,6,NA,ABCO,Abies concolor,white fir,21997074,115099747
+NA,11,NA,BENI,Betula nigra,river birch,21997074,115099872
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997074,115099905
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997074,115099928
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997074,115099964
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997074,115099995
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997074,115100031
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997074,115100078
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997074,115100105
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997074,115100142
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997074,115100184
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997074,115100243
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997074,115100270
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997074,115100301
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997074,115100356
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997074,115100389
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997074,115100430
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997074,115100461
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997074,115100493
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997074,115100529
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997074,115100556
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997074,115100594
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997074,115100617
+NA,6,NA,PIGL,Picea glauca,white spruce,21997074,115100639
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997074,115100661
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997074,115100691
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997074,115100738
+NA,4,NA,PRAM,Prunus americana,American plum,21997074,115100772
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997074,115100806
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997074,115100829
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997074,115100860
+NA,6,NA,QUAL,Quercus alba,white oak,21997074,115100890
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997074,115100911
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997074,115100951
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997074,115100979
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997074,115101029
+NA,10,NA,QUVE,Quercus velutina,black oak,21997074,115101044
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997074,115101056
+NA,4,NA,SAMBU,Sambucus,elderberry,21997074,115101112
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997074,115101136
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997074,115101167
+NA,10,NA,TIAM,Tilia americana,American basswood,21997074,115101187
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997074,115101218
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997074,115101249
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997074,115101287
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997074,115101316
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997074,115101343
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997074,115101404
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997075,115099802
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997075,115099827
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997075,115099769
+NA,6,NA,ABCO,Abies concolor,white fir,21997075,115099736
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997075,115099848
+NA,11,NA,BENI,Betula nigra,river birch,21997075,115099873
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997075,115099906
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997075,115099929
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997075,115099965
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997075,115099996
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997075,115100032
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997075,115100079
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997075,115100106
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997075,115100143
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997075,115100185
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997075,115100244
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997075,115100271
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997075,115100302
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997075,115100335
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997075,115100357
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997075,115100378
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997075,115100431
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997075,115100462
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997075,115100494
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997075,115100530
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997075,115100557
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997075,115100583
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997075,115100606
+NA,6,NA,PIGL,Picea glauca,white spruce,21997075,115100628
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997075,115100650
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997075,115100692
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997075,115100739
+NA,4,NA,PRAM,Prunus americana,American plum,21997075,115100773
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997075,115100795
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997075,115100830
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997075,115100861
+NA,6,NA,QUAL,Quercus alba,white oak,21997075,115100879
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997075,115100912
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997075,115100952
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997075,115100980
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997075,115101018
+NA,10,NA,QUVE,Quercus velutina,black oak,21997075,115101045
+NA,4,NA,SAMBU,Sambucus,elderberry,21997075,115101113
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997075,115101156
+NA,10,NA,TIAM,Tilia americana,American basswood,21997075,115101188
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997075,115101219
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997075,115101250
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997075,115101276
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997075,115101317
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997075,115101344
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997075,115101378
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997075,115101405
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997076,115099803
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997076,115099828
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997076,115099770
+NA,6,NA,ABCO,Abies concolor,white fir,21997076,115099737
+NA,11,NA,BENI,Betula nigra,river birch,21997076,115099874
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997076,115099907
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997076,115099930
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997076,115099954
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997076,115099997
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997076,115100033
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997076,115100080
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997076,115100107
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997076,115100144
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997076,115100186
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997076,115100245
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997076,115100272
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997076,115100303
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997076,115100358
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997076,115100379
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997076,115100432
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997076,115100463
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997076,115100495
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997076,115100531
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997076,115100558
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997076,115100584
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997076,115100607
+NA,6,NA,PIGL,Picea glauca,white spruce,21997076,115100629
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997076,115100651
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997076,115100693
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997076,115100740
+NA,4,NA,PRAM,Prunus americana,American plum,21997076,115100767
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997076,115100796
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997076,115100831
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997076,115100862
+NA,6,NA,QUAL,Quercus alba,white oak,21997076,115100880
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997076,115100913
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997076,115100941
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997076,115100981
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997076,115101019
+NA,10,NA,QUVE,Quercus velutina,black oak,21997076,115101046
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997076,115101057
+NA,4,NA,SAMBU,Sambucus,elderberry,21997076,115101102
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997076,115101137
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997076,115101157
+NA,10,NA,TIAM,Tilia americana,American basswood,21997076,115101184
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997076,115101220
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997076,115101251
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997076,115101277
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997076,115101318
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997076,115101345
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997076,115101406
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997077,115099817
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997077,115099771
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997077,115099849
+NA,8,NA,BENI,Betula nigra,river birch,21997077,115099875
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997077,115099931
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997077,115099955
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997077,115099998
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997077,115100034
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997077,115100051
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997077,115100069
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997077,115100108
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997077,115100145
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997077,115100187
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997077,115100188
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997077,115100216
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997077,115100234
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997077,115100273
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997077,115100304
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997077,115100380
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997077,115100421
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997077,115100452
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997077,115100484
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997077,115100520
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997077,115100559
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997077,115100717
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997077,115100741
+NA,4,NA,PRAM,Prunus americana,American plum,21997077,115100768
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997077,115100820
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997077,115100851
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997077,115100914
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997077,115100942
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997077,115100999
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997077,115101067
+NA,11,NA,SALIX,Salix,willow,21997077,115101087
+NA,4,NA,SAMBU,Sambucus,elderberry,21997077,115101103
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997077,115101158
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997077,115101209
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997077,115101240
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997077,115101278
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997077,115101307
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997077,115101346
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997077,115101364
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997077,115101395
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997078,115099818
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997078,115099792
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997078,115099760
+NA,6,NA,ABCO,Abies concolor,white fir,21997078,115099738
+NA,11,NA,BENI,Betula nigra,river birch,21997078,115099864
+NA,10,NA,CAOV2,Carya ovata,shagbark hickory,21997078,115099896
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997078,115099932
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997078,115099956
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997078,115100023
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997078,115100070
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997078,115100109
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997078,115100134
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997078,115100177
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997078,115100235
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997078,115100274
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997078,115100305
+NA,10,NA,GLTR,Gleditsia triacanthos,honeylocust,21997078,115100327
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997078,115100347
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997078,115100381
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997078,115100422
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997078,115100453
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997078,115100485
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997078,115100521
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997078,115100560
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997078,115100585
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997078,115100608
+NA,5,NA,PIGL,Picea glauca,white spruce,21997078,115100630
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997078,115100652
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997078,115100672
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997078,115100694
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997078,115100730
+NA,4,NA,PRAM,Prunus americana,American plum,21997078,115100769
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997078,115100797
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997078,115100821
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997078,115100852
+NA,8,NA,QUAL,Quercus alba,white oak,21997078,115100881
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997078,115100903
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997078,115100943
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997078,115101000
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997078,115101020
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997078,115101058
+NA,4,NA,SAMBU,Sambucus,elderberry,21997078,115101104
+NA,3,NA,SYVU,Syringa vulgaris,common lilac,21997078,115101138
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997078,115101159
+NA,10,NA,TIAM,Tilia americana,American basswood,21997078,115101185
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997078,115101210
+NA,2,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997078,115101241
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997078,115101279
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997078,115101308
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997078,115101347
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997078,115101396
+NA,6,NA,CEOC,Celtis occidentalis,common hackberry,21997079,115099957
+NA,5,NA,ELAN,Elaeagnus angustifolia,Russian olive,21997079,115100207
+NA,3,NA,ELUM,Elaeagnus umbellata,autumn olive,21997079,115100208
+NA,7,NA,FRPE,Fraxinus pennsylvanica,green ash,21997079,115100306
+NA,8,NA,GLTR,Gleditsia triacanthos,honeylocust,21997079,115100328
+NA,5,NA,JUVI,Juniperus virginiana,eastern redcedar,21997079,115100382
+NA,2,NA,LOMA6,Lonicera maackii,Amur honeysuckle,21997079,115100403
+NA,3,NA,MABA,Malus baccata,Siberian crabapple,21997079,115100407
+NA,4,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997079,115100486
+NA,7,NA,PIBA2,Pinus banksiana,jack pine,21997079,115100609
+NA,7,NA,PINI,Pinus nigra,Austrian pine,21997079,115100664
+NA,2,NA,SYVU,Syringa vulgaris,common lilac,21997079,115101139
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997080,115099819
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997080,115099761
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997080,115099850
+NA,8,NA,BENI,Betula nigra,river birch,21997080,115099865
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997080,115099921
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997080,115099958
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997080,115099987
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997080,115100024
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997080,115100052
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997080,115100071
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997080,115100098
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997080,115100135
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997080,115100178
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997080,115100179
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997080,115100217
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997080,115100236
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997080,115100263
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997080,115100295
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997080,115100383
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997080,115100423
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997080,115100454
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997080,115100487
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997080,115100522
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997080,115100549
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997080,115100708
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997080,115100731
+NA,4,NA,PRAM,Prunus americana,American plum,21997080,115100770
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997080,115100822
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997080,115100853
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997080,115100904
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997080,115100944
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997080,115101001
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997080,115101068
+NA,11,NA,SALIX,Salix,willow,21997080,115101078
+NA,4,NA,SAMBU,Sambucus,elderberry,21997080,115101105
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997080,115101160
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997080,115101211
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997080,115101242
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997080,115101280
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997080,115101309
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997080,115101336
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997080,115101365
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997080,115101397
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997081,115099820
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997081,115099793
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997081,115099762
+NA,6,NA,ABCO,Abies concolor,white fir,21997081,115099739
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997081,115099851
+NA,11,NA,BENI,Betula nigra,river birch,21997081,115099866
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997081,115099897
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997081,115099922
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997081,115099959
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997081,115099988
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997081,115100025
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997081,115100072
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997081,115100099
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997081,115100136
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997081,115100180
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997081,115100237
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997081,115100264
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997081,115100296
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997081,115100336
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997081,115100348
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997081,115100372
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997081,115100424
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997081,115100455
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997081,115100488
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997081,115100523
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997081,115100550
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997081,115100586
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997081,115100610
+NA,6,NA,PIGL,Picea glauca,white spruce,21997081,115100631
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997081,115100653
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997081,115100695
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997081,115100732
+NA,4,NA,PRAM,Prunus americana,American plum,21997081,115100763
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997081,115100798
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997081,115100823
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997081,115100854
+NA,6,NA,QUAL,Quercus alba,white oak,21997081,115100882
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997081,115100905
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997081,115100945
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997081,115100971
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997081,115101021
+NA,10,NA,QUVE,Quercus velutina,black oak,21997081,115101036
+NA,4,NA,SAMBU,Sambucus,elderberry,21997081,115101106
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997081,115101161
+NA,10,NA,TIAM,Tilia americana,American basswood,21997081,115101182
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997081,115101212
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997081,115101243
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997081,115101281
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997081,115101310
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997081,115101337
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997081,115101379
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997081,115101398
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997082,115099821
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997082,115099763
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997082,115099841
+NA,8,NA,BENI,Betula nigra,river birch,21997082,115099867
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997082,115099923
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997082,115099948
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997082,115099989
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997082,115100026
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997082,115100053
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997082,115100073
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997082,115100100
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997082,115100137
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997082,115100181
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997082,115100182
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997082,115100218
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997082,115100238
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997082,115100265
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997082,115100297
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997082,115100373
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997082,115100425
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997082,115100456
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997082,115100489
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997082,115100524
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997082,115100551
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997082,115100709
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997082,115100733
+NA,4,NA,PRAM,Prunus americana,American plum,21997082,115100764
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997082,115100824
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997082,115100855
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997082,115100906
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997082,115100946
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997082,115100990
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997082,115101069
+NA,11,NA,SALIX,Salix,willow,21997082,115101079
+NA,4,NA,SAMBU,Sambucus,elderberry,21997082,115101107
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997082,115101150
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997082,115101213
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997082,115101244
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997082,115101270
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997082,115101311
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997082,115101338
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997082,115101366
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997082,115101399
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997084,115099822
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997084,115099794
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997084,115099764
+NA,6,NA,ABCO,Abies concolor,white fir,21997084,115099740
+NA,11,NA,BENI,Betula nigra,river birch,21997084,115099868
+NA,10,NA,CAOV2,Carya ovata,shagbark hickory,21997084,115099898
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997084,115099924
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997084,115099949
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997084,115100027
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997084,115100074
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997084,115100101
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997084,115100138
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997084,115100171
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997084,115100239
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997084,115100266
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997084,115100298
+NA,10,NA,GLTR,Gleditsia triacanthos,honeylocust,21997084,115100329
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997084,115100349
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997084,115100374
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997084,115100426
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997084,115100457
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997084,115100478
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997084,115100525
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997084,115100552
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997084,115100587
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997084,115100611
+NA,5,NA,PIGL,Picea glauca,white spruce,21997084,115100632
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997084,115100654
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997084,115100673
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997084,115100684
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997084,115100734
+NA,4,NA,PRAM,Prunus americana,American plum,21997084,115100765
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997084,115100799
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997084,115100825
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997084,115100856
+NA,8,NA,QUAL,Quercus alba,white oak,21997084,115100883
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997084,115100907
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997084,115100935
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997084,115100991
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997084,115101022
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997084,115101059
+NA,4,NA,SAMBU,Sambucus,elderberry,21997084,115101096
+NA,3,NA,SYVU,Syringa vulgaris,common lilac,21997084,115101140
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997084,115101151
+NA,10,NA,TIAM,Tilia americana,American basswood,21997084,115101183
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997084,115101214
+NA,2,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997084,115101245
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997084,115101271
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997084,115101312
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997084,115101339
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997084,115101400
+NA,4,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997085,115100172
+NA,5,NA,FRPE,Fraxinus pennsylvanica,green ash,21997085,115100299
+NA,4,NA,JUVI,Juniperus virginiana,eastern redcedar,21997085,115100375
+NA,3,NA,LIAM,Ligustrum amurense,Amur privet,21997085,115100398
+NA,3,NA,LOMA6,Lonicera maackii,Amur honeysuckle,21997085,115100404
+NA,5,NA,MAPO,Maclura pomifera,osageorange,21997085,115100504
+NA,6,NA,PINI,Pinus nigra,Austrian pine,21997085,115100665
+NA,9,NA,PIST,Pinus strobus,eastern white pine,21997085,115100685
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997085,115100992
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997085,115101272
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberrybush,21997085,115101371
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997086,115099811
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997086,115099795
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997086,115099765
+NA,6,NA,ABCO,Abies concolor,white fir,21997086,115099741
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997086,115099842
+NA,11,NA,BENI,Betula nigra,river birch,21997086,115099869
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997086,115099899
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997086,115099925
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997086,115099950
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997086,115099990
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997086,115100028
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997086,115100063
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997086,115100102
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997086,115100139
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997086,115100173
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997086,115100228
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997086,115100267
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997086,115100300
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997086,115100337
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997086,115100350
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997086,115100376
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997086,115100415
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997086,115100446
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997086,115100479
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997086,115100514
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997086,115100553
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997086,115100588
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997086,115100601
+NA,6,NA,PIGL,Picea glauca,white spruce,21997086,115100633
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997086,115100655
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997086,115100686
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997086,115100735
+NA,4,NA,PRAM,Prunus americana,American plum,21997086,115100766
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997086,115100800
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997086,115100814
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997086,115100845
+NA,6,NA,QUAL,Quercus alba,white oak,21997086,115100884
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997086,115100908
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997086,115100936
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997086,115100972
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997086,115101023
+NA,10,NA,QUVE,Quercus velutina,black oak,21997086,115101037
+NA,4,NA,SAMBU,Sambucus,elderberry,21997086,115101097
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997086,115101152
+NA,10,NA,TIAM,Tilia americana,American basswood,21997086,115101179
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997086,115101203
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997086,115101234
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997086,115101273
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997086,115101301
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997086,115101340
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997086,115101380
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997086,115101389
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997087,115099812
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997087,115099754
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997087,115099843
+NA,8,NA,BENI,Betula nigra,river birch,21997087,115099858
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997087,115099926
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997087,115099951
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997087,115099991
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997087,115100017
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997087,115100054
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997087,115100064
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997087,115100103
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997087,115100128
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997087,115100174
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997087,115100175
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997087,115100219
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997087,115100229
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997087,115100268
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997087,115100289
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997087,115100377
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997087,115100416
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997087,115100447
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997087,115100480
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997087,115100515
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997087,115100554
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997087,115100710
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997087,115100724
+NA,4,NA,PRAM,Prunus americana,American plum,21997087,115100760
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997087,115100815
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997087,115100846
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997087,115100897
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997087,115100937
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997087,115100993
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997087,115101070
+NA,11,NA,SALIX,Salix,willow,21997087,115101080
+NA,4,NA,SAMBU,Sambucus,elderberry,21997087,115101098
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997087,115101153
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997087,115101204
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997087,115101235
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997087,115101274
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997087,115101302
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997087,115101341
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997087,115101367
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997087,115101390
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997088,115099813
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997088,115099796
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997088,115099755
+NA,6,NA,ABCO,Abies concolor,white fir,21997088,115099732
+NA,11,NA,BENI,Betula nigra,river birch,21997088,115099859
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997088,115099900
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997088,115099916
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997088,115099952
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997088,115099992
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997088,115100018
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997088,115100065
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997088,115100093
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997088,115100129
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997088,115100176
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997088,115100230
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997088,115100258
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997088,115100290
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997088,115100351
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997088,115100366
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997088,115100417
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997088,115100448
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997088,115100481
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997088,115100516
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997088,115100544
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997088,115100579
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997088,115100602
+NA,6,NA,PIGL,Picea glauca,white spruce,21997088,115100624
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997088,115100646
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997088,115100687
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997088,115100725
+NA,4,NA,PRAM,Prunus americana,American plum,21997088,115100761
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997088,115100791
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997088,115100816
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997088,115100847
+NA,6,NA,QUAL,Quercus alba,white oak,21997088,115100875
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997088,115100898
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997088,115100938
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997088,115100973
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997088,115101014
+NA,10,NA,QUVE,Quercus velutina,black oak,21997088,115101038
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997088,115101060
+NA,4,NA,SAMBU,Sambucus,elderberry,21997088,115101099
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997088,115101132
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997088,115101154
+NA,10,NA,TIAM,Tilia americana,American basswood,21997088,115101180
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997088,115101205
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997088,115101236
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997088,115101275
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997088,115101303
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997088,115101331
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997088,115101391
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997089,115099814
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997089,115099797
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997089,115099756
+NA,6,NA,ABCO,Abies concolor,white fir,21997089,115099733
+NA,11,NA,BENI,Betula nigra,river birch,21997089,115099860
+NA,10,NA,CAOV2,Carya ovata,shagbark hickory,21997089,115099901
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997089,115099917
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997089,115099953
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997089,115100019
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997089,115100066
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997089,115100094
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997089,115100130
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997089,115100165
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997089,115100231
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997089,115100259
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997089,115100291
+NA,10,NA,GLTR,Gleditsia triacanthos,honeylocust,21997089,115100330
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997089,115100352
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997089,115100367
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997089,115100418
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997089,115100449
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997089,115100482
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997089,115100517
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997089,115100545
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997089,115100580
+NA,5,NA,PIBA2,Pinus banksiana,jack pine,21997089,115100603
+NA,5,NA,PIGL,Picea glauca,white spruce,21997089,115100625
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997089,115100647
+NA,8,NA,PIRE,Pinus resinosa,red pine,21997089,115100674
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997089,115100688
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997089,115100726
+NA,4,NA,PRAM,Prunus americana,American plum,21997089,115100762
+NA,5,NA,PRSE2,Prunus serotina,black cherry,21997089,115100792
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997089,115100817
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997089,115100848
+NA,8,NA,QUAL,Quercus alba,white oak,21997089,115100876
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997089,115100899
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997089,115100939
+NA,11,NA,QUPA2,Quercus palustris,pin oak,21997089,115100994
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997089,115101015
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997089,115101053
+NA,4,NA,SAMBU,Sambucus,elderberry,21997089,115101100
+NA,3,NA,SYVU,Syringa vulgaris,common lilac,21997089,115101133
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997089,115101155
+NA,10,NA,TIAM,Tilia americana,American basswood,21997089,115101181
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997089,115101206
+NA,2,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997089,115101237
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997089,115101264
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997089,115101304
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997089,115101332
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997089,115101392
+NA,4,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997090,115100166
+NA,5,NA,FRPE,Fraxinus pennsylvanica,green ash,21997090,115100292
+NA,4,NA,JUVI,Juniperus virginiana,eastern redcedar,21997090,115100368
+NA,3,NA,LIAM,Ligustrum amurense,Amur privet,21997090,115100399
+NA,3,NA,LOMA6,Lonicera maackii,Amur honeysuckle,21997090,115100405
+NA,5,NA,MAPO,Maclura pomifera,osageorange,21997090,115100505
+NA,6,NA,PINI,Pinus nigra,Austrian pine,21997090,115100666
+NA,9,NA,PIST,Pinus strobus,eastern white pine,21997090,115100689
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997090,115100995
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997090,115101265
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberrybush,21997090,115101372
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997091,115099815
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997091,115099790
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997091,115099757
+NA,6,NA,ABCO,Abies concolor,white fir,21997091,115099734
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997091,115099844
+NA,11,NA,BENI,Betula nigra,river birch,21997091,115099861
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997091,115099894
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997091,115099918
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997091,115099945
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997091,115099984
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997091,115100020
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997091,115100067
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997091,115100095
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997091,115100131
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997091,115100167
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997091,115100232
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997091,115100260
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997091,115100293
+NA,6,NA,JUCI,Juglans cinerea,Butternut,21997091,115100338
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997091,115100345
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997091,115100369
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997091,115100419
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997091,115100450
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997091,115100483
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997091,115100518
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997091,115100546
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997091,115100581
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997091,115100604
+NA,6,NA,PIGL,Picea glauca,white spruce,21997091,115100626
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997091,115100648
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997091,115100681
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997091,115100727
+NA,4,NA,PRAM,Prunus americana,American plum,21997091,115100757
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997091,115100793
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997091,115100818
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997091,115100849
+NA,6,NA,QUAL,Quercus alba,white oak,21997091,115100877
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997091,115100900
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997091,115100940
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997091,115100974
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997091,115101016
+NA,10,NA,QUVE,Quercus velutina,black oak,21997091,115101039
+NA,4,NA,SAMBU,Sambucus,elderberry,21997091,115101101
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997091,115101147
+NA,10,NA,TIAM,Tilia americana,American basswood,21997091,115101177
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997091,115101207
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997091,115101238
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997091,115101266
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997091,115101305
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997091,115101333
+NA,5,NA,VIPR,Viburnum prunifolium,blackhaw,21997091,115101381
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997091,115101393
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997092,115099816
+NA,11,NA,ACSA2,Acer saccharinum,silver maple,21997092,115099758
+NA,9,NA,ASTR,Asimina triloba,common pawpaw,21997092,115099845
+NA,8,NA,BENI,Betula nigra,river birch,21997092,115099862
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997092,115099919
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997092,115099946
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997092,115099985
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997092,115100021
+NA,2,NA,COAM3,Corylus americana,American hazelnut,21997092,115100055
+NA,5,NA,COCO6,Corylus cornuta,beaked hazelnut,21997092,115100068
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997092,115100096
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997092,115100132
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997092,115100168
+NA,6,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997092,115100169
+NA,2,NA,EUBU6,Euonymus bungeanum,Winterberry,21997092,115100220
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997092,115100233
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997092,115100261
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997092,115100294
+NA,6,NA,JUVI,Juniperus virginiana,eastern redcedar,21997092,115100370
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997092,115100420
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997092,115100451
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997092,115100476
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997092,115100519
+NA,4,NA,PHYSO,Physocarpus,ninebark,21997092,115100547
+NA,11,NA,PLOC,Platanus occidentalis,American sycamore,21997092,115100711
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997092,115100728
+NA,4,NA,PRAM,Prunus americana,American plum,21997092,115100758
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997092,115100819
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997092,115100850
+NA,8,NA,QUBI,Quercus bicolor,swamp white oak,21997092,115100901
+NA,8,NA,QUMA2,Quercus macrocarpa,bur oak,21997092,115100933
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997092,115100988
+NA,3,NA,SAEX,Salix exigua,sandbar willow,21997092,115101071
+NA,11,NA,SALIX,Salix,willow,21997092,115101081
+NA,4,NA,SAMBU,Sambucus,elderberry,21997092,115101094
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997092,115101148
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997092,115101208
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997092,115101239
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997092,115101267
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997092,115101306
+NA,2,NA,VILE,Viburnum lentago,nannyberry,21997092,115101334
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberry viburnum,21997092,115101368
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997092,115101394
+NA,4,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997093,115100170
+NA,5,NA,FRPE,Fraxinus pennsylvanica,green ash,21997093,115100287
+NA,4,NA,JUVI,Juniperus virginiana,eastern redcedar,21997093,115100371
+NA,3,NA,LIAM,Ligustrum amurense,Amur privet,21997093,115100400
+NA,3,NA,LOMA6,Lonicera maackii,Amur honeysuckle,21997093,115100406
+NA,5,NA,MAPO,Maclura pomifera,osageorange,21997093,115100506
+NA,6,NA,PINI,Pinus nigra,Austrian pine,21997093,115100667
+NA,9,NA,PIST,Pinus strobus,eastern white pine,21997093,115100682
+NA,8,NA,QUPA2,Quercus palustris,pin oak,21997093,115100989
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997093,115101268
+NA,2,NA,VIOPA2,Viburnum opulus var. americanum,American cranberrybush,21997093,115101373
+NA,3,NA,AMELA,Amelanchier,serviceberry,21997094,115099810
+NA,8,NA,ACSA3,Acer saccharum,sugar maple,21997094,115099791
+NA,10,NA,ACSA2,Acer saccharinum,silver maple,21997094,115099759
+NA,6,NA,ABCO,Abies concolor,white fir,21997094,115099735
+NA,11,NA,BENI,Betula nigra,river birch,21997094,115099863
+NA,8,NA,CAOV2,Carya ovata,shagbark hickory,21997094,115099895
+NA,5,NA,CECA4,Cercis canadensis,eastern redbud,21997094,115099920
+NA,8,NA,CEOC,Celtis occidentalis,common hackberry,21997094,115099947
+NA,2,NA,CEPHA,Cephalanthus,buttonbush,21997094,115099986
+NA,2,NA,COAM2,Cornus amomum,silky dogwood,21997094,115100022
+NA,3,NA,COCO6,Corylus cornuta,beaked hazelnut,21997094,115100062
+NA,2,NA,COFOR,Cornus foemina ssp. racemosa,gray dogwood,21997094,115100097
+NA,4,NA,COSES,Cornus sericea ssp. sericea,redosier dogwood,21997094,115100133
+NA,5,NA,CRPH,Crataegus phaenopyrum,Washington hawthorn,21997094,115100164
+NA,8,NA,FRAM2,Fraxinus americana,white ash,21997094,115100227
+NA,8,NA,FRNI,Fraxinus nigra,black ash,21997094,115100262
+NA,8,NA,FRPE,Fraxinus pennsylvanica,green ash,21997094,115100288
+NA,10,NA,JUNI,Juglans nigra,black walnut,21997094,115100346
+NA,8,NA,JUVI,Juniperus virginiana,eastern redcedar,21997094,115100365
+NA,6,NA,MALUS,Malus,Midwest Crabapple,21997094,115100414
+NA,6,NA,MALUS,Malus,Red Splendor Crabapple,21997094,115100445
+NA,6,NA,MAMA37,Malus mandshurica,Manchurian crabapple,21997094,115100477
+NA,6,NA,MASA9,Malus sargentii,sargent crabapple,21997094,115100513
+NA,3,NA,PHYSO,Physocarpus,ninebark,21997094,115100548
+NA,9,NA,PIAB,Picea abies,Norway spruce,21997094,115100582
+NA,6,NA,PIBA2,Pinus banksiana,jack pine,21997094,115100605
+NA,6,NA,PIGL,Picea glauca,white spruce,21997094,115100627
+NA,6,NA,PIGLD,Picea glauca var. densata,Black Hills spruce,21997094,115100649
+NA,12,NA,PIST,Pinus strobus,eastern white pine,21997094,115100683
+NA,15,NA,PODE3,Populus deltoides,eastern cottonwood,21997094,115100729
+NA,4,NA,PRAM,Prunus americana,American plum,21997094,115100759
+NA,6,NA,PRSE2,Prunus serotina,black cherry,21997094,115100794
+NA,3,NA,PRTO80,Prunus tomentosa,Nanking cherry,21997094,115100813
+NA,3,NA,PRVI,Prunus virginiana,chokecherry,21997094,115100844
+NA,6,NA,QUAL,Quercus alba,white oak,21997094,115100878
+NA,11,NA,QUBI,Quercus bicolor,swamp white oak,21997094,115100902
+NA,6,NA,QUMA2,Quercus macrocarpa,bur oak,21997094,115100934
+NA,10,NA,QUMU,Quercus muehlenbergii,chinkapin oak,21997094,115100975
+NA,10,NA,QURU,Quercus rubra,northern red oak,21997094,115101017
+NA,10,NA,QUVE,Quercus velutina,black oak,21997094,115101040
+NA,2,NA,RHAR4,Rhus aromatica,fragrant sumac,21997094,115101054
+NA,4,NA,SAMBU,Sambucus,elderberry,21997094,115101095
+NA,4,NA,SYVU,Syringa vulgaris,common lilac,21997094,115101134
+NA,6,NA,THOC2,Thuja occidentalis,arborvitae,21997094,115101149
+NA,10,NA,TIAM,Tilia americana,American basswood,21997094,115101178
+NA,6,NA,UNKNOWN,unknown scientific name,radiant crabapple,21997094,115101202
+NA,1,NA,VIAC,Viburnum acerifolium,mapleleaf viburnum,21997094,115101233
+NA,3,NA,VIDE,Viburnum dentatum,southern arrowwood,21997094,115101269
+NA,3,NA,VIED,Viburnum edule,highbush cranberrry,21997094,115101300
+NA,3,NA,VILE,Viburnum lentago,nannyberry,21997094,115101335
+NA,3,NA,VIRA,Viburnum rafinesqueanum,Downy Arrowwood,21997094,115101388
