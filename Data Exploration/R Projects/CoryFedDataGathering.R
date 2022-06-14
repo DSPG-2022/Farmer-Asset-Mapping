@@ -4,7 +4,7 @@ library(FedData)
 
 ##List of Important Columns
 #Keys
-  ##mukey, cokey, chkey ,lkey  , musym 
+  ##mukey, cokey, chkey ,lkey  , musym ,hzname
 
 
 

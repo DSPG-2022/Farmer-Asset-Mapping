@@ -1,5 +1,6 @@
 library(ggplot2)
 library(FedData)
+require(rgdal)
 
 SSURGO.areas <- get_ssurgo(template = "IA001",label = "CO_TEST") #Querty Data from Web Soil Survey
 
@@ -9,17 +10,18 @@ NED.IA001  <- get_ned(template=SSURGO.areas.IA001, label='SSURGO_IA001') ##get E
 
 plot(NED.IA001) #plot elevation
 
-
+shp <- readOGR(dsn = file.path("C:\\Users\\cornd\\OneDrive\\Documents\\EXTRACTIONS\\CO_TEST\\SSURGO\\CO_TEST_SSURGO_Mapunits.shp"), stringsAsFactors = F)
 
 IA001.Tabular <- SSURGO.areas$tabular
 
+map <- ggplot() + geom_polygon(data = shp, aes(x = long, y = lat, group = group), colour = "black", fill = NA)
 
-
+map
 coclass <- IA001.Tabular$coecoclass
 Componet <- IA001.Tabular$component
 Mapunit <- IA001.Tabular$mapunit
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
-
+Overall <- merge(Overall,shp ,by.x ="musym",by.y ="MUSYM", all.x=TRUE, all.y=TRUE)
 OverallRed <- Overall %>%
   select(cokey, mukey, muname,geomdesc,compname,slope.l,slope.r,slope.h,farmlndcl)
 
