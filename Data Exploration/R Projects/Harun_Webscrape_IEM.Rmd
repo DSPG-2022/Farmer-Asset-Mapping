@@ -1,0 +1,63 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+---
+title: "Web_Scrape_Practice"
+author: "Harun"
+date: '2022-05-19'
+output: html_document
+
+
+Packages
+```{R }
+library(dplyr)
+library(ggplot2)
+library(rvest)
+library(xml2)
+library(readr)
+library(tidyr)
+```
+
+```{r Loading a webpage through read_html}
+# Reading the URL to import the table
+mesonet_web <- read_html("https://mesonet.agron.iastate.edu/rainfall/bypoint.phtml?syear=2020&eyear=2022&view=online&method=geocode&lat=&street=2162+edenburn&nwsli=&lon=&city=AMES")
+
+# This code shows the xml structure of the web page
+xml_structure(mesonet_web)
+```
+
+```{r Using xml_find_all to find a node}
+#this code is to find the proper node where information is contained
+meso_rev_nodes <- xml_find_all(mesonet_web, "//pre")
+
+#convert the xml into a text file
+meso_pre <- xml_text(meso_rev_nodes)
+```
+
+```{r Using xml_attrs and xml_attr to find attributes}
+# This code doesn't actually output any attributes so the container could be containing text instead.
+xml_attrs(meso_rev_nodes)
+
+#This code proves that inside the node '/pre' is actually just a text file
+xml_structure(meso_rev_nodes)
+```
+
+```{r Using read_lines to read scraped txt file}
+#This code reads the text file from the extracted xml
+meso_text <- read_lines(meso_pre, skip = 5)
+```
+
+```{r Trying to create a data frame from extracted text}
+meso_df_csv <- data.frame(meso_text)
+```
+
+```{r Cleaning data so values are in two different rows}
+# This cleans the data from NA values as well as rows which don't contain the necessary data
+cleaned <- meso_df_csv %>%
+  separate(meso_text, into = c("Date", "Inches_Rain"), sep = ", ", convert = TRUE) %>%
+  filter(!is.na(Inches_Rain))
+```
+
+
