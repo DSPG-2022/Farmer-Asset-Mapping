@@ -22,7 +22,7 @@ library(tidyr)
 
 ```{r Loading a webpage through read_html}
 # Reading the URL to import the table
-mesonet_web <- read_html("https://mesonet.agron.iastate.edu/rainfall/bypoint.phtml?syear=2020&eyear=2022&view=online&method=geocode&lat=&street=2162+edenburn&nwsli=&lon=&city=AMES")
+mesonet_web <- read_html("https://mesonet.agron.iastate.edu/rainfall/bypoint.phtml?syear=2022&eyear=2022&view=online&method=geocode&lat=&street=640+Lincoln+Way&nwsli=&lon=&city=Ames")
 
 # This code shows the xml structure of the web page
 xml_structure(mesonet_web)
