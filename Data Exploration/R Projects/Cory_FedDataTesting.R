@@ -13,15 +13,18 @@ plot(NED.IA001) #plot elevation
 shp <- readOGR(dsn = file.path("C:\\Users\\cornd\\OneDrive\\Documents\\EXTRACTIONS\\CO_TEST\\SSURGO\\CO_TEST_SSURGO_Mapunits.shp"), stringsAsFactors = F)
 
 IA001.Tabular <- SSURGO.areas$tabular
+IA001.Spatical <- SSURGO.areas$spatial
 
-map <- ggplot() + geom_polygon(data = shp, aes(x = long, y = lat, group = group), colour = "black", fill = NA)
+ggplot() + geom_polygon(data = OverallSp, aes(x = long, y = lat, group = group), colour = "black", fill = NA)
 
-map
+map2
 coclass <- IA001.Tabular$coecoclass
 Componet <- IA001.Tabular$component
 Mapunit <- IA001.Tabular$mapunit
 Overall <- merge(Componet,Mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
 Overall <- merge(Overall,shp ,by.x ="musym",by.y ="MUSYM", all.x=TRUE, all.y=TRUE)
+OverallSp <- Overall %>%
+  distinct()
 OverallRed <- Overall %>%
   select(cokey, mukey, muname,geomdesc,compname,slope.l,slope.r,slope.h,farmlndcl)
 
