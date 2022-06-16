@@ -5,7 +5,33 @@ date: '2022-06-09'
 output: html_document
 ---
 
-```{r}
+```{r Packages}
+library(ggplot2)
+library(httr)
+library(xml2)
+library(readr)
+```
 
+
+```{r}
+path <- "https://daymet.ornl.gov/single-pixel/api/data?lat=42.1&lon=-93.8&vars=prcp&years=2018,2019"
+
+weather_data <- GET(url = path)
+```
+
+```{r}
+#content(weather_data)
+
+weather_data_text <- content(weather_data)
+
+weather_data_clean <- read_lines(weather_data_text)
+```
+
+
+```{r}
+# This cleans the data from NA values as well as rows which don't contain the necessary data
+cleaned <- meso_df_csv %>%
+  separate(meso_text, into = c("Date", "Inches_Rain"), sep = ", ", convert = TRUE) %>%
+  filter(!is.na(Inches_Rain))
 ```
 
