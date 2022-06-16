@@ -1,9 +1,11 @@
 library(ggplot2)
 library(FedData)
-require(rgdal)
 library(raster)
 
+
 r <- raster(ncol=10, nrow=10)
+#min acres: 0.05
+#max acres: 100,000
 
 ymax(r) <- 42.038534290775225
 xmin(r) <- -93.48364437815002
@@ -15,3 +17,14 @@ ymin(r) <- 41.99721346419466
 # 41.99721346419466, -93.4273394482129 Lower Right
 r
 SSURGO.areas <- get_ssurgo(template = r,label = "Raster_Test") #Querty Data from Web Soil Survey
+#42.06657633648302, -93.67933834195587
+
+
+##For Geojson File
+
+library(geojsonio)
+
+sp <- geojson_read("map.geojson", what ="sp")
+
+
+Test_surrgo_geojson <- get_ssurgo(template = sp,label = "geojson_Test") #Querty Data from Web Soil Survey
