@@ -3,6 +3,7 @@ library(FedData)
 library(raster)
 library(readxl)
 library(dplyr)
+library(tidyr)
 r <- raster(ncol=10, nrow=10)
 
 
@@ -49,7 +50,9 @@ Overall <- merge(ComponetSim,mapunit, by.x = "mukey", by.y = "mukey",all.x = TRU
 Overall <- merge(Overall,legend, by.x = "lkey", by.y = "lkey",all.x = TRUE, all.y =TRUE)
 Overall <- merge(Overall,chorzonSim, by.x = "cokey", by.y = "cokey",all.x = TRUE, all.y =TRUE)
 
+glimpse(Overall)
 write.csv(Overall,"6_16_CropSelectionTest.csv")
 
 ##Crop Info
 CropData <- read_excel("Crop-Info_Farmer Asset Mapping.xlsx")
+

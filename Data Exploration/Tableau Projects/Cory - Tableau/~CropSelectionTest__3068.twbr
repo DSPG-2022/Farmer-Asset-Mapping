@@ -1857,6 +1857,100 @@
     <mapsource name='Tableau' />
   </mapsources>
   <worksheets>
+    <worksheet name='Crop  by pH'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Regions of Land Suitable for &lt;</run>
+            <run>[federated.15879ux1jcu60x13wgwye0f8mkje].[none:Types of Crops:nk]</run>
+            <run>&gt; by pH</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crop_SelectionTest_SSURGO_Mapunits.shp (Multiple Connections)' name='federated.15879ux1jcu60x13wgwye0f8mkje' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.15879ux1jcu60x13wgwye0f8mkje'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Types of Crops]' role='dimension' type='nominal' />
+            <column caption='Areaname' datatype='string' name='[areaname]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Muname' datatype='string' name='[muname]' role='dimension' type='nominal' />
+            <column-instance column='[MUSYM]' derivation='None' name='[none:MUSYM:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Types of Crops]' derivation='None' name='[none:Types of Crops:nk]' pivot='key' type='nominal' />
+            <column-instance column='[areaname]' derivation='None' name='[none:areaname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muname]' derivation='None' name='[none:muname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pH_average]' derivation='None' name='[none:pH_average:qk]' pivot='key' type='quantitative' />
+            <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:Types of Crops:nk]'>
+            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Peas&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.15879ux1jcu60x13wgwye0f8mkje].[none:Types of Crops:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[Longitude (generated)]' field-type='quantitative' max='-10441322.476889975' min='-10451561.598460032' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[Latitude (generated)]' field-type='quantitative' max='5177883.5532035846' min='5172081.3843545727' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:areaname:nk]' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='7.0' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:pH_average:qk]' palette='red_blue_white_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:pH_average:qk]' />
+              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[clct:Geometry:nk]' />
+              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:MUSYM:nk]' />
+              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:muname:nk]' />
+              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:areaname:nk]' />
+              <geometry column='[federated.15879ux1jcu60x13wgwye0f8mkje].[clct:Geometry:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>County:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:areaname:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Muname:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:muname:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Musym:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:MUSYM:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>pH average:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:pH_average:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.15879ux1jcu60x13wgwye0f8mkje].[Latitude (generated)]</rows>
+        <cols>[federated.15879ux1jcu60x13wgwye0f8mkje].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C9201F30-92DC-4C30-89F6-F34824F059A2}' />
+    </worksheet>
     <worksheet name='Elevation Map'>
       <table>
         <view>
@@ -2051,102 +2145,6 @@
       </table>
       <simple-id uuid='{387BF113-748A-457F-9508-9679C7A87BB4}' />
     </worksheet>
-    <worksheet name='pH (2)'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run>Average pH at &lt;</run>
-            <run>[federated.15879ux1jcu60x13wgwye0f8mkje].[none:depthLevel:nk]</run>
-            <run>&gt; Inches</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Crop_SelectionTest_SSURGO_Mapunits.shp (Multiple Connections)' name='federated.15879ux1jcu60x13wgwye0f8mkje' />
-          </datasources>
-          <mapsources>
-            <mapsource name='Tableau' />
-          </mapsources>
-          <datasource-dependencies datasource='federated.15879ux1jcu60x13wgwye0f8mkje'>
-            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
-            <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Types of Crops]' role='dimension' type='nominal' />
-            <column caption='Areaname' datatype='string' name='[areaname]' role='dimension' type='nominal' />
-            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
-            <column caption='Depth Level' datatype='string' name='[depthLevel]' role='dimension' type='nominal' />
-            <column caption='Muname' datatype='string' name='[muname]' role='dimension' type='nominal' />
-            <column-instance column='[MUSYM]' derivation='None' name='[none:MUSYM:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Types of Crops]' derivation='None' name='[none:Types of Crops:nk]' pivot='key' type='nominal' />
-            <column-instance column='[areaname]' derivation='None' name='[none:areaname:nk]' pivot='key' type='nominal' />
-            <column-instance column='[depthLevel]' derivation='None' name='[none:depthLevel:nk]' pivot='key' type='nominal' />
-            <column-instance column='[muname]' derivation='None' name='[none:muname:nk]' pivot='key' type='nominal' />
-            <column-instance column='[pH_average]' derivation='None' name='[none:pH_average:qk]' pivot='key' type='quantitative' />
-            <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:Types of Crops:nk]'>
-            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Watermelon&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.15879ux1jcu60x13wgwye0f8mkje].[none:Types of Crops:nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[Longitude (generated)]' field-type='quantitative' max='-10441322.476889975' min='-10451561.598460032' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[Latitude (generated)]' field-type='quantitative' max='5177883.5532035846' min='5172081.3843545727' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='label'>
-            <format attr='display' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:areaname:nk]' value='false' />
-          </style-rule>
-          <style-rule element='mark'>
-            <encoding attr='color' center='7.0' field='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:pH_average:qk]' palette='red_blue_white_diverging_10_0' type='interpolated' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-          <style-rule element='map'>
-            <format attr='washout' value='0.0' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <color column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:pH_average:qk]' />
-              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[clct:Geometry:nk]' />
-              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:MUSYM:nk]' />
-              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:muname:nk]' />
-              <lod column='[federated.15879ux1jcu60x13wgwye0f8mkje].[none:areaname:nk]' />
-              <geometry column='[federated.15879ux1jcu60x13wgwye0f8mkje].[clct:Geometry:nk]' />
-            </encodings>
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor='#787878'>County:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:areaname:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Muname:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:muname:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Musym:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:MUSYM:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>pH average:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.15879ux1jcu60x13wgwye0f8mkje].[none:pH_average:qk]>]]></run>
-              </formatted-text>
-            </customized-tooltip>
-          </pane>
-        </panes>
-        <rows>[federated.15879ux1jcu60x13wgwye0f8mkje].[Latitude (generated)]</rows>
-        <cols>[federated.15879ux1jcu60x13wgwye0f8mkje].[Longitude (generated)]</cols>
-      </table>
-      <simple-id uuid='{C9201F30-92DC-4C30-89F6-F34824F059A2}' />
-    </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='63'>
     <window class='worksheet' name='Elevation Map'>
@@ -2220,7 +2218,7 @@
       </viewpoint>
       <simple-id uuid='{C5B992A3-A3CC-4E7F-A966-1B66F42D66C4}' />
     </window>
-    <window class='worksheet' maximized='true' name='pH (2)'>
+    <window class='worksheet' name='Crop  by pH'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2256,7 +2254,7 @@
       </viewpoint>
       <simple-id uuid='{C3D26952-26B6-4729-990F-38C62B65B7C2}' />
     </window>
-    <window class='worksheet' name='Sheet 3'>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
       <cards>
         <edge name='left'>
           <strip size='160'>
