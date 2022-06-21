@@ -69,5 +69,7 @@ library(sqldf)
 
 ##have to use SQL basically 
 ##need to account for more variables
-test <- sqldf("select * from Overall left join CropData
-             on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H)")
+
+test2 <- sqldf("select * from Overall left join CropData
+             on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H and Overall.depth <= CropData.Depth_h)")
+write.csv(test2,"6_16_CropSelection.csv")
