@@ -71,5 +71,8 @@ library(sqldf)
 ##need to account for more variables
 
 test2 <- sqldf("select * from Overall left join CropData
-             on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H and Overall.depth <= CropData.Depth_h)")
+             on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H and Overall.depth <= CropData.Depth_h and Overall.depth >= CropData.Depth_l)")
+test3 <- test2 %>%
+  filter(!is.na(`Types of Crops`))
 write.csv(test2,"6_16_CropSelection.csv")
+write.csv(test3,"6_16_CropSelection2.csv")
