@@ -18,8 +18,8 @@ xmax(s) <- -93.83524145838685
 Area<- get_ssurgo(template = s,label = "CropSelection", force.redo = TRUE)
 
 
-##selecting the important Tables
-Test.areaTabular <- Area$tabular
+##selecting the important Tabl
+AreaTabular <- Area$tabular
 Componet <- AreaTabular$component
 chorizon <- AreaTabular$chorizon
 mapunit <- AreaTabular$mapunit
@@ -59,4 +59,3 @@ MergedData <- sqldf("select * from Overall left join CropData
 MergedDataNoNA <- MergedData %>%
   filter(!is.na(`Types of Crops`))
 write.csv(MergedDataNoNA,"CropSelection.csv")
-write.csv(test3,"6_16_CropSelection2.csv")
