@@ -56,3 +56,18 @@ write.csv(Overall,"6_16_CropSelectionTest.csv")
 ##Crop Info
 CropData <- read_excel("Crop-Info_Farmer Asset Mapping.xlsx")
 
+
+
+
+
+##Merging datasets together
+library(sqldf)
+
+#output <- sqldf("select * from FD left join shpxt 
+#                on (FD.X >= shpxt.Xmin and FD.X <= shpxt.Xmax and
+#               FD.Y >= shpxt.Ymin and FD.Y <= shpxt.Ymax ) ")
+
+##have to use SQL basically 
+##need to account for more variables
+test <- sqldf("select * from Overall left join CropData
+             on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H)")
