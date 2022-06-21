@@ -1,0 +1,43 @@
+---
+title: "Harun_Exploratory_Script"
+author: "Harun Celik"
+date: '2022-06-09'
+output: html_document
+---
+
+Relevant Links for this Web scraper
+
+https://daymet.ornl.gov/web_services
+
+```{r Packages}
+library(ggplot2)
+library(httr)
+library(xml2)
+library(readr)
+library(rvest)
+library(tidyr)
+```
+
+
+```{r}
+path <- "https://daymet.ornl.gov/single-pixel/api/data?lat=42.1&lon=-93.8&vars=prcp&years=2018,2019"
+
+weather_data_unclean <- GET(url = path)
+```
+
+```{r}
+#content(weather_data)
+
+weather_data_text <- content(weather_data_unclean)
+
+write.csv(weather_data_text, "weather_data.csv")
+
+weather_data_cleaned <- read.csv("weather_data.csv", skip = 6)
+```
+
+
+```{r}
+# This cleans the data from NA values as well as rows which don't contain the necessary data
+weather_data_cleaned %>% separate(weather_data_cleaned, into = c("Year", "Year_Day", "Precipitation(mm)"), sep = ", ", convert = TRUE)
+```
+
