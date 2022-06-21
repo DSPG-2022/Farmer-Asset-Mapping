@@ -3055,26 +3055,27 @@
             <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
             <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
             <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
-            <column datatype='real' name='depth' ordinal='54' />
-            <column datatype='string' name='depthLevel' ordinal='55' />
-            <column datatype='real' name='pH_average' ordinal='56' />
-            <column datatype='string' name='Types of Crops' ordinal='57' />
-            <column datatype='string' name='Soil Types' ordinal='58' />
-            <column datatype='string' name='Rooting Depth' ordinal='59' />
-            <column datatype='integer' name='Depth_l' ordinal='60' />
-            <column datatype='integer' name='Depth_h' ordinal='61' />
-            <column datatype='string' name='pH-Level' ordinal='62' />
-            <column datatype='real' name='ph_L' ordinal='63' />
-            <column datatype='real' name='ph_H' ordinal='64' />
-            <column datatype='string' name='Type of Irrigation' ordinal='65' />
-            <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
-            <column datatype='string' name='Temperature Tolerances' ordinal='67' />
-            <column datatype='string' name='Pesticides' ordinal='68' />
-            <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
-            <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
-            <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
-            <column datatype='string' name='Storage Life' ordinal='72' />
-            <column datatype='string' name='Base Temp (F)' ordinal='73' />
+            <column datatype='string' name='texdesc' ordinal='54' />
+            <column datatype='real' name='depth' ordinal='55' />
+            <column datatype='string' name='depthLevel' ordinal='56' />
+            <column datatype='real' name='pH_average' ordinal='57' />
+            <column datatype='string' name='Types of Crops' ordinal='58' />
+            <column datatype='string' name='Soil Types' ordinal='59' />
+            <column datatype='string' name='Rooting Depth' ordinal='60' />
+            <column datatype='integer' name='Depth_l' ordinal='61' />
+            <column datatype='integer' name='Depth_h' ordinal='62' />
+            <column datatype='string' name='pH-Level' ordinal='63' />
+            <column datatype='real' name='ph_L' ordinal='64' />
+            <column datatype='real' name='ph_H' ordinal='65' />
+            <column datatype='string' name='Type of Irrigation' ordinal='66' />
+            <column datatype='string' name='Rainfall/Precipitation' ordinal='67' />
+            <column datatype='string' name='Temperature Tolerances' ordinal='68' />
+            <column datatype='string' name='Pesticides' ordinal='69' />
+            <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='70' />
+            <column datatype='string' name='Storage Temp (  ̊F)' ordinal='71' />
+            <column datatype='string' name='Storage Humidity (%)' ordinal='72' />
+            <column datatype='string' name='Storage Life' ordinal='73' />
+            <column datatype='string' name='Base Temp (F)' ordinal='74' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
@@ -3143,26 +3144,27 @@
               <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
               <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
               <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
-              <column datatype='real' name='depth' ordinal='54' />
-              <column datatype='string' name='depthLevel' ordinal='55' />
-              <column datatype='real' name='pH_average' ordinal='56' />
-              <column datatype='string' name='Types of Crops' ordinal='57' />
-              <column datatype='string' name='Soil Types' ordinal='58' />
-              <column datatype='string' name='Rooting Depth' ordinal='59' />
-              <column datatype='integer' name='Depth_l' ordinal='60' />
-              <column datatype='integer' name='Depth_h' ordinal='61' />
-              <column datatype='string' name='pH-Level' ordinal='62' />
-              <column datatype='real' name='ph_L' ordinal='63' />
-              <column datatype='real' name='ph_H' ordinal='64' />
-              <column datatype='string' name='Type of Irrigation' ordinal='65' />
-              <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
-              <column datatype='string' name='Temperature Tolerances' ordinal='67' />
-              <column datatype='string' name='Pesticides' ordinal='68' />
-              <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
-              <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
-              <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
-              <column datatype='string' name='Storage Life' ordinal='72' />
-              <column datatype='string' name='Base Temp (F)' ordinal='73' />
+              <column datatype='string' name='texdesc' ordinal='54' />
+              <column datatype='real' name='depth' ordinal='55' />
+              <column datatype='string' name='depthLevel' ordinal='56' />
+              <column datatype='real' name='pH_average' ordinal='57' />
+              <column datatype='string' name='Types of Crops' ordinal='58' />
+              <column datatype='string' name='Soil Types' ordinal='59' />
+              <column datatype='string' name='Rooting Depth' ordinal='60' />
+              <column datatype='integer' name='Depth_l' ordinal='61' />
+              <column datatype='integer' name='Depth_h' ordinal='62' />
+              <column datatype='string' name='pH-Level' ordinal='63' />
+              <column datatype='real' name='ph_L' ordinal='64' />
+              <column datatype='real' name='ph_H' ordinal='65' />
+              <column datatype='string' name='Type of Irrigation' ordinal='66' />
+              <column datatype='string' name='Rainfall/Precipitation' ordinal='67' />
+              <column datatype='string' name='Temperature Tolerances' ordinal='68' />
+              <column datatype='string' name='Pesticides' ordinal='69' />
+              <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='70' />
+              <column datatype='string' name='Storage Temp (  ̊F)' ordinal='71' />
+              <column datatype='string' name='Storage Humidity (%)' ordinal='72' />
+              <column datatype='string' name='Storage Life' ordinal='73' />
+              <column datatype='string' name='Base Temp (F)' ordinal='74' />
             </columns>
           </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
@@ -4004,12 +4006,27 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection.csv_934345F05AF04008AA361476BBAD9AB6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
+            <remote-name>texdesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[texdesc]</local-name>
+            <parent-name>[CropSelection.csv]</parent-name>
+            <remote-alias>texdesc</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection.csv_934345F05AF04008AA361476BBAD9AB6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
             <remote-name>depth</remote-name>
             <remote-type>5</remote-type>
             <local-name>[depth]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>depth</remote-alias>
-            <ordinal>59</ordinal>
+            <ordinal>60</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -4021,7 +4038,7 @@
             <local-name>[depthLevel]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>depthLevel</remote-alias>
-            <ordinal>60</ordinal>
+            <ordinal>61</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4036,7 +4053,7 @@
             <local-name>[pH_average]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>pH_average</remote-alias>
-            <ordinal>61</ordinal>
+            <ordinal>62</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -4048,7 +4065,7 @@
             <local-name>[Types of Crops]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Types of Crops</remote-alias>
-            <ordinal>62</ordinal>
+            <ordinal>63</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4063,7 +4080,7 @@
             <local-name>[Soil Types]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Soil Types</remote-alias>
-            <ordinal>63</ordinal>
+            <ordinal>64</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4078,7 +4095,7 @@
             <local-name>[Rooting Depth]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Rooting Depth</remote-alias>
-            <ordinal>64</ordinal>
+            <ordinal>65</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4093,7 +4110,7 @@
             <local-name>[Depth_l]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Depth_l</remote-alias>
-            <ordinal>65</ordinal>
+            <ordinal>66</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -4105,7 +4122,7 @@
             <local-name>[Depth_h]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Depth_h</remote-alias>
-            <ordinal>66</ordinal>
+            <ordinal>67</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -4117,7 +4134,7 @@
             <local-name>[pH-Level]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>pH-Level</remote-alias>
-            <ordinal>67</ordinal>
+            <ordinal>68</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4132,7 +4149,7 @@
             <local-name>[ph_L]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>ph_L</remote-alias>
-            <ordinal>68</ordinal>
+            <ordinal>69</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -4144,7 +4161,7 @@
             <local-name>[ph_H]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>ph_H</remote-alias>
-            <ordinal>69</ordinal>
+            <ordinal>70</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -4156,7 +4173,7 @@
             <local-name>[Type of Irrigation]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Type of Irrigation</remote-alias>
-            <ordinal>70</ordinal>
+            <ordinal>71</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4171,7 +4188,7 @@
             <local-name>[Rainfall/Precipitation]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Rainfall/Precipitation</remote-alias>
-            <ordinal>71</ordinal>
+            <ordinal>72</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4186,7 +4203,7 @@
             <local-name>[Temperature Tolerances]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Temperature Tolerances</remote-alias>
-            <ordinal>72</ordinal>
+            <ordinal>73</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4201,7 +4218,7 @@
             <local-name>[Pesticides]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Pesticides</remote-alias>
-            <ordinal>73</ordinal>
+            <ordinal>74</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4216,7 +4233,7 @@
             <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
-            <ordinal>74</ordinal>
+            <ordinal>75</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4231,7 +4248,7 @@
             <local-name>[Storage Temp (  ̊F)]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Storage Temp (  ̊F)</remote-alias>
-            <ordinal>75</ordinal>
+            <ordinal>76</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4246,7 +4263,7 @@
             <local-name>[Storage Humidity (%)]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Storage Humidity (%)</remote-alias>
-            <ordinal>76</ordinal>
+            <ordinal>77</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4261,7 +4278,7 @@
             <local-name>[Storage Life]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Storage Life</remote-alias>
-            <ordinal>77</ordinal>
+            <ordinal>78</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4276,7 +4293,7 @@
             <local-name>[Base Temp (F)]</local-name>
             <parent-name>[CropSelection.csv]</parent-name>
             <remote-alias>Base Temp (F)</remote-alias>
-            <ordinal>78</ordinal>
+            <ordinal>79</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -4421,26 +4438,27 @@
                   <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
                   <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
                   <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
-                  <column datatype='real' name='depth' ordinal='54' />
-                  <column datatype='string' name='depthLevel' ordinal='55' />
-                  <column datatype='real' name='pH_average' ordinal='56' />
-                  <column datatype='string' name='Types of Crops' ordinal='57' />
-                  <column datatype='string' name='Soil Types' ordinal='58' />
-                  <column datatype='string' name='Rooting Depth' ordinal='59' />
-                  <column datatype='integer' name='Depth_l' ordinal='60' />
-                  <column datatype='integer' name='Depth_h' ordinal='61' />
-                  <column datatype='string' name='pH-Level' ordinal='62' />
-                  <column datatype='real' name='ph_L' ordinal='63' />
-                  <column datatype='real' name='ph_H' ordinal='64' />
-                  <column datatype='string' name='Type of Irrigation' ordinal='65' />
-                  <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
-                  <column datatype='string' name='Temperature Tolerances' ordinal='67' />
-                  <column datatype='string' name='Pesticides' ordinal='68' />
-                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
-                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
-                  <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
-                  <column datatype='string' name='Storage Life' ordinal='72' />
-                  <column datatype='string' name='Base Temp (F)' ordinal='73' />
+                  <column datatype='string' name='texdesc' ordinal='54' />
+                  <column datatype='real' name='depth' ordinal='55' />
+                  <column datatype='string' name='depthLevel' ordinal='56' />
+                  <column datatype='real' name='pH_average' ordinal='57' />
+                  <column datatype='string' name='Types of Crops' ordinal='58' />
+                  <column datatype='string' name='Soil Types' ordinal='59' />
+                  <column datatype='string' name='Rooting Depth' ordinal='60' />
+                  <column datatype='integer' name='Depth_l' ordinal='61' />
+                  <column datatype='integer' name='Depth_h' ordinal='62' />
+                  <column datatype='string' name='pH-Level' ordinal='63' />
+                  <column datatype='real' name='ph_L' ordinal='64' />
+                  <column datatype='real' name='ph_H' ordinal='65' />
+                  <column datatype='string' name='Type of Irrigation' ordinal='66' />
+                  <column datatype='string' name='Rainfall/Precipitation' ordinal='67' />
+                  <column datatype='string' name='Temperature Tolerances' ordinal='68' />
+                  <column datatype='string' name='Pesticides' ordinal='69' />
+                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='70' />
+                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='71' />
+                  <column datatype='string' name='Storage Humidity (%)' ordinal='72' />
+                  <column datatype='string' name='Storage Life' ordinal='73' />
+                  <column datatype='string' name='Base Temp (F)' ordinal='74' />
                 </columns>
               </relation>
             </properties>
@@ -4727,7 +4745,7 @@
             <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]'>
-            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Tomato&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Radish&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]</column>
