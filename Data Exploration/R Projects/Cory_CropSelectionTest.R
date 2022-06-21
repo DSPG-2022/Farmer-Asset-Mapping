@@ -94,13 +94,4 @@ write.csv(test3,"6_16_CropSelection2.csv")
 
 
 ##testing depth
-Overall2 <-sqldf("select * from Overall left join CropData
-             on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H)")
-Overall2 <- Overall2 %>%
-  group_by(musym)%>%
-  group_by(`Types of Crops`) %>%
-  mutate(depthCheck = ifelse(depth<= Depth_h,ifelse(depth>=Depth_l,1,ifelse(pH_average>=ph_L,ifelse(pH_average<=ph_H,2,3),3)),0))
 
-OverallView <- Overall2 %>%
-  select(musym,mukey,chkey,`Types of Crops`,pH_average,ph_L,ph_H,depth,Depth_l,Depth_h,depthCheck,depthLevel) %>%
-  group_by(`Types of Crops`)

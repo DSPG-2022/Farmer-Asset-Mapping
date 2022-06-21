@@ -36,6 +36,7 @@ chorzonSim <-select(chorizon, cokey,chkey,hzdept.l,hzdept.r,hzdept.h, ph1to1h2o.
 ##Group Depths together
 chorzonSim <-chorzonSim%>%
   mutate(depthLevel = ifelse(depth <12,"0-12",ifelse(depth<24, "12-24",ifelse(depth<36,'24-36',"36+"))))
+  #mutate(depthLevel = ifelse(depth <18,"0-18",ifelse(depth<36, "18-36",ifelse(depth<48,'36-48',"48+"))))
 
 
 ##Find Average pH by Depth Level
