@@ -1,0 +1,72 @@
+---
+title: "JSON Practice"
+author: "Harun Celik"
+date: '2022-06-21'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set
+
+library(ggplot2)
+library(httr)
+library(xml2)
+library(readr)
+library(rvest)
+library(tidyr)
+library(rjson)
+library(stringr)
+```
+
+```{r}
+#Format URL to be ready for time and place input
+base_url <- "https://mesonet.agron.iastate.edu/iemre/multiday/"
+
+start_time = "2019-01-01"
+end_time = "2019-06-01"
+latitude = "42.54"
+longitude = "-96.40"
+
+full_url <- sprintf("https://mesonet.agron.iastate.edu/iemre/multiday/%s/%s/%s/%s/json", start_time, end_time, latitude, longitude)
+```
+
+```{r}
+## Downloads data from the IEM website in json format
+#download.file(url = full_url, destfile = "test.json")
+
+#Read Json file
+IEM_json <- fromJSON(file = "test.json")
+```
+
+```{r}
+#Converting to data frame
+IEM_data <- as.data.frame(IEM_json)
+```
+
+```{r}
+#Converting output to a long format
+IEM_long <- gather(IEM_data, key = "variables", value = "data")
+```
+
+```{r}
+#Cleaning value names before converting wide
+
+IEM_clean_variables <- IEM_long$variables %>% 
+  str_replace("data.", "") %>%
+  str_replace("\\..*", "")
+  
+IEM_long$variables = c(IEM_clean_variables)
+```
+
+```{r}
+#Pivoting data frame to Wide Format
+
+IEM_wide <- pivot_wider(IEM_long,
+                        names_from = variables,
+                        values_from = data,
+                        )
+```
+
+
+
+

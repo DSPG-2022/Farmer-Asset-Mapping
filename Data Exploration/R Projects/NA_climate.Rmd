@@ -1,0 +1,81 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(jsonlite)
+library(httr)
+library(rlist)
+```
+
+```{r}
+#Trying out one link first
+
+#Coordinates: 42.038534290775225,-93.85498251613917
+
+url_json <- "https://mesonet.agron.iastate.edu/iemre/multiday/2020-04-01/2020-10-31/42.038534290775225/-93.85498251613917/json"
+
+# get the raw json into R
+#raw_json <- httr::GET(url_json) %>% httr::content()
+
+#Get raw json and into a dataframe
+#jdata <- read_json(url_json, simplifyVector = TRUE)
+
+btc <- jsonlite::fromJSON(url_json)
+
+# get column names
+colnames(btc$data)
+
+```  
+```{r}
+#btc
+
+df <- as.data.frame(btc)
+
+df
+```
+
+```{r}
+# pluck and chuck provide a more strict version of [[
+# and can subset by exact name or position
+
+purrr::pluck(btc$data, 'date')
+```
+```{r}
+#  r web / r json - json to csv in r - saving it for later
+write.csv(df,"D:/Downloads/data.csv",row.names = FALSE)
+
+# info = GET(url_json)
+# print(info)
+# char_info=rawToChar(info$data)
+# data_json = fromJSON(char_info)
+#  
+# print(data_json$date)
+# print(data_json$daily_high_f)
+```
+
+
+```{r}
+# create the dataframe and tidy it up
+ex_output <- pluck(raw_json, "athletes") %>%
+  enframe() %>%
+  unnest_wider(value) %>% 
+  unnest_wider(athlete) %>% 
+  select(displayName, teamName:teamShortName, headshot, categories) %>% 
+  hoist(categories, 
+    data = list(1, "totals")) %>%
+  mutate(data = map(data, ~set_names(.x, nm = category_names))) %>% 
+  select(-categories) %>% 
+  unnest_wider(data) %>% 
+  mutate(headshot = pluck(headshot, "href"))
+
+glimpse(ex_output)
+```
+
+
