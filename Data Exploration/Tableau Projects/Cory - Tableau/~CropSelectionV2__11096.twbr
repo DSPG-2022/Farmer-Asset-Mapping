@@ -3026,7 +3026,7 @@
             <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0njxjvf08vuexo10o428v16r94lk].[none:Types of Crops:nk]'>
-            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Radish&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Spinach&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.0njxjvf08vuexo10o428v16r94lk].[none:Types of Crops:nk]</column>

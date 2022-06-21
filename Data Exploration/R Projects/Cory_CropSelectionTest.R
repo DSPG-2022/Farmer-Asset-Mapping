@@ -4,18 +4,19 @@ library(raster)
 library(readxl)
 library(dplyr)
 library(tidyr)
-r <- raster(ncol=10, nrow=10)
-
+r <- raster(ncol=2, nrow=2)
 
 ymin(r) <- 42.078433865038505
 ymax(r) <- 42.10709506728437
 xmin(r) <- -93.85498251613917
 xmax(r) <- -93.83524145838685
 
+
 # 42.10709506728437, -93.85498251613917
 # 42.10709506728437, -93.83524145838685
 # 42.078433865038505, -93.85446753202392
 # 42.0781790407238, -93.83506979701508
+
 
 Test.area <- get_ssurgo(template = r,label = "Crop_SelectionTest")
 
@@ -85,4 +86,10 @@ write.csv(test3,"6_16_CropSelection2.csv")
 Overall2 <-sqldf("select * from Overall left join CropData
              on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H)")
 Overall2 <- Overall2 %>%
-  group_by(musym,depthLevel)
+  group_by(musym)%>%
+  group_by(`Types of Crops`) %>%
+  mutate(depthCheck = ifelse(depth<= Depth_h,ifelse(depth>=Depth_l,1,ifelse(pH_average>=ph_L,ifelse(pH_average<=ph_H,2,3),3)),0))
+
+OverallView <- Overall2 %>%
+  select(musym,mukey,chkey,`Types of Crops`,pH_average,ph_L,ph_H,depth,Depth_l,Depth_h,depthCheck,depthLevel) %>%
+  group_by(`Types of Crops`)
