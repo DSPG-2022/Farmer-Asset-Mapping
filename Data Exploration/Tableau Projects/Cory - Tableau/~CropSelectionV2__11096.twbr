@@ -1,0 +1,3226 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='6_16_CropSelection' inline='true' name='federated.0ayjziw0ymx9hl13v8ht50jgfdds' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='6_16_CropSelection' name='textscan.159ys600no20g11fpz4lw18lcdhs'>
+            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents' filename='6_16_CropSelection.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='Crop_SelectionTest_SSURGO_Mapunits' name='ogrdirect.19txszr0oh33os147x5ny0ifgq89'>
+            <connection class='ogrdirect' directory='C:/Users/cornd/OneDrive/Documents/EXTRACTIONS/Crop_SelectionTest/SSURGO' filename='Crop_SelectionTest_SSURGO_Mapunits.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.159ys600no20g11fpz4lw18lcdhs' name='6_16_CropSelection.csv' table='[6_16_CropSelection#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='cokey' ordinal='1' />
+            <column datatype='integer' name='lkey' ordinal='2' />
+            <column datatype='integer' name='mukey' ordinal='3' />
+            <column datatype='integer' name='slope.l' ordinal='4' />
+            <column datatype='integer' name='slope.r' ordinal='5' />
+            <column datatype='string' name='geomdesc' ordinal='6' />
+            <column datatype='integer' name='elev.l' ordinal='7' />
+            <column datatype='integer' name='elev.r' ordinal='8' />
+            <column datatype='integer' name='elev.h' ordinal='9' />
+            <column datatype='string' name='taxclname' ordinal='10' />
+            <column datatype='string' name='taxpartsize' ordinal='11' />
+            <column datatype='string' name='musym' ordinal='12' />
+            <column datatype='string' name='muname' ordinal='13' />
+            <column datatype='string' name='mukind' ordinal='14' />
+            <column datatype='string' name='mustatus' ordinal='15' />
+            <column datatype='integer' name='muacres' ordinal='16' />
+            <column datatype='string' name='mapunitlfw.l' ordinal='17' />
+            <column datatype='string' name='mapunitlfw.r' ordinal='18' />
+            <column datatype='string' name='mapunitlfw.h' ordinal='19' />
+            <column datatype='string' name='mapunitpfa.l' ordinal='20' />
+            <column datatype='string' name='mapunitpfa.r' ordinal='21' />
+            <column datatype='string' name='mapunitpfa.h' ordinal='22' />
+            <column datatype='string' name='farmlndcl' ordinal='23' />
+            <column datatype='string' name='muhelcl' ordinal='24' />
+            <column datatype='string' name='muwathelcl' ordinal='25' />
+            <column datatype='string' name='muwndhelcl' ordinal='26' />
+            <column datatype='string' name='interpfocus' ordinal='27' />
+            <column datatype='string' name='invesintens' ordinal='28' />
+            <column datatype='integer' name='iacornsr' ordinal='29' />
+            <column datatype='string' name='nhiforsoigrp' ordinal='30' />
+            <column datatype='string' name='nhspiagr' ordinal='31' />
+            <column datatype='string' name='vtsepticsyscl' ordinal='32' />
+            <column datatype='string' name='mucertstat' ordinal='33' />
+            <column datatype='string' name='areatypename' ordinal='34' />
+            <column datatype='string' name='areasymbol' ordinal='35' />
+            <column datatype='string' name='areaname' ordinal='36' />
+            <column datatype='integer' name='areaacres' ordinal='37' />
+            <column datatype='string' name='mlraoffice' ordinal='38' />
+            <column datatype='string' name='legenddesc' ordinal='39' />
+            <column datatype='string' name='ssastatus' ordinal='40' />
+            <column datatype='string' name='mouagncyresp' ordinal='41' />
+            <column datatype='integer' name='projectscale' ordinal='42' />
+            <column datatype='string' name='cordate' ordinal='43' />
+            <column datatype='string' name='ssurgoarchived' ordinal='44' />
+            <column datatype='string' name='legendsuituse' ordinal='45' />
+            <column datatype='string' name='legendcertstat' ordinal='46' />
+            <column datatype='integer' name='chkey' ordinal='47' />
+            <column datatype='integer' name='hzdept.l' ordinal='48' />
+            <column datatype='integer' name='hzdept.r' ordinal='49' />
+            <column datatype='integer' name='hzdept.h' ordinal='50' />
+            <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
+            <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
+            <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
+            <column datatype='real' name='depth' ordinal='54' />
+            <column datatype='string' name='depthLevel' ordinal='55' />
+            <column datatype='real' name='pH_average' ordinal='56' />
+            <column datatype='string' name='Types of Crops' ordinal='57' />
+            <column datatype='string' name='Soil Types' ordinal='58' />
+            <column datatype='string' name='Rooting Depth' ordinal='59' />
+            <column datatype='string' name='Depth_l' ordinal='60' />
+            <column datatype='string' name='Depth_h' ordinal='61' />
+            <column datatype='string' name='pH-Level' ordinal='62' />
+            <column datatype='string' name='ph_L' ordinal='63' />
+            <column datatype='string' name='ph_H' ordinal='64' />
+            <column datatype='string' name='Type of Irrigation' ordinal='65' />
+            <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
+            <column datatype='string' name='Temperature Tolerances' ordinal='67' />
+            <column datatype='string' name='Pesticides' ordinal='68' />
+            <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
+            <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
+            <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
+            <column datatype='string' name='Storage Life' ordinal='72' />
+            <column datatype='string' name='Base Temp (F)' ordinal='73' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.159ys600no20g11fpz4lw18lcdhs' name='6_16_CropSelection.csv' table='[6_16_CropSelection#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='cokey' ordinal='1' />
+              <column datatype='integer' name='lkey' ordinal='2' />
+              <column datatype='integer' name='mukey' ordinal='3' />
+              <column datatype='integer' name='slope.l' ordinal='4' />
+              <column datatype='integer' name='slope.r' ordinal='5' />
+              <column datatype='string' name='geomdesc' ordinal='6' />
+              <column datatype='integer' name='elev.l' ordinal='7' />
+              <column datatype='integer' name='elev.r' ordinal='8' />
+              <column datatype='integer' name='elev.h' ordinal='9' />
+              <column datatype='string' name='taxclname' ordinal='10' />
+              <column datatype='string' name='taxpartsize' ordinal='11' />
+              <column datatype='string' name='musym' ordinal='12' />
+              <column datatype='string' name='muname' ordinal='13' />
+              <column datatype='string' name='mukind' ordinal='14' />
+              <column datatype='string' name='mustatus' ordinal='15' />
+              <column datatype='integer' name='muacres' ordinal='16' />
+              <column datatype='string' name='mapunitlfw.l' ordinal='17' />
+              <column datatype='string' name='mapunitlfw.r' ordinal='18' />
+              <column datatype='string' name='mapunitlfw.h' ordinal='19' />
+              <column datatype='string' name='mapunitpfa.l' ordinal='20' />
+              <column datatype='string' name='mapunitpfa.r' ordinal='21' />
+              <column datatype='string' name='mapunitpfa.h' ordinal='22' />
+              <column datatype='string' name='farmlndcl' ordinal='23' />
+              <column datatype='string' name='muhelcl' ordinal='24' />
+              <column datatype='string' name='muwathelcl' ordinal='25' />
+              <column datatype='string' name='muwndhelcl' ordinal='26' />
+              <column datatype='string' name='interpfocus' ordinal='27' />
+              <column datatype='string' name='invesintens' ordinal='28' />
+              <column datatype='integer' name='iacornsr' ordinal='29' />
+              <column datatype='string' name='nhiforsoigrp' ordinal='30' />
+              <column datatype='string' name='nhspiagr' ordinal='31' />
+              <column datatype='string' name='vtsepticsyscl' ordinal='32' />
+              <column datatype='string' name='mucertstat' ordinal='33' />
+              <column datatype='string' name='areatypename' ordinal='34' />
+              <column datatype='string' name='areasymbol' ordinal='35' />
+              <column datatype='string' name='areaname' ordinal='36' />
+              <column datatype='integer' name='areaacres' ordinal='37' />
+              <column datatype='string' name='mlraoffice' ordinal='38' />
+              <column datatype='string' name='legenddesc' ordinal='39' />
+              <column datatype='string' name='ssastatus' ordinal='40' />
+              <column datatype='string' name='mouagncyresp' ordinal='41' />
+              <column datatype='integer' name='projectscale' ordinal='42' />
+              <column datatype='string' name='cordate' ordinal='43' />
+              <column datatype='string' name='ssurgoarchived' ordinal='44' />
+              <column datatype='string' name='legendsuituse' ordinal='45' />
+              <column datatype='string' name='legendcertstat' ordinal='46' />
+              <column datatype='integer' name='chkey' ordinal='47' />
+              <column datatype='integer' name='hzdept.l' ordinal='48' />
+              <column datatype='integer' name='hzdept.r' ordinal='49' />
+              <column datatype='integer' name='hzdept.h' ordinal='50' />
+              <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
+              <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
+              <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
+              <column datatype='real' name='depth' ordinal='54' />
+              <column datatype='string' name='depthLevel' ordinal='55' />
+              <column datatype='real' name='pH_average' ordinal='56' />
+              <column datatype='string' name='Types of Crops' ordinal='57' />
+              <column datatype='string' name='Soil Types' ordinal='58' />
+              <column datatype='string' name='Rooting Depth' ordinal='59' />
+              <column datatype='string' name='Depth_l' ordinal='60' />
+              <column datatype='string' name='Depth_h' ordinal='61' />
+              <column datatype='string' name='pH-Level' ordinal='62' />
+              <column datatype='string' name='ph_L' ordinal='63' />
+              <column datatype='string' name='ph_H' ordinal='64' />
+              <column datatype='string' name='Type of Irrigation' ordinal='65' />
+              <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
+              <column datatype='string' name='Temperature Tolerances' ordinal='67' />
+              <column datatype='string' name='Pesticides' ordinal='68' />
+              <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
+              <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
+              <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
+              <column datatype='string' name='Storage Life' ordinal='72' />
+              <column datatype='string' name='Base Temp (F)' ordinal='73' />
+            </columns>
+          </relation>
+          <relation connection='ogrdirect.19txszr0oh33os147x5ny0ifgq89' name='Crop_SelectionTest_SSURGO_Mapunits.shp' table='[Crop_SelectionTest_SSURGO_Mapunits.shp]' type='table'>
+            <columns>
+              <column datatype='string' name='AREASYMBOL' ordinal='0' />
+              <column datatype='string' name='SPATIALVER' ordinal='1' />
+              <column datatype='string' name='MUSYM' ordinal='2' />
+              <column datatype='string' name='MUKEY' ordinal='3' />
+              <column datatype='spatial' name='Geometry' ordinal='4' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cokey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cokey]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>cokey</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lkey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lkey]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>lkey</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mukey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mukey]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mukey</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>slope.l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[slope.l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>slope.l</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>slope.r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[slope.r]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>slope.r</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geomdesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geomdesc]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>geomdesc</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elev.l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[elev.l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>elev.l</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elev.r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[elev.r]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>elev.r</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elev.h</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[elev.h]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>elev.h</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>taxclname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[taxclname]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>taxclname</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>taxpartsize</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[taxpartsize]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>taxpartsize</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>musym</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[musym]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>musym</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muname]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>muname</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mukind</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mukind]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mukind</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mustatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mustatus]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mustatus</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muacres</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[muacres]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>muacres</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitlfw.l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitlfw.l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mapunitlfw.l</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitlfw.r</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitlfw.r]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mapunitlfw.r</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitlfw.h</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitlfw.h]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mapunitlfw.h</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitpfa.l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitpfa.l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mapunitpfa.l</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitpfa.r</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitpfa.r]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mapunitpfa.r</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitpfa.h</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitpfa.h]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mapunitpfa.h</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>farmlndcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[farmlndcl]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>farmlndcl</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muhelcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muhelcl]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>muhelcl</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muwathelcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muwathelcl]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>muwathelcl</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muwndhelcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muwndhelcl]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>muwndhelcl</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interpfocus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[interpfocus]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>interpfocus</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>invesintens</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[invesintens]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>invesintens</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iacornsr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iacornsr]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>iacornsr</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhiforsoigrp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nhiforsoigrp]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>nhiforsoigrp</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhspiagr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nhspiagr]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>nhspiagr</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vtsepticsyscl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vtsepticsyscl]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>vtsepticsyscl</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mucertstat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mucertstat]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mucertstat</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areatypename</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[areatypename]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>areatypename</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areasymbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[areasymbol]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>areasymbol</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areaname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[areaname]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>areaname</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areaacres</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[areaacres]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>areaacres</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mlraoffice</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mlraoffice]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mlraoffice</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legenddesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legenddesc]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>legenddesc</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ssastatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ssastatus]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ssastatus</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mouagncyresp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mouagncyresp]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>mouagncyresp</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>projectscale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[projectscale]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>projectscale</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cordate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cordate]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>cordate</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ssurgoarchived</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ssurgoarchived]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ssurgoarchived</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legendsuituse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legendsuituse]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>legendsuituse</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legendcertstat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legendcertstat]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>legendcertstat</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chkey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[chkey]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>chkey</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hzdept.l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hzdept.l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>hzdept.l</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hzdept.r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hzdept.r]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>hzdept.r</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hzdept.h</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hzdept.h]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>hzdept.h</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph1to1h2o.l</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph1to1h2o.l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ph1to1h2o.l</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph1to1h2o.r</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph1to1h2o.r]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ph1to1h2o.r</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph1to1h2o.h</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph1to1h2o.h]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ph1to1h2o.h</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>depth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[depth]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>depth</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>depthLevel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[depthLevel]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>depthLevel</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH_average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH_average]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>pH_average</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Types of Crops</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Types of Crops]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Types of Crops</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soil Types</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Soil Types]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Soil Types</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rooting Depth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rooting Depth]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Rooting Depth</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth_l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Depth_l]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Depth_l</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth_h</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Depth_h]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Depth_h</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH-Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pH-Level]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>pH-Level</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_L</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ph_L]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ph_L</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_H</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ph_H]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>ph_H</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type of Irrigation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type of Irrigation]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Type of Irrigation</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rainfall/Precipitation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rainfall/Precipitation]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Rainfall/Precipitation</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature Tolerances</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Temperature Tolerances]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Temperature Tolerances</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pesticides</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pesticides]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Pesticides</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Temp (  ̊F)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Temp (  ̊F)]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Storage Temp (  ̊F)</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Humidity (%)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Humidity (%)]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Storage Humidity (%)</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Life</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Life]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Storage Life</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base Temp (F)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Base Temp (F)]</local-name>
+            <parent-name>[6_16_CropSelection.csv]</parent-name>
+            <remote-alias>Base Temp (F)</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREASYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AREASYMBOL]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>AREASYMBOL</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPATIALVER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPATIALVER]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>SPATIALVER</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUSYM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MUSYM]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>MUSYM</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUKEY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MUKEY]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>MUKEY</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Areasymbol1' datatype='string' name='[AREASYMBOL]' role='dimension' type='nominal' />
+      <column caption='Depth h' datatype='string' name='[Depth_h]' role='dimension' type='nominal' />
+      <column caption='Mukey1' datatype='string' name='[MUKEY]' role='dimension' type='nominal' />
+      <column caption='Musym1' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
+      <column caption='Spatialver' datatype='string' name='[SPATIALVER]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='6_16_CropSelection.csv' datatype='table' name='[__tableau_internal_object_id__].[6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Crop_SelectionTest_SSURGO_Mapunits.shp' datatype='table' name='[__tableau_internal_object_id__].[Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080]' role='measure' type='quantitative' />
+      <column caption='Areaacres' datatype='integer' name='[areaacres]' role='measure' type='quantitative' />
+      <column caption='Areaname' datatype='string' name='[areaname]' role='dimension' type='nominal' />
+      <column caption='Areasymbol' datatype='string' name='[areasymbol]' role='dimension' type='nominal' />
+      <column caption='Areatypename' datatype='string' name='[areatypename]' role='dimension' type='nominal' />
+      <column caption='Chkey' datatype='integer' name='[chkey]' role='measure' type='quantitative' />
+      <column caption='Cokey' datatype='integer' name='[cokey]' role='measure' type='quantitative' />
+      <column caption='Cordate' datatype='string' name='[cordate]' role='dimension' type='nominal' />
+      <column caption='Depth Level' datatype='string' name='[depthLevel]' role='dimension' type='nominal' />
+      <column caption='Depth' datatype='real' name='[depth]' role='measure' type='quantitative' />
+      <column caption='Elev.H' datatype='integer' name='[elev.h]' role='measure' type='quantitative' />
+      <column caption='Elev.L' datatype='integer' name='[elev.l]' role='measure' type='quantitative' />
+      <column caption='Elev.R' datatype='integer' name='[elev.r]' role='measure' type='quantitative' />
+      <column caption='Farmlndcl' datatype='string' name='[farmlndcl]' role='dimension' type='nominal' />
+      <column caption='Geomdesc' datatype='string' name='[geomdesc]' role='dimension' type='nominal' />
+      <column caption='Hzdept.H' datatype='integer' name='[hzdept.h]' role='measure' type='quantitative' />
+      <column caption='Hzdept.L' datatype='integer' name='[hzdept.l]' role='measure' type='quantitative' />
+      <column caption='Hzdept.R' datatype='integer' name='[hzdept.r]' role='measure' type='quantitative' />
+      <column caption='Iacornsr' datatype='integer' name='[iacornsr]' role='measure' type='quantitative' />
+      <column caption='Interpfocus' datatype='string' name='[interpfocus]' role='dimension' type='nominal' />
+      <column caption='Invesintens' datatype='string' name='[invesintens]' role='dimension' type='nominal' />
+      <column caption='Legendcertstat' datatype='string' name='[legendcertstat]' role='dimension' type='nominal' />
+      <column caption='Legenddesc' datatype='string' name='[legenddesc]' role='dimension' type='nominal' />
+      <column caption='Legendsuituse' datatype='string' name='[legendsuituse]' role='dimension' type='nominal' />
+      <column caption='Lkey' datatype='integer' name='[lkey]' role='measure' type='quantitative' />
+      <column caption='Mapunitlfw.H' datatype='string' name='[mapunitlfw.h]' role='dimension' type='nominal' />
+      <column caption='Mapunitlfw.L' datatype='string' name='[mapunitlfw.l]' role='dimension' type='nominal' />
+      <column caption='Mapunitlfw.R' datatype='string' name='[mapunitlfw.r]' role='dimension' type='nominal' />
+      <column caption='Mapunitpfa.H' datatype='string' name='[mapunitpfa.h]' role='dimension' type='nominal' />
+      <column caption='Mapunitpfa.L' datatype='string' name='[mapunitpfa.l]' role='dimension' type='nominal' />
+      <column caption='Mapunitpfa.R' datatype='string' name='[mapunitpfa.r]' role='dimension' type='nominal' />
+      <column caption='Mlraoffice' datatype='string' name='[mlraoffice]' role='dimension' type='nominal' />
+      <column caption='Mouagncyresp' datatype='string' name='[mouagncyresp]' role='dimension' type='nominal' />
+      <column caption='Muacres' datatype='integer' name='[muacres]' role='measure' type='quantitative' />
+      <column caption='Mucertstat' datatype='string' name='[mucertstat]' role='dimension' type='nominal' />
+      <column caption='Muhelcl' datatype='string' name='[muhelcl]' role='dimension' type='nominal' />
+      <column caption='Mukey' datatype='integer' name='[mukey]' role='measure' type='quantitative' />
+      <column caption='Mukind' datatype='string' name='[mukind]' role='dimension' type='nominal' />
+      <column caption='Muname' datatype='string' name='[muname]' role='dimension' type='nominal' />
+      <column caption='Mustatus' datatype='string' name='[mustatus]' role='dimension' type='nominal' />
+      <column caption='Musym' datatype='string' name='[musym]' role='dimension' type='nominal' />
+      <column caption='Muwathelcl' datatype='string' name='[muwathelcl]' role='dimension' type='nominal' />
+      <column caption='Muwndhelcl' datatype='string' name='[muwndhelcl]' role='dimension' type='nominal' />
+      <column caption='Nhiforsoigrp' datatype='string' name='[nhiforsoigrp]' role='dimension' type='nominal' />
+      <column caption='Nhspiagr' datatype='string' name='[nhspiagr]' role='dimension' type='nominal' />
+      <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
+      <column caption='Ph1To1H2O.H' datatype='real' name='[ph1to1h2o.h]' role='measure' type='quantitative' />
+      <column caption='Ph1To1H2O.L' datatype='real' name='[ph1to1h2o.l]' role='measure' type='quantitative' />
+      <column caption='Ph1To1H2O.R' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
+      <column caption='ph H' datatype='string' name='[ph_H]' role='dimension' type='nominal' />
+      <column caption='ph L' datatype='string' name='[ph_L]' role='dimension' type='nominal' />
+      <column caption='Projectscale' datatype='integer' name='[projectscale]' role='measure' type='quantitative' />
+      <column caption='Slope.L' datatype='integer' name='[slope.l]' role='measure' type='quantitative' />
+      <column caption='Slope.R' datatype='integer' name='[slope.r]' role='measure' type='quantitative' />
+      <column caption='Ssastatus' datatype='string' name='[ssastatus]' role='dimension' type='nominal' />
+      <column caption='Ssurgoarchived' datatype='string' name='[ssurgoarchived]' role='dimension' type='nominal' />
+      <column caption='Taxclname' datatype='string' name='[taxclname]' role='dimension' type='nominal' />
+      <column caption='Taxpartsize' datatype='string' name='[taxpartsize]' role='dimension' type='nominal' />
+      <column caption='Vtsepticsyscl' datatype='string' name='[vtsepticsyscl]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='6_16_CropSelection.csv' id='6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903'>
+            <properties context=''>
+              <relation connection='textscan.159ys600no20g11fpz4lw18lcdhs' name='6_16_CropSelection.csv' table='[6_16_CropSelection#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='cokey' ordinal='1' />
+                  <column datatype='integer' name='lkey' ordinal='2' />
+                  <column datatype='integer' name='mukey' ordinal='3' />
+                  <column datatype='integer' name='slope.l' ordinal='4' />
+                  <column datatype='integer' name='slope.r' ordinal='5' />
+                  <column datatype='string' name='geomdesc' ordinal='6' />
+                  <column datatype='integer' name='elev.l' ordinal='7' />
+                  <column datatype='integer' name='elev.r' ordinal='8' />
+                  <column datatype='integer' name='elev.h' ordinal='9' />
+                  <column datatype='string' name='taxclname' ordinal='10' />
+                  <column datatype='string' name='taxpartsize' ordinal='11' />
+                  <column datatype='string' name='musym' ordinal='12' />
+                  <column datatype='string' name='muname' ordinal='13' />
+                  <column datatype='string' name='mukind' ordinal='14' />
+                  <column datatype='string' name='mustatus' ordinal='15' />
+                  <column datatype='integer' name='muacres' ordinal='16' />
+                  <column datatype='string' name='mapunitlfw.l' ordinal='17' />
+                  <column datatype='string' name='mapunitlfw.r' ordinal='18' />
+                  <column datatype='string' name='mapunitlfw.h' ordinal='19' />
+                  <column datatype='string' name='mapunitpfa.l' ordinal='20' />
+                  <column datatype='string' name='mapunitpfa.r' ordinal='21' />
+                  <column datatype='string' name='mapunitpfa.h' ordinal='22' />
+                  <column datatype='string' name='farmlndcl' ordinal='23' />
+                  <column datatype='string' name='muhelcl' ordinal='24' />
+                  <column datatype='string' name='muwathelcl' ordinal='25' />
+                  <column datatype='string' name='muwndhelcl' ordinal='26' />
+                  <column datatype='string' name='interpfocus' ordinal='27' />
+                  <column datatype='string' name='invesintens' ordinal='28' />
+                  <column datatype='integer' name='iacornsr' ordinal='29' />
+                  <column datatype='string' name='nhiforsoigrp' ordinal='30' />
+                  <column datatype='string' name='nhspiagr' ordinal='31' />
+                  <column datatype='string' name='vtsepticsyscl' ordinal='32' />
+                  <column datatype='string' name='mucertstat' ordinal='33' />
+                  <column datatype='string' name='areatypename' ordinal='34' />
+                  <column datatype='string' name='areasymbol' ordinal='35' />
+                  <column datatype='string' name='areaname' ordinal='36' />
+                  <column datatype='integer' name='areaacres' ordinal='37' />
+                  <column datatype='string' name='mlraoffice' ordinal='38' />
+                  <column datatype='string' name='legenddesc' ordinal='39' />
+                  <column datatype='string' name='ssastatus' ordinal='40' />
+                  <column datatype='string' name='mouagncyresp' ordinal='41' />
+                  <column datatype='integer' name='projectscale' ordinal='42' />
+                  <column datatype='string' name='cordate' ordinal='43' />
+                  <column datatype='string' name='ssurgoarchived' ordinal='44' />
+                  <column datatype='string' name='legendsuituse' ordinal='45' />
+                  <column datatype='string' name='legendcertstat' ordinal='46' />
+                  <column datatype='integer' name='chkey' ordinal='47' />
+                  <column datatype='integer' name='hzdept.l' ordinal='48' />
+                  <column datatype='integer' name='hzdept.r' ordinal='49' />
+                  <column datatype='integer' name='hzdept.h' ordinal='50' />
+                  <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
+                  <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
+                  <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
+                  <column datatype='real' name='depth' ordinal='54' />
+                  <column datatype='string' name='depthLevel' ordinal='55' />
+                  <column datatype='real' name='pH_average' ordinal='56' />
+                  <column datatype='string' name='Types of Crops' ordinal='57' />
+                  <column datatype='string' name='Soil Types' ordinal='58' />
+                  <column datatype='string' name='Rooting Depth' ordinal='59' />
+                  <column datatype='string' name='Depth_l' ordinal='60' />
+                  <column datatype='string' name='Depth_h' ordinal='61' />
+                  <column datatype='string' name='pH-Level' ordinal='62' />
+                  <column datatype='string' name='ph_L' ordinal='63' />
+                  <column datatype='string' name='ph_H' ordinal='64' />
+                  <column datatype='string' name='Type of Irrigation' ordinal='65' />
+                  <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
+                  <column datatype='string' name='Temperature Tolerances' ordinal='67' />
+                  <column datatype='string' name='Pesticides' ordinal='68' />
+                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
+                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
+                  <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
+                  <column datatype='string' name='Storage Life' ordinal='72' />
+                  <column datatype='string' name='Base Temp (F)' ordinal='73' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='Crop_SelectionTest_SSURGO_Mapunits.shp' id='Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080'>
+            <properties context=''>
+              <relation connection='ogrdirect.19txszr0oh33os147x5ny0ifgq89' name='Crop_SelectionTest_SSURGO_Mapunits.shp' table='[Crop_SelectionTest_SSURGO_Mapunits.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='AREASYMBOL' ordinal='0' />
+                  <column datatype='string' name='SPATIALVER' ordinal='1' />
+                  <column datatype='string' name='MUSYM' ordinal='2' />
+                  <column datatype='string' name='MUKEY' ordinal='3' />
+                  <column datatype='spatial' name='Geometry' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[musym]' />
+              <expression op='[MUSYM]' />
+            </expression>
+            <first-end-point object-id='6_16_CropSelection.csv_CEEE84D23F1F47D790272636080C6903' />
+            <second-end-point object-id='Crop_SelectionTest_SSURGO_Mapunits.shp_D61685CFA69C4AE18F9148884F1E1080' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='6_16_CropSelection2.csv+ (Multiple Connections)' inline='true' name='federated.0njxjvf08vuexo10o428v16r94lk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='6_16_CropSelection2' name='textscan.1p4kf3o0xa9lfi1cx1l7h03xugpb'>
+            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents' filename='6_16_CropSelection2.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='Crop_SelectionTest_SSURGO_Mapunits' name='ogrdirect.0df5vq70qyimwq1a9rtsm1htx3qi'>
+            <connection class='ogrdirect' directory='C:/Users/cornd/OneDrive/Documents/EXTRACTIONS/Crop_SelectionTest/SSURGO' filename='Crop_SelectionTest_SSURGO_Mapunits.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1p4kf3o0xa9lfi1cx1l7h03xugpb' name='6_16_CropSelection2.csv' table='[6_16_CropSelection2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='cokey' ordinal='1' />
+            <column datatype='integer' name='lkey' ordinal='2' />
+            <column datatype='integer' name='mukey' ordinal='3' />
+            <column datatype='integer' name='slope.l' ordinal='4' />
+            <column datatype='integer' name='slope.r' ordinal='5' />
+            <column datatype='string' name='geomdesc' ordinal='6' />
+            <column datatype='integer' name='elev.l' ordinal='7' />
+            <column datatype='integer' name='elev.r' ordinal='8' />
+            <column datatype='integer' name='elev.h' ordinal='9' />
+            <column datatype='string' name='taxclname' ordinal='10' />
+            <column datatype='string' name='taxpartsize' ordinal='11' />
+            <column datatype='string' name='musym' ordinal='12' />
+            <column datatype='string' name='muname' ordinal='13' />
+            <column datatype='string' name='mukind' ordinal='14' />
+            <column datatype='string' name='mustatus' ordinal='15' />
+            <column datatype='integer' name='muacres' ordinal='16' />
+            <column datatype='string' name='mapunitlfw.l' ordinal='17' />
+            <column datatype='string' name='mapunitlfw.r' ordinal='18' />
+            <column datatype='string' name='mapunitlfw.h' ordinal='19' />
+            <column datatype='string' name='mapunitpfa.l' ordinal='20' />
+            <column datatype='string' name='mapunitpfa.r' ordinal='21' />
+            <column datatype='string' name='mapunitpfa.h' ordinal='22' />
+            <column datatype='string' name='farmlndcl' ordinal='23' />
+            <column datatype='string' name='muhelcl' ordinal='24' />
+            <column datatype='string' name='muwathelcl' ordinal='25' />
+            <column datatype='string' name='muwndhelcl' ordinal='26' />
+            <column datatype='string' name='interpfocus' ordinal='27' />
+            <column datatype='string' name='invesintens' ordinal='28' />
+            <column datatype='integer' name='iacornsr' ordinal='29' />
+            <column datatype='string' name='nhiforsoigrp' ordinal='30' />
+            <column datatype='string' name='nhspiagr' ordinal='31' />
+            <column datatype='string' name='vtsepticsyscl' ordinal='32' />
+            <column datatype='string' name='mucertstat' ordinal='33' />
+            <column datatype='string' name='areatypename' ordinal='34' />
+            <column datatype='string' name='areasymbol' ordinal='35' />
+            <column datatype='string' name='areaname' ordinal='36' />
+            <column datatype='integer' name='areaacres' ordinal='37' />
+            <column datatype='string' name='mlraoffice' ordinal='38' />
+            <column datatype='string' name='legenddesc' ordinal='39' />
+            <column datatype='string' name='ssastatus' ordinal='40' />
+            <column datatype='string' name='mouagncyresp' ordinal='41' />
+            <column datatype='integer' name='projectscale' ordinal='42' />
+            <column datatype='string' name='cordate' ordinal='43' />
+            <column datatype='string' name='ssurgoarchived' ordinal='44' />
+            <column datatype='string' name='legendsuituse' ordinal='45' />
+            <column datatype='string' name='legendcertstat' ordinal='46' />
+            <column datatype='integer' name='chkey' ordinal='47' />
+            <column datatype='string' name='hzdept.l' ordinal='48' />
+            <column datatype='integer' name='hzdept.r' ordinal='49' />
+            <column datatype='string' name='hzdept.h' ordinal='50' />
+            <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
+            <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
+            <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
+            <column datatype='real' name='depth' ordinal='54' />
+            <column datatype='string' name='depthLevel' ordinal='55' />
+            <column datatype='real' name='pH_average' ordinal='56' />
+            <column datatype='string' name='Types of Crops' ordinal='57' />
+            <column datatype='string' name='Soil Types' ordinal='58' />
+            <column datatype='string' name='Rooting Depth' ordinal='59' />
+            <column datatype='integer' name='Depth_l' ordinal='60' />
+            <column datatype='integer' name='Depth_h' ordinal='61' />
+            <column datatype='string' name='pH-Level' ordinal='62' />
+            <column datatype='real' name='ph_L' ordinal='63' />
+            <column datatype='real' name='ph_H' ordinal='64' />
+            <column datatype='string' name='Type of Irrigation' ordinal='65' />
+            <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
+            <column datatype='string' name='Temperature Tolerances' ordinal='67' />
+            <column datatype='string' name='Pesticides' ordinal='68' />
+            <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
+            <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
+            <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
+            <column datatype='string' name='Storage Life' ordinal='72' />
+            <column datatype='string' name='Base Temp (F)' ordinal='73' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.1p4kf3o0xa9lfi1cx1l7h03xugpb' name='6_16_CropSelection2.csv' table='[6_16_CropSelection2#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='cokey' ordinal='1' />
+              <column datatype='integer' name='lkey' ordinal='2' />
+              <column datatype='integer' name='mukey' ordinal='3' />
+              <column datatype='integer' name='slope.l' ordinal='4' />
+              <column datatype='integer' name='slope.r' ordinal='5' />
+              <column datatype='string' name='geomdesc' ordinal='6' />
+              <column datatype='integer' name='elev.l' ordinal='7' />
+              <column datatype='integer' name='elev.r' ordinal='8' />
+              <column datatype='integer' name='elev.h' ordinal='9' />
+              <column datatype='string' name='taxclname' ordinal='10' />
+              <column datatype='string' name='taxpartsize' ordinal='11' />
+              <column datatype='string' name='musym' ordinal='12' />
+              <column datatype='string' name='muname' ordinal='13' />
+              <column datatype='string' name='mukind' ordinal='14' />
+              <column datatype='string' name='mustatus' ordinal='15' />
+              <column datatype='integer' name='muacres' ordinal='16' />
+              <column datatype='string' name='mapunitlfw.l' ordinal='17' />
+              <column datatype='string' name='mapunitlfw.r' ordinal='18' />
+              <column datatype='string' name='mapunitlfw.h' ordinal='19' />
+              <column datatype='string' name='mapunitpfa.l' ordinal='20' />
+              <column datatype='string' name='mapunitpfa.r' ordinal='21' />
+              <column datatype='string' name='mapunitpfa.h' ordinal='22' />
+              <column datatype='string' name='farmlndcl' ordinal='23' />
+              <column datatype='string' name='muhelcl' ordinal='24' />
+              <column datatype='string' name='muwathelcl' ordinal='25' />
+              <column datatype='string' name='muwndhelcl' ordinal='26' />
+              <column datatype='string' name='interpfocus' ordinal='27' />
+              <column datatype='string' name='invesintens' ordinal='28' />
+              <column datatype='integer' name='iacornsr' ordinal='29' />
+              <column datatype='string' name='nhiforsoigrp' ordinal='30' />
+              <column datatype='string' name='nhspiagr' ordinal='31' />
+              <column datatype='string' name='vtsepticsyscl' ordinal='32' />
+              <column datatype='string' name='mucertstat' ordinal='33' />
+              <column datatype='string' name='areatypename' ordinal='34' />
+              <column datatype='string' name='areasymbol' ordinal='35' />
+              <column datatype='string' name='areaname' ordinal='36' />
+              <column datatype='integer' name='areaacres' ordinal='37' />
+              <column datatype='string' name='mlraoffice' ordinal='38' />
+              <column datatype='string' name='legenddesc' ordinal='39' />
+              <column datatype='string' name='ssastatus' ordinal='40' />
+              <column datatype='string' name='mouagncyresp' ordinal='41' />
+              <column datatype='integer' name='projectscale' ordinal='42' />
+              <column datatype='string' name='cordate' ordinal='43' />
+              <column datatype='string' name='ssurgoarchived' ordinal='44' />
+              <column datatype='string' name='legendsuituse' ordinal='45' />
+              <column datatype='string' name='legendcertstat' ordinal='46' />
+              <column datatype='integer' name='chkey' ordinal='47' />
+              <column datatype='string' name='hzdept.l' ordinal='48' />
+              <column datatype='integer' name='hzdept.r' ordinal='49' />
+              <column datatype='string' name='hzdept.h' ordinal='50' />
+              <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
+              <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
+              <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
+              <column datatype='real' name='depth' ordinal='54' />
+              <column datatype='string' name='depthLevel' ordinal='55' />
+              <column datatype='real' name='pH_average' ordinal='56' />
+              <column datatype='string' name='Types of Crops' ordinal='57' />
+              <column datatype='string' name='Soil Types' ordinal='58' />
+              <column datatype='string' name='Rooting Depth' ordinal='59' />
+              <column datatype='integer' name='Depth_l' ordinal='60' />
+              <column datatype='integer' name='Depth_h' ordinal='61' />
+              <column datatype='string' name='pH-Level' ordinal='62' />
+              <column datatype='real' name='ph_L' ordinal='63' />
+              <column datatype='real' name='ph_H' ordinal='64' />
+              <column datatype='string' name='Type of Irrigation' ordinal='65' />
+              <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
+              <column datatype='string' name='Temperature Tolerances' ordinal='67' />
+              <column datatype='string' name='Pesticides' ordinal='68' />
+              <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
+              <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
+              <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
+              <column datatype='string' name='Storage Life' ordinal='72' />
+              <column datatype='string' name='Base Temp (F)' ordinal='73' />
+            </columns>
+          </relation>
+          <relation connection='ogrdirect.0df5vq70qyimwq1a9rtsm1htx3qi' name='Crop_SelectionTest_SSURGO_Mapunits.shp' table='[Crop_SelectionTest_SSURGO_Mapunits.shp]' type='table'>
+            <columns>
+              <column datatype='string' name='AREASYMBOL' ordinal='0' />
+              <column datatype='string' name='SPATIALVER' ordinal='1' />
+              <column datatype='string' name='MUSYM' ordinal='2' />
+              <column datatype='string' name='MUKEY' ordinal='3' />
+              <column datatype='spatial' name='Geometry' ordinal='4' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cokey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cokey]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>cokey</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lkey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lkey]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>lkey</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mukey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mukey]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mukey</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>slope.l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[slope.l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>slope.l</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>slope.r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[slope.r]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>slope.r</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geomdesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geomdesc]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>geomdesc</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elev.l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[elev.l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>elev.l</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elev.r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[elev.r]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>elev.r</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elev.h</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[elev.h]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>elev.h</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>taxclname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[taxclname]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>taxclname</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>taxpartsize</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[taxpartsize]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>taxpartsize</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>musym</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[musym]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>musym</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muname]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>muname</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mukind</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mukind]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mukind</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mustatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mustatus]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mustatus</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muacres</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[muacres]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>muacres</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitlfw.l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitlfw.l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mapunitlfw.l</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitlfw.r</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitlfw.r]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mapunitlfw.r</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitlfw.h</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitlfw.h]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mapunitlfw.h</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitpfa.l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitpfa.l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mapunitpfa.l</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitpfa.r</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitpfa.r]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mapunitpfa.r</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapunitpfa.h</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapunitpfa.h]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mapunitpfa.h</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>farmlndcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[farmlndcl]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>farmlndcl</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muhelcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muhelcl]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>muhelcl</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muwathelcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muwathelcl]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>muwathelcl</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muwndhelcl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muwndhelcl]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>muwndhelcl</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interpfocus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[interpfocus]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>interpfocus</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>invesintens</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[invesintens]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>invesintens</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iacornsr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iacornsr]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>iacornsr</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhiforsoigrp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nhiforsoigrp]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>nhiforsoigrp</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhspiagr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nhspiagr]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>nhspiagr</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vtsepticsyscl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vtsepticsyscl]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>vtsepticsyscl</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mucertstat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mucertstat]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mucertstat</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areatypename</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[areatypename]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>areatypename</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areasymbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[areasymbol]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>areasymbol</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areaname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[areaname]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>areaname</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>areaacres</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[areaacres]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>areaacres</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mlraoffice</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mlraoffice]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mlraoffice</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legenddesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legenddesc]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>legenddesc</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ssastatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ssastatus]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ssastatus</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mouagncyresp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mouagncyresp]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>mouagncyresp</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>projectscale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[projectscale]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>projectscale</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cordate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cordate]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>cordate</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ssurgoarchived</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ssurgoarchived]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ssurgoarchived</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legendsuituse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legendsuituse]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>legendsuituse</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legendcertstat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legendcertstat]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>legendcertstat</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chkey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[chkey]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>chkey</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hzdept.l</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hzdept.l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>hzdept.l</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hzdept.r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hzdept.r]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>hzdept.r</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hzdept.h</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hzdept.h]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>hzdept.h</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph1to1h2o.l</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph1to1h2o.l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ph1to1h2o.l</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph1to1h2o.r</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph1to1h2o.r]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ph1to1h2o.r</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph1to1h2o.h</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph1to1h2o.h]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ph1to1h2o.h</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>depth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[depth]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>depth</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>depthLevel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[depthLevel]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>depthLevel</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH_average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH_average]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>pH_average</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Types of Crops</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Types of Crops]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Types of Crops</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soil Types</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Soil Types]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Soil Types</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rooting Depth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rooting Depth]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Rooting Depth</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth_l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Depth_l]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Depth_l</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth_h</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Depth_h]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Depth_h</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH-Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pH-Level]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>pH-Level</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph_L]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ph_L</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_H</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph_H]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>ph_H</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type of Irrigation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type of Irrigation]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Type of Irrigation</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rainfall/Precipitation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rainfall/Precipitation]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Rainfall/Precipitation</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature Tolerances</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Temperature Tolerances]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Temperature Tolerances</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pesticides</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pesticides]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Pesticides</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Temp (  ̊F)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Temp (  ̊F)]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Storage Temp (  ̊F)</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Humidity (%)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Humidity (%)]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Storage Humidity (%)</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Life</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Life]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Storage Life</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base Temp (F)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Base Temp (F)]</local-name>
+            <parent-name>[6_16_CropSelection2.csv]</parent-name>
+            <remote-alias>Base Temp (F)</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREASYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AREASYMBOL]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>AREASYMBOL</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPATIALVER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPATIALVER]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>SPATIALVER</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUSYM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MUSYM]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>MUSYM</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUKEY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MUKEY]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>MUKEY</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Crop_SelectionTest_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Areasymbol1' datatype='string' name='[AREASYMBOL]' role='dimension' type='nominal' />
+      <column caption='Depth h' datatype='integer' name='[Depth_h]' role='measure' type='quantitative' />
+      <column caption='Depth l' datatype='integer' name='[Depth_l]' role='measure' type='quantitative' />
+      <column caption='Mukey1' datatype='string' name='[MUKEY]' role='dimension' type='nominal' />
+      <column caption='Musym1' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
+      <column caption='Spatialver' datatype='string' name='[SPATIALVER]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='6_16_CropSelection2.csv' datatype='table' name='[__tableau_internal_object_id__].[6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Crop_SelectionTest_SSURGO_Mapunits.shp' datatype='table' name='[__tableau_internal_object_id__].[Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69]' role='measure' type='quantitative' />
+      <column caption='Areaacres' datatype='integer' name='[areaacres]' role='measure' type='quantitative' />
+      <column caption='Areaname' datatype='string' name='[areaname]' role='dimension' type='nominal' />
+      <column caption='Areasymbol' datatype='string' name='[areasymbol]' role='dimension' type='nominal' />
+      <column caption='Areatypename' datatype='string' name='[areatypename]' role='dimension' type='nominal' />
+      <column caption='Chkey' datatype='integer' name='[chkey]' role='measure' type='quantitative' />
+      <column caption='Cokey' datatype='integer' name='[cokey]' role='measure' type='quantitative' />
+      <column caption='Cordate' datatype='string' name='[cordate]' role='dimension' type='nominal' />
+      <column caption='Depth Level' datatype='string' name='[depthLevel]' role='dimension' type='nominal' />
+      <column caption='Depth' datatype='real' name='[depth]' role='measure' type='quantitative' />
+      <column caption='Elev.H' datatype='integer' name='[elev.h]' role='measure' type='quantitative' />
+      <column caption='Elev.L' datatype='integer' name='[elev.l]' role='measure' type='quantitative' />
+      <column caption='Elev.R' datatype='integer' name='[elev.r]' role='measure' type='quantitative' />
+      <column caption='Farmlndcl' datatype='string' name='[farmlndcl]' role='dimension' type='nominal' />
+      <column caption='Geomdesc' datatype='string' name='[geomdesc]' role='dimension' type='nominal' />
+      <column caption='Hzdept.H' datatype='string' name='[hzdept.h]' role='dimension' type='nominal' />
+      <column caption='Hzdept.L' datatype='string' name='[hzdept.l]' role='dimension' type='nominal' />
+      <column caption='Hzdept.R' datatype='integer' name='[hzdept.r]' role='measure' type='quantitative' />
+      <column caption='Iacornsr' datatype='integer' name='[iacornsr]' role='measure' type='quantitative' />
+      <column caption='Interpfocus' datatype='string' name='[interpfocus]' role='dimension' type='nominal' />
+      <column caption='Invesintens' datatype='string' name='[invesintens]' role='dimension' type='nominal' />
+      <column caption='Legendcertstat' datatype='string' name='[legendcertstat]' role='dimension' type='nominal' />
+      <column caption='Legenddesc' datatype='string' name='[legenddesc]' role='dimension' type='nominal' />
+      <column caption='Legendsuituse' datatype='string' name='[legendsuituse]' role='dimension' type='nominal' />
+      <column caption='Lkey' datatype='integer' name='[lkey]' role='measure' type='quantitative' />
+      <column caption='Mapunitlfw.H' datatype='string' name='[mapunitlfw.h]' role='dimension' type='nominal' />
+      <column caption='Mapunitlfw.L' datatype='string' name='[mapunitlfw.l]' role='dimension' type='nominal' />
+      <column caption='Mapunitlfw.R' datatype='string' name='[mapunitlfw.r]' role='dimension' type='nominal' />
+      <column caption='Mapunitpfa.H' datatype='string' name='[mapunitpfa.h]' role='dimension' type='nominal' />
+      <column caption='Mapunitpfa.L' datatype='string' name='[mapunitpfa.l]' role='dimension' type='nominal' />
+      <column caption='Mapunitpfa.R' datatype='string' name='[mapunitpfa.r]' role='dimension' type='nominal' />
+      <column caption='Mlraoffice' datatype='string' name='[mlraoffice]' role='dimension' type='nominal' />
+      <column caption='Mouagncyresp' datatype='string' name='[mouagncyresp]' role='dimension' type='nominal' />
+      <column caption='Muacres' datatype='integer' name='[muacres]' role='measure' type='quantitative' />
+      <column caption='Mucertstat' datatype='string' name='[mucertstat]' role='dimension' type='nominal' />
+      <column caption='Muhelcl' datatype='string' name='[muhelcl]' role='dimension' type='nominal' />
+      <column caption='Mukey' datatype='integer' name='[mukey]' role='measure' type='quantitative' />
+      <column caption='Mukind' datatype='string' name='[mukind]' role='dimension' type='nominal' />
+      <column caption='Muname' datatype='string' name='[muname]' role='dimension' type='nominal' />
+      <column caption='Mustatus' datatype='string' name='[mustatus]' role='dimension' type='nominal' />
+      <column caption='Musym' datatype='string' name='[musym]' role='dimension' type='nominal' />
+      <column caption='Muwathelcl' datatype='string' name='[muwathelcl]' role='dimension' type='nominal' />
+      <column caption='Muwndhelcl' datatype='string' name='[muwndhelcl]' role='dimension' type='nominal' />
+      <column caption='Nhiforsoigrp' datatype='string' name='[nhiforsoigrp]' role='dimension' type='nominal' />
+      <column caption='Nhspiagr' datatype='string' name='[nhspiagr]' role='dimension' type='nominal' />
+      <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
+      <column caption='Ph1To1H2O.H' datatype='real' name='[ph1to1h2o.h]' role='measure' type='quantitative' />
+      <column caption='Ph1To1H2O.L' datatype='real' name='[ph1to1h2o.l]' role='measure' type='quantitative' />
+      <column caption='Ph1To1H2O.R' datatype='real' name='[ph1to1h2o.r]' role='measure' type='quantitative' />
+      <column caption='ph H' datatype='real' name='[ph_H]' role='measure' type='quantitative' />
+      <column caption='ph L' datatype='real' name='[ph_L]' role='measure' type='quantitative' />
+      <column caption='Projectscale' datatype='integer' name='[projectscale]' role='measure' type='quantitative' />
+      <column caption='Slope.L' datatype='integer' name='[slope.l]' role='measure' type='quantitative' />
+      <column caption='Slope.R' datatype='integer' name='[slope.r]' role='measure' type='quantitative' />
+      <column caption='Ssastatus' datatype='string' name='[ssastatus]' role='dimension' type='nominal' />
+      <column caption='Ssurgoarchived' datatype='string' name='[ssurgoarchived]' role='dimension' type='nominal' />
+      <column caption='Taxclname' datatype='string' name='[taxclname]' role='dimension' type='nominal' />
+      <column caption='Taxpartsize' datatype='string' name='[taxpartsize]' role='dimension' type='nominal' />
+      <column caption='Vtsepticsyscl' datatype='string' name='[vtsepticsyscl]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='6_16_CropSelection2.csv' id='6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69'>
+            <properties context=''>
+              <relation connection='textscan.1p4kf3o0xa9lfi1cx1l7h03xugpb' name='6_16_CropSelection2.csv' table='[6_16_CropSelection2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='cokey' ordinal='1' />
+                  <column datatype='integer' name='lkey' ordinal='2' />
+                  <column datatype='integer' name='mukey' ordinal='3' />
+                  <column datatype='integer' name='slope.l' ordinal='4' />
+                  <column datatype='integer' name='slope.r' ordinal='5' />
+                  <column datatype='string' name='geomdesc' ordinal='6' />
+                  <column datatype='integer' name='elev.l' ordinal='7' />
+                  <column datatype='integer' name='elev.r' ordinal='8' />
+                  <column datatype='integer' name='elev.h' ordinal='9' />
+                  <column datatype='string' name='taxclname' ordinal='10' />
+                  <column datatype='string' name='taxpartsize' ordinal='11' />
+                  <column datatype='string' name='musym' ordinal='12' />
+                  <column datatype='string' name='muname' ordinal='13' />
+                  <column datatype='string' name='mukind' ordinal='14' />
+                  <column datatype='string' name='mustatus' ordinal='15' />
+                  <column datatype='integer' name='muacres' ordinal='16' />
+                  <column datatype='string' name='mapunitlfw.l' ordinal='17' />
+                  <column datatype='string' name='mapunitlfw.r' ordinal='18' />
+                  <column datatype='string' name='mapunitlfw.h' ordinal='19' />
+                  <column datatype='string' name='mapunitpfa.l' ordinal='20' />
+                  <column datatype='string' name='mapunitpfa.r' ordinal='21' />
+                  <column datatype='string' name='mapunitpfa.h' ordinal='22' />
+                  <column datatype='string' name='farmlndcl' ordinal='23' />
+                  <column datatype='string' name='muhelcl' ordinal='24' />
+                  <column datatype='string' name='muwathelcl' ordinal='25' />
+                  <column datatype='string' name='muwndhelcl' ordinal='26' />
+                  <column datatype='string' name='interpfocus' ordinal='27' />
+                  <column datatype='string' name='invesintens' ordinal='28' />
+                  <column datatype='integer' name='iacornsr' ordinal='29' />
+                  <column datatype='string' name='nhiforsoigrp' ordinal='30' />
+                  <column datatype='string' name='nhspiagr' ordinal='31' />
+                  <column datatype='string' name='vtsepticsyscl' ordinal='32' />
+                  <column datatype='string' name='mucertstat' ordinal='33' />
+                  <column datatype='string' name='areatypename' ordinal='34' />
+                  <column datatype='string' name='areasymbol' ordinal='35' />
+                  <column datatype='string' name='areaname' ordinal='36' />
+                  <column datatype='integer' name='areaacres' ordinal='37' />
+                  <column datatype='string' name='mlraoffice' ordinal='38' />
+                  <column datatype='string' name='legenddesc' ordinal='39' />
+                  <column datatype='string' name='ssastatus' ordinal='40' />
+                  <column datatype='string' name='mouagncyresp' ordinal='41' />
+                  <column datatype='integer' name='projectscale' ordinal='42' />
+                  <column datatype='string' name='cordate' ordinal='43' />
+                  <column datatype='string' name='ssurgoarchived' ordinal='44' />
+                  <column datatype='string' name='legendsuituse' ordinal='45' />
+                  <column datatype='string' name='legendcertstat' ordinal='46' />
+                  <column datatype='integer' name='chkey' ordinal='47' />
+                  <column datatype='string' name='hzdept.l' ordinal='48' />
+                  <column datatype='integer' name='hzdept.r' ordinal='49' />
+                  <column datatype='string' name='hzdept.h' ordinal='50' />
+                  <column datatype='real' name='ph1to1h2o.l' ordinal='51' />
+                  <column datatype='real' name='ph1to1h2o.r' ordinal='52' />
+                  <column datatype='real' name='ph1to1h2o.h' ordinal='53' />
+                  <column datatype='real' name='depth' ordinal='54' />
+                  <column datatype='string' name='depthLevel' ordinal='55' />
+                  <column datatype='real' name='pH_average' ordinal='56' />
+                  <column datatype='string' name='Types of Crops' ordinal='57' />
+                  <column datatype='string' name='Soil Types' ordinal='58' />
+                  <column datatype='string' name='Rooting Depth' ordinal='59' />
+                  <column datatype='integer' name='Depth_l' ordinal='60' />
+                  <column datatype='integer' name='Depth_h' ordinal='61' />
+                  <column datatype='string' name='pH-Level' ordinal='62' />
+                  <column datatype='real' name='ph_L' ordinal='63' />
+                  <column datatype='real' name='ph_H' ordinal='64' />
+                  <column datatype='string' name='Type of Irrigation' ordinal='65' />
+                  <column datatype='string' name='Rainfall/Precipitation' ordinal='66' />
+                  <column datatype='string' name='Temperature Tolerances' ordinal='67' />
+                  <column datatype='string' name='Pesticides' ordinal='68' />
+                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='69' />
+                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='70' />
+                  <column datatype='string' name='Storage Humidity (%)' ordinal='71' />
+                  <column datatype='string' name='Storage Life' ordinal='72' />
+                  <column datatype='string' name='Base Temp (F)' ordinal='73' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='Crop_SelectionTest_SSURGO_Mapunits.shp' id='Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69'>
+            <properties context=''>
+              <relation connection='ogrdirect.0df5vq70qyimwq1a9rtsm1htx3qi' name='Crop_SelectionTest_SSURGO_Mapunits.shp' table='[Crop_SelectionTest_SSURGO_Mapunits.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='AREASYMBOL' ordinal='0' />
+                  <column datatype='string' name='SPATIALVER' ordinal='1' />
+                  <column datatype='string' name='MUSYM' ordinal='2' />
+                  <column datatype='string' name='MUKEY' ordinal='3' />
+                  <column datatype='spatial' name='Geometry' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[musym]' />
+              <expression op='[MUSYM]' />
+            </expression>
+            <first-end-point object-id='6_16_CropSelection2.csv_6117B1597ED44C3F9E7BF69784392E69' />
+            <second-end-point object-id='Crop_SelectionTest_SSURGO_Mapunits.shp_826A4B3605C24585857A3F964CAEBB69' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='AvailableLand W/out NA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[Area in Region Selected Suitable for <]]></run>
+            <run>[federated.0njxjvf08vuexo10o428v16r94lk].[none:Types of Crops:nk]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='6_16_CropSelection2.csv+ (Multiple Connections)' name='federated.0njxjvf08vuexo10o428v16r94lk' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0njxjvf08vuexo10o428v16r94lk'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column datatype='string' name='[Rooting Depth]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Types of Crops]' role='dimension' type='nominal' />
+            <column caption='Areaname' datatype='string' name='[areaname]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Depth' datatype='real' name='[depth]' role='measure' type='quantitative' />
+            <column-instance column='[Rooting Depth]' derivation='None' name='[none:Rooting Depth:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Types of Crops]' derivation='None' name='[none:Types of Crops:nk]' pivot='key' type='nominal' />
+            <column-instance column='[areaname]' derivation='None' name='[none:areaname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[depth]' derivation='None' name='[none:depth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pH-Level]' derivation='None' name='[none:pH-Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pH_average]' derivation='None' name='[none:pH_average:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[pH-Level]' role='dimension' type='nominal' />
+            <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0njxjvf08vuexo10o428v16r94lk].[none:Types of Crops:nk]'>
+            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Radish&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0njxjvf08vuexo10o428v16r94lk].[none:Types of Crops:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0njxjvf08vuexo10o428v16r94lk].[Longitude (generated)]' field-type='quantitative' max='-10441302.323873447' min='-10451284.758175803' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0njxjvf08vuexo10o428v16r94lk].[Latitude (generated)]' field-type='quantitative' max='5177911.3724207282' min='5172088.2859426877' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='hillshade_highlight_bright' value='true' />
+            <format attr='enabled' id='hillshade_highlight_med' value='true' />
+            <format attr='enabled' id='hillshade_shadow_faint' value='true' />
+            <format attr='enabled' id='hillshade_shadow_med' value='true' />
+            <format attr='enabled' id='hillshade_shadow_dark' value='true' />
+            <format attr='enabled' id='hillshade_shadow_extreme' value='true' />
+            <format attr='enabled' id='admin-2-label' value='true' />
+            <format attr='enabled' id='admin-2-boundaries-bg' value='true' />
+            <format attr='enabled' id='admin-2-boundaries' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0njxjvf08vuexo10o428v16r94lk].[none:pH_average:qk]' />
+              <lod column='[federated.0njxjvf08vuexo10o428v16r94lk].[clct:Geometry:nk]' />
+              <lod column='[federated.0njxjvf08vuexo10o428v16r94lk].[none:depth:qk]' />
+              <lod column='[federated.0njxjvf08vuexo10o428v16r94lk].[none:Rooting Depth:nk]' />
+              <lod column='[federated.0njxjvf08vuexo10o428v16r94lk].[none:pH-Level:nk]' />
+              <geometry column='[federated.0njxjvf08vuexo10o428v16r94lk].[clct:Geometry:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>County: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0njxjvf08vuexo10o428v16r94lk].[none:areaname:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#787878'><![CDATA[Wanted Rooting Depth: <[federated.0njxjvf08vuexo10o428v16r94lk].[none:Rooting Depth:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#787878'><![CDATA[Wanted pH Level: <[federated.0njxjvf08vuexo10o428v16r94lk].[none:pH-Level:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#787878'>At</run>
+                <run bold='true'><![CDATA[ <[federated.0njxjvf08vuexo10o428v16r94lk].[none:depth:qk]> ]]></run>
+                <run fontcolor='#787878'>Inches deep, Average pH: </run>
+                <run bold='true'><![CDATA[<[federated.0njxjvf08vuexo10o428v16r94lk].[none:pH_average:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.0njxjvf08vuexo10o428v16r94lk].[Latitude (generated)]</rows>
+        <cols>([federated.0njxjvf08vuexo10o428v16r94lk].[none:areaname:nk] * [federated.0njxjvf08vuexo10o428v16r94lk].[Longitude (generated)])</cols>
+      </table>
+      <simple-id uuid='{8C180F2F-CA3A-4BC2-8238-C8D1FEF42B40}' />
+    </worksheet>
+    <worksheet name='AvailableLand by Type of Crop'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Areas Suitable For &lt;</run>
+            <run>[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[none:Types of Crops:nk]</run>
+            <run>&gt; in Selected Region</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='6_16_CropSelection' name='federated.0ayjziw0ymx9hl13v8ht50jgfdds' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0ayjziw0ymx9hl13v8ht50jgfdds'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column datatype='string' name='[Types of Crops]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Depth' datatype='real' name='[depth]' role='measure' type='quantitative' />
+            <column-instance column='[Types of Crops]' derivation='None' name='[none:Types of Crops:nk]' pivot='key' type='nominal' />
+            <column-instance column='[depth]' derivation='None' name='[none:depth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pH_average]' derivation='None' name='[none:pH_average:qk]' pivot='key' type='quantitative' />
+            <column caption='pH average' datatype='real' name='[pH_average]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[none:Types of Crops:nk]'>
+            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Lettuce&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[none:Types of Crops:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[Longitude (generated)]' field-type='quantitative' max='-10442251.117349735' min='-10451764.669528602' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[Latitude (generated)]' field-type='quantitative' max='5177603.3490668042' min='5171895.2175326636' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[none:pH_average:qk]' />
+              <lod column='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[clct:Geometry:nk]' />
+              <lod column='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[none:depth:qk]' />
+              <geometry column='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[clct:Geometry:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[Latitude (generated)]</rows>
+        <cols>[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6DAC5EB7-DEF1-49AB-8DBE-D206B8F4CBCD}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='AvailableLand by Type of Crop'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='26' type='pages' />
+            <card size='44' type='filters' />
+            <card size='179' type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0ayjziw0ymx9hl13v8ht50jgfdds].[none:Types of Crops:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{FFC3D744-FF6A-483B-8FEC-26CFD2F38AFE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='AvailableLand W/out NA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.0njxjvf08vuexo10o428v16r94lk].[none:Types of Crops:nk]' show-all='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <map-scale-visibility value='0' />
+        <default-map-tool-selection tool='1' />
+        <default-map-unit-selection mapunit='2' />
+      </viewpoint>
+      <simple-id uuid='{0FDD476E-EC39-45C7-A854-ED7602F43F86}' />
+    </window>
+  </windows>
+</workbook>
