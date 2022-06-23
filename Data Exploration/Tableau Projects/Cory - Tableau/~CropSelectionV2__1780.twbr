@@ -5352,6 +5352,214 @@
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='CropSelection_SSURGO_Mapunits' inline='true' name='federated.1aoo3i6167w9af19xpjk21ckx21z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CropSelection_SSURGO_Mapunits' name='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh'>
+            <connection class='ogrdirect' directory='Data/SSURGO' filename='CropSelection_SSURGO_Mapunits.shp' password='' server='' tablename='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh' name='CropSelection_SSURGO_Mapunits.shp' table='[CropSelection_SSURGO_Mapunits.shp]' type='table'>
+          <columns>
+            <column datatype='string' name='AREASYMBOL' ordinal='0' />
+            <column datatype='string' name='SPATIALVER' ordinal='1' />
+            <column datatype='string' name='MUSYM' ordinal='2' />
+            <column datatype='string' name='MUKEY' ordinal='3' />
+            <column datatype='spatial' name='Geometry' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh' name='CropSelection_SSURGO_Mapunits.shp' table='[CropSelection_SSURGO_Mapunits.shp]' type='table'>
+          <columns>
+            <column datatype='string' name='AREASYMBOL' ordinal='0' />
+            <column datatype='string' name='SPATIALVER' ordinal='1' />
+            <column datatype='string' name='MUSYM' ordinal='2' />
+            <column datatype='string' name='MUKEY' ordinal='3' />
+            <column datatype='spatial' name='Geometry' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>AREASYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AREASYMBOL]</local-name>
+            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>AREASYMBOL</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPATIALVER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPATIALVER]</local-name>
+            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>SPATIALVER</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUSYM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MUSYM]</local-name>
+            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>MUSYM</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUKEY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MUKEY]</local-name>
+            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>MUKEY</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Areasymbol' datatype='string' name='[AREASYMBOL]' role='dimension' type='nominal' />
+      <column caption='Mukey' datatype='string' name='[MUKEY]' role='dimension' type='nominal' />
+      <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
+      <column caption='Spatialver' datatype='string' name='[SPATIALVER]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='CropSelection_SSURGO_Mapunits.shp' datatype='table' name='[__tableau_internal_object_id__].[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/CropSelectionV2.twb Files/CropSelection_SSURGO_Mapunits.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/22/2022 01:56:58 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='CropSelection_SSURGO_Mapunits' increment-value='%null%' refresh-type='create' rows-inserted='171' timestamp-start='2022-06-22 13:56:57.014' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>AREASYMBOL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AREASYMBOL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AREASYMBOL</remote-alias>
+              <ordinal>0</ordinal>
+              <family>CropSelection_SSURGO_Mapunits.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SPATIALVER</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SPATIALVER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SPATIALVER</remote-alias>
+              <ordinal>1</ordinal>
+              <family>CropSelection_SSURGO_Mapunits.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MUSYM</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[MUSYM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MUSYM</remote-alias>
+              <ordinal>2</ordinal>
+              <family>CropSelection_SSURGO_Mapunits.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MUKEY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[MUKEY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MUKEY</remote-alias>
+              <ordinal>3</ordinal>
+              <family>CropSelection_SSURGO_Mapunits.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>4</ordinal>
+              <family>CropSelection_SSURGO_Mapunits.shp</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>171</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CropSelection_SSURGO_Mapunits.shp' id='CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558'>
+            <properties context=''>
+              <relation connection='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh' name='CropSelection_SSURGO_Mapunits.shp' table='[CropSelection_SSURGO_Mapunits.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='AREASYMBOL' ordinal='0' />
+                  <column datatype='string' name='SPATIALVER' ordinal='1' />
+                  <column datatype='string' name='MUSYM' ordinal='2' />
+                  <column datatype='string' name='MUKEY' ordinal='3' />
+                  <column datatype='spatial' name='Geometry' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
     <datasource caption='Crop_SelectionTest_SSURGO_Mapunits.shp+ (Multiple Connections)' inline='true' name='federated.15v97fn15p4l2y14tobnn0kuo9q3' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -5362,7 +5570,7 @@
             <connection class='textscan' directory='Data/Documents' filename='CropSelection.csv' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='CropSelection_SSURGO_Mapunits' name='ogrdirect.1c14heg1gpy1a710xxx5o0ucwtn0'>
-            <connection class='ogrdirect' directory='Data/Documents/EXTRACTIONS/CropSelection/SSURGO' filename='CropSelection_SSURGO_Mapunits.shp' server='' tablename='' workgroup-auth-mode='as-is' />
+            <connection class='ogrdirect' directory='Data/SSURGO' filename='CropSelection_SSURGO_Mapunits.shp' server='' tablename='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0f2oihp07rxhn812ygwsb1wkuws0' name='CropSelection.csv' table='[CropSelection#csv]' type='table'>
@@ -8172,214 +8380,6 @@
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='CropSelection_SSURGO_Mapunits' inline='true' name='federated.1aoo3i6167w9af19xpjk21ckx21z' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='CropSelection_SSURGO_Mapunits' name='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh'>
-            <connection class='ogrdirect' directory='Data/Documents/EXTRACTIONS/CropSelection/SSURGO' filename='CropSelection_SSURGO_Mapunits.shp' password='' server='' tablename='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh' name='CropSelection_SSURGO_Mapunits.shp' table='[CropSelection_SSURGO_Mapunits.shp]' type='table'>
-          <columns>
-            <column datatype='string' name='AREASYMBOL' ordinal='0' />
-            <column datatype='string' name='SPATIALVER' ordinal='1' />
-            <column datatype='string' name='MUSYM' ordinal='2' />
-            <column datatype='string' name='MUKEY' ordinal='3' />
-            <column datatype='spatial' name='Geometry' ordinal='4' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh' name='CropSelection_SSURGO_Mapunits.shp' table='[CropSelection_SSURGO_Mapunits.shp]' type='table'>
-          <columns>
-            <column datatype='string' name='AREASYMBOL' ordinal='0' />
-            <column datatype='string' name='SPATIALVER' ordinal='1' />
-            <column datatype='string' name='MUSYM' ordinal='2' />
-            <column datatype='string' name='MUKEY' ordinal='3' />
-            <column datatype='spatial' name='Geometry' ordinal='4' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>AREASYMBOL</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[AREASYMBOL]</local-name>
-            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
-            <remote-alias>AREASYMBOL</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SPATIALVER</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[SPATIALVER]</local-name>
-            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
-            <remote-alias>SPATIALVER</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MUSYM</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[MUSYM]</local-name>
-            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
-            <remote-alias>MUSYM</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MUKEY</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[MUKEY]</local-name>
-            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
-            <remote-alias>MUKEY</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Geometry</remote-name>
-            <remote-type>8</remote-type>
-            <local-name>[Geometry]</local-name>
-            <parent-name>[CropSelection_SSURGO_Mapunits.shp]</parent-name>
-            <remote-alias>Geometry</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>spatial</local-type>
-            <aggregation>Collect</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Areasymbol' datatype='string' name='[AREASYMBOL]' role='dimension' type='nominal' />
-      <column caption='Mukey' datatype='string' name='[MUKEY]' role='dimension' type='nominal' />
-      <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
-      <column caption='Spatialver' datatype='string' name='[SPATIALVER]' role='dimension' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='CropSelection_SSURGO_Mapunits.shp' datatype='table' name='[__tableau_internal_object_id__].[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]' role='measure' type='quantitative' />
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/CropSelectionV2.twb Files/CropSelection_SSURGO_Mapunits.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/22/2022 01:56:58 PM' username='tableau_internal_user'>
-          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <refresh>
-            <refresh-event add-from-file-path='CropSelection_SSURGO_Mapunits' increment-value='%null%' refresh-type='create' rows-inserted='171' timestamp-start='2022-06-22 13:56:57.014' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>AREASYMBOL</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[AREASYMBOL]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AREASYMBOL</remote-alias>
-              <ordinal>0</ordinal>
-              <family>CropSelection_SSURGO_Mapunits.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SPATIALVER</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[SPATIALVER]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SPATIALVER</remote-alias>
-              <ordinal>1</ordinal>
-              <family>CropSelection_SSURGO_Mapunits.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>MUSYM</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[MUSYM]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>MUSYM</remote-alias>
-              <ordinal>2</ordinal>
-              <family>CropSelection_SSURGO_Mapunits.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>10</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>MUKEY</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[MUKEY]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>MUKEY</remote-alias>
-              <ordinal>3</ordinal>
-              <family>CropSelection_SSURGO_Mapunits.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>10</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Geometry</remote-name>
-              <remote-type>128</remote-type>
-              <local-name>[Geometry]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Geometry</remote-alias>
-              <ordinal>4</ordinal>
-              <family>CropSelection_SSURGO_Mapunits.shp</family>
-              <local-type>spatial</local-type>
-              <aggregation>Collect</aggregation>
-              <approx-count>171</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='CropSelection_SSURGO_Mapunits.shp' id='CropSelection_SSURGO_Mapunits.shp_567AEFEED253491F9806599E73DFC558'>
-            <properties context=''>
-              <relation connection='ogrdirect.0j9p7mk12ww0dk1c868l31x1m7yh' name='CropSelection_SSURGO_Mapunits.shp' table='[CropSelection_SSURGO_Mapunits.shp]' type='table'>
-                <columns>
-                  <column datatype='string' name='AREASYMBOL' ordinal='0' />
-                  <column datatype='string' name='SPATIALVER' ordinal='1' />
-                  <column datatype='string' name='MUSYM' ordinal='2' />
-                  <column datatype='string' name='MUKEY' ordinal='3' />
-                  <column datatype='spatial' name='Geometry' ordinal='4' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -8394,6 +8394,13 @@
             <run>&gt;</run>
           </formatted-text>
         </title>
+        <caption>
+          <formatted-text>
+            <run> Color Index is based on the percent of shared words between
+Soil Texture of the soil and the Prefered Soil Texture of the Crop
+</run>
+          </formatted-text>
+        </caption>
       </layout-options>
       <repository-location derived-from='https://public.tableau.com/workbooks/CropSelectionV2/AvailableLandWoutNA?rev=' id='AvailableLandWoutNA' path='/workbooks/CropSelectionV2' revision='' />
       <table>
@@ -8430,7 +8437,7 @@
             <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]'>
-            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Carrot&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Spinach&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]</column>
@@ -8444,7 +8451,7 @@
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' center='7.0' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:pH_average:qk]' max='8.0' min='5.0' palette='red_blue_white_diverging_10_0' type='interpolated' />
-            <encoding attr='color' center='0.4' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' max='1.0' min='0.0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='0.2' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' max='1.0' min='0.0' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
           </style-rule>
           <style-rule element='table'>
             <format attr='omit-on-special' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[Longitude (generated)]' value='false' />
@@ -8453,6 +8460,14 @@
           </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' value='Soil Compatability&#10;'>
+              <formatted-text>
+                <run fontsize='12'>Soil Compatability</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </format>
           </style-rule>
           <style-rule element='map-layer'>
             <format attr='enabled' id='hillshade_highlight_bright' value='true' />
@@ -8555,6 +8570,13 @@
           </style-rule>
           <style-rule element='map'>
             <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]' value='Select Crop&#10;'>
+              <formatted-text>
+                <run>Select Crop&#10;</run>
+              </formatted-text>
+            </format>
           </style-rule>
         </style>
         <panes _.fcp.LayersPerPaneSpecPrimaryDS.true...customization-axis='layer'>
@@ -8998,6 +9020,11 @@
           <strip size='160'>
             <card mode='radiolist' param='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]' show-all='false' type='filter' />
             <card pane-specification-id='0' param='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
           </strip>
         </edge>
       </cards>
