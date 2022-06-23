@@ -12,6 +12,7 @@ library(tidyverse)
 library(jsonlite)
 library(httr)
 library(rlist)
+library(lubridate)
 ```
 
 ```{r}
@@ -39,17 +40,57 @@ colnames(btc$data)
 df <- as.data.frame(btc)
 
 df
-```
+```  
+```{r}
+#Rename columns
 
+colnames(df) = c("date","mrms_precip_in","prism_precip_in","daily_high_f","12z_high_f","climate_daily_high_f","daily_low_f"  ,"12z_low_f","climate_daily_low_f","daily_precip_in","12z_precip_in","climate_daily_precip_in")
+
+df
+```  
+
+```{r}
+summary <- df %>% group_by(date)%>% summarize(sum_mrms_precip_in = sum(mrms_precip_in),sum_prism_precip_in = sum(prism_precip_in),mean_daily_high_f = mean(daily_high_f),mean_12z_high_f = mean(`12z_high_f`),mean_climate_daily_high_f = mean(climate_daily_high_f),mean_daily_low_f = mean(daily_low_f),mean_12z_low_f = mean(`12z_low_f`),mean_climate_daily_low_f = mean(climate_daily_low_f),sum_daily_precip_in = sum(daily_precip_in),sum_12z_precip_in = sum(df["12z_precip_in"]),sum_climate_daily_precip_in = sum(climate_daily_precip_in)) 
+
+as.data.frame(summary)
+```  
 ```{r}
 # pluck and chuck provide a more strict version of [[
 # and can subset by exact name or position
 
-purrr::pluck(btc$data, 'date')
+#purrr::pluck(btc$data, 'date')
+
+df <- df %>% mutate(date = ymd(df$date))  
+df# Print updated data
 ```
+
+
+```{r}
+#Fixed date column
+
+summary_new <- df %>% mutate(month = format(date, "%m"), year = format(date, "%Y")) %>%
+group_by(month, year) %>% summarize(sum_mrms_precip_in = sum(mrms_precip_in),sum_prism_precip_in = sum(prism_precip_in),mean_daily_high_f = mean(daily_high_f),mean_12z_high_f = mean(`12z_high_f`),mean_climate_daily_high_f = mean(climate_daily_high_f),mean_daily_low_f = mean(daily_low_f),mean_12z_low_f = mean(`12z_low_f`),mean_climate_daily_low_f = mean(climate_daily_low_f),sum_daily_precip_in = sum(daily_precip_in),sum_12z_precip_in = sum(`12z_precip_in`),sum_climate_daily_precip_in = sum(climate_daily_precip_in)) 
+
+as.data.frame(summary_new)
+```
+
+```{r}
+#Step 4
+summary_new %>% ggplot(aes(x = month.name, y = mean_daily_high_f, fill = month.name)) +
+    geom_bar(stat = "identity") +
+    theme_classic() +
+    labs(
+        x = "Date",
+        y = "Average Daily High",
+        title = paste(
+            "Average Daily High"
+        )
+    )
+```
+
 ```{r}
 #  r web / r json - json to csv in r - saving it for later
-write.csv(df,"D:/Downloads/data.csv",row.names = FALSE)
+write.csv(summary_new,"D:/Downloads/aproct_2020_clim.csv",row.names = FALSE)
 
 # info = GET(url_json)
 # print(info)
@@ -62,20 +103,6 @@ write.csv(df,"D:/Downloads/data.csv",row.names = FALSE)
 
 
 ```{r}
-# create the dataframe and tidy it up
-ex_output <- pluck(raw_json, "athletes") %>%
-  enframe() %>%
-  unnest_wider(value) %>% 
-  unnest_wider(athlete) %>% 
-  select(displayName, teamName:teamShortName, headshot, categories) %>% 
-  hoist(categories, 
-    data = list(1, "totals")) %>%
-  mutate(data = map(data, ~set_names(.x, nm = category_names))) %>% 
-  select(-categories) %>% 
-  unnest_wider(data) %>% 
-  mutate(headshot = pluck(headshot, "href"))
-
-glimpse(ex_output)
 ```
 
 
