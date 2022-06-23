@@ -56,10 +56,10 @@ Overall <- merge(Overall,chorzonSim, by.x = "cokey", by.y = "cokey",all.x = TRUE
 CropData <- read_excel("Crop-Info_Farmer Asset Mapping.xlsx")
 
 ##Soil Texture
-SoilTexture <- read_excel("SoilTextureHierarchy.xlsx")
+#SoilTexture <- read_excel("SoilTextureHierarchy.xlsx")
 
 ##merges Soil Texture Hierarchy with Soil Data
-Overall <- merge(Overall,SoilTexture, by.x = "texdesc", by.y = "Sand Type", all.x= TRUE, all.y = FALSE)
+#Overall <- merge(Overall,SoilTexture, by.x = "texdesc", by.y = "Sand Type", all.x= TRUE, all.y = FALSE)
 
 ##Merges Crop Info with Web Soil Survey
 MergedData <- sqldf("select * from Overall left join CropData

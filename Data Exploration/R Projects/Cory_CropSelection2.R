@@ -72,13 +72,13 @@ MergedData <- sqldf("select * from Overall left join CropData
 MergedDataNoNA <- MergedData %>%
   filter(!is.na(`Types of Crops`))
 
-##CHANGE TO  Soil_Text
 MergedDataNoNA <- MergedDataNoNA %>%
-  ##Fix Issue with Sandy loam and Loamy Sand
   group_by(musym,`Types of Crops`, chkey)%>%
   mutate(SoilCompatability = ifelse(
-    length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(Soil_Text),split=" ")))) == 0,0.1,
-    (length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(Soil_Text),split=" ")))) / max(length(unlist(strsplit(tolower(Soil_Text),split=" "))),length(unlist(strsplit(tolower(texdesc),split=" ")))))))%>%
+    ((length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower("Sandy loam"),split=" ")))) == 2) & (length(intersect(unlist(strsplit(tolower(Soil_Text),split=" ")),unlist(strsplit(tolower("Loamy sand"),split=" ")))) == 2)),1, ifelse(
+    ((length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower("Loamy sand"),split=" ")))) == 2) & (length(intersect(unlist(strsplit(tolower(Soil_Text),split=" ")),unlist(strsplit(tolower("Sandy Loam"),split=" ")))) == 2)),1, ifelse(
+      length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(Soil_Text),split=" ")))) == 0,0.1,
+    (length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(Soil_Text),split=" ")))) / max(length(unlist(strsplit(tolower(Soil_Text),split=" "))),length(unlist(strsplit(tolower(texdesc),split=" ")))))))))%>%
   mutate(SoilCompatability = SoilCompatability *100)
 ##mutate(SoilCompatability = ifelse(texdesc == `Soil Types`,1,ifelse(`Soil Types`== Accept_Other_Type1,0.9,ifelse(`Soil Types` == Accept_Other_Type2,0.8,ifelse(`Soil Types` == Accept_Other_Type3,0.7,ifelse(`Soil Types`==Accept_Other_Type4,0.6,ifelse(`Soil Types`==Accept_Other_Type5,0.5,0.1)))))))
 
