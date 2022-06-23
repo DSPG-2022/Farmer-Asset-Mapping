@@ -8691,7 +8691,7 @@
         <column-instance column='[Types of Crops]' derivation='None' name='[none:Types of Crops:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <filter class='categorical' column='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]'>
-        <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Asparagus&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+        <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Spinach&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </filter>
     </shared-view>
   </shared-views>
@@ -8776,9 +8776,9 @@ Soil Texture of the soil and the Prefered Soil Texture of the Crop
             <format attr='background-color' value='#00000000' />
           </style-rule>
           <style-rule element='legend-title-text'>
-            <format attr='color' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' value='Soil Type Similarity&#10;&#10;'>
+            <format attr='color' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' value='Soil Type Similarity'>
               <formatted-text>
-                <run>Soil Type Similarity&#10;&#10;</run>
+                <run>Soil Type Similarity</run>
               </formatted-text>
             </format>
           </style-rule>
@@ -9493,7 +9493,7 @@ Type of Irrigation: <[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Type of Irri
       </datasource-dependencies>
       <zones>
         <zone h='35125' id='4' mode='radiolist' name='AvailableLand W/out NA ' param='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Types of Crops:nk]' show-all='false' type-v2='filter' w='16000' x='600' y='2625' />
-        <zone h='9750' id='5' name='AvailableLand W/out NA ' pane-specification-id='0' param='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' type-v2='color' w='17600' x='200' y='41625' />
+        <zone h='9125' id='5' name='AvailableLand W/out NA ' pane-specification-id='0' param='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:SoilCompatability:qk]' type-v2='color' w='14000' x='1400' y='43375' />
         <zone h='43250' id='8' name='Average Temperature' w='42500' x='4300' y='55500' />
         <zone h='8000' id='9' name='Average Temperature' pane-specification-id='3' param='[federated.02ovcq6105e6it16fidmo0s54xgj].[:Measure Names]' type-v2='color' w='15300' x='500' y='92250' />
         <zone h='43625' id='10' name='Precipitation' w='45000' x='51200' y='53625' />
@@ -10251,7 +10251,7 @@ Type of Irrigation: <[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Type of Irri
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{2BE8E095-5ECE-4802-B51B-DF2D8B9BEFE3}' />
     </window>
     <window class='dashboard' name='Soil/Crop Dash'>
