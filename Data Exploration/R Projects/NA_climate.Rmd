@@ -5,7 +5,12 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```  
+
+```{r}
+install.packages("urltools")
 ```
+
 
 ```{r}
 library(tidyverse)
@@ -13,6 +18,7 @@ library(jsonlite)
 library(httr)
 library(rlist)
 library(lubridate)
+library(urltools)
 ```
 
 ```{r}
@@ -76,33 +82,79 @@ as.data.frame(summary_new)
 
 ```{r}
 #Step 4
-summary_new %>% ggplot(aes(x = month.name, y = mean_daily_high_f, fill = month.name)) +
+summary_new %>% ggplot(aes(x = month, y = mean_daily_high_f, fill = month)) +
     geom_bar(stat = "identity") +
     theme_classic() +
     labs(
-        x = "Date",
+        x = "Month",
         y = "Average Daily High",
         title = paste(
-            "Average Daily High"
+            "Average Daily High(April-October 2020)"
         )
     )
+```  
+
+```{r}
+# Basic line plot with points
+ggplot(data=summary_new, aes(x=month, y=mean_climate_daily_high_f, group=1)) +
+  geom_line()+
+  geom_point()
+
 ```
+
 
 ```{r}
 #  r web / r json - json to csv in r - saving it for later
 write.csv(summary_new,"D:/Downloads/aproct_2020_clim.csv",row.names = FALSE)
 
-# info = GET(url_json)
-# print(info)
-# char_info=rawToChar(info$data)
-# data_json = fromJSON(char_info)
-#  
-# print(data_json$date)
-# print(data_json$daily_high_f)
+```  
+
+```{r}
+
 ```
+
 
 
 ```{r}
+base_url <- "https://mesonet.agron.iastate.edu/iemre/"
+
+target_request <- "multiday/"
+lat <- 42.038534290775225
+lon <- -93.85498251613917
+end_of_url <- "json"
+
+#create a list of dates to concatenate to url
+#dates <- c(2015-04-01,2015-10-31,2016-04-01,2016-10-31,2017-04-01,2017-10-31,2018-04-01,2018-10-31,2019-04-01,2019-10-31,2021-04-01,2021-10-31)
+
+#create a list of dates to concatenate to url
+start_dates = as.Date(c("2015-04-01", "2016-04-01", "2017-04-01", "2018-04-01", "2019-04-01", "2021-04-01"))
+
+end_dates = as.Date(c("2015-10-31", "2016-10-31", "2017-10-31", "2018-10-31", "2019-10-31", "2021-10-31"))
+
+
+#Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.
+#url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/42.038534290775225/-93.85498251613917/json
+
+while (length(start_dates) > 0) {
+  start_date <- start_dates[1]
+  end_date <- end_dates[1]
+  url <- paste0(base_url, target_request, as.Date(start_dates[i]), "/", as.Date(end_dates[j]), "/", lat, "/", lon, "/", end_of_url)
+  #Create a list of urls
+  urls <- c(url, urls)
+  start_dates <- start_dates[-1]
+  end_dates <- end_dates[-1]
+  #Store data in a dataframe
+  data <- jsonlite::fromJSON(url)
+  #Store data in a dataframe
+  df <- dataframe(data)
+    #Append data to the dataframe
+    df_list <- c(df_list, df)
+}
+
+
 ```
 
+```{r}
+df
+```
 
