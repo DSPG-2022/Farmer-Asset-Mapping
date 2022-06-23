@@ -45,7 +45,7 @@ chorzonSim <-chorzonSim %>%
   mutate(pH_average = mean(ph1to1h2o.r, na.rm=TRUE))
 
 ##simplifying Componet
-ComponetSim <-select(Componet, cokey,mukey,slope.l,slope.r,slope.l,geomdesc,elev.l,elev.r,elev.h,taxclname,taxpartsize, ffd)
+ComponetSim <-select(Componet, cokey,mukey,slope.l,slope.r,slope.l,geomdesc,elev.l,elev.r,elev.h,taxclname,taxpartsize, ffd.r)
 
 ##merges Them
 Overall <- merge(ComponetSim,mapunit, by.x = "mukey", by.y = "mukey",all.x = TRUE, all.y =TRUE)
@@ -55,10 +55,20 @@ Overall <- merge(Overall,chorzonSim, by.x = "cokey", by.y = "cokey",all.x = TRUE
 ##Crop Info
 CropData <- read_excel("Crop-Info_Farmer Asset Mapping.xlsx")
 
+##Soil Texture
+SoilTexture <- read_excel("SoilTextureHierarchy.xlsx")
+
+##merges Soil Texture Hierarchy with Soil Data
+Overall <- merge(Overall,SoilTexture, by.x = "texdesc", by.y = "Sand Type", all.x= TRUE, all.y = FALSE)
 
 ##Merges Crop Info with Web Soil Survey
 MergedData <- sqldf("select * from Overall left join CropData
              on (Overall.pH_average >= CropData.ph_L and Overall.pH_average <= CropData.ph_H and Overall.depth <= CropData.Depth_h and Overall.depth >= CropData.Depth_l)")
 MergedDataNoNA <- MergedData %>%
   filter(!is.na(`Types of Crops`))
+
+##CHANGE TO  Soil_Text
+MergedDataNoNA <- MergedDataNoNA %>%
+  mutate(SoilCompatability = ifelse(texdesc == `Soil Types`,1,ifelse(`Soil Types`== Accept_Other_Type1,0.9,ifelse(`Soil Types` == Accept_Other_Type2,0.8,ifelse(`Soil Types` == Accept_Other_Type3,0.7,ifelse(`Soil Types`==Accept_Other_Type4,0.6,ifelse(`Soil Types`==Accept_Other_Type5,0.5,0.1)))))))
+
 write.csv(MergedDataNoNA,"CropSelection.csv")
