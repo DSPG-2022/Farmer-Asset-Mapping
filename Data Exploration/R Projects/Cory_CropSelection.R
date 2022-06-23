@@ -77,5 +77,4 @@ MergedDataNoNA <- MergedDataNoNA %>%
   mutate(SoilCompatability = SoilCompatability *100)
   ##mutate(SoilCompatability = ifelse(texdesc == `Soil Types`,1,ifelse(`Soil Types`== Accept_Other_Type1,0.9,ifelse(`Soil Types` == Accept_Other_Type2,0.8,ifelse(`Soil Types` == Accept_Other_Type3,0.7,ifelse(`Soil Types`==Accept_Other_Type4,0.6,ifelse(`Soil Types`==Accept_Other_Type5,0.5,0.1)))))))
 
-
 write.csv(MergedDataNoNA,"CropSelection.csv")
