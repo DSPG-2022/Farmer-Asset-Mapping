@@ -69,9 +69,8 @@ MergedDataNoNA <- MergedData %>%
 
 ##CHANGE TO  Soil_Text
 MergedDataNoNA <- MergedDataNoNA %>%
+  ##Fix Issue with Sandy loam and Loamy Sand
   group_by(musym,`Types of Crops`, chkey)%>%
-  #mutate(MaxSoil= max(length(unlist(strsplit(tolower(`Soil Types`),split=" "))),length(unlist(strsplit(tolower(texdesc),split=" ")))))
-  ##mutate(TestSoil = length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(`Soil Types`),split=" ")))))
   mutate(SoilCompatability = ifelse(
     length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(`Soil Types`),split=" ")))) == 0,0.1,
     (length(intersect(unlist(strsplit(tolower(texdesc),split=" ")),unlist(strsplit(tolower(`Soil Types`),split=" ")))) / max(length(unlist(strsplit(tolower(`Soil Types`),split=" "))),length(unlist(strsplit(tolower(texdesc),split=" ")))))))
