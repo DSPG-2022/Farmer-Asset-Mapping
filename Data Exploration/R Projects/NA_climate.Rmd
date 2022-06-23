@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```  
 
 ```{r}
-install.packages("urltools")
+#install.packages("urltools")
 ```
 
 
@@ -109,11 +109,6 @@ write.csv(summary_new,"D:/Downloads/aproct_2020_clim.csv",row.names = FALSE)
 
 ```  
 
-```{r}
-
-```
-
-
 
 ```{r}
 base_url <- "https://mesonet.agron.iastate.edu/iemre/"
@@ -131,30 +126,39 @@ start_dates = as.Date(c("2015-04-01", "2016-04-01", "2017-04-01", "2018-04-01", 
 
 end_dates = as.Date(c("2015-10-31", "2016-10-31", "2017-10-31", "2018-10-31", "2019-10-31", "2021-10-31"))
 
+#Create an empty list to store the data
+data_list <- list()
 
 #Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.
 #url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/42.038534290775225/-93.85498251613917/json
+ 
 
-while (length(start_dates) > 0) {
-  start_date <- start_dates[1]
-  end_date <- end_dates[1]
-  url <- paste0(base_url, target_request, as.Date(start_dates[i]), "/", as.Date(end_dates[j]), "/", lat, "/", lon, "/", end_of_url)
-  #Create a list of urls
-  urls <- c(url, urls)
-  start_dates <- start_dates[-1]
-  end_dates <- end_dates[-1]
-  #Store data in a dataframe
-  data <- jsonlite::fromJSON(url)
-  #Store data in a dataframe
-  df <- dataframe(data)
-    #Append data to the dataframe
-    df_list <- c(df_list, df)
+for (i in 1:length(start_dates)) {
+  for (j in 1:length(end_dates)) {
+    if (i == j) {
+      url <- paste0(base_url, target_request, as.Date(start_dates[i]), "/", as.Date(end_dates[j]), "/", lat, "/", lon, "/", end_of_url)
+      #Store the url in a list
+        url_list <- c(url_list, url)
+      print(url)
+      data <- jsonlite::fromJSON(url)
+        #For each data, create a list of the data
+        for (k in 1:length(data)) {
+            data_list <- c(data_list, data[[k]])
+        }
+    }
+  }
 }
 
 
 ```
 
 ```{r}
-df
+#data_df
+
+write.csv(data_df,"D:/Downloads/2015_2021_clim.csv",row.names = FALSE)
+```
+
+```{r}
+data_df <- as.data.frame(data_list)
 ```
 
