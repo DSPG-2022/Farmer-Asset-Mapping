@@ -31,6 +31,14 @@ full_url <- sprintf("https://mesonet.agron.iastate.edu/iemre/multiday/%s/%s/%s/%
 ```
 
 ```{r}
+veggie = ""
+
+crops %>%
+  filter(crop == stringtf("%s", veggie))
+```
+
+
+```{r}
 ## Downloads data from the IEM website in json format
 #download.file(url = full_url, destfile = "test.json")
 
