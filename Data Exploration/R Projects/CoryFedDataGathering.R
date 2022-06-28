@@ -42,6 +42,8 @@ cointerp <- IA001.Tabular$cointerp ##Could be interesting
 
 comonth <- IA001.Tabular$comonth ##Ponds -Has Flood frequency about ponds
 
+unique(comonth$flodfreqcl)
+
 componet <- IA001.Tabular$component 
   ##componet Data 
     #Slope
