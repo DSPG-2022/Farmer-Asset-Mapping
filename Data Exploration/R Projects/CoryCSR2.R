@@ -36,7 +36,7 @@ Overall<- merge(Overall,mapunit,by = "mukey", all = TRUE)
 Overall <- Overall %>%
   filter(majcompflag=="Yes")
 Simple <- Overall %>%
-  select(mukey,cokey,muname,taxorder,compname)
+  select(mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erocl,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,aws025wta,aws050wta)
 
 cotaxfmmin <- IA001.Tabular$cotaxfmmin
 cotaxmoistcl <- IA001.Tabular$cotaxmoistcl #taxmoistcl
