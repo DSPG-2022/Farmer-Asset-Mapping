@@ -19,6 +19,7 @@
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
     <SetMembershipControl />
     <SheetIdentifierTracking />
+    <SortTagCleanup />
     <SpatialFileLayer />
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
@@ -9343,10 +9344,10 @@
               <bucket>&quot;Very poorly drained&quot;</bucket>
             </map>
             <map to='#e39802'>
-              <bucket>&quot;Somewhat poorly drained&quot;</bucket>
+              <bucket>&quot;Poorly drained&quot;</bucket>
             </map>
             <map to='#ffda66'>
-              <bucket>&quot;Poorly drained&quot;</bucket>
+              <bucket>&quot;Somewhat poorly drained&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -9543,8 +9544,8 @@ Soil Texture of the soil and the Prefered Soil Texture of the Crop
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[Longitude (generated)]' field-type='quantitative' max='-10442320.464967843' min='-10451408.279860834' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[Latitude (generated)]' field-type='quantitative' max='5176237.0003865156' min='5173268.6187328184' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[Longitude (generated)]' field-type='quantitative' max='-10442372.977069385' min='-10451388.444635337' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[Latitude (generated)]' field-type='quantitative' max='5176994.8597210729' min='5172487.1259380961' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' center='7.0' field='[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:pH_average:qk]' max='8.0' min='5.0' palette='red_blue_white_diverging_10_0' type='interpolated' />
@@ -10080,11 +10081,13 @@ Type of Irrigation: <[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Type of Irri
             <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
             <column caption='Musym' datatype='string' name='[MUSYM]' role='dimension' type='nominal' />
             <column caption='Types of Crops1' datatype='string' name='[Types of Crops]' role='dimension' type='nominal' />
+            <column-instance column='[aws025wta]' derivation='Attribute' name='[attr:aws025wta:qk]' pivot='key' type='quantitative' />
             <column-instance column='[drainagecl]' derivation='Attribute' name='[attr:drainagecl:nk]' pivot='key' type='nominal' />
             <column-instance column='[erocl]' derivation='Attribute' name='[attr:erocl:nk]' pivot='key' type='nominal' />
             <column-instance column='[flodfreqcl]' derivation='Attribute' name='[attr:flodfreqcl:nk]' pivot='key' type='nominal' />
             <column-instance column='[hydgrp]' derivation='Attribute' name='[attr:hydgrp:nk]' pivot='key' type='nominal' />
             <column-instance column='[tfact]' derivation='Attribute' name='[attr:tfact:qk]' pivot='key' type='quantitative' />
+            <column caption='Aws025Wta' datatype='real' name='[aws025wta]' role='measure' type='quantitative' />
             <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
             <column caption='Drainagecl' datatype='string' name='[drainagecl]' role='dimension' type='nominal' />
             <column caption='Drclassdcd' datatype='string' name='[drclassdcd]' role='dimension' type='nominal' />
@@ -10103,6 +10106,15 @@ Type of Irrigation: <[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Type of Irri
           <filter class='categorical' column='[federated.1ypll0s155mbss146jdqx0pt53cr].[none:Types of Crops:nk]'>
             <groupfilter function='member' level='[none:Types of Crops:nk]' member='&quot;Cauliflower&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
+          <manual-sort column='[federated.1ypll0s155mbss146jdqx0pt53cr].[none:drclassdcd:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Well drained&quot;</bucket>
+              <bucket>&quot;Moderately well drained&quot;</bucket>
+              <bucket>&quot;Somewhat poorly drained&quot;</bucket>
+              <bucket>&quot;Poorly drained&quot;</bucket>
+              <bucket>&quot;Very poorly drained&quot;</bucket>
+            </dictionary>
+          </manual-sort>
           <slices>
             <column>[federated.1ypll0s155mbss146jdqx0pt53cr].[none:Types of Crops:nk]</column>
           </slices>
@@ -10130,6 +10142,7 @@ Type of Irrigation: <[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Type of Irri
               <tooltip column='[federated.1ypll0s155mbss146jdqx0pt53cr].[attr:tfact:qk]' />
               <tooltip column='[federated.1ypll0s155mbss146jdqx0pt53cr].[sum:iacornsr:qk]' />
               <tooltip column='[federated.1ypll0s155mbss146jdqx0pt53cr].[sum:slopegradwta:qk]' />
+              <tooltip column='[federated.1ypll0s155mbss146jdqx0pt53cr].[attr:aws025wta:qk]' />
               <geometry column='[federated.1ypll0s155mbss146jdqx0pt53cr].[clct:Geometry:nk]' />
             </encodings>
           </pane>
@@ -11573,7 +11586,7 @@ Type of Irrigation: <[federated.15v97fn15p4l2y14tobnn0kuo9q3].[none:Type of Irri
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='9' />
+      <active id='10' />
       <simple-id uuid='{99EF26E7-DD9F-4A1E-895F-CF86637734A4}' />
     </window>
     <window class='dashboard' name='GDD month'>
