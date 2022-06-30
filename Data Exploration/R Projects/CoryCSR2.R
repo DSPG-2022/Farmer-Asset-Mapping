@@ -55,14 +55,16 @@ chorzonSim <-chorizon%>%
   mutate(depthLevel = ifelse(depth <12,"0-12",ifelse(depth<24, "12-24",ifelse(depth<36,'24-36',"36+"))))
 chorzonSim2<- chorzonSim%>%
   filter(depthLevel=="0-12")%>%
-  group_by(depthLevel)%>%
-  summarise(ksat = mean(ksat.r,na.rm=TRUE),awc = mean(awc.r, na.rm=TRUE),caco3 = mean(caco3.r,na.rm=TRUE),gypsum= mean(gypsum.r,na.rm=TRUE),sar =mean(sar.r,na.rm=TRUE),ec = mean(ec.r,na.rm=TRUE),cec7= mean(cec7.r,na.rm=TRUE),textdes = texdesc, ph = mean(ph1to1h2o.r,na.rm=TRUE),ph_l = min(ph1to1h2o.l,na.rm=TRUE),ph_h= max(ph1to1h2o.h,na.rm=TRUE))
+  group_by(cokey,depthLevel)%>%
+  summarise(ksat = mean(ksat.r,na.rm=TRUE),awc = mean(awc.r, na.rm=TRUE),caco3 = mean(caco3.r,na.rm=TRUE),gypsum= mean(gypsum.r,na.rm=TRUE),sar =mean(sar.r,na.rm=TRUE),ec = mean(ec.r,na.rm=TRUE),cec7= mean(cec7.r,na.rm=TRUE), ph = mean(ph1to1h2o.r,na.rm=TRUE),ph_l = mean(ph1to1h2o.l,na.rm=TRUE),ph_h= mean(ph1to1h2o.h,na.rm=TRUE),om= mean(om.r,na.rm=TRUE),ptotal = mean(ptotal.r,na.rm=TRUE))
+Overall<- merge(Overall,chorzonSim2,by = "cokey", all = TRUE)
 
 
 Overall <- Overall %>%
   filter(majcompflag=="Yes")
+
 Simple <- Overall %>%
-  select(mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr)
+  select(mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal)
 
 
 
