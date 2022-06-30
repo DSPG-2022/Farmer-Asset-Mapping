@@ -73,7 +73,7 @@ Overall2 <- Overall2 %>%
   filter(majcompflag=="Yes")
 
 Simple <- as_tibble(Overall2) %>%
-  dplyr::select(mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,
+  dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,
          pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
          soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`)
