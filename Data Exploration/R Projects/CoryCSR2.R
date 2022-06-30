@@ -31,7 +31,7 @@ muaggart <-IA001.Tabular$muaggatt
 mapunit <-IA001.Tabular$mapunit
 
 comonth <- IA001.Tabular$comonth %>% filter(month=="May")
-
+legend<-IA001.Tabular$legend
 Overall<- merge(muaggart,componet,by = "mukey", all = TRUE)
 Overall<- merge(Overall,mapunit,by = "mukey", all = TRUE)
 Overall<- merge(Overall,comonth,by = "cokey", all = TRUE)
@@ -53,6 +53,8 @@ chorizon <- merge(chorizon,chtexturegrp, by = "chkey", all.x=TRUE)
 chorzonSim <-chorizon%>%
   mutate(depth = hzdept.r /2.54)%>%
   mutate(depthLevel = ifelse(depth <12,"0-12",ifelse(depth<24, "12-24",ifelse(depth<36,'24-36',"36+"))))
+
+
 chorzonSim2<- chorzonSim%>%
   filter(depthLevel=="0-12")%>%
   group_by(cokey,depthLevel)%>%
@@ -74,7 +76,7 @@ Overall <- Overall %>%
   filter(majcompflag=="Yes")
 
 Simple <- Overall %>%
-  select(mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, soilTextdes =soilTextsum, depth,depthLevel)
+  select(mukey,cokey,muacres,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, soilTextdes =soilTextsum, depthLevel)
 
 
 
