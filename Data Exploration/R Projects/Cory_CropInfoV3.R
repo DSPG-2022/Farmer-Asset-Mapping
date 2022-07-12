@@ -74,23 +74,37 @@ Overall2 <- Overall2 %>%
 
 Simple <- as_tibble(Overall2) %>%
   dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
-         niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,
-         pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
+         niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws0150wta, flodfreqcl,floddurcl,pondfreqcl,
+         ponddurcl,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
          soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H)
 
 
 Simple<- Simple%>%
   mutate(Flags =
-           ifelse(ph <= ph_H & ph>=ph_L,1,0),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,",pH does not fit into range",""))%>%
+           ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",",pH does not fit into range"))%>%
   mutate(Flags = 
            ifelse(soilTextdes != `Soil Types`,Flags+1,Flags),FlagDesc = ifelse(soilTextdes!=`Soil Types`,paste(FlagDesc,"Soil Texture does not match",sep=','),FlagDesc))%>%
   mutate(Flags = 
            ifelse(tfact <4,Flags+1,Flags),FlagDesc =ifelse(tfact <4,paste(FlagDesc,"Soil Erosion Tolerance may be an issue",sep=','),FlagDesc) )%>%
   mutate(Flags  =
-           ifelse(Kfact< .3,Flags+1,Flags),FlagDesc =ifelse(Kfact< .3,paste(FlagDesc,"This soil is more susceptible to erosion",sep=','),FlagDesc))%>%
+           ifelse(Kfact> .38,Flags+1,Flags),FlagDesc =ifelse(Kfact> .38,paste(FlagDesc,"This soil is more susceptible to erosion",sep=','),FlagDesc))%>%
   mutate(Flags  =
            ifelse(om<2 | om>8,Flags+1,Flags),FlagDesc =ifelse(om< 2|om>8,paste(FlagDesc,"This soil's organic matter percent could be an issue",sep=','),FlagDesc))%>%
   mutate(Flags  =
-           ifelse(erocl == "Class 2",Flags+1,Flags),FlagDesc =ifelse(erocl == "Class 2",paste(FlagDesc,"This soil's topsoil may have been depleated",sep=','),FlagDesc))
+           ifelse(erocl == "Class 2",Flags+1,Flags),FlagDesc =ifelse(erocl == "Class 2",paste(FlagDesc,"This soil's topsoil may have been depleated",sep=','),FlagDesc))%>%
+  mutate(Flags  =
+           ifelse(aws0150wta <=9.00,Flags+1,Flags),FlagDesc =ifelse(aws0150wta<=9.00,paste(FlagDesc,"This soil's water holding may be limited",sep=','),FlagDesc))%>%
+  mutate(Flags  =
+           ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",Flags+1,Flags),FlagDesc =ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",paste(FlagDesc,"This soil's drainage may be limited",sep=','),FlagDesc))%>%
+  mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,2,nchar(FlagDesc)),FlagDesc))
+  
 
-#write.csv(Simple,"CropSelection2.csv")
+
+##NEED TO FIX
+  mutate(Flags  =
+           ifelse(pondfreqcl == "Frequent" | ponddurcl=="",Flags+1,Flags, na.rm=TRUE),FlagDesc =ifelse(pondfreqcl == "Frequent" | ponddurcl=="",paste(FlagDesc,"This soil's may have an issue with ponding",sep=','),FlagDesc, na.rm=TRUE))
+  mutate(Flags  =
+           ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
+
+  
+write.csv(Simple,"CropSelection2.csv")
