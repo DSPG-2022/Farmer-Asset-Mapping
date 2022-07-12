@@ -54,7 +54,7 @@ chorzonSim2<- chorzonSim%>%
   group_by(cokey,`Types of Crops`)%>%
   mutate(soilText= ifelse(depth==0,texdesc,""))%>%
   summarise(ksat = mean(ksat.r,na.rm=TRUE),awc = mean(awc.r, na.rm=TRUE),caco3 = mean(caco3.r,na.rm=TRUE),gypsum= mean(gypsum.r,na.rm=TRUE),sar =mean(sar.r,na.rm=TRUE),ec = mean(ec.r,na.rm=TRUE),cec7= mean(cec7.r,na.rm=TRUE), ph = mean(ph1to1h2o.r,na.rm=TRUE),ph_l = mean(ph1to1h2o.l,na.rm=TRUE),ph_h= mean(ph1to1h2o.h,na.rm=TRUE),om= mean(om.r,na.rm=TRUE),
-            ptotal = mean(ptotal.r,na.rm=TRUE),soilTextsum = soilText, )%>%
+            ptotal = mean(ptotal.r,na.rm=TRUE),soilTextsum = soilText,Kfact = mean(kffact,na.rm=TRUE))%>%
   filter(soilTextsum!="")
 
 chData <- merge(chorzonSim2,CropData,by = "Types of Crops")
@@ -73,9 +73,13 @@ Overall2 <- Overall2 %>%
   filter(majcompflag=="Yes")
 
 Simple <- as_tibble(Overall2) %>%
-  dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,
+  dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,
          pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
          soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`)
 
-write.csv(Simple,"CropSelection2.csv")
+
+
+
+
+#write.csv(Simple,"CropSelection2.csv")
