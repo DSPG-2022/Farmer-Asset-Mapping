@@ -76,10 +76,21 @@ Simple <- as_tibble(Overall2) %>%
   dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,
          pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
-         soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`)
+         soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H)
 
 
-
-
+Simple<- Simple%>%
+  mutate(Flags =
+           ifelse(ph <= ph_H & ph>=ph_L,1,0),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,",pH does not fit into range",""))%>%
+  mutate(Flags = 
+           ifelse(soilTextdes != `Soil Types`,Flags+1,Flags),FlagDesc = ifelse(soilTextdes!=`Soil Types`,paste(FlagDesc,"Soil Texture does not match",sep=','),FlagDesc))%>%
+  mutate(Flags = 
+           ifelse(tfact <4,Flags+1,Flags),FlagDesc =ifelse(tfact <4,paste(FlagDesc,"Soil Erosion Tolerance may be an issue",sep=','),FlagDesc) )%>%
+  mutate(Flags  =
+           ifelse(Kfact< .3,Flags+1,Flags),FlagDesc =ifelse(Kfact< .3,paste(FlagDesc,"This soil is more susceptible to erosion",sep=','),FlagDesc))%>%
+  mutate(Flags  =
+           ifelse(om<2 | om>8,Flags+1,Flags),FlagDesc =ifelse(om< 2|om>8,paste(FlagDesc,"This soil's organic matter percent could be an issue",sep=','),FlagDesc))%>%
+  mutate(Flags  =
+           ifelse(erocl == "Class 2",Flags+1,Flags),FlagDesc =ifelse(erocl == "Class 2",paste(FlagDesc,"This soil's topsoil may have been depleated",sep=','),FlagDesc))
 
 #write.csv(Simple,"CropSelection2.csv")
