@@ -77,7 +77,9 @@ Simple <- as_tibble(Overall2) %>%
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws0150wta, flodfreqcl,floddurcl,pondfreqcl,
          ponddurcl,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
          soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H)
+CropRotation <- read_excel("Sanika-Crop_Rotation.xlsx")
 
+Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all.x=TRUE )
 
 Simple<- Simple%>%
   mutate(Flags =
