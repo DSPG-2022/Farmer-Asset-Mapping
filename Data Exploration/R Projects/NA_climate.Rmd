@@ -8,17 +8,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ```  
 
 ```{r}
-#install.packages("urltools")
+#install.packages("inborutils", repos = c(inbo = "https://inbo.r-universe.dev", CRAN = "https://cloud.r-project.org"))
 ```
 
 
 ```{r}
+#options(stringsAsFactors = FALSE)
+library(ncdf4) 
+library(raster)
 library(tidyverse)
 library(jsonlite)
 library(httr)
 library(rlist)
 library(lubridate)
 library(urltools)
+library(inborutils)
+library(rgdal)
+library(maps)
+library(mapdata)
+library(sp)
+library(rgeos)
+library ("geosphere")
 ```
 
 ```{r}
@@ -40,6 +50,11 @@ btc <- jsonlite::fromJSON(url_json)
 colnames(btc$data)
 
 ```  
+
+```{r}
+btc
+```
+
 ```{r}
 #btc
 
@@ -122,43 +137,195 @@ end_of_url <- "json"
 #dates <- c(2015-04-01,2015-10-31,2016-04-01,2016-10-31,2017-04-01,2017-10-31,2018-04-01,2018-10-31,2019-04-01,2019-10-31,2021-04-01,2021-10-31)
 
 #create a list of dates to concatenate to url
-start_dates = as.Date(c("2015-04-01", "2016-04-01", "2017-04-01", "2018-04-01", "2019-04-01", "2021-04-01"))
+start_dates = as.Date(c("2015-04-01", "2016-04-01", "2017-04-01", "2018-04-01", "2019-04-01","2020-04-01","2021-04-01"))
 
-end_dates = as.Date(c("2015-10-31", "2016-10-31", "2017-10-31", "2018-10-31", "2019-10-31", "2021-10-31"))
+end_dates = as.Date(c("2015-10-31", "2016-10-31", "2017-10-31", "2018-10-31", "2019-10-31", "2020-10-31","2021-10-31"))
 
-#Create an empty list to store the data
-data_list <- list()
+#Create empty list to store url's
+url_list <-list()
 
 #Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.
-#url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/42.038534290775225/-93.85498251613917/json
+#url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/lat/lon/json
  
+#Create empty dataframe
+df <- data.frame()
 
 for (i in 1:length(start_dates)) {
   for (j in 1:length(end_dates)) {
     if (i == j) {
       url <- paste0(base_url, target_request, as.Date(start_dates[i]), "/", as.Date(end_dates[j]), "/", lat, "/", lon, "/", end_of_url)
       #Store the url in a list
-        url_list <- c(url_list, url)
+      url_list <- c(url_list, url)
       print(url)
-      data <- jsonlite::fromJSON(url)
-        #For each data, create a list of the data
-        for (k in 1:length(data)) {
-            data_list <- c(data_list, data[[k]])
-        }
+      data <- as.data.frame(jsonlite::fromJSON(url))
+      df <- rbind(df,data)
     }
   }
 }
 
 
-```
+```  
+
+
 
 ```{r}
 #data_df
-
-write.csv(data_df,"D:/Downloads/2015_2021_clim.csv",row.names = FALSE)
+#Save dataframe to csv file
+write.csv(df,"D:/Downloads/2015_2021_clim.csv",row.names = FALSE)
 ```
 
 ```{r}
-data_df <- as.data.frame(data_list)
+#Coordinates: 42.038534290775225,-93.85498251613917
+
+url_json <- "https://api.weather.gov/points/42.0385,-93.855"
+
+weather <- jsonlite::fromJSON(url_json)
+
+#class(weather)
+weather
 ```
+```{r}
+#Get url from weather$properties$forecast and then get the json (Daily forecast)
+url_daily <- noquote(weather$properties$forecast)
+
+daily_forecast <- jsonlite::fromJSON(url_daily)
+
+daily_forecast
+
+```
+
+```{r}
+#Get url from weather$properties$forecastHourly and then get the json (Hourly forecast)
+url_hour <- noquote(weather$properties$forecastHourly)
+
+hour_forecast <- jsonlite::fromJSON(url_hour)
+
+hour_forecast
+```
+
+```{r}
+df <- as.data.frame(tif_test, xy = TRUE)
+```
+
+```{r}
+nlayers(tif_test)
+```  
+```{r}
+ncname <- "cfsv2_tmean_wk1234.nc"
+
+ncin <- nc_open(ncname)
+
+print(ncin)
+```
+```{r}
+lat <- ncvar_get(ncin,"lat")
+lat_units <- ncatt_get(ncin,"lat","units")
+
+lon <- ncvar_get(ncin,"lon")
+lon_units <- ncatt_get(ncin,"lon","units")
+
+head(lat)
+
+head(lon)
+
+#'hasatt'means ‘has attribute’
+lat_units
+lon_units
+```  
+```{r}
+#Variable to explore
+var_target <- "tmean"
+
+tmp_array <- ncvar_get(ncin,var_target)
+ 
+dim(tmp_array)
+```
+```{r}
+#Missing values
+fillvalue <- ncatt_get(ncin,var_target,"_FillValue")
+
+tmp_array[tmp_array==fillvalue$value] <- NA
+```  
+
+```{r}
+# reshape the array into vector
+tmp_vec_long <- as.vector(tmp_array)
+length(tmp_vec_long)
+```
+```{r}
+nlon <- dim(lon)
+nlat <- dim(lat)
+# reshape the vector into a matrix
+tmp_mat <- matrix(tmp_vec_long, nrow=nlon*nlat)
+dim(tmp_mat)
+```
+```{r}
+# create a dataframe
+lonlat <- as.matrix(expand.grid(lon,lat))
+tmp_df <- data.frame(cbind(lonlat,tmp_mat))
+names(tmp_df) <- c("lon","lat","temp")
+head(na.omit(tmp_df))
+```  
+
+
+```{r}
+#write.csv(tmp_df,"D:/Downloads/28_temp_forecast.csv",row.names = FALSE)
+
+data1 <- read.csv("filter_latlon.csv", header=TRUE)
+
+head(data1)
+```  
+
+```{r}
+#Convert data frame to matrix
+mat1 <- data.matrix(data1)
+
+head(mat1)
+```
+
+
+
+```{r}
+# create a dataframe of latitude and longitude
+lonlat <- as.matrix(expand.grid(lon,lat))
+new_df <- data.frame(lonlat)
+names(new_df) <- c("longitude","latitude")
+head(na.omit(new_df))
+
+```
+
+```{r}
+#create a target latitude and longitude
+#target_lon <- lonlat[-93.855,42.0784]
+
+#create a target latitude and longitude
+target_latlon <- matrix(c(-93.855,42.0784),nrow = 1)
+colnames(target_latlon) <- c("longitude", "latitude")
+
+target_latlon
+```
+```{r}
+#Loop through the dataframe and find the Haversine distance between target_latlon and each row of the dataframe
+#Create a new column called distance
+#new_df <- new_df[,c("longitude","latitude")]
+#data1 <- data1[,c("ï..longitude","latitude")]
+
+
+#for (i in 1:nrow(new_df)) {
+#  new_df[i,]$distance <- distHaversine(target_latlon, new_df[i,])
+#}
+
+# for (i in 1:nrow(mat1)) {
+#  mat1[i,]$distance <- distHaversine(target_latlon, data1[i,])
+# }
+
+my_dist <- distHaversine(mat1)          # Calculate Haversine distance
+my_dist   
+```
+```{r}
+as.data.frame(my_dist)
+
+head(my_dist)
+```
+
 
