@@ -6,15 +6,27 @@ library(tidyr)
 library(sqldf)
 library(raster)
 
+##Bounding Box Input
 s <- raster(ncol=2, nrow=2)
-
 ymin(s) <- 42.078433865038505
 ymax(s) <- 42.10709506728437
 xmin(s) <- -93.85498251613917
 xmax(s) <- -93.83524145838685
 
 #Gather Data from Web Soil Survey
+##Input can Either be a RasterLayer or a Spatial object
+##Output is
+  ##It downloads 2 Folders to local File, a RAW and an EXTRACTIONS folder
+  ##Raw is raw data, EXTRACTIONS hold all info, has both tabular and spatial object
+    ##In Extraction, will have folder named label
+##NEED TO, specifiy where These folders go
+#force.redo, Parameter in funciton that if
+  #set to false, means that if there is already data in label folder, then it won't download data from web soil survey
+  #set to true, any time it is called it will download data fromm web soil surbey and overwrite what is stored in label folder
 Area<- get_ssurgo(template = s,label = "CropSelection_V3")
+
+
+
 Data <- Area$tabular
 Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol,3,5))))
 StateAbv <-substr(Data$legend$areasymbol,0,2)
@@ -109,5 +121,5 @@ Simple<- Simple%>%
 #  mutate(Flags  =
          #  ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
-  
+source("GitHub\\Farmer-Asset-Mapping\\Data Exploration\\R Projects\\Cory_UpdateRiskURLParams.R")  
 write.csv(Simple,"CropSelection2.csv")
