@@ -109,5 +109,5 @@ Simple<- Simple%>%
 #  mutate(Flags  =
          #  ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
-  
+source("GitHub\\Farmer-Asset-Mapping\\Data Exploration\\R Projects\\Cory_UpdateRiskURLParams.R")  
 write.csv(Simple,"CropSelection2.csv")
