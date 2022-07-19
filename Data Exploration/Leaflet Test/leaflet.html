@@ -2,51 +2,27 @@
 <html>
   <head>
     <title>"Assignment 2b"</title>
-<meta name="description" content="Harun Celik - LA 558 GeoJSON into Leaflet Assignment2b - 2022" />
+<meta name="description" content="Harun Celik - leaflet testing" />
 
 <style>
     html, body, 
 
-#map { height: 500px; margin: 0; padding: 0; }
+#map { height: 700px; margin: 10px; padding: 10px; }
 
-
-.legend {
-    line-height: 10px;
-    color: #555;
-}
-.legend i {
-    width: 18px;
-    height: 20px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.9;
-}
-.info {
-    padding: 6px 8px;
-    font: 10px/20px Arial, Helvetica, sans-serif;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-
-}
-.info h4 {
-    margin: 0 0 5px;
-    color: #777;
-}
-
-.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
-
-.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
 </style>
 
 
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+crossorigin=""/>
 	  
-	<script src="https://profseeger.github.io/LVM-Code/classes/leaflet-ajax-gh-pages/dist/leaflet.ajax.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+crossorigin=""></script>
 	  
   </head>
   <body>
-    <h2> Percentage of People 25 or Older with a Bachelors Degree in Education by County (Iowa)</h2><br>
+    <center><h2>Bounding Box Selection</h2></center><br>
 <div id="map"></div>
 
 <script>
@@ -60,64 +36,14 @@ var osm = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   maxZoom: 18
 }).addTo(map);
 
-
-//set color of marker
-function getColor(d) {
-  return d <= '10' ? '#feebe2' :
-    d <= '20' ? "#fcc5c0" :
-   d <= '30' ? "#fa9fb5" :
-    d <= '40' ? "#f768a1" :
-  d <= '50' ? "#c51b8a" :
-    "#7a0177";
-}
-
-function style(feature) {
-    return {
-        fillColor: getColor(feature.properties.percentage),
-        weight: 1,
-        opacity: 1,
-        color: 'black',
-        dashArray: '0',
-        fillOpacity: 0.4
-    };
-}
-
-
-url = "https://HarunCelikOtto.github.io/LA558_2022/web/Assignment2/25_Over_Bachelors_Degree_Education.geojson";
-
-var geojsonLayer = new L.GeoJSON.AJAX(url , {
-	style: style,
-	onEachFeature: function (feature, layer) {
-          htmlText = "<strong>" + feature.properties.County + "</strong><br>" +
-            "Percentage of People with Education Degrees: " + feature.properties.percentage + "<br>";
-        layer.bindPopup(htmlText);
-		layer.bindTooltip(feature.properties.County);
+L.geoJSON(data, {
+    style: function (feature) {
+        return {color: feature.properties.color};
     }
+}).bindPopup(function (layer) {
+    return layer.feature.properties.description;
 }).addTo(map);
-	
-//Create Legend
 
-var legend = L.control({position: 'bottomright'});
-  	//Possible values are 'topleft', 'topright', 'bottomleft' or 'bottomright'
-
-legend.onAdd = function(map) {
-    var div = L.DomUtil.create('div', 'info legend'),
-        grades = [10, 20, 30, 40, 50],
-        labels = ['<strong>Percentage of Population</strong><br>'];
-  
-
-
-    // loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < grades.length; i++) {
-        div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-    }
-
-    return div;
-};
-
-legend.addTo(map);
 
   
 </script>
