@@ -76,7 +76,7 @@ Simple <- as_tibble(Overall2) %>%
   dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws0150wta, flodfreqcl,floddurcl,pondfreqcl,
          ponddurcl,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
-         soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H)
+         soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H,Boron,Copper,Zinc,Molybdenum,Iron,Manganese,)
 CropRotation <- read_excel("Sanika-Crop_Rotation.xlsx")
 
 Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all.x=TRUE )
@@ -103,9 +103,9 @@ Simple<- Simple%>%
 
 
 ##NEED TO FIX
-  mutate(Flags  =
+#  mutate(Flags  =
            ifelse(pondfreqcl == "Frequent" | ponddurcl=="",Flags+1,Flags, na.rm=TRUE),FlagDesc =ifelse(pondfreqcl == "Frequent" | ponddurcl=="",paste(FlagDesc,"This soil's may have an issue with ponding",sep=','),FlagDesc, na.rm=TRUE))
-  mutate(Flags  =
+#  mutate(Flags  =
            ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
   
