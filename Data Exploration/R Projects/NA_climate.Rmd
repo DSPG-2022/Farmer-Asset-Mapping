@@ -28,6 +28,7 @@ library(maps)
 library(mapdata)
 library(sp)
 library(rgeos)
+library ("geosphere")
 ```
 
 ```{r}
@@ -268,11 +269,63 @@ head(na.omit(tmp_df))
 
 
 ```{r}
-write.csv(tmp_df,"D:/Downloads/28_temp_forecast.csv",row.names = FALSE)
+#write.csv(tmp_df,"D:/Downloads/28_temp_forecast.csv",row.names = FALSE)
+
+data1 <- read.csv("filter_latlon.csv", header=TRUE)
+
+head(data1)
+```  
+
+```{r}
+#Convert data frame to matrix
+mat1 <- data.matrix(data1)
+
+head(mat1)
 ```
+
 
 
 ```{r}
+# create a dataframe of latitude and longitude
+lonlat <- as.matrix(expand.grid(lon,lat))
+new_df <- data.frame(lonlat)
+names(new_df) <- c("longitude","latitude")
+head(na.omit(new_df))
 
 ```
+
+```{r}
+#create a target latitude and longitude
+#target_lon <- lonlat[-93.855,42.0784]
+
+#create a target latitude and longitude
+target_latlon <- matrix(c(-93.855,42.0784),nrow = 1)
+colnames(target_latlon) <- c("longitude", "latitude")
+
+target_latlon
+```
+```{r}
+#Loop through the dataframe and find the Haversine distance between target_latlon and each row of the dataframe
+#Create a new column called distance
+#new_df <- new_df[,c("longitude","latitude")]
+#data1 <- data1[,c("ï..longitude","latitude")]
+
+
+#for (i in 1:nrow(new_df)) {
+#  new_df[i,]$distance <- distHaversine(target_latlon, new_df[i,])
+#}
+
+# for (i in 1:nrow(mat1)) {
+#  mat1[i,]$distance <- distHaversine(target_latlon, data1[i,])
+# }
+
+my_dist <- distHaversine(mat1)          # Calculate Haversine distance
+my_dist   
+```
+```{r}
+as.data.frame(my_dist)
+
+head(my_dist)
+```
+
 
