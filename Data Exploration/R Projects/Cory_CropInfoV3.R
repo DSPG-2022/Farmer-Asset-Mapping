@@ -104,9 +104,9 @@ Simple<- Simple%>%
 
 ##NEED TO FIX
 #  mutate(Flags  =
-           ifelse(pondfreqcl == "Frequent" | ponddurcl=="",Flags+1,Flags, na.rm=TRUE),FlagDesc =ifelse(pondfreqcl == "Frequent" | ponddurcl=="",paste(FlagDesc,"This soil's may have an issue with ponding",sep=','),FlagDesc, na.rm=TRUE))
+        #   ifelse(pondfreqcl == "Frequent" | ponddurcl=="",Flags+1,Flags, na.rm=TRUE),FlagDesc =ifelse(pondfreqcl == "Frequent" | ponddurcl=="",paste(FlagDesc,"This soil's may have an issue with ponding",sep=','),FlagDesc, na.rm=TRUE))
 #  mutate(Flags  =
-           ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
+         #  ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
   
 write.csv(Simple,"CropSelection2.csv")
