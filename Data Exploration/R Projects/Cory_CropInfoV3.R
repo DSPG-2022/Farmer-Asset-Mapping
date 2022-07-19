@@ -16,7 +16,8 @@ xmax(s) <- -93.83524145838685
 #Gather Data from Web Soil Survey
 Area<- get_ssurgo(template = s,label = "CropSelection_V3")
 Data <- Area$tabular
-
+Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol,3,5))))
+StateAbv <-substr(Data$legend$areasymbol,0,2)
 componet <- Data$component 
 muaggart <-Data$muaggatt
 mapunit <-Data$mapunit
