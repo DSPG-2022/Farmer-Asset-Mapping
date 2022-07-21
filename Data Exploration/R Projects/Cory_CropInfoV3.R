@@ -15,7 +15,7 @@ xmax(s) <- -93.83524145838685
 
 #Gather Data from Web Soil Survey
 ##Input can Either be a RasterLayer or a Spatial object
-##Output is
+##Output:
   ##It downloads 2 Folders to local File, a RAW and an EXTRACTIONS folder
   ##Raw is raw data, EXTRACTIONS hold all info, has both tabular and spatial object
     ##In Extraction, will have folder named label
