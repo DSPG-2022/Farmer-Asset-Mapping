@@ -11,18 +11,18 @@
 
 </style>
 
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
 integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
 crossorigin=""/>
 
-<link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css" />  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw-src.css" integrity="sha512-vJfMKRRm4c4UupyPwGUZI8U651mSzbmmPgR3sdE3LcwBPsdGeARvUM5EcSTg34DK8YIRiIo+oJwNfZPMKEQyug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	  
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
 integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
 crossorigin=""></script>
 
-<script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js" integrity="sha512-ozq8xQKq6urvuU6jNgkfqAmT7jKN2XumbrX1JiB3TnF7tI48DPI4Gy1GXKD/V3EExgAs1V+pRO7vwtS1LHg0Gw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 	  
   </head>
   <body>
@@ -32,40 +32,15 @@ crossorigin=""></script>
 <script>
     console.clear();
 
-var map = L.map('map').setView([42.2, -93], 7);
+var map = L.map('map', {drawControl: true}).setView([42.2, -93], 7);
 
-// add an OpenStreetMap tile layer
+// add a tile layer
 var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
 	maxZoom: 16
 }).addTo(map);
 
-map.pm.addControls({  
-  position: 'topleft',  
-  drawCircle: false,  
-});  
-
-function makePopupContent(feature){
-  return `
-    ${feature.geometry.coordinates}   
-  `;
-}
-
-function setPupup(layer) {
-  var feature = layer.toGeoJSON();
-  var coords = makePopupContent(feature);
-  layer.bindPopup(coords);
-}
-
-map.on('pm:create', function(e) {
-  var layer = e.layer;
-  setPupup(layer);
-  layer.on('pm:update', function(e) {
-    setPupup(e.layer);
-  });
-});
 
 
-  
 </script>
   </body>
