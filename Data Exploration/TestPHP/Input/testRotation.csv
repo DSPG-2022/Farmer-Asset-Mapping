@@ -1,0 +1,29 @@
+"","Types of Crops","Example Included...2","Soil Types","Rooting Depth","Depth_l","Depth_h","pH-Level","ph_L","ph_H","Type of Irrigation","Rainfall/Precipitation","Temperature Tolerances","Pesticides","Vulnerabilities (heat, moisture, pests)","Storage Temp (  ̊F)","Storage Humidity (%)","Storage Life","Base Temp (F)","Example Included...19","Example","Year","Month"
+"1","Asparagus",NA,"Sandy loam","Deep (>36 inches)",36,100,"6.0-7.0","6.0","7.0","Subsurface drip",NA,"Cool-season (Hardy)",NA,NA,"36","95-100","2-3 weeks",NA,NA,NA,NA,NA
+"2","Cabbage",NA,"Loam","Moderate (18-24 inches)",18,24,"6.0-7.0","6.0","7.0",NA,NA,"Cool-season (Hardy)",NA,NA,"32","98-100","5-6 months",NA,NA,NA,NA,NA
+"3","Cantaloupe","5","Loam","Moderate (18-24 inches)",18,24,"6.0-6.5","6.0","6.5",NA,NA,"Warm-season (Very Tender)",NA,NA,"36-41","95","2-3 weeks",NA,NA,5,1,"May-September"
+"4","Carrot","2","Sandy clay","Shallow (6-12 inches)",6,12,"5.5-7.0","5.5","7.0",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,"32","98-100","10-14 days",NA,NA,2,3,"April-August"
+"5","Cauliflower","3,5","Moist, well drained","Shallow (6-12 inches)",6,12,"5.5-7.5","5.5","7.5",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,"32","95-98","3-4 weeks",NA,NA,3,1,"August-November"
+"6","Cauliflower","3,5","Moist, well drained","Shallow (6-12 inches)",6,12,"5.5-7.5","5.5","7.5",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,"32","95-98","3-4 weeks",NA,NA,5,3,"April-July"
+"7","Cucumber","1","Sandy loam","Moderate (18-24 inches)",18,24,"5.5-7.0","5.5","7.0",NA,NA,"Warm-season (Very Tender)",NA,NA,"50-54","85-90","1-2 weeks",NA,NA,1,4,"June-September"
+"8","Eggplant","3","Sandy loam","Moderate(18-24 inches)",18,24,"5.5-7.0","5.5","7.0",NA,NA,"Warm-season (Very Tender)",NA,NA,"50-54","90-95","1-2 weeks",NA,NA,3,2,"June-October"
+"9","Lettuce","3,5","Sandy","Shallow (6-12 inches)",6,12,"6.0-7.0","6.0","7.0",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,"32","98-100","2-3 weeks",NA,NA,5,3,"August-November"
+"10","Lettuce","3,5","Sandy","Shallow (6-12 inches)",6,12,"6.0-7.0","6.0","7.0",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,"32","98-100","2-3 weeks",NA,NA,3,1,"April-June"
+"11","Oats","1","Loam","Deep (>36 inches)",36,100,"4.5-6.0","4.5","6.0",NA,NA,"Cool-season (Hardy)",NA,NA,NA,NA,"1-2 years",NA,NA,1,0,"Fall"
+"12","Oats","1","Loam","Deep (>36 inches)",36,100,"4.5-6.0","4.5","6.0",NA,NA,"Cool-season (Hardy)",NA,NA,NA,NA,"1-2 years",NA,NA,1,4,"September-November"
+"13","Onions","1,3","Sandy loam","Shallow (6-12 inches)",6,12,"6.0-7.0","6.0","7.0","drip",NA,"Cool-season (Hardy)",NA,NA,"32","65-75","1-8 months",40,"1,3",NA,NA,NA
+"14","Peas","1","Clay","Moderate (18-24 inches)",18,24,"6.0-7.5","6.0","7.5","sprinkler *",NA,"Cool-season (Hardy)",NA,NA,"32","90-98","1-2 weeks",32,NA,1,0,"Fall"
+"15","Peas","1","Clay","Moderate (18-24 inches)",18,24,"6.0-7.5","6.0","7.5","sprinkler *",NA,"Cool-season (Hardy)",NA,NA,"32","90-98","1-2 weeks",32,NA,1,4,"September-November"
+"16","Potato","1,4","Sandy loam","Moderate (18-24 inches)",18,24,"6.0-6.5","6.0","6.5",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,NA,NA,NA,NA,NA,4,4,"April-August"
+"17","Potato","1,4","Sandy loam","Moderate (18-24 inches)",18,24,"6.0-6.5","6.0","6.5",NA,NA,"Cool-season (Semi-Hardy)",NA,NA,NA,NA,NA,NA,NA,1,2,"April-August"
+"18","Pumpkin","2,4","Sandy","Deep (>36 inches)",36,100,"5.5-7.5","5.5","7.5",NA,NA,"Warm-season (Very Tender)",NA,NA,"54-59","50-70","2-3 months",NA,NA,2,1,"June-October"
+"19","Radish","3","Sandy","Shallow (6-12 inches)",6,12,"6.0-7.0","6.0","7.0",NA,NA,NA,NA,NA,"32","95-100","1-2 months",NA,NA,3,4,"September-November"
+"20","Radish","3","Sandy","Shallow (6-12 inches)",6,12,"6.0-7.0","6.0","7.0",NA,NA,NA,NA,NA,"32","95-100","1-2 months",NA,NA,3,0,"Fall"
+"21","Spinach","5","Clay","Moderate(18-24 inches)",18,24,"6.5-7.5","6.5","7.5",NA,NA,"Cool-season (Hardy)",NA,NA,NA,NA,NA,NA,NA,5,3,"August-November"
+"22","Squash",NA,"Sandy","Moderate (18-24 inches)",18,24,"6.0-7.0","6.0","7.0","drip",NA,"Warm-season (Very Tender)",NA,NA,"40-45","95","1-2 weeks",NA,NA,NA,NA,NA
+"23","Sweet Corn","2,4","Clay","Moderate (18-24 inches)",18,24,"5.5-7.0","5.5","7.0",NA,NA,"Warm-season (Tender)",NA,NA,"32","95-98","2-5 days (upto 21 days)",NA,NA,4,1,"May-August"
+"24","Sweet Corn","2,4","Clay","Moderate (18-24 inches)",18,24,"5.5-7.0","5.5","7.0",NA,NA,"Warm-season (Tender)",NA,NA,"32","95-98","2-5 days (upto 21 days)",NA,NA,2,4,"May-September"
+"25","Sweet Potato","1,5","Sandy loam","Deep (>36 inches)",36,100,"5.0- 7.5","5.0","7.5",NA,NA,"Cool-season (Semi-Hardy)*",NA,NA,"55-59","85-95","4-7 months",NA,NA,1,3,"May-October"
+"26","Sweet Potato","1,5","Sandy loam","Deep (>36 inches)",36,100,"5.0- 7.5","5.0","7.5",NA,NA,"Cool-season (Semi-Hardy)*",NA,NA,"55-59","85-95","4-7 months",NA,NA,5,2,"June-October"
+"27","Tomato","2","Loam","Moderate (18-24 inches)",18,24,"5.5-7.5","5.5","7.5",NA,NA,"Warm-season (Tender)",NA,NA,"50- 55","90-95","1-2 weeks",NA,NA,2,2,"May-September"
+"28","Watermelon",NA,"Sandy loam","Deep (>36 inches)",36,100,"6.0-6.5","6.0","6.5",NA,NA,"Warm-season (Very Tender)",NA,NA,"50-60","90","2-3 weeks",NA,NA,NA,NA,NA

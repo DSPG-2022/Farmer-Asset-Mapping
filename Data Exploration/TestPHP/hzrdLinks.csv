@@ -1,0 +1,7 @@
+V1,V2,V3,V4
+Flood ,FEMA map,https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd,"&extent=-93.8549825161392,42.0784338650385,-93.8352414583868,42.1070950672844"
+Flood ,FEMA Home,https://msc.fema.gov/portal/home,"?AddressQuery=-93.8549825161392,42.0784338650385"
+Drought,Drought Monitor,https://droughtmonitor.unl.edu/CurrentMap/StateDroughtMonitor.aspx,?IA
+Hazard Risk,FEMA,https://hazards.fema.gov/,nri
+Hazard Risk,FEMA Report,https://hazards.fema.gov/nri/report/viewer,?dataLOD=Counties&dataIDS=C19015
+Climate Mapper,Climate Toolbox,https://climatetoolbox.org/tool/climate-mapper,?mapZoom=10&mapCenterLat=42.0784338650385&mapCenterLon=-93.8549825161392
