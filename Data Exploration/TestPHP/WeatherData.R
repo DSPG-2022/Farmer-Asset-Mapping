@@ -1,7 +1,15 @@
 
 Year= 2015
-startMonth = 4
-EndMonth = 10
+startMonthName = "April"
+EndMonthName = "October"
+
+
+lat = 42
+lon= -93
+
+startMonth <- match(startMonthName, month.name)
+EndMonth <- match(EndMonthName,month.name)
+
 
 CurrentDate <- Sys.Date()-2
 StartDates <- list()
@@ -16,7 +24,7 @@ YearRange = as.numeric(format(CurrentDate,"%Y"))-Year
 
 for(yearVal in 0:YearRange){
   
-    
+  
   StartDate = paste(Year+yearVal,"-",StartMonthCorrect,'-',"01",sep="")
   EndDate = paste(Year+yearVal,"-",EndMonthCorrect,"-",EndDay,sep="")
   if(Year+yearVal==as.numeric(format(CurrentDate,"%Y"))){
@@ -25,7 +33,7 @@ for(yearVal in 0:YearRange){
   StartDates <-append(StartDates,StartDate)
   EndDates <-append(EndDates,EndDate)
 }
-knitr::opts_chunk$set(echo = TRUE)
+
 
 library(ncdf4) 
 library(raster)
@@ -42,3 +50,31 @@ library(mapdata)
 library(sp)
 library(rgeos)
 library ("geosphere")
+
+
+
+base_url <- "https://mesonet.agron.iastate.edu/iemre/"
+target_request <- "multiday/"
+end_of_url <- "json"
+
+#Create empty list to store url's
+url_list <-list()
+
+#Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.
+#url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/lat/lon/json
+
+#Create empty dataframe
+df <- data.frame()
+
+for (i in 1:length(StartDates)) {
+  
+    url <- paste0(base_url, target_request, StartDates[i], "/", EndDates[i], "/", lat, "/", lon, "/", end_of_url)
+    url_list <- c(url_list, url)
+    print(url)  
+    data <- as.data.frame(jsonlite::fromJSON(url))
+    df <- rbind(df,data)
+  
+}
+
+
+write.csv(df,"Output\\WeatherData.csv")

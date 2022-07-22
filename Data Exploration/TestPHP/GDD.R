@@ -12,7 +12,7 @@ library(readxl)
 
 
 setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
-mydata <- read.csv("2015_2021_clim.csv")
+mydata <- read.csv("Output\\WeatherData.csv")
 
 
 newdata <- read_excel("Input\\Crop-Info_Farmer Asset Mapping.xlsx")
@@ -88,7 +88,8 @@ mydata$CantaloupeGDD= ifelse(mydata$CantaloupeGDD < 0, "0",mydata$CantaloupeGDD 
 mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar(date)-3), nchar(date))) %>% mutate(Month = ifelse(Month ==1,10,Month))%>% group_by(year, Month) %>% summarise(acc_gdd_onion= sum(as.numeric(OnionGDD), acc_gdd_peas = sum(as.numeric(PeasGDD)), acc_gdd_asparaguss = sum(as.numeric(AsparagusGDD)), acc_gdd_potato = sum(as.numeric(PotatoGDD)), acc_gdd_cabbage = sum(as.numeric(CabbageGDD)), acc_gdd_sweet_potato = sum(as.numeric(Sweet_PotatoGDD)), acc_gdd_Squash = sum(as.numeric(SquashGDD)), acc_gdd_cucumber = sum(as.numeric(CucumberGDD)), acc_gdd_Cauliflower = sum(as.numeric(CauliflowerGDD)), acc_gdd_Pumpkin = sum(as.numeric(PumpkinGDD)), acc_gdd_Tomato = sum(as.numeric(TomatoGDD)), acc_gdd_Watermelon = sum(as.numeric(WatermelonGDD)), acc_gdd_carrot = sum(as.numeric(CarrotGDD)), acc_gdd_sweet_corn = sum(as.numeric(Sweet_cornGDD)), acc_gdd_lettuce = sum(as.numeric(LettuceGDD)), acc_gdd_Eggplant = sum(as.numeric(EggplantGDD)), acc_gdd_radishh = sum(as.numeric(RadishhGDD)), acc_gdd_spinach = sum(as.numeric(SpinachGDD)), acc_gdd_cantaloupe = sum(as.numeric(CantaloupeGDD)) ))
 
 mydata2<- mydata2 %>%
-  mutate(Date = paste(Month,year,sep="/"))
+  mutate(Date = paste(Month,year,sep="/"))%>%
+  mutate(MonthName = month.name[Month])
 
 ##FIX 
 ## USE month.name[]

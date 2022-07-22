@@ -1,0 +1,68 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+library(ncdf4) 
+library(raster)
+library(tidyverse)
+library(jsonlite)
+library(httr)
+library(rlist)
+library(lubridate)
+library(urltools)
+library(inborutils)
+library(rgdal)
+library(maps)
+library(mapdata)
+library(sp)
+library(rgeos)
+library ("geosphere")
+```  
+
+```{r}
+#Get latitude an longitude from the user
+
+lat <- readline(prompt = "Enter latitude: ")
+lon <- readline(prompt = "Enter longitude: ")
+
+#Get start and end dates from the user (Multi-year Query not supported)
+start_dates <- as.Date(readline(prompt = "Enter start date (YYYY-MM-DD): "))
+end_dates <- as.Date(readline(prompt = "Enter end date (YYYY-MM-DD): "))
+
+
+base_url <- "https://mesonet.agron.iastate.edu/iemre/"
+target_request <- "multiday/"
+end_of_url <- "json"
+
+#Create empty list to store url's
+url_list <-list()
+
+#Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.
+#url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/lat/lon/json
+
+#Create empty dataframe
+df <- data.frame()
+
+for (i in 1:length(start_dates)) {
+    for (j in 1:length(end_dates)){
+      url <- paste0(base_url, target_request, as.Date(start_dates[i]), "/", as.Date(end_dates[j]), "/", lat, "/", lon, "/", end_of_url)
+        url_list <- c(url_list, url)
+        print(url)  
+        data <- as.data.frame(jsonlite::fromJSON(url))
+        df <- rbind(df,data)
+    }
+}
+```
+```{r}
+head(df)
+```
+
+

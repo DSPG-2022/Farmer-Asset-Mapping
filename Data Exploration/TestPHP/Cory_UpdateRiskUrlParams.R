@@ -50,5 +50,6 @@ value =paste("?mapZoom=10&mapCenterLat=",s@extent@ymin,sep="")
 value= paste(value,"&mapCenterLon=",sep='')
 value= paste(value,s@extent@xmin,sep='')
 riskLink[6,4]<-value
-riskLink
+
+
 write.csv(riskLink,"hzrdLinks.csv",row.names = FALSE)
