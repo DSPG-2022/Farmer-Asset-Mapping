@@ -13,12 +13,14 @@ args <- commandArgs(TRUE)
 ##Bounding Box Input
 s <- raster(ncol=2, nrow=2)
 
+##INPUTS from php
 ymin(s) <- as.numeric(args[1])
 ymax(s) <- as.numeric(args[2])
 xmin(s) <- as.numeric(args[3])
 xmax(s) <- as.numeric(args[4])
 lat = as.numeric(args[5])
 lon= as.numeric(args[6])
+
 #Gather Data from Web Soil Survey
 ##Input can Either be a RasterLayer or a Spatial object
 ##Output:
@@ -33,44 +35,51 @@ lon= as.numeric(args[6])
 Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
 
 
-
+##Web soil srubey has two folders, spatical and tabluar data
 Data <- Area$tabular
 
+##State Fips and State Abv (IA) 
+##Used In Updates Risk URL PARAMETERS
 Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol,3,5))))
 StateAbv <-substr(Data$legend$areasymbol,0,2)
 
+
+##Tables of data we are using
 componet <- Data$component 
 muaggart <-Data$muaggatt
 mapunit <-Data$mapunit
-comonth <- Data$comonth %>% filter(month=="May")
-coerosionacc <- Data$coerosionacc %>% filter(rvindicator=="Yes")
+comonth <- Data$comonth %>% filter(month=="May") #only want month of may to follow CSR2
+coerosionacc <- Data$coerosionacc %>% filter(rvindicator=="Yes") ##only care about dominant areas
+chorizon <- Data$chorizon
+chtexturegrp <-Data$chtexturegrp %>%filter(rvindicator == "Yes") ##only care about dominant areas
 
+##Merging Soil Data Together
 Overall<- merge(muaggart,componet,by = "mukey", all = TRUE)
 Overall<- merge(Overall,mapunit,by = "mukey", all = TRUE)
 Overall<- merge(Overall,comonth,by = "cokey", all = TRUE)
 Overall<- merge(Overall,coerosionacc,by = "cokey", all = TRUE)
-
-chorizon <- Data$chorizon
-chtexturegrp <-Data$chtexturegrp %>%filter(rvindicator == "Yes")
-
 chorizon2 <- merge(chorizon,chtexturegrp, by = "chkey", all.x=TRUE)
 chorizon2 <-chorizon2%>%
-  mutate(depth = hzdept.r /2.54)
+  mutate(depth = hzdept.r /2.54) ##convert cm to inches
+
+
 #CropData
 CropData <- read_excel("Input\\Crop-Info_Farmer Asset Mapping.xlsx")
 
+
+##Merge Soil Data With Crop Data, gets rid of all values that are past the max Rooting Depth (Later going to average depths)
 MergedData <- sqldf("select * from chorizon2 left join CropData
              on (chorizon2.depth <= CropData.Depth_l)")
+
+##Filters for areas without crops
 MergedDataNoNA <- MergedData %>%
   filter(!is.na(`Types of Crops`))
-
-
 
 
 chorzonSim <-MergedDataNoNA%>%
   mutate(depthLevel = "0-MaxRootDepth")
 
-
+##for values that very on depth, chose to take average of or value on surface layer
 chorzonSim2<- chorzonSim%>%
   filter(depthLevel=="0-MaxRootDepth")%>%
   group_by(cokey,`Types of Crops`)%>%
@@ -79,21 +88,21 @@ chorzonSim2<- chorzonSim%>%
             ptotal = mean(ptotal.r,na.rm=TRUE),soilTextsum = soilText,Kfact = mean(kffact,na.rm=TRUE))%>%
   filter(soilTextsum!="")
 
+##Now that data is averaged, remerge data with crop data
 chData <- merge(chorzonSim2,CropData,by = "Types of Crops")
 
 
 
-##function to  determine which soil texture to use
-
+##Use the soil componets that are the majority of the mapunit
 Overall <- Overall %>%
   filter(majcompflag=="Yes")
 
+##More merging
 Overall2<- merge(Overall,chData,by = "cokey", all = TRUE)
-
-
 Overall2 <- Overall2 %>%
   filter(majcompflag=="Yes")
 
+##SELECTS ONLT THE variables we want to look at
 Simple <- as_tibble(Overall2) %>%
   dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws0150wta, flodfreqcl,floddurcl,pondfreqcl,
@@ -101,8 +110,12 @@ Simple <- as_tibble(Overall2) %>%
          soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H,Boron,Copper,Zinc,Molybdenum,Iron,Manganese,)
 CropRotation <- read_excel("Sanika-Crop_Rotation.xlsx")
 
+##Merges with crop rotation
 Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all.x=TRUE )
 
+##FLAGS
+
+##TODO ADD WEIGHT
 Simple<- Simple%>%
   mutate(Flags =
            ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",",pH does not fit into range"))%>%
@@ -130,5 +143,7 @@ Simple<- Simple%>%
 #  mutate(Flags  =
          #  ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
+##Runs the updating urls
 source("Cory_UpdateRiskURLParams.R")  
+
 write.csv(Simple,"Output\\CropSelection2.csv")

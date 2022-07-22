@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyr)
 library(sqldf)
 library(raster)
+##Updates the Parameters Column of hzrdlinks csv so that when they use links, it pops up with information relevant to their location
 
 riskLink <-read.csv("hzrdLinks.csv",header =TRUE)
 
@@ -25,6 +26,7 @@ riskLink[2,4]<-value
 value =paste("?",StateAbv,sep="")
 riskLink[3,4]<-value
 ## Hazard Risk FEMA 4
+##HAS no parameters so use end of url to make it work
 value = "nri"
 riskLink[4,4]<-value
 
