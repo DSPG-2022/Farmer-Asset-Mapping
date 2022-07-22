@@ -1,0 +1,36 @@
+fragvol.l,fragvol.r,fragvol.h,fragkind,fragsize.l,fragsize.r,fragsize.h,fragshp,fraground,fraghard,chkey,chfragskey
+0,3,6,Conglomerate fragments,2,3,5,Nonflat,Subrounded,Indurated,65173749,112338603
+3,5,6,Conglomerate fragments,5,20,75,Nonflat,Subrounded,Indurated,65173749,112338604
+0,0,0,Conglomerate fragments,75,140,250,Nonflat,Subrounded,Indurated,65173749,112338605
+0,0,0,Conglomerate fragments,250,400,600,Nonflat,Subrounded,Indurated,65173749,112338606
+0,0,0,Conglomerate fragments,600,775,1000,Nonflat,Subrounded,Indurated,65173749,112338607
+0,0,0,Mixed rock fragments,2,3,5,,,,65173047,112337430
+0,0,0,Mixed rock fragments,5,10,20,,,,65173047,112337431
+0,0,0,Mixed rock fragments,20,50,75,,,,65173047,112337432
+0,0,0,Mixed rock fragments,2,3,5,,,,65173048,112337433
+0,0,0,Mixed rock fragments,5,10,20,,,,65173048,112337434
+0,0,0,Mixed rock fragments,20,50,75,,,,65173048,112337435
+0,3,6,Mixed rock fragments,2,3,5,Nonflat,Subrounded,Indurated,65173748,112338598
+3,5,6,Mixed rock fragments,5,20,75,Nonflat,Subrounded,Indurated,65173748,112338599
+0,2,3,Mixed rock fragments,75,140,250,Nonflat,Subrounded,Indurated,65173748,112338600
+0,0,0,Mixed rock fragments,250,400,600,Nonflat,Subrounded,Indurated,65173748,112338601
+0,0,0,Mixed rock fragments,600,775,1000,Nonflat,Subrounded,Indurated,65173748,112338602
+0,0,0,Mixed rock fragments,2,3,5,,,,65173051,112337442
+0,0,0,Mixed rock fragments,5,10,20,,,,65173051,112337443
+0,0,0,Mixed rock fragments,20,50,75,,,,65173051,112337444
+0,3,6,Mixed rock fragments,2,3,5,Nonflat,Subrounded,Indurated,65173747,112338593
+3,5,6,Mixed rock fragments,5,20,75,Nonflat,Subrounded,Indurated,65173747,112338594
+0,2,3,Mixed rock fragments,75,140,250,Nonflat,Subrounded,Indurated,65173747,112338595
+0,0,0,Mixed rock fragments,250,400,600,Nonflat,Subrounded,Indurated,65173747,112338596
+0,0,0,Mixed rock fragments,600,775,1000,Nonflat,Subrounded,Indurated,65173747,112338597
+0,0,0,Mixed rock fragments,2,3,5,,,,65173050,112337439
+0,0,0,Mixed rock fragments,5,10,20,,,,65173050,112337440
+0,0,0,Mixed rock fragments,20,50,75,,,,65173050,112337441
+3,5,5,Conglomerate fragments,5,20,75,Nonflat,Subrounded,Indurated,65173746,112338588
+0,0,0,Conglomerate fragments,75,140,250,Nonflat,Subrounded,Indurated,65173746,112338589
+0,0,0,Conglomerate fragments,250,400,600,Nonflat,Subrounded,Indurated,65173746,112338590
+0,0,0,Conglomerate fragments,600,775,1000,Nonflat,Subrounded,Indurated,65173746,112338591
+0,3,5,Conglomerate fragments,2,4,5,Nonflat,Subrounded,Indurated,65173746,112338592
+0,0,0,Mixed rock fragments,2,3,5,,,,65173049,112337436
+0,0,0,Mixed rock fragments,5,10,20,,,,65173049,112337437
+0,0,0,Mixed rock fragments,20,50,75,,,,65173049,112337438

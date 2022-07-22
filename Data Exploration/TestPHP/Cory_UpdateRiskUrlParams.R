@@ -5,19 +5,7 @@ library(tidyr)
 library(sqldf)
 library(raster)
 
-##NEED SOIL DATA
-##NEED LONG/LAT
-
-s <- raster(ncol=2, nrow=2)
-
-ymin(s) <- 42.078433865038505
-ymax(s) <- 42.10709506728437
-xmin(s) <- -93.85498251613917
-xmax(s) <- -93.83524145838685
-
-
 riskLink <-read.csv("hzrdLinks.csv",header =TRUE)
-riskLink
 
 ##FLOOD FEMA MAP 1
 

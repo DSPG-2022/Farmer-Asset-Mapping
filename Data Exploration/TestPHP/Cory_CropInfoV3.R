@@ -6,13 +6,19 @@ library(tidyr)
 library(sqldf)
 library(raster)
 
+setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
+args <- commandArgs(TRUE)
+
+
 ##Bounding Box Input
 s <- raster(ncol=2, nrow=2)
-ymin(s) <- 42.078433865038505
-ymax(s) <- 42.10709506728437
-xmin(s) <- -93.85498251613917
-xmax(s) <- -93.83524145838685
 
+ymin(s) <- as.numeric(args[1])
+ymax(s) <- as.numeric(args[2])
+xmin(s) <- as.numeric(args[3])
+xmax(s) <- as.numeric(args[4])
+lat = as.numeric(args[5])
+lon= as.numeric(args[6])
 #Gather Data from Web Soil Survey
 ##Input can Either be a RasterLayer or a Spatial object
 ##Output:
@@ -23,13 +29,16 @@ xmax(s) <- -93.83524145838685
 #force.redo, Parameter in funciton that if
   #set to false, means that if there is already data in label folder, then it won't download data from web soil survey
   #set to true, any time it is called it will download data fromm web soil surbey and overwrite what is stored in label folder
-Area<- get_ssurgo(template = s,label = "CropSelection_V3")
+
+Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
 
 
 
 Data <- Area$tabular
+
 Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol,3,5))))
 StateAbv <-substr(Data$legend$areasymbol,0,2)
+
 componet <- Data$component 
 muaggart <-Data$muaggatt
 mapunit <-Data$mapunit
@@ -48,7 +57,7 @@ chorizon2 <- merge(chorizon,chtexturegrp, by = "chkey", all.x=TRUE)
 chorizon2 <-chorizon2%>%
   mutate(depth = hzdept.r /2.54)
 #CropData
-CropData <- read_excel("Crop-Info_Farmer Asset Mapping.xlsx")
+CropData <- read_excel("Input\\Crop-Info_Farmer Asset Mapping.xlsx")
 
 MergedData <- sqldf("select * from chorizon2 left join CropData
              on (chorizon2.depth <= CropData.Depth_l)")
@@ -121,5 +130,5 @@ Simple<- Simple%>%
 #  mutate(Flags  =
          #  ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
-source("GitHub\\Farmer-Asset-Mapping\\Data Exploration\\R Projects\\Cory_UpdateRiskURLParams.R")  
-write.csv(Simple,"CropSelection2.csv")
+source("Cory_UpdateRiskURLParams.R")  
+write.csv(Simple,"Output\\CropSelection2.csv")
