@@ -27,18 +27,3 @@ for(yearVal in 0:YearRange){
 }
 knitr::opts_chunk$set(echo = TRUE)
 
-library(ncdf4) 
-library(raster)
-library(tidyverse)
-library(jsonlite)
-library(httr)
-library(rlist)
-library(lubridate)
-library(urltools)
-library(inborutils)
-library(rgdal)
-library(maps)
-library(mapdata)
-library(sp)
-library(rgeos)
-library ("geosphere")

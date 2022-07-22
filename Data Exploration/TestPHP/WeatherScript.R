@@ -5,11 +5,11 @@ args <- commandArgs(TRUE)
 setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
 
 
-Year= args[1]
+Year= as.numeric(args[1])
 startMonthName = args[2]
 EndMonthName = args[3]
-lat = args[4]
-lon= args[5]
+lat = as.numeric(args[4])
+lon= as.numeric(args[5])
 
 startMonth <- match(startMonthName, month.name)
 EndMonth <- match(EndMonthName,month.name)
@@ -47,7 +47,6 @@ library(httr)
 library(rlist)
 library(lubridate)
 library(urltools)
-library(inborutils)
 library(rgdal)
 library(maps)
 library(mapdata)
