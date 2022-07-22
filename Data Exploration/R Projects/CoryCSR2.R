@@ -3,6 +3,9 @@ library(FedData)
 library(readxl)
 library(dplyr)
 library(tidyr)
+
+
+setwd("C:/Users/cornd/OneDrive/Documents")
 SSURGO.areas <- get_ssurgo(template = "IA001",label = "CO_TEST") #Querty Data from Web Soil Survey
 
 IA001.Tabular <- SSURGO.areas$tabular
@@ -78,5 +81,8 @@ Overall <- Overall %>%
 Simple2 <- Overall %>%
   dplyr::select(mukey,cokey,muacres,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,wei,niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws050wta, flodfreqcl,floddurcl,pondfreqcl,pondfreqprs,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, soilTextdes =soilTextsum, depthLevel)
 
+potato <- "potato"
+
+Write.csv(potato, 'Potato.csv')
 
 
