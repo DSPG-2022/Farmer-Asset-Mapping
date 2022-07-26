@@ -10989,7 +10989,7 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
       </viewpoint>
       <simple-id uuid='{D7C293D3-BB5B-4F5D-9347-D8F71E42A574}' />
     </window>
-    <window class='dashboard' name='Crop'>
+    <window class='dashboard' maximized='true' name='Crop'>
       <viewpoints>
         <viewpoint name='CropTable'>
           <zoom type='entire-view' />
@@ -11078,7 +11078,7 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
       <active id='64' />
       <simple-id uuid='{9F40EC17-47A3-49B4-9CF5-8FEB27036B9E}' />
     </window>
-    <window class='dashboard' maximized='true' name='Crop Rotation'>
+    <window class='dashboard' name='Crop Rotation'>
       <viewpoints>
         <viewpoint name='CropRotation' />
         <viewpoint name='Example2'>
