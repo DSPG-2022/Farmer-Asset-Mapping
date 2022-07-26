@@ -1,6 +1,36 @@
 musym,muname,mukind,mustatus,muacres,mapunitlfw.l,mapunitlfw.r,mapunitlfw.h,mapunitpfa.l,mapunitpfa.r,mapunitpfa.h,farmlndcl,muhelcl,muwathelcl,muwndhelcl,interpfocus,invesintens,iacornsr,nhiforsoigrp,nhspiagr,vtsepticsyscl,mucertstat,lkey,mukey
-119,"Muscatine silty clay loam, 0 to 2 percent slopes",Consociation,NA,21667,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,100,NA,NA,NA,NA,13703,409403
-11B,"Colo-Ely complex, 0 to 5 percent slopes",Complex,NA,23404,NA,NA,NA,NA,NA,NA,Prime farmland if drained,NA,NA,NA,,Order 2,86,NA,NA,NA,NA,13703,409404
-120B,"Tama silty clay loam, 2 to 5 percent slopes",Consociation,NA,48177,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,95,NA,NA,NA,NA,13703,409406
-120C2,"Tama silty clay loam, 5 to 9 percent slopes, eroded",Consociation,NA,39441,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,87,NA,NA,NA,NA,13703,409408
-120D2,"Tama silty clay loam, 9 to 14 percent slopes, eroded",Consociation,NA,23118,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,62,NA,NA,NA,NA,13703,409409
+11B,"Colo-Ely complex, 0 to 5 percent slopes",Complex,NA,27829,NA,NA,NA,NA,NA,NA,Prime farmland if drained,NA,NA,NA,,Order 2,86,NA,NA,NA,NA,13720,410535
+120,"Tama silty clay loam, 0 to 2 percent slopes",Consociation,NA,514,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,100,NA,NA,NA,NA,13720,410536
+120B,"Tama silty clay loam, 2 to 5 percent slopes",Consociation,NA,26422,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,95,NA,NA,NA,NA,13720,410537
+120C2,"Tama silty clay loam, 5 to 9 percent slopes, eroded",Consociation,NA,29176,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,87,NA,NA,NA,NA,13720,410539
+120D2,"Tama silty clay loam, 9 to 14 percent slopes, eroded",Consociation,NA,7241,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,62,NA,NA,NA,NA,13720,410540
+133,"Colo silty clay loam, 0 to 2 percent slopes, occasionally flooded",Consociation,NA,5897,NA,NA,NA,NA,NA,NA,Prime farmland if drained and either protected from flooding or not frequently flooded during the growing season,NA,NA,NA,,Order 2,78,NA,NA,NA,NA,13720,410543
+133+,"Colo silt loam, 0 to 2 percent slopes, occasionally flooded, overwash",Consociation,NA,7384,NA,NA,NA,NA,NA,NA,Prime farmland if drained and either protected from flooding or not frequently flooded during the growing season,NA,NA,NA,,Order 2,78,NA,NA,NA,NA,13720,410544
+M162C2,"Downs silt loam, till plain, 5 to 9 percent slopes, eroded",Consociation,NA,5369,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,82,NA,NA,NA,NA,13720,410546
+M162D2,"Downs silt loam, till plain, 9 to 14 percent slopes, eroded",Consociation,NA,5445,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,57,NA,NA,NA,NA,13720,410548
+M163E2,"Fayette silt loam, till plain, 14 to 18 percent slopes, eroded",Consociation,NA,2265,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,36,NA,NA,NA,NA,13720,410552
+179E,"Gara loam, 14 to 18 percent slopes",Consociation,NA,811,NA,NA,NA,NA,NA,NA,Not prime farmland,NA,NA,NA,,,38,NA,NA,NA,NA,13720,410555
+179E2,"Gara loam, 14 to 18 percent slopes, moderately eroded",Consociation,NA,14970,NA,NA,NA,NA,NA,NA,Not prime farmland,NA,NA,NA,,,34,NA,NA,NA,NA,13720,410556
+179F,"Gara loam, 18 to 25 percent slopes",Consociation,NA,1806,NA,NA,NA,NA,NA,NA,Not prime farmland,NA,NA,NA,,,20,NA,NA,NA,NA,13720,410557
+192D2,"Adair clay loam, 9 to 14 percent slopes, moderately eroded",Consociation,NA,5626,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,16,NA,NA,NA,NA,13720,410558
+20C2,"Killduff silty clay loam, 5 to 9 percent slopes, eroded",Consociation,NA,11239,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,81,NA,NA,NA,NA,13720,410560
+20D2,"Killduff silty clay loam, 9 to 14 percent slopes, eroded",Consociation,NA,6077,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,Order 2,55,NA,NA,NA,NA,13720,410561
+220,"Nodaway silt loam, shallow loess, 0 to 2 percent slopes, occasionally flooded",Consociation,NA,6034,NA,NA,NA,NA,NA,NA,Prime farmland if drained and either protected from flooding or not frequently flooded during the growing season,NA,NA,NA,,Order 2,77,NA,NA,NA,NA,13720,410562
+24E2,"Shelby loam, 14 to 18 percent slopes, moderately eroded",Consociation,NA,8902,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,36,NA,NA,NA,NA,13720,410568
+428B,"Ely silty clay loam, 2 to 5 percent slopes",Consociation,NA,1449,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,88,NA,NA,NA,NA,13720,410589
+43,"Bremer silty clay loam, 0 to 2 percent slopes",Consociation,NA,308,NA,NA,NA,NA,NA,NA,Prime farmland if drained,NA,NA,NA,,,79,NA,NA,NA,NA,13720,410590
+430,"Ackmore silt loam, 0 to 2 percent slopes, occasionally flooded",Consociation,NA,6086,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,70,NA,NA,NA,NA,13720,410591
+451D2,"Caleb loam, 9 to 14 percent slopes, moderately eroded",Consociation,NA,184,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,58,NA,NA,NA,NA,13720,410593
+462B,"Downs silt loam, benches, 2 to 5 percent slopes",Consociation,NA,656,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,,90,NA,NA,NA,NA,13720,410595
+462C2,"Downs silt loam, benches, 5 to 9 percent slopes, moderately eroded",Consociation,NA,484,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,82,NA,NA,NA,NA,13720,410596
+484,"Lawson silt loam, 0 to 2 percent slopes, occasionally flooded",Consociation,NA,3032,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,Order 2,79,NA,NA,NA,NA,13720,410597
+488D2,"Downs variant, silt loam, 9 to 14 percent slopes, moderately eroded",Consociation,NA,1459,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,57,NA,NA,NA,NA,13720,410599
+51,"Vesser silt loam, 0 to 2 percent slopes",Consociation,NA,641,NA,NA,NA,NA,NA,NA,Prime farmland if drained,NA,NA,NA,,,74,NA,NA,NA,NA,13720,410603
+792D2,"Armstrong loam, 9 to 14 percent slopes, moderately eroded",Consociation,NA,7964,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,7,NA,NA,NA,NA,13720,410626
+88,"Nevin silty clay loam, 0 to 2 percent slopes",Consociation,NA,1206,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,,95,NA,NA,NA,NA,13720,410636
+8B,"Judson silty clay loam, 2 to 5 percent slopes",Consociation,NA,2316,NA,NA,NA,NA,NA,NA,All areas are prime farmland,NA,NA,NA,,,93,NA,NA,NA,NA,13720,410639
+8C,"Judson silty clay loam, 5 to 9 percent slopes",Consociation,NA,431,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,89,NA,NA,NA,NA,13720,410640
+93D2,"Shelby-Adair complex, 9 to 14 percent slopes, moderately eroded",Complex,NA,9441,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,44,NA,NA,NA,NA,13720,410641
+993D2,"Gara-Armstrong loams, 9 to 14 percent slopes, moderately eroded",Complex,NA,6309,NA,NA,NA,NA,NA,NA,Farmland of statewide importance,NA,NA,NA,,,31,NA,NA,NA,NA,13720,410643
+993E2,"Gara-Armstrong loams, 14 to 18 percent slopes, moderately eroded",Complex,NA,1967,NA,NA,NA,NA,NA,NA,Not prime farmland,NA,NA,NA,,,24,NA,NA,NA,NA,13720,410644
+W,Water,Consociation,NA,1194,NA,NA,NA,NA,NA,NA,Not prime farmland,NA,NA,NA,,Order 2,NA,NA,NA,NA,NA,13720,3051961

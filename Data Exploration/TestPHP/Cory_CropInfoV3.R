@@ -146,4 +146,4 @@ Simple<- Simple%>%
 ##Runs the updating urls
 source("Cory_UpdateRiskURLParams.R")  
 
-write.csv(Simple,"Output\\CropSelection2.csv")
+write.csv(Simple,"Output\\CropSelection2.csv", row.names=FALSE)

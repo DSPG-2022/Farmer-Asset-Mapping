@@ -1,19 +1,96 @@
 ecoclasstypename,ecoclassref,ecoclassid,ecoclassname,cokey,coecoclasskey
-NRCS Rangeland Site,Ecological Site Description Database,R108CY516IA,Wet Loess Upland Flat Prairie,22073717,8092663
-NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22073718,8092463
-NRCS Rangeland Site,Ecological Site Description Database,R108CY516IA,Wet Loess Upland Flat Prairie,22073927,8092772
-NRCS Rangeland Site,Ecological Site Description Database,R108CY516IA,Wet Loess Upland Flat Prairie,22073928,8092501
-NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22074067,8092678
-NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22074068,8092719
-NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22074095,8092699
-NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22074095,8092700
-NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22074096,8092493
-NRCS Rangeland Site,Ecological Site Description Database,R109XY006MO,Till Upland Prairie ,22074097,8092611
-NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22074289,8092489
-NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22074290,8092692
-NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22074290,8092693
-NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22074290,8092694
-NRCS Forestland Site,Ecological Site Description Database,F108CY501IA,Shallow Limestone Backslope Glade,22074291,8092569
-NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22074291,8092570
-NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22074292,8092527
-NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22074292,8092528
+NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22087231,8099321
+NRCS Forestland Site,Ecological Site Description Database,F108CY528IA,Floodplain Swamp Forest,22087232,8099322
+NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22087233,8099323
+NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22087234,8099324
+NRCS Rangeland Site,Ecological Site Description Database,R108CY509IA,Till Backslope Prairie,22087244,8099335
+NRCS Rangeland Site,Ecological Site Description Database,R108CY510IA,Till Backslope Seepage Meadow,22087245,8099336
+NRCS Rangeland Site,Ecological Site Description Database,R108CY509IA,Till Backslope Prairie,22087246,8099337
+NRCS Rangeland Site,Ecological Site Description Database,R108CY510IA,Till Backslope Seepage Meadow,22087247,8099338
+NRCS Rangeland Site,Ecological Site Description Database,R108CY523IA,Wet Terrace Sedge Meadow,22087253,8099344
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22087254,8099345
+NRCS Rangeland Site,Ecological Site Description Database,R108CY522IA,Terrace Savanna,22087255,8099346
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22087256,8099347
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22087257,8099348
+NRCS Rangeland Site,Ecological Site Description Database,R108CY522IA,Terrace Savanna,22087271,8099362
+NRCS Rangeland Site,Ecological Site Description Database,R108CY523IA,Wet Terrace Sedge Meadow,22087272,8099363
+NRCS Rangeland Site,Ecological Site Description Database,R108CY509IA,Till Backslope Prairie,22087273,8099364
+NRCS Rangeland Site,Ecological Site Description Database,R108CY509IA,Till Backslope Prairie,22087274,8099365
+NRCS Rangeland Site,Ecological Site Description Database,R108CY509IA,Till Backslope Prairie,22087275,8099366
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087287,8099378
+NRCS Forestland Site,Ecological Site Description Database,F108CY513IA,Till Backslope Forest,22087288,8099379
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087289,8099380
+NRCS Forestland Site,Ecological Site Description Database,F108CY513IA,Till Backslope Forest,22087290,8099381
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087291,8099382
+NRCS Rangeland Site,Ecological Site Description Database,R108CY509IA,Till Backslope Prairie,22087292,8099383
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087317,8099407
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087320,8099410
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087321,8099411
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22087322,8099412
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22087322,8099413
+NRCS Forestland Site,Ecological Site Description Database,F108CY505IA,Loess Upland Woodland,22087323,8099414
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22087324,8099415
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22087324,8099416
+NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22087325,8099417
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087329,8099421
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087330,8099422
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22087331,8099423
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087345,8099437
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087346,8099438
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087353,8099449
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087354,8099450
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087355,8099451
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087356,8099452
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087357,8099453
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087358,8099454
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087359,8099455
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087360,8099456
+NRCS Forestland Site,Ecological Site Description Database,F108CY505IA,Loess Upland Woodland,22087891,8099534
+NRCS Forestland Site,Ecological Site Description Database,F108CY513IA,Till Backslope Forest,22087892,8099535
+NRCS Forestland Site,Ecological Site Description Database,F108CY513IA,Till Backslope Forest,22087893,8099536
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087911,8099540
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087912,8099541
+NRCS Rangeland Site,Ecological Site Description Database,R108CY511IA,Till Backslope Savanna,22087917,8099547
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22087918,8099548
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22087918,8099549
+NRCS Rangeland Site,Ecological Site Description Database,R108CY504IA,Loess Upland Savanna,22087919,8099550
+NRCS Rangeland Site,Ecological Site Description Database,R108CY516IA,Wet Loess Upland Flat Prairie,22088132,8099551
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088133,8099552
+NRCS Rangeland Site,Ecological Site Description Database,R108CY516IA,Wet Loess Upland Flat Prairie,22088136,8099553
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088137,8099554
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088142,8099557
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088143,8099558
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22088147,8099559
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088147,8099560
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088148,8099561
+NRCS Rangeland Site,Ecological Site Description Database,R109XY006MO,Till Upland Prairie ,22088149,8099562
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088158,8099571
+NRCS Rangeland Site,Ecological Site Description Database,R109XY006MO,Till Upland Prairie ,22088159,8099572
+NRCS Rangeland Site,Ecological Site Description Database,R108CY503IA,Loess Upland Prairie,22088160,8099573
+NRCS Rangeland Site,Ecological Site Description Database,R109XY006MO,Till Upland Prairie ,22088161,8099574
+NRCS Forestland Site,Ecological Site Description Database,F108CY528IA,Floodplain Swamp Forest,22088355,8099577
+NRCS Forestland Site,Ecological Site Description Database,F108CY528IA,Floodplain Swamp Forest,22088356,8099578
+NRCS Forestland Site,Ecological Site Description Database,F108CY530IA,Sandy Floodplain Forest,22088357,8099579
+NRCS Forestland Site,Ecological Site Description Database,F108CY529IA,Loamy Floodplain Forest,22088358,8099580
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22088440,8099584
+NRCS Forestland Site,Ecological Site Description Database,F108CY529IA,Loamy Floodplain Forest,22088441,8099585
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22088442,8099586
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22088443,8099587
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088443,8099588
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22088444,8099589
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22088445,8099590
+NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22088445,8099591
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088445,8099592
+NRCS Rangeland Site,Ecological Site Description Database,R108CY527IA,Wet Floodplain Sedge Meadow,22088446,8099593
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088447,8099594
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22088448,8099595
+NRCS Forestland Site,Ecological Site Description Database,F108CY521IA,Colluvial Woodland,22088448,8099596
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088448,8099597
+NRCS Forestland Site,Ecological Site Description Database,F108CY501IA,Shallow Limestone Backslope Glade,22088449,8099598
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088449,8099599
+NRCS Forestland Site,Ecological Site Description Database,F108CY520IA,Upland Drainageway Woodland,22088450,8099600
+NRCS Rangeland Site,Ecological Site Description Database,R108CY519IA,Wet Upland Drainageway Prairie,22088450,8099601
+NRCS Forestland Site,Ecological Site Description Database,F108CY528IA,Floodplain Swamp Forest,22088647,8099609
+NRCS Forestland Site,Ecological Site Description Database,F108CY529IA,Loamy Floodplain Forest,22088648,8099610
+NRCS Forestland Site,Ecological Site Description Database,F108CY528IA,Floodplain Swamp Forest,22088651,8099613
+NRCS Forestland Site,Ecological Site Description Database,F108CY529IA,Loamy Floodplain Forest,22088652,8099614

@@ -21,7 +21,7 @@ StartDates <- list()
 EndDates <-list()
 
 ##finds the number of days in the end month given
-EndDay = lubridate::days_in_month(as.Date(paste(EndMonth,"/01/2000",sep="")))
+EndDay = lubridate::days_in_month(as.Date(paste("2000/",EndMonth,"/01",sep="")))
 
 ##format the start month correctly
 StartMonthCorrect <-format(as.Date(paste(startMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
@@ -81,7 +81,7 @@ for (i in 1:length(StartDates)) {
   
   url <- paste0(base_url, target_request, StartDates[i], "/", EndDates[i], "/", lat, "/", lon, "/", end_of_url)
   url_list <- c(url_list, url)
-  print(url)  
+  print(url) 
   data <- as.data.frame(jsonlite::fromJSON(url))
   df <- rbind(df,data)
   

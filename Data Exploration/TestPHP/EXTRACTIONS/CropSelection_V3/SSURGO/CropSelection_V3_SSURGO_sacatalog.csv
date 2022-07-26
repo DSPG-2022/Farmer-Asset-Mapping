@@ -1,23 +1,25 @@
 areasymbol,areaname,saversion,saverest,tabularversion,tabularverest,tabnasisexportdate,tabcertstatus,tabcertstatusdesc,fgdcmetadata,sacatalogkey
-IA127,"Marshall County, Iowa",26,09/14/2021 20:42:17,24,09/14/2021 20:42:17,09/14/2021 02:31:55,"certified, major components","The State of Iowa has added four new National interpretations in 2021. They are ""AGR - Industrial Hemp for Fiber and Seed Production"", ""FOR - Drought Vulnerable Soils"", ""SOH - Limitations for Aerobic Soil Organisms"" and ""SOH - dynamic Soil Properties Response to Biochar"".  The following map units were updated for Fiscal Year 2021:
-The 118 Garwin silty clay loam, 0 to 2 percent slopes map unit was updated through the MLRA 108C - Garwin soils project. This project impacted multiple map units spatially that led to modifications of map unit acreages.
-Some spatial edits were made to this county to include new map units or adjust existing ones.  All spatial data edits were certified correct by the Soil Survey region GIS specialist, and by the National Digitizing Center. The SSS certified the data population for all map units, and concurred with correlation of all projects mentioned, as they were documented in Soil Survey Area Legend(s), and in the Project Correlation tables.  This dataset also has recalculated all national, regional, and local interpretations for all components.
+IA157,"Poweshiek County, Iowa",25,09/15/2021 01:50:49,24,09/15/2021 01:50:49,09/14/2021 14:28:41,"certified, major components","The State of Iowa has added four new National interpretations in 2021. They are ""AGR - Industrial Hemp for Fiber and Seed Production"", ""FOR - Drought Vulnerable Soils"", ""SOH - Limitations for Aerobic Soil Organisms"" and ""SOH - dynamic Soil Properties Response to Biochar"".  The following map units were updated for Fiscal Year 2021:
+The 291 Atterberry silt loam, 0 to 2 percent slopes map unit was updated to 291 Atterberry silt loam, 1 to 3 percent slopes through the EVAL - MLRA 104 - Atterberry silt loam, 1 to 3 percent slopes project.
+The 118 Garwin silty clay loam, 0 to 2 percent slopes map unit was updated through the MLRA 108C - Garwin soils project. This project impacted multiple map units spatially that led to modifications of map unit acreages. 
+Some Spatial edits were made to this county to include new map units or adjust existing ones.  All spatial data edits were certified correct by the Soil Survey region GIS specialist, and by the National Digitizing Center. The SSS certified the data population for all map units, and concurred with correlation of all projects mentioned, as they were documented in Soil Survey Area Legend(s), and in the Project Correlation tables.  This dataset also has recalculated all national, regional, and local interpretations for all components.
 ","<metadata><idinfo><citation><citeinfo><origin>
 U.S. Department of Agriculture, Natural Resources
 Conservation Service
 </origin><pubdate>20190912</pubdate><title>
-Soil Survey Geographic (SSURGO) database for
-Marshall County, Iowa
+Soil Survey (SSURGO) Geographic Database of
+Poweshiek County, Iowa
 </title><pubinfo><pubplace>Fort Worth, Texas</pubplace><publish>
 U.S. Department of Agriculture, Natural Resources
 Conservation Service
-</publish></pubinfo><othercit>ia127</othercit><onlink>URL:http://DataGateway.nrcs.usda.gov/</onlink></citeinfo></citation><descript><abstract>
+</publish></pubinfo><othercit>ia157</othercit><onlink>URL:http://DataGateway.nrcs.usda.gov/</onlink></citeinfo></citation><descript><abstract>
 This data set is a digital soil survey and generally is the most
 detailed level of soil geographic data developed by the National
 Cooperative Soil Survey. The information was prepared by digitizing
 maps, by compiling information onto a planimetric correct base
 and digitizing, or by revising digitized maps using remotely
 sensed and other information.
+
 This data set consists of georeferenced digital map data and
 computerized attribute data. The map data are in a soil survey area
 extent format and include a detailed, field verified inventory
@@ -40,10 +42,11 @@ Digital versions of hydrography, cultural features, and other
 associated layers that are not part of the SSURGO data set may be
 available from the primary organization listed in the Point of
 Contact.
-</supplinf></descript><timeperd><timeinfo><rngdates><begdate>20041026</begdate><enddate>20190912</enddate></rngdates></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-93.232</westbc><eastbc>-92.766</eastbc><northbc>42.210</northbc><southbc>41.862</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>soil survey</themekey><themekey>soils</themekey><themekey>Soil Survey Geographic</themekey><themekey>SSURGO</themekey></theme><place><placekt>USGS Geographic Names Information System (GNIS)</placekt><placekey>Iowa</placekey><placekey>Marshall County</placekey><placekey>State Center NW Quadrangle</placekey><placekey>Union Quadrangle</placekey><placekey>Conrad West Quadrangle</placekey><placekey>Conrad East Quadrangle</placekey><placekey>State Center Quadrangle</placekey><placekey>La Moille Quadrangle</placekey><placekey>Marshall Town Quadrangle</placekey><placekey>Le Grand Quadrangle</placekey><placekey>Rhodes Quadrangle</placekey><placekey>Melbourne Quadrangle</placekey><placekey>Laurel Quadrangle</placekey><placekey>Gilman Quadrangle</placekey><placekey>Baxter Quadrangle</placekey><placekey>Baxter SE Quadrangle</placekey><placekey>Alloway Creek Quadrangle</placekey><placekey>Newburg Quadrangle</placekey></place></keywords><accconst>None</accconst><useconst>
+</supplinf></descript><timeperd><timeinfo><rngdates><begdate>20060925</begdate><enddate>20190912</enddate></rngdates></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-92.767</westbc><eastbc>-92.298</eastbc><northbc>41.863</northbc><southbc>41.509</southbc></bounding></spdom><keywords><theme><themekt>none</themekt><themekey>SSURGO</themekey><themekey>Soils Survey Geographic</themekey><themekey>soils</themekey><themekey>soil survey</themekey></theme><place><placekt>USGS Geographic Names Information System (GNIS)</placekt><placekey>Iowa</placekey><placekey>Poweshiek County</placekey><placekey>Newburg Quadrangle</placekey><placekey>Grinnell North Quadrangle</placekey><placekey>Sheridan Quadrangle</placekey><placekey>Belle Plaine SW Quadrangle</placekey><placekey>Hartwick Quadrangle</placekey><placekey>Oakland Acres Quadrangle</placekey><placekey>Grinnell South Quadrangle</placekey><placekey>Malcom Quadrangle</placekey><placekey>Brooklyn Quadrangle</placekey><placekey>Victor Quadrangle</placekey><placekey>Sully Quadrangle</placekey><placekey>Searsboro Quadrangle</placekey><placekey>Montezuma Quadrangle</placekey><placekey>Barnes City Quadrangle</placekey><placekey>Deep River Quadrangle</placekey></place></keywords><accconst>None</accconst><useconst>
 The U.S. Department of Agriculture, Natural Resources Conservation
 Service, should be acknowledged as the data source in products
 derived from these data.
+
 This data set is not designed for use as a primary regulatory tool
 in permitting or citing decisions, but may be used as a reference
 source. This is public information and may be interpreted by
@@ -54,6 +57,7 @@ reassign to the Natural Resources Conservation Service any
 authority for the decisions that they make. The Natural Resources
 Conservation Service will not perform any evaluations of these maps
 for purposes related solely to State or local regulatory programs.
+
 Photographic or digital enlargement of these maps to scales greater
 than at which they were originally mapped can cause misinterpretation
 of the data. If enlarged, maps do not show the small areas of
@@ -87,9 +91,11 @@ polygons are tested for closure with vendor software and are checked
 on hard copy plots. All data are checked for common soil lines (i.e.,
 adjacent polygons with the same label). Edge locations generally do
 not deviate from centerline to centerline by more than 0.01 inch.
-The quadrangles in this survey are edge matched to quadrangles in
-adjacent SSURGO certified soil surveys of Story, Hardin, Jasper,
-Grundy, and Tama County, Iowa.
+
+The boundaries of Poweshiek County Soils Survey match the boundaries in
+adjacent SSURGO certified soil surveys: Tama County, Iowa County, Keokuk
+County, Mahaska County, and Jasper County.
+
 Most feature edges (polygon and line segments) match adjacent ones
 in the edge matched survey areas, however, most feature labels don't
 match the adjacent feature labels in edge matched surveys.
@@ -100,17 +106,20 @@ unit differs in some respect from all others in a survey area and
 each map unit has a symbol that uniquely identifies the map unit
 on a soil map. Each individual area, point, or line so identified
 on the map is a delineation.
+
 Soil Scientists identify small areas of soils or miscellaneous areas
 that have properties and behavior significantly different than the
 named soils in the surrounding map unit. These minor components
 may be indicated as special features. If they have a minimal effect
 on use and management, or could not be precisely located, they many
 not be indicated on the map.
+
 A map unit has specified kinds of soils or miscellaneous areas
 (map unit components), each with a designated range in
 proportionate extent. Map units include one or more kinds of soil
 or miscellaneous area. Miscellaneous areas are areas that have little
 or no recognizable soil.
+
 Specific National Cooperative Soil Survey standards and procedures
 were used in the classification of soils, design and name of map
 units, and location of special soil features. These standards are
@@ -119,6 +128,7 @@ USDA, NRCS; Agricultural Handbook 436, Soil Taxonomy, 1995,
 USDA, NRCS; and all Amendments; Keys to Soil Taxonomy,
 (current issue) USDA, NRCS; National Soil Survey
 Handbook, title 430-VI,(current issue) USDA, NRCS.
+
 The actual composition and interpretive purity of the map unit
 delineations were based on data collected by scientists during
 the course of preparing the soil maps. Adherence to National
@@ -129,6 +139,7 @@ soil survey area and in documents that reside with the Natural
 Resources Conservation Service state soil scientist. Four kinds
 of map units are used in soil surveys: consociations, complexes,
 associations, and undifferentiated groups.
+
 Consociations - Consociations are named for the dominant soil.
 In a consociation, delineated areas use a single name from the
 dominant component in the map unit. Dissimilar components are
@@ -141,6 +152,7 @@ dissimilar inclusions of other components in a map unit generally
 does not exceed about 15 percent if limiting and 25 percent if
 nonlimiting. A single component of a dissimilar limiting inclusion
 generally does not exceed 10 percent if very contrasting.
+
 Complexes and associations - Complexes and associations consist
 of two or more  dissimilar components that occur in a regularly
 repeating pattern. The total amount of other dissimilar components
@@ -156,6 +168,7 @@ amount of inclusions in a map unit that are dissimilar to any of
 the major components does not exceed 15 percent if limiting and
 25 percent if nonlimiting. A single kind of dissimilar limiting
 inclusion usually does not exceed 10 percent.
+
 Undifferentiated groups - Undifferentiated groups consist of two
 or more components that are not consistently associated
 geographically and, therefore, do not always occur together in
@@ -171,11 +184,13 @@ regarding the proportion of minor components that apply to
 consociations also apply to undifferentiated groups. The same
 principles regarding proportion of inclusion apply to
 undifferentiated groups as to consociations.
+
 Minimum documentation consists of three complete soil profile
 descriptions that are collected for each soil added to the legend,
 one additional per 3,000 acres mapped; three 10 observation
 transects for each map unit, one additional 10 point transect per
 3,000 acres.
+
 A defined standard or level of confidence in the interpretive
 purity of the map unit delineations is attained by adjusting the
 kind and intensity of field investigations. Field investigations
@@ -191,6 +206,7 @@ soil boundaries and special soil features locations in the
 field and their digitized map locations is unknown. The
 locational accuracy of soil delineations on the ground varies
 with the transition between map units.
+
 For example, on long gently sloping landscapes the transition
 occurs gradually over many feet. Where landscapes change
 abruptly from steep to level, the transition will be very
@@ -204,38 +220,33 @@ by more than 0.01 inch.
 </horizpar></horizpa></posacc><lineage><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture,
 Soil Conservation Service
-</origin><pubdate>1981</pubdate><title>Soil Survey of Marshall County, Iowa</title><geoform>map</geoform><pubinfo><pubplace>Washington, DC</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>15840</srcscale><typesrc>paper</typesrc><srctime><timeinfo><sngdate><caldate>1978</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>SCS1</srccitea><srccontr>
-information for soil map unit delineations,
-special soil feature locations and data on soil properties
+</origin><pubdate>1981</pubdate><title>Soil Survey of Poweshiek, Iowa</title><geoform>atlas</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>15840</srcscale><typesrc>paper</typesrc><srctime><timeinfo><sngdate><caldate>1977</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>SCS1</srccitea><srccontr>
+information for soil map unit delineations, special soil feature
+locations and data on soil properties
 </srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture,
 Natural Resources Conservation Service
-</origin><pubdate>unpublished material</pubdate><title>Publication annotation overlay</title><geoform>map</geoform></citeinfo></srccite><srcscale>15840</srcscale><typesrc>stable-base material</typesrc><srctime><timeinfo><sngdate><caldate>1978</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>NRCS1</srccitea><srccontr>
-source of soil and special soil
-feature attribute data
+</origin><pubdate>unpublished material</pubdate><title>publication soil delineation overlay</title><geoform>map</geoform></citeinfo></srccite><srcscale>15840</srcscale><typesrc>film</typesrc><srctime><timeinfo><sngdate><caldate>1977</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>NRCS1</srccitea><srccontr>source of soil delineations</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+U.S. Department of Agriculture,
+Natural Resources Conservation Service
+</origin><pubdate>unpublished material</pubdate><title>publication annotation and special soil feature overlay</title><geoform>map</geoform></citeinfo></srccite><srcscale>15840</srcscale><typesrc>film</typesrc><srctime><timeinfo><sngdate><caldate>1977</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>NRCS2</srccitea><srccontr>
+source of soil labels and special soil feature
+placement
 </srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture, Natural Resources
 Conservation Service
-</origin><pubdate>unpublished material</pubdate><title>publication atlas sheet photographic overlays</title><geoform>remote-sensing image</geoform></citeinfo></srccite><srcscale>15840</srcscale><typesrc>film</typesrc><srctime><timeinfo><sngdate><caldate>1976</caldate></sngdate></timeinfo><srccurr>date aerial photography was flown</srccurr></srctime><srccitea>NRCS2</srccitea><srccontr>source of control points</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
-U.S. Department of Agriculture,
-Natural Resources Conservation Service
-</origin><pubdate>unpublished material</pubdate><title>soil delineation overlay</title><geoform>map</geoform></citeinfo></srccite><srcscale>15840</srcscale><typesrc>stable-base material</typesrc><srctime><timeinfo><sngdate><caldate>1978</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>NRCS3</srccitea><srccontr>scanning source</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+</origin><pubdate>unpublished material</pubdate><title>publication atlas sheet photographic overlay</title><geoform>remote-sensing image</geoform></citeinfo></srccite><srcscale>15840</srcscale><typesrc>filmstrip</typesrc><srctime><timeinfo><sngdate><caldate>1977</caldate></sngdate></timeinfo><srccurr>date aerial photography was flown</srccurr></srctime><srccitea>NRCS3</srccitea><srccontr>source of control points</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture, Agricultural Stabilization
+and Conservation Service
+</origin><pubdate>2002</pubdate><title>multiple digital aerial photographs (contact prints)</title><geoform>remote-sensing image</geoform><pubinfo><pubplace>Salt Lake City, Utah</pubplace><publish>Aerial Photography Field Office</publish></pubinfo></citeinfo></srccite><srcscale>38000</srcscale><typesrc>CD-ROM</typesrc><srctime><timeinfo><sngdate><caldate>1978</caldate></sngdate></timeinfo><srccurr>date aerial photography was flown</srccurr></srctime><srccitea>ASCS1</srccitea><srccontr>source for ground control points</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+U.S. Department of Agriculture, Natural Resources
 Conservation Service
-</origin><pubdate>2002</pubdate><title>multiple digital aerial photographs (contact prints)</title><geoform>remote-sensing image</geoform><pubinfo><pubplace>Salt Lake City, Utah</pubplace><publish>Aerial Photography Field Office</publish></pubinfo></citeinfo></srccite><srcscale>38000</srcscale><typesrc>CD-ROM</typesrc><srctime><timeinfo><sngdate><caldate>1976</caldate></sngdate></timeinfo><srccurr>date aerial photography was flown</srccurr></srctime><srccitea>ASCS1</srccitea><srccontr>source for ground control points</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+</origin><pubdate>2002</pubdate><title>multiple 3.75 minute digital orthophoto quadrangles (DOQs)</title><geoform>remote-sensing image</geoform><pubinfo><pubplace>Fort Worth, Texas</pubplace><publish>
 U.S. Department of Agriculture, Natural Resources
-Conservation Services, National Cartography and Geospatial
-Center
-</origin><pubdate>2002</pubdate><title>
-multiple 3.75 minute digital orthophotophoto quadrangles
-(DOQ's)
-</title><geoform>remote-sensing image</geoform><pubinfo><pubplace>Fort Worth, Texas</pubplace><publish>
-U.S. Department of Agriculture, Natural Resources
-Conservation Service, National Cartography and Geospatial
-Center
-</publish></pubinfo></citeinfo></srccite><srcscale>12000</srcscale><typesrc>CD-ROM</typesrc><srctime><timeinfo><rngdates><begdate>20020322</begdate><enddate>20020429</enddate></rngdates></timeinfo><srccurr>date aerial photography was flown</srccurr></srctime><srccitea>NRCS4</srccitea><srccontr>
-source of ground control points, water and
-selected land use changes
+Conservation Service, National Cartography and Geospatial Center
+</publish></pubinfo></citeinfo></srccite><srcscale>12000</srcscale><typesrc>digital</typesrc><srctime><timeinfo><rngdates><begdate>20020316</begdate><enddate>20020503</enddate></rngdates></timeinfo><srccurr>date aerial photography was flown</srccurr></srctime><srccitea>NRCS4</srccitea><srccontr>
+source of ground control points and water and
+selected land use changes.
 </srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture, Natural Resources
 Conservation Service
@@ -244,60 +255,59 @@ Conservation Service
 Dataset
 </title><geoform>model</geoform><pubinfo><pubplace>Fort Worth, Texas</pubplace><publish>
 U.S. Department of Agriculture, Natural Resources
-Conservation Service, National Cartography and Geospatial
-Center
-</publish></pubinfo></citeinfo></srccite><srcscale>24000</srcscale><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2002</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>NRCS5</srccitea><srccontr>source of elevation for orthorectification process</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+Conservation Service, National Cartography and Geospatial Center
+</publish></pubinfo></citeinfo></srccite><srcscale>24000</srcscale><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2002</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>NRCS5</srccitea><srccontr>source for orthorectification process</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture, Natural Resources
 Conservation Service
 </origin><pubdate>2002</pubdate><title>
-Digital Raster Graphic (DRG) County Mosaic of Marshall
-County, Iowa
+Digital Raster Graphic County Mosaic of Poweshiek
+County, Iowa (DRG)
 </title><geoform>remote-sensing image</geoform><pubinfo><pubplace>Fort Worth, Texas</pubplace><publish>
 U.S. Department of Agriculture, Natural Resources
-Conservation Service, National Cartography and Geospatial
-Center
-</publish></pubinfo></citeinfo></srccite><srcscale>24000</srcscale><typesrc>online</typesrc><srctime><timeinfo><rngdates><begdate>1975</begdate><enddate>1980</enddate></rngdates></timeinfo><srccurr>
-publication date of individual
-topographic maps
-</srccurr></srctime><srccitea>NRCS6</srccitea><srccontr>source for county borders</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+Conservation Service, National Cartography and Geospatial Center
+</publish></pubinfo></citeinfo></srccite><srcscale>24000</srcscale><typesrc>online</typesrc><srctime><timeinfo><rngdates><begdate>1978</begdate><enddate>1996</enddate></rngdates></timeinfo><srccurr>publication of individual Topographic Maps</srccurr></srctime><srccitea>NRCS6</srccitea><srccontr>source for county borders</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Iowa Cooperative Soil Survey</origin><pubdate>1981</pubdate><title>Digital soil map data for Poweshiek County, Iowa</title><geoform>map</geoform></citeinfo></srccite><srcscale>12000</srcscale><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>1977</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>ICSS1</srccitea><srccontr>soil attribute source</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin><pubdate>2006</pubdate><title>
+National Soil Information System (NASIS) database for
+Poweshiek County, Iowa
+</title><geoform>tabular digital data</geoform><pubinfo><pubplace>Fort Collins, Colorado</pubplace><publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, Information Technology Center
+</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2006</caldate></sngdate></timeinfo><srccurr>export certification date</srccurr></srctime><srccitea>NASIS</srccitea><srccontr>
+map unit legend used for comparison to spatial
+map unit labels
+</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+U.S. Department of Agriculture,
+Natural Resources Conservation Service
+</origin><pubdate>unpublished material</pubdate><title>ARC INTERCHANGE files for the survey of Poweshiek County, Iowa</title><geoform>map</geoform></citeinfo></srccite><srcscale>24000</srcscale><typesrc>CD-ROM</typesrc><srctime><timeinfo><sngdate><caldate>2006</caldate></sngdate></timeinfo><srccurr>2006</srccurr></srctime><srccitea>NRCS7</srccitea><srccontr>
+digital information containing area and special
+soil features for evaluation
+</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture, Natural
 Resources Conservation Service
-</origin><pubdate>unpublished material</pubdate><title>Soil and special soil feature Arc/Info Coverages</title><geoform>vector digital data</geoform></citeinfo></srccite><srcscale>12000</srcscale><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>1978</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>NRCS7</srccitea><srccontr>SSURGO Review source</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Iowa Cooperative Soil Survey</origin><pubdate>2003</pubdate><title>Digital soil map data of Marshall County, Iowa</title><geoform>map</geoform></citeinfo></srccite><srcscale>12000</srcscale><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>1978</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>ICSS1</srccitea><srccontr>soil attribute source</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
-U.S. Department of Agriculture,
-Natural Resources Conservation Service
-</origin><pubdate>2004</pubdate><title>
-National Soil Information System (NASIS) database for
-Butler County, Iowa
-</title><geoform>tabular digital data</geoform><pubinfo><pubplace>Fort Collins, Colorado</pubplace><publish>
-U.S. Department of Agriculture,
-Natural Resources Conservation Service,
-Information Technology Center
-</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><rngdates><begdate>2004</begdate><enddate>2004</enddate></rngdates></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>NASIS</srccitea><srccontr>attribute (tabular) information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
-U.S. Department of Agriculture,
-Natural Resources Conservation Service
-</origin><pubdate>2004</pubdate><title>
-Soil Survey Geographic (SSURGO) database for Butler
-County, Iowa
-</title><geoform>vector digital data</geoform><pubinfo><pubplace>Fort Worth, Texas</pubplace><publish>
-U.S. Department of Agriculture,
-Natural Resources Conservation Service
-</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>20090220</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>NRCS8</srccitea><srccontr>re-archiving source</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+</origin><pubdate>20060925</pubdate><title>
+Soil Survey Geographic (SSURGO) database for Poweshiek County,
+Iowa
+</title><geoform>vector digital data</geoform></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2009</caldate></sngdate></timeinfo><srccurr>final correlation date</srccurr></srctime><srccitea>NRCS8</srccitea><srccontr>SSURGO Re-archiving source</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
 U.S. Department of Agriculture, Natural Resources
 Conservation Service
 </origin><pubdate>unpublished material</pubdate><title>region 11 soils geodatabase</title><geoform>file geodatabase</geoform></citeinfo></srccite><typesrc>vector digital data</typesrc><srctime><timeinfo><rngdates><begdate>2006</begdate><enddate>2018</enddate></rngdates></timeinfo><srccurr>SSURGO publication date</srccurr></srctime><srccitea>NRCS9</srccitea><srccontr>Source of digital revision - recreated yearly</srccontr></srcinfo><procstep><procdesc>
-Marshall County had a previously published
-soil survey, 1981, at 1:15840 scale.  It was determined that the soil
+Poweshiek County had a previously published
+soil survey, 1981 , at 1:15840 scale.  It was determined that the soil
 map unit delineations and map unit components were accurate.
-</procdesc><srcused>SCS1</srcused><procdate>2004</procdate></procstep><procstep><procdesc>
+</procdesc><srcused>NRCS1</srcused><procdate>1977</procdate></procstep><procstep><procdesc>
 Soil delineations and special soil features were
 compiled using an automated compilation process at the U.S. Department
 of Agriculture, Natural Resources Conservation Service,
 Ames, Iowa.  The following is a list of the materials required
 for the automated compilation OrthoMapper TM process: digital contact
 prints with fiducials, 30 meter Digital Elevation Models (DEMs),
-digital 3.75 minute orthophotographs (DOQs), soil delineated and
-annotation overlays and publication atlas sheet photographic overlays.
-The photographic overlays and soil delineation overlays were scanned
+digital 3.75 minute orthophotographs (DOQs), publication soil
+delineation overlays, publication annotation and special soil feature
+overlay, and publication atlas sheet photographic overlays.
+The photographic overlays, soil delineation overlays, and publication
+annotation and special soil feature overlays were scanned
 at the NRCS office in Ames, Iowa at a resolution of 400 DPI.
 Approximately twenty ground control points were taken
 between the DOQs and contact prints using image identifiable
@@ -311,97 +321,67 @@ twelve to fifteen ground control points were taken linking the
 photographic overlays to the contact prints.  The soil
 delineation overlays were linked to the photographic overlays with
 scanned tic marks and were orthorectified using OrthoMapper with a RMS
-tolerance of 0.5 or less. The orthorectified soil delineation overlays
-were vectorized, edge matched, and merged together
-into a county wide extent using LT2000. Soils were attributed
-using the attributes from the georeferenced digital soil survey data
-provided by the USDA Natural Resources Conservation Service and
-Iowa Cooperative Soil Survey in cooperation with the Iowa State
-University Geographic Information System.
-Soil special features were digitized and labeled using the annotated
-overlay in Arc/GIS 8.3  at a resolution of at least 0.01 of an inch.
-The temporal feature updates using digital Orthophotos in the background
-were completed by a Soil Scientist. A 100 percent pen plot review of
-of the soils and features was done by the cartographic staff at the
-WIDU. A ten percent quality assurance review was done of the soils
-and special soil features by the resource soil scientist at the WIDU.
+tolerance of 0.5 or less.  The orthorectified soil delineation overlays
+were vectorized using the ArcScan extension in ESRI ArcMap 9.1.  The
+generated vector lines were internally edgematched to produce a county
+wide extent of the soils dataset.  The soil polygons were then labeled
+by transferring the labels from the ICSS shapefile using the Spatial
+Join tool in ArcMap 9.1.  The special soil features were manually
+digitized on screen using the orthrectified publication annotation and
+special soil features overlay in ArcMap 9.1 at a resolution of at least
+0.01 inch.  The data was then returned to Iowa for temporal feature
+updates using digital Orthophotos in the background by a Soil Scientist.
+A 100 percent pen plot review of the soils and special soil features
+was done by the cartographic staff at the MTDU.  A ten percent quality
+assurance review was done of the soils and special soil features by
+the soil scientists on staff at MLRA-10. The data were then exported
+as Geodatabase files using ArcCatalog.
 </procdesc><srcused>
 NRCS1, NRCS2, NRCS3, ASCS1, NRCS4,
-NRCS5 ICSS1
-</srcused><procdate>2004</procdate></procstep><procstep><procdesc>
-The LT2000 maps were exported to Arc/Info
-coverages and imported into Arc/Info.
+NRCS5, ICSS1
+</srcused><procdate>2006</procdate></procstep><procstep><procdesc>
+The Arc Geodatabase files were imported into ArcGIS 9.1.
 A final border, created in ArcMap 8.3 with DRGs and digital
-orthophotography as a reference, was added to the coverage.
-The data were processed using 20031212 Recert AMLs provided by
-NCGC and submitted to the Soil Data Warehouse for archival and
-distribution.
-</procdesc><srcused>NRCS1, NRCS6, NRCS7</srcused><procdate>2004</procdate></procstep><procstep><procdesc>
-The spatial data for Marshall County, Iowa were
-downloaded from the Soil Data Mart.  The MUSYM 226, Lawler
-loam*, 0 to 2 percent slopes 32 to 40 inches to sand and gravel,
-respectively, were inconsistently mapped in the published Soil Surveys
-of Iowa.  As an MLRA 104 project in FY 2008, the NRCS-Waverly Iowa Soils
-Office staff transected and determined the depth to sand and gravel
-ranged from 20 to 40 inches. This is the full allowable range to S&amp;G for
-the Lawler series.  Thus, the MUSYM and 226 depth phase was
-correlated the MUSYM 1226 full range phase.  * - surface textures vary
-per county.  It may be silt loam, silty clay loam, loam, clay loam.
-The Frequently flooded map units were inconsistently mapped in the
-published Soil Surveys of Iowa.  As an MLRA 104 project in FY 2008, the
-NRCS-Waverly Iowa Soils Office staff photo interpreted 5 years of
-imagery and determined if the frequently flooded polygons had greater
-than 50% cropping history.  If it was determined that the polygon was
-farmed less than 50% of the time it was left as a frequently flooded
-soil. If it was determined that the polygon was farmed greater than or
-equal to 50% of the time it was changed to a similar occasionally
-flooded soil that was already on the county legend. The changes to these
-polygons were either a complete conversion of the polygon from a
-frequently flooded MUSYM to an occasionally flooded MUSYM, or the
-occasionally flooded area could have been cut from the frequently
-flooded polygon and assigned an occasionally flooded MUSYM.
-In addition polygons that were visited by a resource scientist and
-determined to be in need of edits were also changed with this project.
-Map Units affected for Marshall County were C235 and C315.  All spatial
-edits were completed in ArcMap 9.2.
-The data was then sent to the Wisconsin digitizing Unit, in Madison,
-Wisconsin.  The data were then processed in ARCGIS 9.2 using a topology
-Object with a 0.1 meter cluster tolerance for the purpose of eliminating
-Gaps and overlaps along the shared boundaries of Hardin, Grundy, Tama,
-Jasper, and Story Counties, Iowa.  Additional edits were made
-to resolve any gaps or overlaps that exceeded the 0.1 meter cluster
-tolerance.  The data were then processed with the May 2004 Re-archiving
-AMLs provided by U.S. Department of Agriculture, Natural Resources
-Conservation Service, National Cartography and Geospatial Center, Fort
-Worth, Texas (NCGC).  Upon successful completion of the Re-archiving
-AMLs, it was submitted to the Soil Data Warehouse for archival and
-distribution.
-</procdesc><srcused>NRCS8</srcused><procdate>20090218</procdate></procstep><procstep><procdesc>
-The spatial data for Marshall County, Iowa soil survey area were downloaded from the
-Soil Data Mart on October 15, 2012.  The individual shapefiles were appended into a
-geodatabase for region 11.  The data were processed in ARCGIS 10.1 using a topology
-object with a 0.1 meter cluster tolerance for the purpose of eliminating gaps and
-overlaps within the region 11 soils geodatabase.  Individual soil survey area data
-were exported as shapefiles from the regional geodatabase.  A datum transformation
-from NAD83 to WGS84 using the NAD_1983_To_WGS_1984_1 datum transformation method was
-applied to the data.  The data were checked with the SSURGO Evaluation scripts provided
-by U.S. Department of Agriculture, Natural Resources Conservation Service. The shapefiles
+orthophotography as a reference, was added to the seamless survey.
+The survey was then matched to adjoining certified boundaries.
+</procdesc><srcused>NRCS4, NRCS6</srcused><procdate>2006</procdate></procstep><procstep><procdesc>
+The ARC INTERCHANGE files and a verified map unit
+legend were imported to ARC/INFO, Version 9.1 by certification staff
+at the Montana Digitizing Unit.  The data were processed through
+evaluation macros dated June 2004. The map unit labels were
+compared to the National Soil Information System map unit legend.
+The data were uploaded to the Soil Data Warehouse staging server.
+</procdesc><srcused>NASIS, NRCS7</srcused><procdate>2006</procdate></procstep><procstep><procdesc>
+The online SSURGO data were downloaded from the Soil
+Data Mart by the Wisconsin Digitizing Unit in Madison, Wisconsin.  The
+data were then processed in ARCGIS 9.2 using a topology object with a
+0.1 meter cluster tolerance for the purpose of eliminating gaps and
+overlaps along the shared boundaries of Tama, Iowa, Keokuk, Mahaska, and
+Jasper Counties Iowa.  Additional edits were made to resolve any gaps or
+overlaps that exceeded the 0.1 meter cluster tolerance.  In Arc Catalog,
+using a python script, the Poweshiek County data were generalized to
+reduce vertex density for the purpose of reducing the overall database
+size.  During this process measures were taken to insure the line
+quality was not degraded.  The data were then processed with the May
+2004 re-archiving AMLs provided by U.S. Department of Agriculture,
+Natural Resources Conservation Service, National Cartography and
+Geospatial Center, Fort Worth, Texas (NCGC).  Upon successful completion
+of the Re-archiving AMLs, it was submitted to the Soil Data Warehouse
+for archival and distribution.
+</procdesc><srcused>NRCS8</srcused><procdate>20090413</procdate></procstep><procstep><procdesc>
+The spatial data for Poweshiek County, Iowa soil survey area were
+downloaded from the Soil Data Mart on October 15, 2012. The individual
+shapefiles were appended into a geodatabase for region 11. The data were
+processed in ARCGIS 10.1 using a topology object with a 0.1 meter
+cluster tolerance for the purpose of eliminating gaps and overlaps
+within the region 11 soils geodatabase. Individual soil survey area data
+were exported as shapefiles from the regional geodatabase. A datum
+transformation from NAD83 to WGS84 using the NAD_1983_To_WGS_1984_1
+datum transformation method was applied to the data. The data were
+checked with the SSURGO Evaluation scripts provided by U.S. Department
+of Agriculture, Natural Resources Conservation Service. The shapefiles
 were uploaded to the soil data warehouse for archival and distribution.
 </procdesc><srcused>NRCS9</srcused><procdate>2013</procdate></procstep><procstep><procdesc>
-The spatial data for Marshall County, Iowa soil survey area were
-downloaded from Web Soil Survey on February 10, 2014. The individual
-shapefiles were appended into a ESRI file geodatabase for Region 11.
-The Region 11 staff checked the spatial data with the ArcGIS 10.1
-software. The spatial data was checked with SSURGO quality assurance
-tools provided by U.S. Department of Agriculture, Natural Resources
-Conservation Service. The labels in the spatial data matched
-the symbols in the mapunit table from NASIS. Individual soil survey
-area data were exported as shapefiles from the regional geodatabase.
-Upon successful completion of the SSURGO Evaluation, the area, line
-and point shapefiles, the feature file and the metadata were
-electronically transferred to the NRCS Staging Server to be joined
-with the tabular data for archival and distribution.
-</procdesc><srcused>NRCS9, NASIS</srcused><procdate>20140912</procdate></procstep><procstep><procdesc>
 The spatial data for the entire SSURGO database was recertified in October
 of 2019 to reduce storage requirements and to improve map display
 and geoprocessing performance.  The SSURGO data is internally managed
@@ -442,7 +422,7 @@ selected set of map units and components in the soil survey legend was
 copied to a staging database, and rating values for selected
 interpretations were generated. The list of selected interpretations is
 stored in the database table named sainterp.
-</procdesc><srcused>NASIS</srcused><procdate>20200609</procdate></procstep><procstep><procdesc>
+</procdesc><srcused>NASIS</srcused><procdate>20200610</procdate></procstep><procstep><procdesc>
 The Natural Resources Conservation Service State Soil Scientist or
 delegate verified that the labels on the digitized soil map units
 link to map units in the tabular database, and certified the joined
@@ -452,7 +432,7 @@ the data warehouse. The tabular data for the map units and components
 were extracted from the data warehouse and reformatted into the soil
 data delivery data model, then stored in the Soil Data Mart. The spatial
 data were copied to the Soil Data Mart without change.
-</procdesc><srcused>NASIS</srcused><procdate>20200609</procdate></procstep><procstep><procdesc>
+</procdesc><srcused>NASIS</srcused><procdate>20200610</procdate></procstep><procstep><procdesc>
 The Natural Resources Conservation Service State Soil Scientist or
 delegate, upon completion of data quality verification, determined
 that the tabular data should be released for official use. A
@@ -474,7 +454,10 @@ data were copied to the Soil Data Mart without change.
 Special Soil Features represent soil, miscellaneous area, or landform
 features that are too small to be digitized as soil delineations
 (area features).
-</enttypd><enttypds>Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.</enttypds></enttyp><attr><attrlabl>Special Soil Features Codes</attrlabl><attrdef>
+</enttypd><enttypds>
+Agricultural Handbook 18, Soil Survey
+Manual, 1993, USDA, SCS.
+</enttypds></enttyp><attr><attrlabl>Special Soil Features Codes</attrlabl><attrdef>
 Special Soil Features labels represent specific Special Soil
 Features. These features are identified with a descriptive
 label. The label is assigned to the point or line assigned
@@ -484,7 +467,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS;
 National Soil Survey Handbook, Title 430-VI, part 647
 (current issue), USDA, NRCS.
 </attrdefs><attrdomv><codesetd><codesetn>
-Classification and Correlation of the Soils of Marshall County,
+Classification and Correlation of the Soils of Poweshiek County,
 Iowa
 </codesetn><codesets>
 U.S. Department of Agriculture, Natural Resources
@@ -494,10 +477,12 @@ Map Unit Delineations are closed polygons that may be dominated
 by a single soil or miscellaneous area component plus allowable
 similar or dissimilar soils, or they can be geographic mixtures
 of groups of soils or soils and miscellaneous areas.
+
 The map unit symbol uniquely identifies each closed map unit
 delineation. Each symbol corresponds to a map unit name. The
 map unit key is used to link to information in the National
 Soil Information System tables.
+
 Map Unit Delineations are described by the National Soil
 Information System database. This attribute database gives the
 proportionate extent of the component soils and the properties for
@@ -505,31 +490,37 @@ each soil. The database contains both estimated and measured data
 on the physical and chemical soil properties and soil
 interpretations for engineering, water management, recreation,
 agronomic, woodland, range, and wildlife uses of the soil.
+
 The National Soil Information System database contains static
 metadata. It documents the data structure and includes such
 information as what tables, columns, indexes, and relationships
 are defined as well as a variety of attributes of each of these
 database objects. Attributes include table and column
 descriptions and detailed domain information.
+
 The National Soil Information System database also contains a
 distribution metadata. It records the criteria used for selecting
 map units and components for inclusion in the set of distributed
 data.
+
 Special features are described in the feature table.  It includes an
 area symbol, feature label, feature name, and feature description for
 each special and ad hoc feature in the survey area.
 </eaover><eadetcit>
 Soil Taxonomy: A basic system of soil classification for making and
 interpreting soil surveys. Agricultural Handbook 436, 1999, USDA, SCS.
+
 Keys to Soil Taxonomy (current issue), USDA, SCS.
+
 National Soil Survey Handbook, Title 430-VI, part 647 (current
 issue), USDA, NRCS.
+
 Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
 </eadetcit></overview></eainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>
 U.S. Department of Agriculture, Natural
 Resources Conservation Service, National
 Geospatial Center of Excellence
-</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>501 West Felix Street, Building 23</address><city>Fort Worth</city><state>Texas</state><postal>76115</postal></cntaddr><cntvoice>800 672 5559</cntvoice><cnttdd>202 720 2600</cnttdd><cntfax>817 509 3469</cntfax></cntinfo></distrib><resdesc>Marshall County, Iowa SSURGO</resdesc><distliab>
+</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>501 West Felix Street, Building 23</address><city>Fort Worth</city><state>Texas</state><postal>76115</postal></cntaddr><cntvoice>800 672 5559</cntvoice><cnttdd>202 720 2600</cnttdd><cntfax>817 509 3469</cntfax></cntinfo></distrib><resdesc>Poweshiek County, Iowa SSURGO</resdesc><distliab>
 Although these data have been processed successfully on a computer
 system at the U.S. Department of Agriculture, no warranty expressed
 or implied is made by the Agency regarding the utility of the data
@@ -541,6 +532,7 @@ unreadable by correctly adjusted computer input peripherals, or
 when the physical medium is delivered in damaged condition. Request
 for adjustment of credit must be made within 90 days from the date
 of this shipment from the ordering site.
+
 The U.S. Department of Agriculture, nor any of its agencies are
 liable for misuse of the data, for damage, for transmission of
 viruses, or for computer contamination through the distribution of
@@ -549,7 +541,7 @@ discrimination in all its programs and activities on the basis of race,
 color, national origin, sex, religion, age, disability, political
 beliefs, sexual orientation, or marital or family status. (Not all
 prohibited bases apply to all programs.)
-</distliab><stdorder><digform><digtinfo><formname>ESRI shapefile</formname><formcont>spatial</formcont><transize>78.4</transize></digtinfo><digtopt><onlinopt><computer><networka><networkr>URL:http://DataGateway.nrcs.usda.gov/</networkr></networka></computer><accinstr>
+</distliab><stdorder><digform><digtinfo><formname>ESRI shapefile</formname><formcont>spatial</formcont><transize>46.4</transize></digtinfo><digtopt><onlinopt><computer><networka><networkr>URL:http://DataGateway.nrcs.usda.gov/</networkr></networka></computer><accinstr>
 Select desired survey area at above Internet
 Web site. An email address is required for receipt of
 instructions on retrieval via anonymous FTP. Anticipate a
@@ -565,4 +557,4 @@ Spatial line data and locations of special feature symbols are in
 ESRI ArcGIS shapefile, format. The National Soil Information
 System attribute soil data are available in variable length, pipe
 delimited, ASCII file format.
-</ordering><turnarnd>Typically within four hours</turnarnd></stdorder></distinfo><metainfo><metd>20210914</metd><metc><cntinfo><cntorgp><cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service</cntorg></cntorgp><cntpos>State Soil Scientist</cntpos><cntaddr><addrtype>mailing address</addrtype><address>Natural Resources Conservation Service</address><address>210 Walnut St</address><address>693 Federal Bldg</address><address/><city>Des Moines</city><state>IA</state><postal>50309-2190</postal></cntaddr><cntvoice>515-323-2216</cntvoice><cnttdd>800-877-8339</cnttdd><cntfax/><cntemail>patrick.chase@usda.gov</cntemail></cntinfo></metc><metstdn>Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv></metainfo></metadata>",13703
+</ordering><turnarnd>Typically within four hours</turnarnd></stdorder></distinfo><metainfo><metd>20210914</metd><metc><cntinfo><cntorgp><cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service</cntorg></cntorgp><cntpos>State Soil Scientist</cntpos><cntaddr><addrtype>mailing address</addrtype><address>Natural Resources Conservation Service</address><address>210 Walnut St</address><address>693 Federal Bldg</address><address/><city>Des Moines</city><state>IA</state><postal>50309-2190</postal></cntaddr><cntvoice>515-323-2216</cntvoice><cnttdd>800-877-8339</cnttdd><cntfax/><cntemail>patrick.chase@usda.gov</cntemail></cntinfo></metc><metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv></metainfo></metadata>",13720

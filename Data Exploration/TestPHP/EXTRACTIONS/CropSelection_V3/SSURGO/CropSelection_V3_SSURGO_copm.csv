@@ -1,15 +1,88 @@
 pmorder,pmmodifier,pmgenmod,pmkind,pmorigin,copmgrpkey,copmkey
-NA,Fine-silty,,Loess,,16245094,22997319
-NA,Fine-silty,,Loess,,16244954,22997144
-NA,Fine-silty,,Loess,,16245113,22997338
-NA,Silty,,Colluvium,,16245112,22997337
-NA,Fine-silty,,Loess,,16244953,22997143
-NA,,silty,Alluvium,,16245310,22997554
-NA,Fine-silty,,Loess,,16244745,22996918
-NA,Fine-silty,,Loess,,16244746,22996919
-NA,Silty,,Colluvium,,16245309,22997553
-NA,Fine-silty,,Loess,,16245095,22997320
-NA,,silty,Alluvium,,16245311,22997555
-NA,Silty,,Colluvium,,16245308,22997552
-NA,,silty,Colluvium,,16245308,22997551
-NA,Fine-loamy,,Till,,16245114,22997339
+NA,,clayey,Alluvium,NA,16257491,23012275
+NA,,,Valley side alluvium,NA,16257554,23012343
+NA,Fine-silty,,Loess,NA,16258354,23013251
+NA,Fine-loamy,,Till,NA,16258113,23012927
+NA,,,Subglacial till,NA,16257583,23012372
+NA,,red paleosol and underlying,Subglacial till,NA,16257596,23012385
+NA,,fine-silty,Loess,NA,16258378,23013277
+NA,,silty,Alluvium,NA,16258667,23013630
+NA,Fine-silty,,Colluvium,NA,16258114,23012928
+NA,,silty,Alluvium,NA,16257469,23012253
+NA,Fine-loamy,,Till,NA,16258367,23013264
+NA,,silty,Alluvium,NA,16258674,23013638
+NA,,red paleosol and underlying,Subglacial till,NA,16257595,23012384
+NA,Fine-silty,,Loess,NA,16258355,23013252
+NA,,,Subglacial till,NA,16257594,23012383
+NA,Silty,,Colluvium,NA,16258365,23013262
+NA,,fine-silty,Loess,NA,16258376,23013274
+NA,,,Alluvium,NA,16257490,23012274
+NA,,red paleosol and underlying,Subglacial till,NA,16257511,23012295
+NA,,,Subglacial till,NA,16257510,23012294
+NA,Silty,,Colluvium,NA,16257470,23012254
+NA,,,Alluvium,NA,16258669,23013632
+NA,,,Subglacial till,NA,16257525,23012309
+NA,,silty,Colluvium,NA,16257562,23012351
+NA,Silty,,Colluvium,NA,16258670,23013633
+NA,Sandy,,Alluvium,NA,16258585,23013539
+NA,,red paleosol and underlying,Subglacial till,NA,16258089,23012901
+NA,,,Subglacial till,NA,16257481,23012265
+1,Clayey,,Loess,NA,16258379,23013279
+2,,gray paleosol and underlying,Subglacial till,NA,16258379,23013278
+NA,,silty,Alluvium,NA,16257492,23012276
+NA,Silty,stratified,Alluvium,NA,16258586,23013540
+NA,,red paleosol and underlying,Subglacial till,NA,16257529,23012313
+NA,Fine-loamy,,Till,NA,16258088,23012900
+NA,Fine-silty,,Loess,NA,16258087,23012899
+NA,,red paleosol and underlying,Subglacial till,NA,16257592,23012381
+NA,,silty,Alluvium,NA,16258671,23013634
+NA,Silty,,Colluvium,NA,16258668,23013631
+NA,,,Loess,NA,16257566,23012355
+1,Fine-silty,,Alluvium,NA,16258859,23013871
+1,Fine-silty,,Alluvium,NA,16258864,23013876
+NA,,silty,Alluvium,NA,16258583,23013537
+NA,,silty,Alluvium,NA,16257559,23012348
+NA,,,Loess,NA,16257567,23012356
+NA,,,Subglacial till,NA,16257528,23012312
+NA,,,Alluvium,NA,16257493,23012277
+NA,Silty,,Colluvium,NA,16258672,23013636
+NA,,silty,Colluvium,NA,16258672,23013635
+NA,,red paleosol and underlying,Subglacial till,NA,16257591,23012380
+NA,,,Subglacial till,NA,16257526,23012310
+NA,,silty,Alluvium,NA,16258665,23013628
+1,Fine-silty,,Loess,NA,16258107,23012921
+NA,Fine-silty,,Loess,NA,16258360,23013257
+NA,,gray paleosol and underlying,Subglacial till,NA,16257484,23012268
+NA,Silty,,Alluvium,NA,16258584,23013538
+NA,,,Loess,NA,16257558,23012347
+NA,Fine-silty,,Loess,NA,16258361,23013258
+1,Fine-silty,,Alluvium,NA,16258860,23013872
+NA,,,Loess,NA,16257557,23012346
+NA,,,Loess,NA,16257568,23012357
+NA,Fine-silty,,Loess,NA,16258350,23013247
+1,Fine-silty,,Alluvium,NA,16258863,23013875
+NA,,,Subglacial till,NA,16257590,23012379
+NA,Fine-silty,,Loess,NA,16258351,23013248
+1,Clayey,,Loess,NA,16258377,23013275
+2,,gray paleosol and underlying,Subglacial till,NA,16258377,23013276
+NA,,red paleosol and underlying,Subglacial till,NA,16257483,23012267
+NA,,,Subglacial till,NA,16257512,23012296
+NA,,silty,Colluvium,NA,16257468,23012252
+NA,Fine-silty,,Loess,NA,16258366,23013263
+NA,,red paleosol and underlying,Subglacial till,NA,16257527,23012311
+NA,,silty,Alluvium,NA,16257494,23012278
+1,Fine-silty,,Loess,NA,16258115,23012929
+NA,Silty,,Colluvium,NA,16257561,23012350
+NA,,silty,Alluvium,NA,16257508,23012292
+NA,,gray paleosol and underlying,Subglacial till,NA,16257482,23012266
+NA,,silty,Colluvium,NA,16257471,23012255
+NA,,,Subglacial till,NA,16257524,23012308
+NA,,,Subglacial till,NA,16257593,23012382
+NA,,silty,Alluvium,NA,16258675,23013639
+NA,,red paleosol and underlying,Subglacial till,NA,16257582,23012371
+NA,,,Alluvium,NA,16257509,23012293
+NA,Silty,,Colluvium,NA,16258673,23013637
+NA,,silty,Alluvium,NA,16258666,23013629
+NA,,,Loess,NA,16257560,23012349
+1,Fine-silty,,Loess,NA,16258108,23012922
+NA,,,Subglacial till,NA,16257597,23012386

@@ -1,7 +1,7 @@
 
 Year= 2015
-startMonthName = "April"
-EndMonthName = "October"
+startMonthName = "March"
+EndMonthName = "February"
 
 
 lat = 42
@@ -14,9 +14,7 @@ EndMonth <- match(EndMonthName,month.name)
 CurrentDate <- Sys.Date()-2
 StartDates <- list()
 EndDates <-list()
-
-EndDay = lubridate::days_in_month(as.Date(paste(EndMonth,"/01/2000",sep="")))
-
+EndDay = lubridate::days_in_month(as.Date(paste("2000/",EndMonth,"/01",sep="")))
 StartMonthCorrect <-format(as.Date(paste(startMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
 EndMonthCorrect <-format(as.Date(paste(EndMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
 

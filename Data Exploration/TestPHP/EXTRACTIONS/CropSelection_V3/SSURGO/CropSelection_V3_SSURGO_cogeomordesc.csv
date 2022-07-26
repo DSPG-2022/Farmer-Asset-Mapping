@@ -1,29 +1,181 @@
 geomftname,geomfname,geomfmod,geomfeatid,existsonfeat,rvindicator,cokey,cogeomdkey
-Landform,interfluves,,1,2,Yes,22073927,34368372
-Landscape,till plains,dissected,2,NA,Yes,22073927,34368373
-Landform,interfluves,,2,1,Yes,22073928,34368374
-Landscape,till plains,dissected,2,NA,Yes,22073928,34368375
-Landform,drainageways,,1,2,Yes,22074289,34368447
-Landscape,till plains,dissected,2,NA,Yes,22074289,34368448
-Landform,alluvial fans,,3,4,No ,22074290,34368451
-Landform,drainageways,,1,2,Yes,22074290,34368449
-Landscape,river valleys,,4,NA,No ,22074290,34368452
-Landscape,till plains,dissected,2,NA,Yes,22074290,34368450
-Landform,drainageways,,1,2,Yes,22074291,34368453
-Landscape,till plains,dissected,2,NA,Yes,22074291,34368454
-Landform,drainageways,,1,2,Yes,22074292,34368455
-Landscape,till plains,dissected,2,NA,Yes,22074292,34368456
-Landform,interfluves,,1,2,Yes,22073717,34367713
-Landscape,till plains,dissected,2,NA,Yes,22073717,34367714
-Landform,interfluves,,1,2,Yes,22073718,34367715
-Landscape,till plains,dissected,2,NA,Yes,22073718,34367716
-Landform,interfluves,,1,2,Yes,22074067,34367721
-Landscape,till plains,dissected,2,NA,Yes,22074067,34367722
-Landform,interfluves,,1,2,Yes,22074068,34367723
-Landscape,till plains,dissected,2,NA,Yes,22074068,34367724
-Landform,drainageways,,1,2,Yes,22074095,34367725
-Landscape,till plains,dissected,2,NA,Yes,22074095,34367726
-Landform,hillslopes,,1,2,Yes,22074096,34367728
-Landscape,till plains,dissected,2,NA,Yes,22074096,34367727
-Landform,hillslopes,,1,2,Yes,22074097,34367730
-Landscape,till plains,dissected,2,NA,Yes,22074097,34367729
+Landform,drainageways,,1,2,Yes,22088447,34393951
+Landscape,till plains,dissected,2,NA,Yes,22088447,34395396
+Landform,drainageways,,1,2,Yes,22088448,34393950
+Landform,alluvial fans,,3,4,No ,22088448,34393788
+Landscape,till plains,dissected,2,NA,Yes,22088448,34395395
+Landscape,river valleys,,4,NA,No ,22088448,34395296
+Landform,drainageways,,1,2,Yes,22088449,34393949
+Landscape,till plains,dissected,2,NA,Yes,22088449,34395394
+Landform,drainageways,,1,2,Yes,22088450,34393948
+Landscape,till plains,dissected,2,NA,Yes,22088450,34395393
+Landform,interfluves,,1,2,Yes,22088132,34393995
+Landscape,till plains,dissected,2,NA,Yes,22088132,34395322
+Landform,interfluves,,1,2,Yes,22088133,34393994
+Landscape,till plains,dissected,2,NA,Yes,22088133,34395321
+Landform,interfluves,,1,2,Yes,22088136,34393993
+Landscape,till plains,dissected,2,NA,Yes,22088136,34395320
+Landform,interfluves,,1,2,Yes,22088137,34393992
+Landscape,till plains,dissected,2,NA,Yes,22088137,34395319
+Landform,interfluves,,1,2,Yes,22088142,34394020
+Landscape,till plains,dissected,2,NA,Yes,22088142,34395344
+Landform,interfluves,,1,2,Yes,22088143,34394019
+Landscape,till plains,dissected,2,NA,Yes,22088143,34395343
+Landform,drainageways,,1,2,Yes,22088147,34393945
+Landscape,till plains,dissected,2,NA,Yes,22088147,34395342
+Landform,hillslopes,,1,2,Yes,22088148,34393806
+Landscape,till plains,dissected,2,NA,Yes,22088148,34395341
+Landform,hillslopes,,1,2,Yes,22088149,34393805
+Landscape,till plains,dissected,2,NA,Yes,22088149,34395340
+Landform,flood plains,,1,2,Yes,22088442,34393966
+Landscape,river valleys,,2,NA,Yes,22088442,34395250
+Landform,drainageways,,1,2,Yes,22088443,34393944
+Landscape,till plains,dissected,2,NA,Yes,22088443,34395339
+Landform,flood plains,,1,2,Yes,22088444,34393965
+Landscape,river valleys,,2,NA,Yes,22088444,34395249
+Landform,flood plains,,1,2,Yes,22088440,34393964
+Landscape,river valleys,,2,NA,Yes,22088440,34395248
+Landform,flood plains,,1,2,Yes,22088441,34393963
+Landscape,river valleys,,2,NA,Yes,22088441,34395247
+Landform,interfluves,,1,2,Yes,22087911,34394027
+Landscape,till plains,dissected,2,NA,Yes,22087911,34395403
+Landform,interfluves,,1,2,Yes,22087912,34394026
+Landscape,till plains,dissected,2,NA,Yes,22087912,34395402
+Landform,hillslopes,,1,2,Yes,22087917,34393801
+Landscape,till plains,dissected,2,NA,Yes,22087917,34395331
+Landform,drainageways,upland,1,2,Yes,22087918,34393942
+Landscape,till plains,dissected,2,NA,Yes,22087918,34395330
+Landform,hillslopes,,1,2,Yes,22087919,34393800
+Landscape,till plains,dissected,2,NA,Yes,22087919,34395329
+Landform,hillslopes,,2,1,Yes,22087891,34393830
+Landscape,till plains,dissected,1,NA,Yes,22087891,34395326
+Landform,hillslopes,,2,1,Yes,22087892,34393829
+Landscape,till plains,dissected,1,NA,Yes,22087892,34395389
+Landform,hillslopes,,1,2,Yes,22087893,34393828
+Landscape,uplands,,2,NA,Yes,22087893,34395453
+Landform,hillslopes,,1,2,Yes,22087287,34393825
+Landscape,uplands,,2,NA,Yes,22087287,34395450
+Landform,hillslopes,,1,2,Yes,22087288,34393824
+Landscape,uplands,,2,NA,Yes,22087288,34395449
+Landform,hillslopes,,1,2,Yes,22087289,34393898
+Landscape,uplands,,2,NA,Yes,22087289,34395490
+Landform,hillslopes,,1,2,Yes,22087290,34393897
+Landscape,uplands,,2,NA,Yes,22087290,34395489
+Landform,hillslopes,,1,2,Yes,22087291,34393823
+Landscape,uplands,,2,NA,Yes,22087291,34395448
+Landform,hillslopes,,1,2,Yes,22087292,34393822
+Landscape,uplands,,2,NA,Yes,22087292,34395447
+Landform,hillslopes,,1,2,Yes,22088158,34393819
+Landscape,till plains,dissected,2,NA,Yes,22088158,34395386
+Landform,hillslopes,,1,2,Yes,22088159,34393818
+Landscape,till plains,dissected,2,NA,Yes,22088159,34395385
+Landform,hillslopes,,1,2,Yes,22088160,34393817
+Landscape,till plains,dissected,2,NA,Yes,22088160,34395384
+Landform,hillslopes,,1,2,Yes,22088161,34393816
+Landscape,till plains,dissected,2,NA,Yes,22088161,34395383
+Landform,flood plains,,1,2,Yes,22088355,34393962
+Landscape,river valleys,,2,NA,Yes,22088355,34395246
+Landform,flood plains,,1,2,Yes,22088356,34393961
+Landscape,river valleys,,2,NA,Yes,22088356,34395245
+Landform,flood plains,,1,2,Yes,22088357,34393960
+Landscape,river valleys,,2,NA,Yes,22088357,34395244
+Landform,flood plains,,1,2,Yes,22088358,34393959
+Landscape,river valleys,,2,NA,Yes,22088358,34395243
+Landform,hillslopes,,1,2,Yes,22087244,34393882
+Landscape,uplands,,2,NA,Yes,22087244,34395472
+Landform,hillslopes,,1,2,Yes,22087245,34393881
+Landscape,uplands,,2,NA,Yes,22087245,34395471
+Landform,hillslopes,,1,2,Yes,22087246,34393880
+Landscape,uplands,,2,NA,Yes,22087246,34395470
+Landform,hillslopes,,1,2,Yes,22087247,34393879
+Landscape,uplands,,2,NA,Yes,22087247,34395469
+Landform,drainageways,,1,2,Yes,22088445,34393940
+Landform,alluvial fans,,3,4,No ,22088445,34393792
+Landscape,till plains,dissected,2,NA,Yes,22088445,34395356
+Landscape,river valleys,,4,NA,No ,22088445,34395267
+Landform,flood plains,,1,2,Yes,22088446,34393983
+Landscape,river valleys,,2,NA,Yes,22088446,34395266
+Landform,stream terraces,,1,2,Yes,22087253,34394056
+Landscape,river valleys,,2,NA,Yes,22087253,34395265
+Landform,flood plains,,1,2,Yes,22087254,34393982
+Landscape,river valleys,,2,NA,Yes,22087254,34395264
+Landform,stream terraces,,1,2,Yes,22087255,34394055
+Landscape,river valleys,,2,NA,Yes,22087255,34395263
+Landform,flood-plain steps,,1,2,Yes,22088647,34393988
+Landscape,river valleys,,2,NA,Yes,22088647,34395292
+Landform,flood-plain steps,,1,2,Yes,22088648,34393987
+Landscape,river valleys,,2,NA,Yes,22088648,34395291
+Landform,stream terraces,,1,2,Yes,22087317,34394054
+Landscape,river valleys,,2,NA,Yes,22087317,34395262
+Landform,stream terraces,,1,2,Yes,22087320,34394060
+Landscape,river valleys,,2,NA,Yes,22087320,34395279
+Landform,stream terraces,,1,2,Yes,22087321,34394052
+Landscape,river valleys,,2,NA,Yes,22087321,34395259
+Landform,drainageways,,1,2,Yes,22087322,34393939
+Landscape,uplands,,2,NA,Yes,22087322,34395459
+Landform,stream terraces,,2,1,Yes,22087323,34394051
+Landscape,river valleys,,1,NA,Yes,22087323,34395258
+Landform,drainageways,,1,2,Yes,22087324,34393938
+Landscape,uplands,,2,NA,Yes,22087324,34395458
+Landform,alluvial fans,,1,2,Yes,22087325,34393791
+Landscape,river valleys,,2,NA,Yes,22087325,34395257
+Landform,flood-plain steps,,1,2,Yes,22088651,34393984
+Landscape,river valleys,,2,NA,Yes,22088651,34395256
+Landform,flood-plain steps,,1,2,Yes,22088652,34395685
+Landscape,river valleys,,2,NA,Yes,22088652,34395255
+Landform,hillslopes,,1,2,Yes,22087329,34393855
+Landscape,uplands,,2,NA,Yes,22087329,34395454
+Landform,hillslopes,,2,1,Yes,22087330,34393854
+Landscape,uplands,,1,NA,Yes,22087330,34395535
+Landform,hillslopes,,1,2,Yes,22087331,34393853
+Landscape,uplands,,2,NA,Yes,22087331,34395534
+Landform,flood plains,,1,2,Yes,22087256,34393978
+Landscape,river valleys,,2,NA,Yes,22087256,34395252
+Landform,flood plains,,1,2,Yes,22087257,34393977
+Landscape,river valleys,,2,NA,Yes,22087257,34395251
+Landform,hillslopes,,1,2,Yes,22087345,34393832
+Landscape,uplands,,2,NA,Yes,22087345,34395514
+Landform,hillslopes,,1,2,Yes,22087346,34393831
+Landscape,uplands,,2,NA,Yes,22087346,34395513
+Landform,stream terraces,,1,2,Yes,22087271,34395688
+Landscape,river valleys,,2,NA,Yes,22087271,34395309
+Landform,stream terraces,,1,2,Yes,22087272,34394067
+Landscape,river valleys,,2,NA,Yes,22087272,34395308
+Landform,alluvial fans,,1,2,Yes,22087231,34393787
+Landscape,river valleys,,2,NA,Yes,22087231,34395288
+Landform,flood plains,,1,2,Yes,22087232,34393972
+Landscape,river valleys,,2,NA,Yes,22087232,34395287
+Landform,alluvial fans,,1,2,Yes,22087233,34393786
+Landscape,river valleys,,2,NA,Yes,22087233,34395286
+Landform,alluvial fans,,1,2,Yes,22087234,34393789
+Landscape,river valleys,,2,NA,Yes,22087234,34395305
+Landform,hillslopes,,1,2,Yes,22087273,34393931
+Landscape,uplands,,2,NA,Yes,22087273,34395509
+Landform,hillslopes,,1,2,Yes,22087274,34393930
+Landscape,uplands,,2,NA,Yes,22087274,34395508
+Landform,hillslopes,,1,2,Yes,22087275,34393929
+Landscape,uplands,,2,NA,Yes,22087275,34395507
+Landform,hillslopes,,1,2,Yes,22087353,34393928
+Landscape,uplands,,2,NA,Yes,22087353,34395506
+Landform,hillslopes,,1,2,Yes,22087354,34393927
+Landscape,uplands,,2,NA,Yes,22087354,34395505
+Landform,hillslopes,,1,2,Yes,22087355,34393926
+Landscape,uplands,,2,NA,Yes,22087355,34395504
+Landform,hillslopes,,1,2,Yes,22087356,34393925
+Landscape,uplands,,2,NA,Yes,22087356,34395503
+Landform,hillslopes,,1,2,Yes,22087357,34393887
+Landscape,uplands,,2,NA,Yes,22087357,34395441
+Landform,hillslopes,,1,2,Yes,22087358,34393886
+Landscape,uplands,,2,NA,Yes,22087358,34395721
+Landform,hillslopes,,1,2,Yes,22087359,34393885
+Landscape,uplands,,2,NA,Yes,22087359,34395537
+Landform,hillslopes,,1,2,Yes,22087360,34393884
+Landscape,uplands,,2,NA,Yes,22087360,34395536
+Anthropogenic Feature,sand pits,,3,7,No ,22088566,34395636
+Anthropogenic Feature,ponds,,1,8,Yes,22088566,34395634
+Anthropogenic Feature,gravel pits,,4,7,No ,22088566,34395632
+Anthropogenic Feature,borrow pits,,6,8,No ,22088566,34395631
+Anthropogenic Feature,quarries,,5,8,No ,22088566,34392935
+Landform,oxbow lakes,,2,7,No ,22088566,34395687
+Landscape,uplands,,8,NA,Yes,22088566,34395500
+Landscape,river valleys,,7,NA,No ,22088566,34395293
