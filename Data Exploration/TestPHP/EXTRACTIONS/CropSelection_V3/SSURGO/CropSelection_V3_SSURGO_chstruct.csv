@@ -1,113 +1,411 @@
 structgrade,structsize,structtype,structid,structpartsto,chstructgrpkey,chstructkey
-Weak,Medium,Subangular blocky,2,NA,37078410,45224536
-Weak,Coarse,Prismatic,1,2,37078410,45224537
-Moderate,Fine,Subangular blocky,NA,NA,37077336,45222972
-Moderate,Very fine,Subangular blocky,NA,NA,37077336,45222973
-Weak,Coarse,Subangular blocky,NA,NA,37078436,45224577
-Weak,Fine,Granular,2,NA,37078418,45224550
-Weak,Fine,Subangular blocky,1,2,37078418,45224551
-Moderate,Fine,Granular,2,NA,37078392,45224504
-Weak,Fine,Subangular blocky,1,2,37078392,45224505
-Weak,Fine,Granular,NA,NA,37077759,45223568
-Weak,Very coarse,Prismatic,NA,NA,37077768,45223577
-Weak,Fine,Granular,NA,NA,37077770,45223579
-Moderate,Fine,Subangular blocky,NA,NA,37077342,45222988
-Moderate,Very fine,Subangular blocky,NA,NA,37077342,45222989
-Moderate,Medium,Granular,NA,NA,37077332,45222966
-Moderate,Fine,Granular,NA,NA,37077332,45222967
-Weak,Medium,Subangular blocky,NA,NA,37078414,45224543
-Weak,Medium,Prismatic,1,2,37077757,45223564
-Weak,Medium,Subangular blocky,2,NA,37077757,45223565
-Weak,Medium,Subangular blocky,2,NA,37078406,45224530
-Weak,Medium,Prismatic,1,2,37078406,45224531
-Moderate,Fine,Subangular blocky,NA,NA,37077749,45223556
-,,Massive,NA,NA,37078400,45224519
-Weak,Very fine,Subangular blocky,NA,NA,37078432,45224573
-Moderate,Fine,Subangular blocky,NA,NA,37076923,45222400
-,,Massive,3,NA,37078396,45224513
-Weak,Medium,Subangular blocky,2,NA,37078396,45224514
-Weak,Medium,Prismatic,1,2,37078396,45224515
-Weak,Coarse,Prismatic,2,NA,37077271,45222873
-,,Massive,1,2,37077271,45222874
-,,Massive,NA,NA,37078422,45224557
-Weak,Medium,Prismatic,1,2,37076925,45222402
-Weak,Medium,Subangular blocky,2,NA,37076925,45222403
-Moderate,Medium,Subangular blocky,NA,NA,37077724,45223523
-Moderate,Fine,Granular,NA,NA,37077344,45222992
-Moderate,Medium,Granular,NA,NA,37077344,45222993
-Moderate,Medium,Subangular blocky,NA,NA,37077761,45223570
-Moderate,Fine,Granular,2,NA,37077787,45223608
-Weak,Fine,Subangular blocky,1,2,37077787,45223609
-Weak,Medium,Subangular blocky,NA,NA,37078428,45224567
-Weak,Coarse,Prismatic,NA,NA,37077334,45222969
-Moderate,Medium,Subangular blocky,2,NA,37077269,45222869
-Weak,Medium,Prismatic,1,2,37077269,45222870
-Moderate,Fine,Subangular blocky,NA,NA,37077772,45223581
-Moderate,Fine,Subangular blocky,NA,NA,37076915,45222392
-Moderate,Fine,Subangular blocky,NA,NA,37077273,45222877
-Moderate,Medium,Subangular blocky,NA,NA,37077273,45222878
-Moderate,Medium,Granular,2,NA,37077728,45223529
-Weak,Fine,Subangular blocky,1,2,37077728,45223530
-Moderate,Fine,Subangular blocky,NA,NA,37078398,45224517
-,,Massive,NA,NA,37077791,45223613
-Weak,Medium,Prismatic,1,2,37077783,45223599
-,,Massive,3,NA,37077783,45223600
-Weak,Medium,Subangular blocky,2,NA,37077783,45223601
-,,Massive,NA,NA,37078408,45224533
-Moderate,Medium,Granular,2,NA,37078430,45224570
-Weak,Fine,Subangular blocky,1,2,37078430,45224571
-Weak,Medium,Subangular blocky,2,NA,37078420,45224554
-Weak,Medium,Prismatic,1,2,37078420,45224555
-Moderate,Medium,Granular,2,NA,37077785,45223604
-Weak,Fine,Subangular blocky,1,2,37077785,45223605
-Weak,Fine,Granular,NA,NA,37077753,45223560
-Weak,Fine,Granular,2,NA,37078412,45224540
-Weak,Medium,Subangular blocky,1,2,37078412,45224541
-Weak,Medium,Subangular blocky,2,NA,37077774,45223584
-Weak,Medium,Prismatic,1,2,37077774,45223585
-Weak,Medium,Subangular blocky,NA,NA,37077795,45223619
-Weak,Medium,Subangular blocky,2,NA,37078394,45224508
-Weak,Medium,Prismatic,1,2,37078394,45224509
-Weak,Fine,Granular,NA,NA,37076919,45222396
-Moderate,Medium,Granular,NA,NA,37077722,45223521
-Moderate,Fine,Granular,2,NA,37078416,45224546
-Weak,Fine,Subangular blocky,1,2,37078416,45224547
-Moderate,Medium,Granular,NA,NA,37076921,45222398
-Weak,Fine,Subangular blocky,1,2,37078390,45224500
-Moderate,Fine,Granular,2,NA,37078390,45224501
-Moderate,Fine,Subangular blocky,NA,NA,37077275,45222881
-Moderate,Very fine,Subangular blocky,NA,NA,37077275,45222882
-Moderate,Medium,Granular,2,NA,37077330,45222962
-Moderate,Fine,Subangular blocky,1,2,37077330,45222963
-Weak,Very coarse,Prismatic,NA,NA,37077751,45223558
-Moderate,Fine,Subangular blocky,NA,NA,37077755,45223562
-Moderate,Medium,Granular,NA,NA,37077328,45222958
-Moderate,Fine,Granular,NA,NA,37077328,45222959
-Moderate,Fine,Subangular blocky,NA,NA,37077766,45223575
-Moderate,Medium,Granular,NA,NA,37077267,45222865
-Moderate,Fine,Granular,NA,NA,37077267,45222866
-Moderate,Fine,Granular,2,NA,37078402,45224522
-Weak,Fine,Subangular blocky,1,2,37078402,45224523
-Weak,Very coarse,Prismatic,NA,NA,37076917,45222394
-Weak,Fine,Granular,2,NA,37078404,45224526
-Weak,Fine,Subangular blocky,1,2,37078404,45224527
-Weak,Medium,Subangular blocky,2,NA,37077781,45223594
-Weak,Medium,Prismatic,1,2,37077781,45223595
-Weak,Fine,Granular,2,NA,37078426,45224564
-Weak,Medium,Subangular blocky,1,2,37078426,45224565
-Moderate,Medium,Subangular blocky,2,NA,37077793,45223616
-Moderate,Medium,Prismatic,1,2,37077793,45223617
-Weak,Medium,Subangular blocky,2,NA,37078424,45224560
-Weak,Coarse,Prismatic,1,2,37078424,45224561
-Weak,Fine,Subangular blocky,2,NA,37077340,45222983
-Weak,Medium,Prismatic,1,2,37077340,45222984
-Weak,Medium,Subangular blocky,2,NA,37077340,45222985
-Weak,Coarse,Prismatic,NA,NA,37077726,45223525
-,,Massive,NA,NA,37077726,45223526
-,,Massive,NA,NA,37077763,45223572
-Moderate,Medium,Granular,NA,NA,37076913,45222390
-Weak,Medium,Subangular blocky,2,NA,37077338,45222977
-Weak,Medium,Prismatic,1,2,37077338,45222978
-Weak,Fine,Subangular blocky,2,NA,37077338,45222979
-Moderate,Fine,Subangular blocky,NA,NA,37077789,45223611
-Moderate,Medium,Subangular blocky,NA,NA,37078434,45224575
+Weak,Medium,Granular,2,NA,37114161,45269756
+,,Massive,NA,NA,37112296,45267247
+Moderate,Fine,Subangular blocky,NA,NA,37116142,45272347
+Weak,Medium,Subangular blocky,NA,NA,37112557,45267616
+,,Massive,3,NA,37116164,45272377
+Weak,Medium,Prismatic,1,2,37116164,45272378
+Weak,Medium,Subangular blocky,2,NA,37116164,45272379
+Moderate,Fine,Subangular blocky,NA,NA,37116469,45272834
+Weak,Fine,Granular,NA,NA,37116140,45272345
+Weak,Fine,Subangular blocky,1,NA,37116693,45273124
+,,Massive,NA,NA,37114160,45269754
+Weak,Coarse,Subangular blocky,NA,NA,37114160,45269755
+Weak,Medium,Subangular blocky,NA,NA,37112607,45267680
+Weak,Fine,Subangular blocky,NA,NA,37112599,45267668
+Weak,Fine,Granular,2,NA,37114108,45269675
+Weak,Fine,Subangular blocky,1,2,37114108,45269676
+Weak,Fine,Subangular blocky,NA,NA,37112588,45267657
+Moderate,Medium,Granular,NA,NA,37112723,45267824
+Weak,Medium,Subangular blocky,2,NA,37116197,45272434
+Weak,Coarse,Prismatic,1,2,37116197,45272435
+Weak,Coarse,Prismatic,1,2,37116725,45273180
+Weak,Medium,Subangular blocky,2,NA,37116725,45273181
+Weak,Fine,Subangular blocky,NA,NA,37112555,45267614
+Weak,Coarse,Prismatic,1,2,37116458,45272819
+Weak,Fine and medium,Subangular blocky,2,NA,37116458,45272820
+Weak,Fine,Subangular blocky,1,2,37116715,45273163
+Weak,Fine,Granular,2,NA,37116715,45273164
+Weak,Fine,Granular,2,NA,37116218,45272468
+Weak,Thin,Platy,1,2,37116218,45272469
+,,Massive,NA,NA,37116713,45273160
+Weak,Coarse,Prismatic,1,2,37115516,45271615
+Weak,Medium,Subangular blocky,2,NA,37115516,45271616
+Weak,Fine,Subangular blocky,1,2,37116714,45273161
+Moderate,Fine,Granular,2,NA,37116714,45273162
+Moderate,Fine,Subangular blocky,NA,NA,37115310,45271317
+Moderate,Fine,Subangular blocky,NA,NA,37115297,45271302
+Weak,Medium,Prismatic,1,2,37116703,45273142
+Weak,Medium,Subangular blocky,2,NA,37116703,45273143
+Moderate,Fine,Subangular blocky,2,NA,37117621,45274315
+Moderate,Medium,Prismatic,1,2,37117621,45274316
+Weak,Medium,Prismatic,1,2,37112300,45267253
+Moderate,Fine,Subangular blocky,2,NA,37112300,45267254
+,,Massive,NA,NA,37116704,45273144
+Weak,Medium,Subangular blocky,2,NA,37116162,45272372
+Weak,Medium,Prismatic,1,2,37116162,45272373
+Weak,Medium,Prismatic,NA,NA,37116186,45272415
+Weak,Medium,Subangular blocky,NA,NA,37112544,45267602
+,,Massive,NA,NA,37116724,45273179
+Weak,Medium,Subangular blocky,2,NA,37116144,45272350
+Weak,Medium,Prismatic,1,2,37116144,45272351
+Moderate,Medium,Granular,NA,NA,37116120,45272321
+Moderate,Medium,Granular,2,NA,37112579,45267641
+Weak,Fine,Subangular blocky,1,2,37112579,45267642
+Moderate,Medium,Granular,NA,NA,37116205,45272447
+Weak,Fine,Subangular blocky,NA,NA,37112587,45267656
+Moderate,Fine,Granular,NA,NA,37116470,45272835
+Moderate,Fine,Subangular blocky,NA,NA,37116121,45272322
+Weak,Medium,Prismatic,1,2,37116723,45273177
+Weak,Medium,Subangular blocky,2,NA,37116723,45273178
+Moderate,Medium,Granular,NA,NA,37116465,45272829
+Weak,Medium,Prismatic,1,2,37116122,45272323
+Weak,Medium,Subangular blocky,2,NA,37116122,45272324
+Weak,Coarse,Prismatic,2,NA,37114159,45269752
+Moderate,Medium,Subangular blocky,1,NA,37114159,45269753
+,,Massive,NA,NA,37117643,45274353
+Moderate,Medium,Granular,NA,NA,37112577,45267639
+Moderate,Fine,Granular,NA,NA,37115308,45271315
+Moderate,Medium,Subangular blocky,2,NA,37114130,45269707
+Weak,Medium,Prismatic,1,2,37114130,45269708
+Weak,Medium,Subangular blocky,NA,NA,37113088,45268311
+Moderate,Medium,Subangular blocky,NA,NA,37116111,45272308
+Moderate,Fine,Granular,2,NA,37116184,45272412
+Weak,Fine,Subangular blocky,1,2,37116184,45272413
+Strong,Extremely coarse,Prismatic,NA,NA,37116476,45272845
+Weak,Fine,Subangular blocky,NA,NA,37115309,45271316
+Weak,Fine,Subangular blocky,1,2,37117641,45274350
+Weak,Fine,Granular,2,NA,37117641,45274351
+Moderate,Fine,Subangular blocky,NA,NA,37116185,45272414
+Moderate,Medium,Granular,2,NA,37116695,45273127
+Weak,Fine,Subangular blocky,1,2,37116695,45273128
+Moderate,Very fine and fine,Subangular blocky,NA,NA,37116455,45272816
+Moderate,Fine,Subangular blocky,NA,NA,37114117,45269688
+Moderate,Medium,Subangular blocky,2,NA,37116174,45272394
+Moderate,Medium,Prismatic,1,2,37116174,45272395
+,,Massive,NA,NA,37116195,45272431
+,,Massive,1,NA,37116333,45272638
+Moderate,Fine,Angular blocky,2,NA,37116466,45272830
+Weak,Medium,Prismatic,1,2,37116466,45272831
+,,Massive,2,NA,37114119,45269691
+Weak,Medium,Prismatic,1,NA,37114119,45269692
+Weak,Fine,Subangular blocky,1,2,37115512,45271608
+Moderate,Fine,Granular,2,NA,37115512,45271609
+Moderate,Fine,Subangular blocky,NA,NA,37114128,45269705
+Weak,Medium,Subangular blocky,1,2,37117639,45274347
+Weak,Fine,Granular,2,NA,37117639,45274348
+Weak,Fine,Subangular blocky,NA,NA,37112578,45267640
+Weak,Fine,Subangular blocky,NA,NA,37112755,45267864
+Moderate,Medium,Granular,2,NA,37116126,45272329
+Weak,Fine,Subangular blocky,1,2,37116126,45272330
+Weak,Fine,Subangular blocky,1,2,37117635,45274340
+Weak,Fine,Granular,2,NA,37117635,45274341
+Weak,Fine,Granular,2,NA,37116216,45272464
+Weak,Thin,Platy,1,2,37116216,45272465
+Weak,Very coarse,Prismatic,NA,NA,37115117,45271037
+Moderate,Medium,Granular,NA,NA,37112552,45267611
+Weak,Medium,Prismatic,1,2,37116711,45273156
+Weak,Medium,Subangular blocky,2,NA,37116711,45273157
+,,Massive,3,NA,37116711,45273158
+Weak,Fine,Granular,2,NA,37115291,45271289
+Weak,Medium,Subangular blocky,1,NA,37115291,45271290
+,,Massive,NA,NA,37116211,45272456
+Weak,Fine,Subangular blocky,1,2,37116722,45273175
+Weak,Fine,Granular,2,NA,37116722,45273176
+Moderate,Fine,Granular,2,NA,37116189,45272420
+Weak,Fine,Subangular blocky,1,2,37116189,45272421
+Weak,Coarse,Prismatic,1,2,37112297,45267248
+Weak,Medium,Subangular blocky,2,NA,37112297,45267249
+Weak,Medium,Subangular blocky,NA,NA,37112589,45267658
+Weak,Medium,Subangular blocky,NA,NA,37115518,45271619
+Moderate,Fine,Subangular blocky,NA,NA,37116152,45272359
+Moderate,Fine,Subangular blocky,NA,NA,37114116,45269687
+Moderate,Medium,Granular,2,NA,37112511,45267559
+Weak,Fine,Subangular blocky,1,2,37112511,45267560
+Weak,Medium,Subangular blocky,NA,NA,37112522,45267574
+Weak,Fine,Subangular blocky,1,2,37116115,45272315
+Moderate,Medium,Granular,2,NA,37116115,45272316
+Weak,Medium,Subangular blocky,NA,NA,37116459,45272821
+,,Massive,1,NA,37116331,45272636
+Weak,Medium,Subangular blocky,1,2,37116726,45273182
+Weak,Fine,Granular,2,NA,37116726,45273183
+Moderate,Fine,Subangular blocky,NA,NA,37116170,45272389
+Weak,Medium,Granular,2,NA,37114157,45269750
+,,Massive,NA,NA,37116207,45272449
+Moderate,Medium,Subangular blocky,2,NA,37116178,45272399
+Weak,Medium,Prismatic,1,2,37116178,45272400
+Weak,Fine,Subangular blocky,1,2,37117634,45274338
+Moderate,Fine,Granular,2,NA,37117634,45274339
+Moderate,Medium,Granular,2,NA,37112527,45267581
+Weak,Fine,Subangular blocky,1,2,37112527,45267582
+Moderate,Medium,Granular,NA,NA,37112556,45267615
+Weak,Fine,Granular,NA,NA,37115331,45271344
+Moderate,Fine,Granular,NA,NA,37115302,45271308
+Moderate,Medium,Prismatic,1,2,37116692,45273122
+Moderate,Medium,Subangular blocky,2,NA,37116692,45273123
+Weak,Very fine,Subangular blocky,NA,NA,37116729,45273187
+Weak,Fine,Subangular blocky,NA,NA,37114109,45269677
+Weak,Medium,Prismatic,1,2,37116689,45273116
+Weak,Medium,Subangular blocky,2,NA,37116689,45273117
+,,Massive,3,NA,37116689,45273118
+,,Massive,NA,NA,37116332,45272637
+Weak,Fine,Granular,2,NA,37114120,45269693
+Weak,Fine,Subangular blocky,1,2,37114120,45269694
+Weak,Very fine,Subangular blocky,2,NA,37116182,45272407
+Weak,Fine,Subangular blocky,3,NA,37116182,45272408
+Moderate,Very fine,Subangular blocky,1,NA,37116182,45272409
+Weak,Medium,Subangular blocky,2,NA,37116181,45272405
+Weak,Medium,Prismatic,1,2,37116181,45272406
+Weak,Medium,Subangular blocky,NA,NA,37117642,45274352
+Weak,Coarse,Prismatic,1,2,37116718,45273168
+Weak,Medium,Subangular blocky,2,NA,37116718,45273169
+Weak,Coarse,Prismatic,2,NA,37115295,45271298
+,,Massive,1,2,37115295,45271299
+,,Massive,NA,NA,37114164,45269760
+Weak,Coarse,Subangular blocky,NA,NA,37114164,45269761
+,,Massive,NA,NA,37116700,45273137
+Weak,Medium,Subangular blocky,2,NA,37116160,45272368
+Weak,Medium,Prismatic,1,2,37116160,45272369
+Weak,Medium,Subangular blocky,2,NA,37116193,45272428
+Weak,Medium,Prismatic,1,2,37116193,45272429
+Moderate,Medium,Granular,NA,NA,37116123,45272325
+Weak,Medium,Subangular blocky,NA,NA,37116214,45272461
+Moderate,Medium,Granular,NA,NA,37112553,45267612
+Moderate,Fine,Granular,NA,NA,37116457,45272818
+Moderate,Very fine and fine,Subangular blocky,NA,NA,37116468,45272833
+Weak,Fine,Granular,NA,NA,37116330,45272635
+Weak,Medium,Subangular blocky,NA,NA,37112299,45267252
+Weak,Coarse,Prismatic,NA,NA,37116467,45272832
+Weak,Fine,Granular,NA,NA,37116119,45272320
+Weak,Coarse,Prismatic,1,2,37117638,45274345
+Weak,Medium,Subangular blocky,2,NA,37117638,45274346
+Moderate,Fine,Subangular blocky,2,NA,37116203,45272444
+Weak,Medium,Prismatic,1,2,37116203,45272445
+Moderate,Fine,Subangular blocky,NA,NA,37115332,45271345
+Moderate,Medium,Granular,NA,NA,37115121,45271041
+Weak,Fine,Subangular blocky,NA,NA,37114127,45269704
+Moderate,Medium,Granular,2,NA,37116166,45272382
+Weak,Fine,Subangular blocky,1,2,37116166,45272383
+Moderate,Medium,Granular,2,NA,37116477,45272846
+Weak,Fine,Subangular blocky,1,2,37116477,45272847
+Moderate,Coarse,Prismatic,NA,NA,37115301,45271307
+Weak,Medium,Subangular blocky,1,2,37115517,45271617
+Weak,Fine,Granular,2,NA,37115517,45271618
+Weak,Fine,Granular,NA,NA,37116156,45272363
+Weak,Medium,Subangular blocky,NA,NA,37116707,45273149
+,,Massive,2,NA,37114131,45269709
+Weak,Medium,Prismatic,1,NA,37114131,45269710
+Weak,Fine,Subangular blocky,1,2,37116208,45272450
+Moderate,Fine,Granular,2,NA,37116208,45272451
+Weak,Fine,Subangular blocky,1,2,37116696,45273129
+Moderate,Fine,Granular,2,NA,37116696,45273130
+Weak,Fine,Granular,2,NA,37116199,45272438
+Weak,Medium,Subangular blocky,1,2,37116199,45272439
+Strong,Fine and medium,Subangular blocky,1,NA,37115336,45271351
+Strong,Fine and medium,Angular blocky,2,NA,37115336,45271352
+Weak,Coarse,Prismatic,NA,NA,37115580,45271706
+Weak,Very coarse,Prismatic,NA,NA,37116138,45272343
+Weak,Very coarse,Prismatic,NA,NA,37116118,45272319
+Moderate,Fine,Subangular blocky,NA,NA,37116456,45272817
+Moderate,Medium,Subangular blocky,NA,NA,37116730,45273188
+Weak,Medium,Subangular blocky,NA,NA,37113089,45268312
+Weak,Medium,Prismatic,1,2,37117636,45274342
+Weak,Medium,Subangular blocky,2,NA,37117636,45274343
+Moderate,Fine,Subangular blocky,NA,NA,37114134,45269714
+Weak,Medium,Subangular blocky,NA,NA,37116201,45272441
+Weak,Medium,Prismatic,1,2,37116688,45273114
+Weak,Medium,Subangular blocky,2,NA,37116688,45273115
+Moderate,Medium,Granular,NA,NA,37116116,45272317
+Weak,Fine,Subangular blocky,1,2,37112294,45267243
+Weak,Fine,Granular,2,NA,37112294,45267244
+Weak,Medium,Prismatic,NA,NA,37116177,45272398
+,,Massive,NA,NA,37116335,45272640
+,,Massive,2,NA,37114113,45269682
+Weak,Medium,Prismatic,1,NA,37114113,45269683
+Weak,Fine,Subangular blocky,1,2,37116709,45273152
+Moderate,Fine,Granular,2,NA,37116709,45273153
+Moderate,Medium,Granular,2,NA,37112581,45267645
+Weak,Fine,Subangular blocky,1,2,37112581,45267646
+Weak,Medium,Prismatic,1,2,37116210,45272454
+Weak,Medium,Subangular blocky,2,NA,37116210,45272455
+Weak,Medium,Prismatic,1,2,37116698,45273133
+Weak,Medium,Subangular blocky,2,NA,37116698,45273134
+,,Massive,3,NA,37116698,45273135
+Moderate,Medium,Granular,2,NA,37112529,45267585
+Weak,Fine,Subangular blocky,1,2,37112529,45267586
+Weak,Fine,Granular,1,NA,37112542,45267599
+Weak,Medium,Subangular blocky,1,2,37112298,45267250
+Weak,Fine,Granular,2,NA,37112298,45267251
+Moderate,Medium,Subangular blocky,2,NA,37114124,45269698
+Weak,Medium,Prismatic,1,2,37114124,45269699
+Weak,Fine,Subangular blocky,NA,NA,37113332,45268668
+Moderate,Fine,Subangular blocky,NA,NA,37116136,45272341
+Moderate,Fine,Subangular blocky,NA,NA,37114135,45269715
+,,Massive,NA,NA,37117637,45274344
+Moderate,Fine,Subangular blocky,NA,NA,37115115,45271035
+Weak,Medium,Angular blocky,2,NA,37115334,45271348
+Weak,Medium,Prismatic,1,2,37115334,45271349
+Moderate,Medium,Subangular blocky,2,NA,37114112,45269680
+Weak,Medium,Prismatic,1,2,37114112,45269681
+Weak,Medium,Subangular blocky,2,NA,37115125,45271046
+Weak,Medium,Prismatic,1,2,37115125,45271047
+Weak,Very fine,Granular,NA,NA,37116334,45272639
+Moderate,Fine,Subangular blocky,NA,NA,37114123,45269697
+Weak,Coarse,Prismatic,1,2,37116471,45272836
+Weak,Fine and medium,Subangular blocky,2,NA,37116471,45272837
+Weak,Medium,Subangular blocky,2,NA,37116212,45272457
+Weak,Coarse,Prismatic,1,2,37116212,45272458
+Weak,Coarse,Subangular blocky,2,NA,37116460,45272822
+Weak,Coarse,Prismatic,1,2,37116460,45272823
+Moderate,Very fine,Subangular blocky,1,NA,37115292,45271291
+Moderate,Fine,Granular,2,NA,37115292,45271292
+,,Massive,NA,NA,37116125,45272327
+Weak,Coarse,Prismatic,NA,NA,37116125,45272328
+Weak,Fine,Granular,NA,NA,37112301,45267255
+Weak,Medium,Prismatic,1,2,37116697,45273131
+Weak,Medium,Subangular blocky,2,NA,37116697,45273132
+Weak,Medium,Subangular blocky,NA,NA,37112520,45267572
+Moderate,Medium,Granular,2,NA,37116728,45273185
+Weak,Fine,Subangular blocky,1,2,37116728,45273186
+Moderate,Fine,Subangular blocky,NA,NA,37116158,45272365
+Moderate,Fine,Granular,2,NA,37116168,45272386
+Weak,Fine,Subangular blocky,1,2,37116168,45272387
+Moderate,Fine and medium,Subangular blocky,1,NA,37116475,45272842
+Weak,Medium,Prismatic,2,3,37116475,45272843
+Weak,Medium and coarse,Angular blocky,3,NA,37116475,45272844
+Weak,Medium,Prismatic,1,2,37115514,45271612
+Weak,Medium,Subangular blocky,2,NA,37115514,45271613
+Weak,Medium,Prismatic,1,2,37116710,45273154
+Weak,Medium,Subangular blocky,2,NA,37116710,45273155
+Weak,Very fine,Subangular blocky,2,NA,37115294,45271295
+Moderate,Very fine,Subangular blocky,1,NA,37115294,45271296
+Weak,Fine,Subangular blocky,3,NA,37115294,45271297
+,,Massive,1,2,37112302,45267256
+Weak,Thin,Platy,2,NA,37112302,45267257
+Moderate,Very fine,Subangular blocky,1,NA,37116180,45272403
+Moderate,Fine,Granular,2,NA,37116180,45272404
+Weak,Coarse,Prismatic,NA,NA,37112757,45267865
+Weak,Medium,Subangular blocky,1,2,37116719,45273170
+Weak,Fine,Granular,2,NA,37116719,45273171
+Weak,Fine,Subangular blocky,1,2,37116686,45273110
+Moderate,Fine,Granular,2,NA,37116686,45273111
+Weak,Fine,Subangular blocky,1,2,37116721,45273173
+Moderate,Fine,Granular,2,NA,37116721,45273174
+Moderate,Coarse,Prismatic,1,2,37115303,45271309
+Moderate,Fine,Subangular blocky,2,NA,37115303,45271310
+Moderate,Fine,Granular,2,NA,37116708,45273150
+Weak,Fine,Subangular blocky,1,2,37116708,45273151
+Moderate,Medium,Granular,NA,NA,37115113,45271033
+Moderate,Fine,Subangular blocky,NA,NA,37116699,45273136
+Weak,Medium,Subangular blocky,2,NA,37115293,45271293
+Weak,Medium,Prismatic,1,2,37115293,45271294
+Weak,Fine,Granular,2,NA,37116179,45272401
+Weak,Medium,Subangular blocky,1,NA,37116179,45272402
+Weak,Fine,Subangular blocky,NA,NA,37113333,45268669
+Weak,Fine,Subangular blocky,NA,NA,37114115,45269686
+,,Massive,NA,NA,37115335,45271350
+Moderate,Medium,Subangular blocky,NA,NA,37116148,45272355
+,,Massive,NA,NA,37116717,45273167
+Moderate,Fine,Subangular blocky,NA,NA,37115311,45271318
+Moderate,Fine,Subangular blocky,NA,NA,37116117,45272318
+Moderate,Medium,Platy,2,NA,37116461,45272824
+Weak,Thin,Platy,1,NA,37116461,45272825
+Weak,Medium,Subangular blocky,NA,NA,37116176,45272397
+Weak,Fine,Granular,2,NA,37114126,45269702
+Weak,Fine,Subangular blocky,1,2,37114126,45269703
+Weak,Fine,Subangular blocky,1,NA,37116337,45272642
+,,Massive,2,NA,37114137,45269718
+Weak,Medium,Prismatic,1,NA,37114137,45269719
+Weak,Fine,Granular,2,NA,37114132,45269711
+Weak,Fine,Subangular blocky,1,2,37114132,45269712
+Weak,Fine,Subangular blocky,1,2,37112293,45267241
+Moderate,Fine,Granular,2,NA,37112293,45267242
+Weak,Fine,Subangular blocky,NA,NA,37114121,45269695
+Weak,Fine,Subangular blocky,1,2,37116701,45273138
+Moderate,Fine,Granular,2,NA,37116701,45273139
+Weak,Fine,Subangular blocky,NA,NA,37116474,45272841
+Weak,Medium,Subangular blocky,1,2,37116706,45273147
+Weak,Fine,Granular,2,NA,37116706,45273148
+Strong,Fine and medium,Subangular blocky,1,NA,37115333,45271346
+Strong,Fine and medium,Angular blocky,2,NA,37115333,45271347
+,,Massive,NA,NA,37116336,45272641
+Weak,Medium,Subangular blocky,NA,NA,37116727,45273184
+Weak,Coarse,Prismatic,2,NA,37114163,45269758
+Moderate,Medium,Subangular blocky,1,NA,37114163,45269759
+Moderate,Fine,Subangular blocky,NA,NA,37114122,45269696
+Weak,Very fine,Subangular blocky,NA,NA,37114158,45269751
+Weak,Fine,Subangular blocky,1,2,37116209,45272452
+Weak,Fine,Granular,2,NA,37116209,45272453
+Moderate,Fine,Subangular blocky,NA,NA,37114111,45269679
+,,Massive,NA,NA,37116691,45273121
+Weak,Fine,Subangular blocky,1,2,37116702,45273140
+Weak,Fine,Granular,2,NA,37116702,45273141
+Moderate,Medium,Granular,2,NA,37112580,45267643
+Weak,Fine,Subangular blocky,1,2,37112580,45267644
+Weak,Medium,Subangular blocky,NA,NA,37112554,45267613
+Moderate,Medium,Granular,2,NA,37112543,45267600
+Weak,Fine,Subangular blocky,1,2,37112543,45267601
+Weak,Fine,Subangular blocky,NA,NA,37113334,45268670
+Weak,Medium,Prismatic,1,2,37116716,45273165
+Weak,Medium,Subangular blocky,2,NA,37116716,45273166
+Weak,Medium,Subangular blocky,NA,NA,37116472,45272838
+Moderate,Fine,Prismatic,1,2,37116690,45273119
+Moderate,Fine,Subangular blocky,2,NA,37116690,45273120
+Moderate,Fine,Subangular blocky,NA,NA,37116712,45273159
+Weak,Coarse,Prismatic,2,NA,37116183,45272410
+,,Massive,1,2,37116183,45272411
+Weak,Fine,Granular,2,NA,37116191,45272424
+Weak,Fine,Subangular blocky,1,2,37116191,45272425
+Moderate,Medium,Subangular blocky,2,NA,37114136,45269716
+Weak,Medium,Prismatic,1,2,37114136,45269717
+Weak,Very coarse,Prismatic,NA,NA,37116154,45272361
+Weak,Medium,Prismatic,1,2,37112295,45267245
+Weak,Medium,Subangular blocky,2,NA,37112295,45267246
+Weak,Medium,Subangular blocky,NA,NA,37117640,45274349
+Moderate,Fine,Subangular blocky,NA,NA,37114110,45269678
+Moderate,Fine,Subangular blocky,NA,NA,37115123,45271043
+Weak,Coarse,Prismatic,NA,NA,37116113,45272311
+,,Massive,NA,NA,37116113,45272312
+Weak,Coarse,Subangular blocky,2,NA,37116473,45272839
+Weak,Coarse,Prismatic,1,2,37116473,45272840
+Weak,Medium,Subangular blocky,NA,NA,37112606,45267679
+Weak,Fine,Granular,2,NA,37114114,45269684
+Weak,Fine,Subangular blocky,1,2,37114114,45269685
+Moderate,Medium,Granular,NA,NA,37116109,45272306
+Weak,Fine,Subangular blocky,1,2,37115513,45271610
+Weak,Fine,Granular,2,NA,37115513,45271611
+Weak,Coarse,Prismatic,1,2,37116705,45273145
+Weak,Medium,Subangular blocky,2,NA,37116705,45273146
+Weak,Fine,Subangular blocky,NA,NA,37114133,45269713
+,,Massive,NA,NA,37116172,45272391
+Weak,Fine,Granular,NA,NA,37116146,45272353
+Weak,Fine,Subangular blocky,1,2,37116687,45273112
+Moderate,Fine,Granular,2,NA,37116687,45273113
+,,Massive,2,NA,37114125,45269700
+Weak,Medium,Prismatic,1,NA,37114125,45269701
+Weak,Medium,Prismatic,1,2,37116462,45272826
+Moderate,Fine,Angular blocky,2,NA,37116462,45272827
+,,Massive,3,NA,37116462,45272828
+Moderate,Medium,Subangular blocky,2,NA,37116694,45273125
+Moderate,Medium,Prismatic,1,2,37116694,45273126
+,,Massive,NA,NA,37115515,45271614
+Weak,Medium,Subangular blocky,NA,NA,37112521,45267573
+Moderate,Fine,Granular,2,NA,37115296,45271300
+Weak,Fine,Subangular blocky,1,2,37115296,45271301
+Weak,Coarse,Subangular blocky,NA,NA,37116731,45273189
+Moderate,Medium,Subangular blocky,2,NA,37114118,45269689
+Weak,Medium,Prismatic,1,2,37114118,45269690
+Moderate,Fine,Subangular blocky,NA,NA,37114129,45269706
+Moderate,Medium,Subangular blocky,NA,NA,37116124,45272326
+Weak,Medium,Subangular blocky,NA,NA,37116720,45273172
+Weak,Fine,Granular,NA,NA,37115119,45271039
+Weak,Medium,Subangular blocky,1,2,37116213,45272459
+Weak,Fine,Granular,2,NA,37116213,45272460
+Weak,Very fine,Subangular blocky,NA,NA,37114162,45269757
+Moderate,Medium,Granular,2,NA,37112528,45267583
+Weak,Fine,Subangular blocky,1,2,37112528,45267584
+Moderate,Medium,Granular,2,NA,37112510,45267557
+Weak,Fine,Subangular blocky,1,2,37112510,45267558
+,,Massive,NA,NA,37116150,45272357
+Moderate,Medium,Subangular blocky,2,NA,37116187,45272416
+Weak,Medium,Prismatic,1,2,37116187,45272417

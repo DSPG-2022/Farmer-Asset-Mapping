@@ -313,7 +313,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,989,77173,6862181
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,989,77238,6870180
 ENG - Deep Infiltration Systems,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""SWM - Deep Infiltration Systems"".  If a soil's property within 200 cm (about 79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting for the land use.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""SWM - Deep Infiltration Systems"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -506,7 +506,7 @@ Property used: LIMESTONE BEDROCK
 Restrictive Limits:
 
 Limiting	                If the bedrock is limestone, the site is limited because of the bedrock type
-Not limiting	If the bedrock is not limestone, the site is not limited by the bedrock type",Yes,07/19/2018 19:46:25,70148,77173,6862182
+Not limiting	If the bedrock is not limestone, the site is not limited by the bedrock type",Yes,07/19/2018 19:46:25,70148,77238,6870181
 ENG - Dwellings W/O Basements,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for ""Dwellings W/O Basements"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Dwellings W/O Basements"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -747,7 +747,7 @@ Property used: SUBSIDENCE DUE TO GYPSUM (REV)
 	Null gypsum is assigned to the Not rated class.
 
 					
-These impact ratings are from: National Coal Board Classification of Subsidence Damage. 1975. Subsidence Engineers Handbook.",Yes,07/19/2018 19:46:25,340,77173,6862183
+These impact ratings are from: National Coal Board Classification of Subsidence Damage. 1975. Subsidence Engineers Handbook.",Yes,07/19/2018 19:46:25,340,77238,6870182
 ENG - Dwellings With Basements,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for ""Dwellings With Basements"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Dwellings With Basements"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -991,7 +991,7 @@ Property used: SUBSIDENCE DUE TO GYPSUM (REV)
 	Null gypsum is assigned to the Not rated class.
 
 					
-These impact ratings are from: National Coal Board Classification of Subsidence Damage. 1975. Subsidence Engineers Handbook.",Yes,07/19/2018 19:46:25,393,77173,6862184
+These impact ratings are from: National Coal Board Classification of Subsidence Damage. 1975. Subsidence Engineers Handbook.",Yes,07/19/2018 19:46:25,393,77238,6870183
 "ENG - Ground-based Solar Arrays, Ballast Anchor Systems",limitation,"Summary:
 
 Ground-based solar arrays are sets of photovoltaic panels that are not situated on a building or pole.  These installations consist of a racking system that holds the panel in the desired orientation and the foundation structures that hold the racking system to the ground.  Two basic methods are used to hold the systems to the ground, based on site conditions and cost.  One method employs driven piles, screw augers, or concrete piers that penetrate into the soil to provide a stable foundation. The ease of installation and general site suitability of soil-penetrating anchoring systems depends on soil characteristics such as rock fragment content, soil depth, soil strength, soil corrosivity, shrink-swell tendencies, and drainage.  The other basic anchoring system utilizes precast ballasted footings or ballasted trays on the soil surface to make the arrays too heavy to move.  The site considerations that impact both basic systems are slope, slope aspect, wind speed, land surface shape, flooding, and ponding.  Other factors that will contribute to the function of a solar power array include daily hours of sunlight and shading from hills, trees, or buildings.
@@ -1134,7 +1134,7 @@ References:
 
 Canada, S. 2012. Corrosion impacts on steel piles.  Solarpro. Solarprofessional.com.
 
-Romanoff, Melvin. 1962. Corrosion of Steel Pilings in Soils.  Journal of Research of the National Bureau of Standards. (Volume 66C, No. 3). July/September, 1962.",Yes,05/25/2021 15:00:37,70149,77173,6862185
+Romanoff, Melvin. 1962. Corrosion of Steel Pilings in Soils.  Journal of Research of the National Bureau of Standards. (Volume 66C, No. 3). July/September, 1962.",Yes,05/25/2021 15:00:37,70149,77238,6870184
 "ENG - Ground-based Solar Arrays, Soil-based Anchor Systems",limitation,"Summary:
 
 Ground-based solar arrays are sets of photovoltaic panels that are not situated on a building or pole.  These installations consist of a racking system that holds the panel in the desired orientation and the foundation structures that hold the racking system to the ground.  Two basic methods are used to hold the systems to the ground, based on site conditions and cost.  One method employs driven piles, screw augers, or concrete piers that penetrate into the soil to provide a stable foundation. The ease of installation and general site suitability of soil-penetrating anchoring systems depends on soil characteristics such as rock fragment content, soil depth, soil strength, soil corrosivity, shrink-swell tendencies, and drainage.  The other basic anchoring system utilizes precast ballasted footings or ballasted trays on the soil surface to make the arrays too heavy to move.  The site considerations that impact both basic systems are slope, slope aspect, wind speed, land surface shape, flooding, and ponding.  Other factors that will contribute to the function of a solar power array include daily hours of sunlight and shading from hills, trees or buildings.
@@ -1381,7 +1381,7 @@ References:
 
 Canada, S. 2012. Corrosion impacts on steel piles.  Solarpro. Solarprofessional.com.
 
-Romanoff, Melvin. 1962. Corrosion of Steel Pilings in Soils.  Journal of Research of the National Bureau of Standards. (Volume 66C, No. 3). July/September, 1962.",Yes,05/25/2021 15:00:37,70150,77173,6862186
+Romanoff, Melvin. 1962. Corrosion of Steel Pilings in Soils.  Journal of Research of the National Bureau of Standards. (Volume 66C, No. 3). July/September, 1962.",Yes,05/25/2021 15:00:37,70150,77238,6870185
 "ENG - Lawn, Landscape, Golf Fairway",limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for ""Lawn, Landscape, Golf Fairway"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Lawn, Landscape, Golf Fairway"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -1695,7 +1695,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,402,77173,6862187
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,402,77238,6870186
 ENG - Lined Retention Systems,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""SWM - Lined Retention Systems"".  If a soil property within 200 cm (about 79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting for the land use.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""SWM - Lined Retention Systems"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -1925,7 +1925,7 @@ Property used: LIMESTONE BEDROCK
 Restrictive Limits:
 
 Limiting	                If the bedrock is limestone, the site is limited because of the bedrock type
-Not limiting	If the bedrock is not limestone, the site is not limited by the bedrock type",Yes,07/19/2018 19:46:25,70151,77173,6862188
+Not limiting	If the bedrock is not limestone, the site is not limited by the bedrock type",Yes,07/19/2018 19:46:25,70151,77238,6870187
 ENG - Local Roads and Streets,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for ""Local Roads and Streets"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Local Roads and Streets"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -2218,7 +2218,7 @@ Assumptions:
 		  Property used: ""PARENT MATERIAL ORIGIN IS SOLUBLE SALT""  (Modality - and representative value)
 	
 			Limiting	                If the bedrock is soluble salt, the site is limited by the bedrock type.
-		    	Not limiting	If the bedrock is not soluble salt, the site is not limited by the bedrock type.",Yes,07/19/2018 19:46:25,398,77173,6862189
+		    	Not limiting	If the bedrock is not soluble salt, the site is not limited by the bedrock type.",Yes,07/19/2018 19:46:25,398,77238,6870188
 ENG - Sanitary Landfill (Area),limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Sanitary Landfill (Area)"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership indices for one or more of the soil interpretive properties that comprise the ""Sanitary Landfill (Area)"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -2421,7 +2421,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,979,77173,6862190
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,979,77238,6870189
 ENG - Sanitary Landfill (Trench),limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as "" Sanitary Landfill (Trench)"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership indices for one or more of the soil interpretive properties that comprise the "" Sanitary Landfill (Trench)"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -2728,7 +2728,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,419,77173,6862191
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,419,77238,6870190
 ENG - Septic Tank Absorption Fields,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Septic Tank Absorption Fields"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership indices for one or more of the soil interpretive properties that comprise the ""Septic Tank Absorption Fields"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.  
@@ -2934,7 +2934,7 @@ AND NOT
 		Limiting             = ""unstable fill""
 		Not limiting	 not = ""unstable fill""
 	
-	Null local phase is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,208,77173,6862192
+	Null local phase is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,208,77238,6870191
 ENG - Sewage Lagoons,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Sewage Lagoons"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership indices for one or more of the soil interpretive properties that comprise the ""Sewage Lagoons"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -3140,7 +3140,7 @@ AND NOT
 		Somewhat limiting	=> 45 to =< 90cm
 		Not limiting		 > 90cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,06/04/2020 19:33:15,430,77173,6862193
+	Null depth is assigned to the Not limiting class.",Yes,06/04/2020 19:33:15,430,77238,6870192
 ENG - Shallow Excavations,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Shallow Excavations"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Shallow Excavations"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -3429,7 +3429,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,302,77173,6862194
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,302,77238,6870193
 ENG - Shallow Infiltration Systems,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""SWM - Shallow Infiltration Systems"".  If a soil's property within 200 cm (about 79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting for the land use.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""SWM - Shallow Infiltration Systems"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -3655,7 +3655,7 @@ Property used: LIMESTONE BEDROCK
 Restrictive Limits:
 
 Limiting	                If the bedrock is limestone, the site is limited because of the bedrock type
-Not limiting	If the bedrock is not limestone, the site is not limited by the bedrock type",Yes,07/19/2018 19:46:25,70152,77173,6862195
+Not limiting	If the bedrock is not limestone, the site is not limited by the bedrock type",Yes,07/19/2018 19:46:25,70152,77238,6870194
 ENG - Small Commercial Buildings,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for ""Small Commercial Buildings"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Small Commercial Buildings"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -3896,7 +3896,7 @@ Property used: SUBSIDENCE DUE TO GYPSUM (REV)
 	Null gypsum is assigned to the Not rated class.
 
 					
-These impact ratings are from: National Coal Board Classification of Subsidence Damage. 1975. Subsidence Engineers Handbook.",Yes,07/19/2018 19:46:25,395,77173,6862196
+These impact ratings are from: National Coal Board Classification of Subsidence Damage. 1975. Subsidence Engineers Handbook.",Yes,07/19/2018 19:46:25,395,77238,6870195
 ENG - Unlined Retention Systems,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""SWM - Unlined Retention Systems"".  If a soil's property within 200 cm (about 79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting for the land use.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""SWM - Unlined Retention Systems"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -4134,7 +4134,7 @@ Restrictive limits:
 
 Null months of saturation is assigned to the not limited class.
 
-The rating reported is the product of the fuzzy numbers of the two evaluations.",Yes,07/19/2018 19:46:25,70153,77173,6862197
+The rating reported is the product of the fuzzy numbers of the two evaluations.",Yes,07/19/2018 19:46:25,70153,77238,6870196
 ENG - Unpaved Local Roads and Streets,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for ""Unpaved Local Roads and Streets"".  If a soil's property within 150 cm (60 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting and the soil restrictive feature is identified.  The overall interpretive rating assigned is the maximum membership indices of each soil interpretive property that comprise the ""Unpaved Local Roads and Streets"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -4439,7 +4439,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,23656,77173,6862198
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,23656,77238,6870197
 Farm and Garden Composting Facility - Surface,limitation,"Farm and Garden Composting Facility - Surface
 
 Background
@@ -4688,7 +4688,7 @@ incurred.  In very warm areas, adding extra water and more frequent turning of t
 		Somewhat limiting	 8 to <=10 and 22 to <=30 degrees C
 		Not limiting		 >10 to <=22 degrees C
 		
-	Null mean annual air temperature is assigned to the ""Not rated"" class.",Yes,07/19/2018 19:46:25,57992,77173,6862199
+	Null mean annual air temperature is assigned to the ""Not rated"" class.",Yes,07/19/2018 19:46:25,57992,77238,6870198
 FOR - Construction Limitations for Haul Roads/Log Landings,limitation,"FOR - CONSTRUCTION LIMITATIONS FOR HAUL ROADS/LOG LANDINGS
 ----------------------------------------------------------
  
@@ -4773,8 +4773,8 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,351,77173,6862200
-FOR - Drought Vulnerable Soils,limitation,,Yes,06/01/2021 18:17:25,70142,77173,6862201
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,351,77238,6870199
+FOR - Drought Vulnerable Soils,limitation,,Yes,06/01/2021 18:17:25,70142,77238,6870200
 FOR - Hand Planting Suitability,limitation,"FOR - HAND PLANTING SUITABILITY
 -------------------------------
 
@@ -4818,7 +4818,7 @@ Rating Classes (Crisp):
 
 * Poorly suited - One or more restrictions that severely impede planting and reduce planting.
 
-* Unsuited - Site factors and features prevent the proper planting of seedlings.",Yes,07/19/2018 19:46:25,670,77173,6862202
+* Unsuited - Site factors and features prevent the proper planting of seedlings.",Yes,07/19/2018 19:46:25,670,77238,6870201
 FOR - Harvest Equipment Operability,limitation,"FOR - HARVEST EQUIPMENT OPERABILITY
 -----------------------------------
 
@@ -4854,7 +4854,7 @@ Rating Classes (Crisp):
 
 * Moderately Suited - One or more restrictions reduce the effective and safe use of equipment.
 
-* Poorly suited - One or more restrictions make the use of equipment impractical or unsafe.",Yes,07/19/2018 19:46:25,559,77173,6862203
+* Poorly suited - One or more restrictions make the use of equipment impractical or unsafe.",Yes,07/19/2018 19:46:25,559,77238,6870202
 FOR - Log Landing Suitability,limitation,"FOR - LOG LANDING SUITABILITY
 ----------------------------- 
  
@@ -4892,7 +4892,7 @@ Rating Classes (Crisp):
 
 * Moderately Suited - One or more restrictions reduce site suitability.
 
-* Poorly suited - One or more restrictions generally make the use of the site for a landing very difficult or unsafe.",Yes,07/19/2018 19:46:25,348,77173,6862204
+* Poorly suited - One or more restrictions generally make the use of the site for a landing very difficult or unsafe.",Yes,07/19/2018 19:46:25,348,77238,6870203
 FOR - Mechanical Planting Suitability,limitation,"Summary:
 
 Soil interpretations for woodland management provide a means of assessing the limitations and potentials of soils for various operations.  Identification of sites that are difficult to manage will assist in the timing of the work to be done in the forest.  The characteristics of the site and soil can greatly impact the success of the woodland management in terms of efficiency and avoidance of environmental degradation.  
@@ -5041,7 +5041,7 @@ The fuzzy number is multiplied by 0.75 to reduce the impact.
 The highest fuzzy number of A or B is returned to the rule.
 
 Reference:
-Refer to section 537 of the National Forestry Manual for specific soil rating criteria.",Yes,06/26/2019 16:43:44,63742,77173,6862205
+Refer to section 537 of the National Forestry Manual for specific soil rating criteria.",Yes,06/26/2019 16:43:44,63742,77238,6870204
 FOR - Mechanical Site Preparation (Deep),limitation,"Summary:
 Soil interpretations for woodland management provide a means of assessing the limitations and potentials of soils for various operations.  Identification of sites that are difficult to manage will assist in the timing of the work to be done in the forest.  The characteristics of the site and soil can greatly impact the success of the woodland management in terms of efficiency and avoidance of environmental degradation.  
 
@@ -5152,7 +5152,7 @@ The fuzzy number is multiplied by 0.75 to reduce the impact.
 The highest fuzzy number of A or B is returned to the rule.
 
 Reference:
-Refer to section 537 of the National Forestry Manual for specific soil rating criteria.",Yes,03/12/2018 16:57:59,63743,77173,6862206
+Refer to section 537 of the National Forestry Manual for specific soil rating criteria.",Yes,03/12/2018 16:57:59,63743,77238,6870205
 FOR - Mechanical Site Preparation (Surface),limitation,"Summary: 
 Soil interpretations for woodland management provide a means of assessing the limitations and potentials of soils for various operations.  Identification of sites that are difficult to manage will assist in the timing of the work to be done in the forest.  The characteristics of the site and soil can greatly impact the success of the woodland management in terms of efficiency and avoidance of environmental degradation.  
 
@@ -5307,7 +5307,7 @@ The fuzzy number is multiplied by 0.75 to reduce the impact of this property.
 Null plasticity index is assigned ""not rated"".
 
 Reference:
-Refer to section 537 of the National Forestry Manual for specific soil rating criteria.",Yes,03/20/2019 22:04:52,63744,77173,6862207
+Refer to section 537 of the National Forestry Manual for specific soil rating criteria.",Yes,03/20/2019 22:04:52,63744,77238,6870206
 FOR - Potential Erosion Hazard (Off-Road/Off-Trail),limitation,"Description:
 
 Potential Erosion Hazard (Off-Road/Off-Trail) addresses the potential of harmful erosion rates due to operations that leave the mineral soil surface bare.  Ratings indicate a relative degree of the hazard or risk of soil loss from off-road and off-trail areas after disturbance activities that expose the soil surface.  The ratings assess several items, such as sheet and rill erosion from exposed soil surfaces caused by various silvicultural practices, such as grazing, mining, fire, firebreaks, and harvest.  It is assumed these activities may disturb the site resulting in 50 to 75 percent roughened bare mineral soil surface in the affected area.  The soil surface may be disturbed by the use of any equipment type or size and uncontrolled grazing by livestock.
@@ -5342,7 +5342,7 @@ Restrictive limits:
              Moderate                       (Kw)(Slope) >4 - < 27
              Slight                               (Kw)(Slope) <= 4
 
-Null (Kw)(Slope)(R) is assigned to the Not rated class.",Yes,03/22/2019 19:31:08,63745,77173,6862208
+Null (Kw)(Slope)(R) is assigned to the Not rated class.",Yes,03/22/2019 19:31:08,63745,77238,6870207
 FOR - Potential Erosion Hazard (Road/Trail),limitation,"FOR - POTENTIAL EROSION HAZARD (ROAD/TRAIL)
 -------------------------------------------
 
@@ -5378,7 +5378,7 @@ Rating Classes (Crisp):
 
 * Moderate - Some erosion is likely; occasional maintenance may be needed; simple erosion control measures needed.
 
-* Severe - Significant erosion can be expected; roads require frequent maintenance; costly erosion control measures are needed",Yes,07/19/2018 19:46:25,330,77173,6862209
+* Severe - Significant erosion can be expected; roads require frequent maintenance; costly erosion control measures are needed",Yes,07/19/2018 19:46:25,330,77238,6870208
 FOR - Potential Fire Damage Hazard,limitation,"FOR - POTENTIAL FIRE DAMAGE HAZARD
 -------------------------------
 
@@ -5422,7 +5422,7 @@ Rating Classes (Crisp):
 
 * Moderate - Negative impacts to the soil characteristic may occur.
 
-* High - Negative impact to the soil characteristics are expected.",Yes,07/19/2018 19:46:25,10458,77173,6862210
+* High - Negative impact to the soil characteristics are expected.",Yes,07/19/2018 19:46:25,10458,77238,6870209
 FOR - Potential Seedling Mortality,limitation,"FOR - POTENTIAL SEEDLING MORTALITY
 ---------------------------------------- 
  
@@ -5458,7 +5458,7 @@ Low - Seedlings are expected to develop normally and become established.
 
 Moderate - Root development is sufficiently retarded to cause death of some seedlings (up to 1 in 3) and establishment of surviving seedlings is delayed.
 
-High - Seedlings are not expected to survive (at least 2 in 3 die) without special treatment or management.",Yes,07/19/2018 19:46:25,10599,77173,6862211
+High - Seedlings are not expected to survive (at least 2 in 3 die) without special treatment or management.",Yes,07/19/2018 19:46:25,10599,77238,6870210
 FOR - Road Suitability (Natural Surface),limitation,"FOR - ROAD SUITABILITY (NATURAL SURFACE)
 ---------------------------------------- 
  
@@ -5504,7 +5504,7 @@ Rating Classes (Crisp):
 
 * Moderately Suited - One or more restrictions reduce site suitability.
 
-* Poorly Suited - One or more restrictions generally make the use of the site for a natural road very difficult or unsafe.",Yes,07/19/2018 19:46:25,297,77173,6862212
+* Poorly Suited - One or more restrictions generally make the use of the site for a natural road very difficult or unsafe.",Yes,07/19/2018 19:46:25,297,77238,6870211
 FOR - Soil Rutting Hazard,limitation,"FOR - SOIL RUTTING HAZARD
 -------------------------
 
@@ -5543,7 +5543,7 @@ Rating Classes (Crisp):
 
 * Moderate - Ruts are likely.
 
-* Severe- Ruts readily.",Yes,07/19/2018 19:46:25,281,77173,6862213
+* Severe- Ruts readily.",Yes,07/19/2018 19:46:25,281,77238,6870212
 FOR - Windthrow Hazard,limitation,"FOR - Windthrow Hazard
 
 Description:
@@ -5767,7 +5767,7 @@ AND
 		Not limiting	>= 75%
 		
 	Null number 10 sieve is assigned to the Not rated class.
-The higher of the fuzzy numbers returned by Rules 1 or 2 is multiplied by the highest fuzzy number returned by Rules 3, 4, 5, or 6 to derive the rating.",Yes,03/20/2019 22:04:52,63746,77173,6862214
+The higher of the fuzzy numbers returned by Rules 1 or 2 is multiplied by the highest fuzzy number returned by Rules 3, 4, 5, or 6 to derive the rating.",Yes,03/20/2019 22:04:52,63746,77238,6870213
 AWM - Irrigation Disposal of Wastewater,limitation,"Summary:
 
 Soil interpretations for waste management provide a means to use organic wastes and wastewater as productive resources.  Using these resources will result in energy conservation, prevent waste, and minimize problems associated with their disposal.  The planned use of many wastes has proven beneficial to the producer and the user of these by-products.  The characteristics of the soil are important in the application of organic wastes and wastewater to land for fertilization and irrigation.  They are also important considerations if the soil is used as a medium for the treatment and disposal of these wastes.  Favorable soil properties are required to prevent environmental damage.
@@ -6058,7 +6058,7 @@ Assumptions:
 			Restrictive limits:
 				Very limiting		=> 30cm
 				Somewhat limiting	10-30cm
-				Not limiting		<= 10cm",Yes,05/06/2020 21:56:39,24388,77173,6862157
+				Not limiting		<= 10cm",Yes,05/06/2020 21:56:39,24388,77238,6870156
 AWM - Land Application of Municipal Sewage Sludge,limitation,"Summary:
 
 Soil interpretations for waste management provide a means to use organic wastes and wastewater as productive resources.  Using these resources will result in energy conservation, prevent waste, and minimize problems associated with their disposal.  The planned use of many wastes has proven beneficial to the producer and the user of these by-products.  The characteristics of the soil are important in the application of organic wastes and wastewater to land for fertilization and irrigation.  They are also important considerations if the soil is used as a medium for the treatment and disposal of these wastes.  Favorable soil properties are required to prevent environmental damage.
@@ -6321,7 +6321,7 @@ AND NOT
 		Somewhat limiting	=> 60 to < 120cm
 		Not limiting		=> 120cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,05/06/2020 21:56:39,235,77173,6862158
+	Null depth is assigned to the Not limiting class.",Yes,05/06/2020 21:56:39,235,77238,6870157
 AWM - Manure and Food Processing Waste,limitation,"Summary:
 
 Soil interpretations for waste management provide a means to use organic wastes and wastewater as productive resources.  Using these resources will result in energy conservation, prevent waste, and minimize problems associated with their disposal.  The planned use of many wastes has proven beneficial to the producer and the user of these by-products.  The characteristics of the soil are important in the application of organic wastes and wastewater to land for fertilization and irrigation.  They are also important considerations if the soil is used as a medium for the treatment and disposal of these wastes.  Favorable soil properties are required to prevent environmental damage.
@@ -6618,7 +6618,7 @@ AND NOT
 		Somewhat limiting	=> 60 to < 120cm
 		Not limiting		=> 120cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,05/06/2020 21:56:39,205,77173,6862159
+	Null depth is assigned to the Not limiting class.",Yes,05/06/2020 21:56:39,205,77238,6870158
 AWM - Overland Flow Process Treatment of Wastewater,limitation,"Summary:
 
 Soil interpretations for waste management provide a means to use organic wastes and wastewater as productive resources.  Using these resources will result in energy conservation, prevent waste, and minimize problems associated with their disposal.  The planned use of many wastes has proven beneficial to the producer and the user of these by-products.  The characteristics of the soil are important in the application of organic wastes and wastewater to land for fertilization and irrigation.  They are also important considerations if the soil is used as a medium for the treatment and disposal of these wastes.  Favorable soil properties are required to prevent environmental damage.
@@ -6884,7 +6884,7 @@ Assumptions:
 			Restrictive limits:
 				Very limiting		=> 30cm
 				Somewhat limiting	10-30cm
-				Not limiting		<= 10cm",Yes,07/19/2018 19:46:25,258,77173,6862160
+				Not limiting		<= 10cm",Yes,07/19/2018 19:46:25,258,77238,6870159
 AWM - Rapid Infiltration Disposal of Wastewater,limitation,"Summary:
 
 Soil interpretations for waste management provide a means to use organic wastes and wastewater as productive resources.  Using these resources will result in energy conservation, prevent waste, and minimize problems associated with their disposal.  The planned use of many wastes has proven beneficial to the producer and the user of these by-products.  The characteristics of the soil are important in the application of organic wastes and wastewater to land for fertilization and irrigation.  They are also important considerations if the soil is used as a medium for the treatment and disposal of these wastes.  Favorable soil properties are required to prevent environmental damage.
@@ -7114,7 +7114,7 @@ Assumptions:
 			Restrictive limits:
 				Very limiting		=> 30cm
 				Somewhat limiting	10-30cm
-				Not limiting		<= 10cm",Yes,07/19/2018 19:46:25,238,77173,6862161
+				Not limiting		<= 10cm",Yes,07/19/2018 19:46:25,238,77238,6870160
 AWM - Slow Rate Process Treatment of Wastewater,limitation,"Summary:
 
 Soil interpretations for waste management provide a means to use organic wastes and wastewater as productive resources.  Using these resources will result in energy conservation, prevent waste, and minimize problems associated with their disposal.  The planned use of many wastes has proven beneficial to the producer and the user of these by-products.  The characteristics of the soil are important in the application of organic wastes and wastewater to land for fertilization and irrigation.  They are also important considerations if the soil is used as a medium for the treatment and disposal of these wastes.  Favorable soil properties are required to prevent environmental damage.
@@ -7392,7 +7392,7 @@ Assumptions:
 			Restrictive limits:
 				Very limiting		=> 30cm
 				Somewhat limiting	10-30cm
-				Not limiting		<= 10cm",Yes,05/06/2020 21:56:39,254,77173,6862162
+				Not limiting		<= 10cm",Yes,05/06/2020 21:56:39,254,77238,6870161
 "DHS - Catastrophic Event, Large Animal Mortality, Burial",limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Catastrophic Event, Large Animal Mortality, Burial"".  If a soil's property within 200 cm (~79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""Catastrophic Event, Large Animal Mortality, Burial"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -7659,7 +7659,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,54166,77173,6862163
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,54166,77238,6870162
 "DHS - Catastrophic Event, Large Animal Mortality, Incinerate",limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Catastrophic Event, Large Animal Disposal, Incinerate"".  This interpretation is meant to provide another option for carcass disposal following a catastrophic event.   If a soil's property within 91 cm (36 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""Catastrophic Event Mortality, Large Animal Disposal, Incinerate"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -7913,7 +7913,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,54168,77173,6862164
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,54168,77238,6870163
 "DHS - Catastrophic Mortality, Large Animal Disposal, Pit",limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Catastrophic Mortality, Large Animal Disposal, Pit"".  If a soil's property within 200 cm (~79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""Catastrophic Mortality, Large Animal Disposal, Pit"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -8308,7 +8308,7 @@ Null slope shape is assigned to the ""Not Rated"" class.
 
 20.  Too acid: Soils with low pH increase metallic ion availability and restricts plant growth and re-establishing vegetation in disturbed area.  Soil feature considered is the minimum (pH) of the soil layers.
 	
-	Property used: SOIL REACTION 1-1 WATER (Minimum) (Modality - high, low, representative value)",Yes,05/06/2020 21:04:40,21013,77173,6862165
+	Property used: SOIL REACTION 1-1 WATER (Minimum) (Modality - high, low, representative value)",Yes,05/06/2020 21:04:40,21013,77238,6870164
 "DHS - Catastrophic Mortality, Large Animal Disposal, Trench",limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Catastrophic Mortality, Large Animal Disposal, Trench"".  If a soil's property within 200 cm (~79 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""Catastrophic Mortality, Large Animal Disposal, Trench"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -8809,7 +8809,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,21014,77173,6862166
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,21014,77238,6870165
 DHS - Emergency Animal Mortality Disposal by Shallow Burial,limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use as ""Emergency Animal Mortality Disposal by Shallow Burial"".  This interpretation is meant to provide another option for carcass disposal following a catastrophic event.  Conceptually, it is very similar to ""above ground burial"", in that a trench from 18 to 24 inches deep is used.   If a soil's property within 91 cm (36 inches) of the soil surface has a membership index greater than zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership index for one or more of the soil interpretive properties that comprise the ""Emergency Animal Mortality Disposal by Shallow Burial"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -9065,7 +9065,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,06/04/2020 19:33:15,66647,77173,6862167
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,06/04/2020 19:33:15,66647,77238,6870166
 DHS - Emergency Land Disposal of Milk,limitation,"Summary:
 
 Disruptions in the supply chain and other problems can necessitate the emergency disposal of milk.  Land application is a viable method of disposal as the constituents of milk can be beneficial as soil amendments. The characteristics of the soil are important in the application since favorable soil properties are required to prevent environmental damage.
@@ -9308,7 +9308,7 @@ AND NOT
 		Somewhat limiting	=> 60 to < 120cm
 		Not limiting		=> 120cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,05/12/2020 18:41:17,66646,77173,6862168
+	Null depth is assigned to the Not limiting class.",Yes,05/12/2020 18:41:17,66646,77238,6870167
 DHS - Potential for Radioactive Sequestration,limitation,"DHS - Potential for Radioactive Sequestration
 
 
@@ -9536,7 +9536,7 @@ Calculation:
 
 Sequestration Material Loss Potential = [(Erosion Factor, Organic 0.02/2)+(Susceptibility to Loss/2)]*(Slope for Material Gain 0-100/2)
 
-The fuzzy number from this subrule is subtracted from the highest of the previous four subrules to obtain the final rating.",Yes,07/19/2018 19:46:25,20791,77173,6862170
+The fuzzy number from this subrule is subtracted from the highest of the previous four subrules to obtain the final rating.",Yes,07/19/2018 19:46:25,20791,77238,6870169
 "DHS - Rubble and Debris Disposal, Large-Scale Event",limitation,"Summary:
 
 Soils can be a non-member, partial member or complete members of the set of soils that are limited for use for ""Rubble and Debris Disposal, Large-scale Event"".  If a soil's property within 200 cm (about 80 inches) of the soil surface has a membership indices greater then zero, then that soil property is limiting.  The interpretive rating assigned is the maximum membership indices for one or more of the soil interpretive properties that comprise the ""Rubble and Debris Disposal, Large-scale Event"" interpretive rule.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -10023,7 +10023,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,20309,77173,6862171
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,05/06/2020 21:04:40,20309,77238,6870170
 DHS - Site for Composting Facility - Subsurface,limitation,"Site for Composting Facility - Subsurface
 
 Background
@@ -10491,7 +10491,7 @@ AND
 		Limiting		 < 50
 		Not limiting	=> 50
 		
-	Null plasticity index is assigned to the Not limited class.",Yes,03/12/2019 18:47:48,20468,77173,6862172
+	Null plasticity index is assigned to the Not limited class.",Yes,03/12/2019 18:47:48,20468,77238,6870171
 DHS - Site for Composting Facility - Surface,limitation,"Site for Composting Facility - Surface
 
 Background
@@ -10764,7 +10764,7 @@ AND
 		Limiting		 < 50
 		Not limiting		=> 50
 		
-	Null plasticity index is assigned to the Not limited class.",Yes,03/12/2019 18:47:48,20461,77173,6862173
+	Null plasticity index is assigned to the Not limited class.",Yes,03/12/2019 18:47:48,20461,77238,6870172
 Fragile Soil Index,limitation,"Fragile Soil Index
 
 Summary:
@@ -11088,7 +11088,7 @@ Pimentel, D. 2006. Soil erosion: A food and environmental threat. Environment, D
 
 Seybold, C.A., R.B. Grossman, H. Hoper, G. Muckel, and D.L. Karlen. 2004. Soil quality morphological index measured in the 1996 NRI pilot study. Soil Survey Horizons 45(3):86-95.
 
-Wall, D.H. 2005. Biodiversity. p.136-141. In: D. Hillel (ed.) Encyclopedia of soils in the environment. Vol. 1. Elsevier, Oxford.",Yes,07/19/2018 19:46:25,54580,77173,6862216
+Wall, D.H. 2005. Biodiversity. p.136-141. In: D. Hillel (ed.) Encyclopedia of soils in the environment. Vol. 1. Elsevier, Oxford.",Yes,07/19/2018 19:46:25,54580,77238,6870215
 "GRL - Fencing, Post Depth =<24 inches",limitation,"FENCING:
         1. Fencing is the construction and maintenance of barriers for the management of animals and people.  Fences are constructed using metal or wooden posts.  This rule was developed for conditions where the posts are set to a depth of 2 feet or less into the soil with strands of wire suspended between the posts.
  
@@ -11156,7 +11156,7 @@ RATING CRITERIA 		WELL            		POORLY  	RESTRICTIVE
  
 11.     SALINITY (MMHOS/CM)      ---    	>8       	---    		EXCESS SALT
  
-12.     SOIL REACTION (pH)       ---    	<3.5     	---    		TOO ACID",Yes,07/19/2018 19:46:25,825,77173,6862217
+12.     SOIL REACTION (pH)       ---    	<3.5     	---    		TOO ACID",Yes,07/19/2018 19:46:25,825,77238,6870216
 "GRL - Fencing, Post Depth =<36 inches",limitation,"FENCING:
         1. Fencing is the construction and maintenance of barriers for the management of animals and people.  Fences are constructed using metal or wooden posts.  This rule was developed for conditions where the posts are set to a depth of 3 feet or less into the soil with strands of wire suspended between the posts.
  
@@ -11223,7 +11223,7 @@ RATING CRITERIA 		WELL            	POORLY  	RESTRICTIVE
  
 11.     SALINITY (MMHOS/CM)      ---    >8       	---    		EXCESS SALT
  
-12.     SOIL REACTION (pH)       ---    <3.5     	---    		TOO ACID",Yes,07/19/2018 19:46:25,883,77173,6862218
+12.     SOIL REACTION (pH)       ---    <3.5     	---    		TOO ACID",Yes,07/19/2018 19:46:25,883,77238,6870217
 Ground Penetrating Radar Penetration,limitation,"Introduction
 
 Ground-penetrating radar (GPR) is widely used by a diverse group of service providers that include agronomist, archaeologists, criminologists, engineers, environmental specialists, foresters, geologists, geophysicists, hydrologists, land use managers, and soil scientists. In recent years, GPR has gained recognition in the search for terrorism and military hazards. A common concern of GPR service providers is whether or not GPR will be able to achieve the desired depth of penetration in the soils of a project area. In many soils, high rates of signal attenuation severely restrict penetration depths and limit the suitability of GPR for a large number of applications. In saline and sodic soils, where penetration depths are often less than 10 inches (Daniels, 2004), GPR is unsuited to most applications. In wet clays, where penetration depths are typically less than 40 inches (Doolittle et al., 2002), GPR has very low potentials for most applications. However, GPR is highly suited to most applications in dry sands and gravels, where penetration depths can exceed 160 feet with low frequency antennas (Smith and Jol, 1995). 
@@ -11365,7 +11365,7 @@ GPR suitability index                               Potential
          >3 to 4                                           Low
          >4 to 5                                      Very low
             >5                                           Unsuited
-         99                                              No data",Yes,07/19/2018 19:46:25,26588,77173,6862219
+         99                                              No data",Yes,07/19/2018 19:46:25,26588,77238,6870218
 MIL - Bivouac Areas (DOD),limitation,"MIL - Bivouac Areas
 
 Summary: Military interpretations provide a tool for managing the impact of military training and support activities on soil and soil landscape.  Soils vary in their capacity to support these activities and the ratings reflect limitations that individual soils may have.  Restrictive soil features guide the user in predicting how the soil will respond to management.  The ratings are for the soils in their natural condition and do not consider present land use, existing vegetation, or water sources. Site evaluation and planning, however, should consider these items.
@@ -11531,7 +11531,7 @@ CRITERIA: The interpretive rating is the most limiting of the following restrict
 		Somewhat Limiting	""LFS"", ""LVFS"", ""LCOS"", AND ""LS""
 		Not limiting		all other USDA Textures
 		
-	Null USDA Texture is assigned to the Not rated class.",Yes,07/19/2018 19:46:25,25190,77173,6862220
+	Null USDA Texture is assigned to the Not rated class.",Yes,07/19/2018 19:46:25,25190,77238,6870219
 MIL - Excavations Crew-Served Weapon Fighting Position (DOD),limitation,"MIL - Excavations for Crew-Served Weapon Fighting Positions
 
 Summary: Military interpretations provide a tool for managing the impact of military train and support activities on soil and soil landscape.  Soils vary in their capacity to support these activities and the ratings reflect limitations that individual soils may have.  Restricting soil features guide the user in predicting how the soil will respond to management.  The rating are for the soils in their natural condition and do not consider present land use, existing vegetation, or water sources. Site evaluation and planning, however, should consider these items.
@@ -11719,7 +11719,7 @@ AND
 		Somewhat limiting	 > 8 and < 15%
 		Not limiting		=< 8%			
 		
-	Null Slope is assigned Not rated.",Yes,07/19/2018 19:46:25,25191,77173,6862221
+	Null Slope is assigned Not rated.",Yes,07/19/2018 19:46:25,25191,77238,6870220
 MIL - Excavations for Individual Fighting Position (DOD),limitation,"MIL - Excavations for Individual Fighting Positions
 
 Summary: Military interpretations provide a tool for managing the impact of military train and support activities on soil and soil landscape.  Soils vary in their capacity to support these activities and the ratings reflect limitations that individual soils may have.  Restricting soil features guide the user in predicting how the soil will respond to management.  The rating are for the soils in their natural condition and do not consider present land use, existing vegetation, or water sources. Site evaluation and planning, however, should consider these items.
@@ -11866,7 +11866,7 @@ AND
 		Limiting	 = ""very brief"" or ""brief"" or ""long"" or ""very long""
 		Not limiting	 = ""none""
 		
-	Null ponding duration is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25192,77173,6862222
+	Null ponding duration is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25192,77238,6870221
 MIL - Excavations for Vehicle Fighting Position (DOD),limitation,"Rule: MIL - Excavations for Vehicle Fighting Positions
 
 Summary: Military interpretations provide a tool for managing the impact of military train and support activities on soil and soil landscape.  Soils vary in their capacity to support these activities and the ratings reflect limitations that individual soils may have.  Restricting soil features guide the user in predicting how the soil will respond to management.  The rating are for the soils in their natural condition and do not consider present land use, existing vegetation, or water sources.  Site evaluation and planning, however, should consider these items.
@@ -12661,7 +12661,7 @@ CRITERIA: The interpretive rating is the most limiting of the following restrict
                     1.  slope percent
 
             Logic:  Finds the low, high, and rv values for
-            component slope.",Yes,07/19/2018 19:46:25,25193,77173,6862223
+            component slope.",Yes,07/19/2018 19:46:25,25193,77238,6870222
 MIL - Helicopter Landing Zones (DOD),limitation,"MIL - Helicopter Landing Zones
 
 Summary: Military interpretations provide a tool for managing the impact of military training and support activities on soil and the soil landscape.  Soils vary in their capacity to support these activities and the ratings reflect limitations that individual soils may have.  Restrictive soil features guide the user in predicting how the soil will respond to management.  The rating are for the soils in their natural condition and do not consider present land use, existing vegetation, or water sources.  Site evaluation and planning, however, should consider these items.
@@ -12729,7 +12729,7 @@ CRITERIA: The interpretive rating is the most limiting of the following restrict
 		Somewhat limiting	  > 0.1% to < 3%
 		Not limiting	 =< 0.1%
 		
-	Null > 10 inch rock fragment data are assigned to the Not rated class.",Yes,07/19/2018 19:46:25,25194,77173,6862224
+	Null > 10 inch rock fragment data are assigned to the Not rated class.",Yes,07/19/2018 19:46:25,25194,77238,6870223
 SOH - Limitations for Aerobic Soil Organisms,limitation,"Limitationn for Aerobic Soil Organisms
 
 Soil is the habitat for a wide variety of organisms, ranging from viruses, bacteria, fungi, nematodes and a variety of others.  Bacteria and fungi provide many services in soils.  For example, bacteria convert plant and animal tissues into humus.  Many of the resultant compounds bind the soil into aggregates.  Bacteria may fix nitrogen for plant use and fungi assist plant roots in obtaining nutrients and water.  Soil microbes are generally most abundant in the surface layer since they typically are found around plant roots.  Soils vary in their ability to foster plant growth and thus also in their ability to support microbial populations.  These differences can be caused by natural, inherent soil and site properties or can be the result of dynamic soil properties that are influenced by management, good or bad.  Two major classifications of soil organisms are aerobic and anaerobic, which deal with electron flow in the metabolic processes in the presence or absence of oxygen.
@@ -12870,7 +12870,7 @@ Interpretive thresholds:
      somewhat limiting      Clay content between 30 and 40 percent
      not limiting                 Clay content greater than 40 percent
 	
-	Null density ration is assigned to the not rated class.",Yes,05/24/2021 20:07:32,70154,77173,6862250
+	Null density ration is assigned to the not rated class.",Yes,05/24/2021 20:07:32,70154,77238,6870249
 SOH - Organic Matter Depletion,limitation,"Soil Susceptibility to Organic Matter Depletion
 
 
@@ -12921,7 +12921,7 @@ U.S. Department of Agriculture, Natural Resources Conservation Service. National
 
 U.S. Department of Agriculture, Soil Conservation Service (1961). Land Capability Classification. https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052290.pdf. (accessed 1 March 2018).
 
-Zhanyu Zhang, Liting Sheng, Jie Yang, Xiao-An Chen, Lili Kong and Bakhtawar Wagan. Effects of Land Use and Slope Gradient on Soil Erosion in a Red Soil Hilly Watershed of Southern China. Sustainability 2015, 7, 14309-14325; doi:10.3390/su71014309",Yes,07/19/2018 19:46:25,62834,77173,6862251
+Zhanyu Zhang, Liting Sheng, Jie Yang, Xiao-An Chen, Lili Kong and Bakhtawar Wagan. Effects of Land Use and Slope Gradient on Soil Erosion in a Red Soil Hilly Watershed of Southern China. Sustainability 2015, 7, 14309-14325; doi:10.3390/su71014309",Yes,07/19/2018 19:46:25,62834,77238,6870250
 SOH - Soil Surface Sealing,limitation,"Soil Susceptibility to Surface Sealing
 
 Surface sealing is the orientation and packing of dispersed soil particles that result from the physical breakup of soil aggregates due to raindrop impact. Rapid soil wetting (in dry soils) and high exchangeable sodium percent can also cause aggregates to disperse. Sealing results when clay and silt particles get detached and/or dispersed and become suspended in the infiltrating water, which is moving downward through surface-connected pores. The pores become clogged with the fine particles, which become closely packed, creating a surface seal. Surface sealing is the initial process in the formation of a mineral crust (Awadhwal and Thierstein, 1985). A soil crust is a broader term for a surface feature that is dense, hard, or restricts infiltration and can be biological or mineral. A seal is a more specific term referring to a surface layer that inhibits infiltration (Heil, 1993). Surface seals decrease infiltration rates, reduce the amount of available water to plants, diminish natural recharge of aquifers, increase runoff, and decrease crop yields (Assouline, 2011). Surface sealing has also been shown to be the primary cause of post-fire runoff and erosion (Larsen et al., 2007).
@@ -13118,7 +13118,7 @@ Valentin, C. 1989. Surface crusting, runoff, and erosion on steeplands and coars
 
 van der Watt, H.v.H., and C. Valentin. 1992. Soil crusting: The African view. In: M.E. Sumner and B.A. Stewart (eds.) Soil crusting: Chemical and physical processes. Lewis Publishers, Boca Raton, FL. pp. 301-338.
 
-Wells, R.R., D.A. DiCarlo, T.S. Steenhuis, J.-Y. Parlange, M.J.M. Romkens, and S.N. Prasad. 2003. Infiltration and surface geometry features of a swelling soil following successive simulated rainstorms. Soil Science Society of America Journal 67:1344-1351.",Yes,08/28/2018 20:03:43,54647,77173,6862252
+Wells, R.R., D.A. DiCarlo, T.S. Steenhuis, J.-Y. Parlange, M.J.M. Romkens, and S.N. Prasad. 2003. Infiltration and surface geometry features of a swelling soil following successive simulated rainstorms. Soil Science Society of America Journal 67:1344-1351.",Yes,08/28/2018 20:03:43,54647,77238,6870251
 SOH - Soil Susceptibility to Compaction,limitation,"Soil Susceptibility to Compaction
 
 Soils can be a full member, partial member, or non-member of the set of soils that are susceptible to compaction.  Soils are rated based on their susceptibility to compaction from the operation of ground-based equipment for planting, harvesting, and site preparation activities when soils are moist.  Soil compaction is the process in which soil particles are pressed together more closely that in the original state.  Typically, the soil must be moist to be compacted because the mineral grains must slide together.  Compaction reduces the abundance mostly of large pores in the soil by damaging the structure of the soil.  This produces several effects that are unwanted in agricultural soils since large pores are most effective at transmitting water and air through the soil.  Compaction also increases the soil strength which can limit root penetration and growth.  The ability of soil to hold water is adversely affected by compaction since the large pores hold water.  The degree of compaction of a soil is measured by its bulk density, which is the mass per volume, generally expressed in grams per cubic centimeter.
@@ -13147,7 +13147,7 @@ Geist, J.M.; Hazard, J.W.; Seidel, K.W. 1989. Assessing Physical Conditions of S
 
 Froehlich, Henry A and David H. McNab. 1983. Minimizing Soil Compaction in Pacific Northwest Forests.  Proceedings of Sixth North American Forest Soils Conference, University of Tennessee.
 
-Page-Dumrose, Deborah S.  1993. Susceptibility of Volcanic Ash Influenced Soils in Northern Idaho to Mechanical Compaction. U.S. Forest Service Intermountain Research Station.  Research Note INT-409.",Yes,02/15/2019 17:39:53,57990,77173,6862253
+Page-Dumrose, Deborah S.  1993. Susceptibility of Volcanic Ash Influenced Soils in Northern Idaho to Mechanical Compaction. U.S. Forest Service Intermountain Research Station.  Research Note INT-409.",Yes,02/15/2019 17:39:53,57990,77238,6870252
 URB/REC - Camp Areas,limitation,"Summary:
 
 Soil interpretations for recreational development are to be used to guide the user in identifying and evaluating the suitability of the soil for specific recreational purposes.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  These ratings do not consider location and accessibility of the area, size and shape of the area, scenic quality, the ability of the soil to support vegetation, access to water or potential sites for water impoundment.  Nor do the ratings consider access to public sewers or the capacity of the soil to support localized sanitary facilities such as septic tank adsorption fields or sanitary landfills.
@@ -13424,7 +13424,7 @@ AND NOT
 		Somewhat limiting	 > 43 to <= 75cm
 		Not limiting		 > 75cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,1404,77173,6862254
+	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,1404,77238,6870253
 URB/REC - Off-Road Motorcycle Trails,limitation,"Summary:
 
 Soil interpretations for recreational development are to be used to guide the user in identifying and evaluating the suitability of the soil for specific recreational purposes.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  These ratings do not consider location and accessibility of the area, size and shape of the area, scenic quality, the ability of the soil to support vegetation, access to water or potential sites for water impoundment.  Nor do the ratings consider access to public sewers or the capacity of the soil to support localized sanitary facilities such as septic tank adsorption fields or sanitary landfills.
@@ -13694,7 +13694,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,10018,77173,6862255
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,07/19/2018 19:46:25,10018,77238,6870254
 URB/REC - Paths and Trails,limitation,"Summary:
 
 Soil interpretations for recreational development are to be used to guide the user in identifying and evaluating the suitability of the soil for specific recreational purposes.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  These ratings do not consider location and accessibility of the area, size and shape of the area, scenic quality, the ability of the soil to support vegetation, access to water or potential sites for water impoundment.  Nor do the ratings consider access to public sewers or the capacity of the soil to support localized sanitary facilities such as septic tank adsorption fields or sanitary landfills.
@@ -13952,7 +13952,7 @@ Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and t
 		Somewhat limiting	 > 30 to < 60cm
 		Not limiting		=> 60cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,1406,77173,6862256
+	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,1406,77238,6870255
 URB/REC - Picnic Areas,limitation,"Summary:
 
 Soil interpretations for recreational development are to be used to guide the user in identifying and evaluating the suitability of the soil for specific recreational purposes.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  These ratings do not consider location and accessibility of the area, size and shape of the area, scenic quality, the ability of the soil to support vegetation, access to water or potential sites for water impoundment.  Nor do the ratings consider access to public sewers or the capacity of the soil to support localized sanitary facilities such as septic tank adsorption fields or sanitary landfills.
@@ -14264,7 +14264,7 @@ Restrictive limits:  Restriction limits:
 					Not limiting	 <=0.3
 					
 					
-					The Dryness Index is 100(mean annual air temperature)/(mean annual precipitation)",Yes,07/19/2018 19:46:25,1405,77173,6862257
+					The Dryness Index is 100(mean annual air temperature)/(mean annual precipitation)",Yes,07/19/2018 19:46:25,1405,77238,6870256
 URB/REC - Playgrounds,limitation,"Summary:
 
 Soil interpretations for recreational development are to be used to guide the user in identifying and evaluating the suitability of the soil for specific recreational purposes.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  These ratings do not consider location and accessibility of the area, size and shape of the area, scenic quality, the ability of the soil to support vegetation, access to water or potential sites for water impoundment.  Nor do the ratings consider access to public sewers or the capacity of the soil to support localized sanitary facilities such as septic tank adsorption fields or sanitary landfills.
@@ -14605,7 +14605,7 @@ Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and t
 		Somewhat limiting	 > 43 to <= 75cm
 		Not limiting		 > 75cm
 		
-	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,1411,77173,6862258
+	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,1411,77238,6870257
 "WMS - Embankments, Dikes, and Levees",limitation,"Summary:
 
 Soil interpretations for various water management practices are developed for use in evaluating the potential of the soil for various water management practices.  These practices may involve the movement of water to or from a site, holding water on a site, or securing a water source.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  Soil limitation ratings and associated restrictive features are given for ponds and reservoir areas; embankments, dikes, and levees; and excavated ponds.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -14937,7 +14937,7 @@ References:
 
 Carvacho, Omar F., Lowell L. Ashbaugh, Michael S. Brown, Robert G. Flocchini (2004) Measurement of PM2.5 Emission Potential from Soil Using the UC Davis Resuspension Test Chamber. Geomorphology 59 (1-4), 75 - 80
 
-Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,03/12/2019 18:47:48,10954,77173,6862259
+Gebhart, D. L., M. L. Denight, and R. H. Grau. 1999. Dust control guidance and technology selection key. AEC Report #SFIM-AEC-EQ-CR-99002. U.S. Army Corps of Engineers.",Yes,03/12/2019 18:47:48,10954,77238,6870258
 WMS - Excavated Ponds (Aquifer-fed),limitation,"Summary:
 
 Soil interpretations for various water management practices are developed for use in evaluating the potential of the soil for various water management practices.  These practices may involve the movement of water to or from a site, holding water on a site, or securing a water source.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  Soil limitation ratings and associated restrictive features are given for ponds and reservoir areas; embankments, dikes, and levees; and excavated ponds.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -15119,7 +15119,7 @@ Soil feature considered is the top depth of the first layer where soil moisture 
 		Limiting		 < 150cm
 		Not limiting		=> 150cm
 				
-	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,10887,77173,6862260
+	Null depth is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,10887,77238,6870259
 "WMS - Irrigation, General",limitation,"WMS-General Irrigation								Date: 7/2/07
 
 Summary: Soil interpretations for ""WMS-Irrigation -General"" evaluate a soil's limitation(s) for installation and use of irrigation systems.  The ratings are for soils in their natural condition and do not consider present land use. This interpretation is for non-specific irrigation methods and is intended to provide initial planning information.  If the type of irrigation system has been determined additional interpretations provide more specific information.  This interpretation does not apply if the crop planned for irrigation is rice or other crops (such as cranberries) with unique plant physiological characteristics.
@@ -15389,7 +15389,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,23580,77173,6862261
+				November and December",Yes,07/19/2018 19:46:25,23580,77238,6870260
 "WMS - Irrigation, Micro (above ground)",limitation,"WMS - Micro-irrigation, (Above Ground)				Date: 7/02/07
 
 Summary: Soil interpretations for ""WMS- Micro-irrigation, (Above Ground)"" evaluate a soil's limitation(s) for irrigation systems that apply water at a slow rate near the plants or crops being irrigated. The ratings are for soils in their natural condition and do not consider present land use.
@@ -15645,7 +15645,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,23576,77173,6862262
+				November and December",Yes,07/19/2018 19:46:25,23576,77238,6870261
 "WMS - Irrigation, Micro (subsurface drip)",limitation,"WMS-Micro-irrigation, Subsurface Drip					Date: 7/02/07
 
 Summary: Soil interpretations for ""WMS - Micro-irrigation, Subsurface Drip"" evaluate a soil's limitation(s) for irrigation systems that apply water at slow rates to the soil-rooting zone and installed beneath the soil surface.  The ratings are for soils in their natural condition and do not consider present land use.
@@ -15907,7 +15907,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,49927,77173,6862263
+				November and December",Yes,07/19/2018 19:46:25,49927,77238,6870262
 "WMS - Irrigation, Sprinkler (close spaced outlet drops)",limitation,"WMS-Sprinkler Irrigation, Close Spaced Outlets, Drops				Date: 7/2/07
 
 Summary: Soil interpretations for ""WMS-Sprinkler Irrigation, Close Spaced Outlets, Drops"" evaluate a soil's limitation(s) for installation and use of sprinkler irrigation systems equipped with close spaced outlets on drops. The ratings are for soils in their natural condition and do not consider present land use. 
@@ -16181,7 +16181,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,23578,77173,6862264
+				November and December",Yes,07/19/2018 19:46:25,23578,77238,6870263
 "WMS - Irrigation, Sprinkler (general)",limitation,"WMS-Sprinkler Irrigation								 Date: 7/2/07	
 
 Summary: Soil interpretations for ""WMS-Sprinkler Irrigation"" evaluate a soil's limitation(s) for installation and use of sprinkler irrigation systems excluding those equipped with close spaced outlets on drops which are covered in a different interpretation report.  The ratings are for soils in their natural condition and do not consider present land use. 
@@ -16447,7 +16447,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,23579,77173,6862265
+				November and December",Yes,07/19/2018 19:46:25,23579,77238,6870264
 "WMS - Irrigation, Surface (graded)",limitation,"WMS-Surface Irrigation (Graded)					Date: 7/2/07
 
 Summary: Soil interpretations for WMS-Surface Irrigation (Graded)"" evaluate a soil's limitation(s) for installation and use of graded flood or furrow irrigation systems. The ratings are for soils in their natural condition and do not consider present land use. 
@@ -16718,7 +16718,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,23575,77173,6862266
+				November and December",Yes,07/19/2018 19:46:25,23575,77238,6870265
 "WMS - Irrigation, Surface (level)",limitation,"WMS- Surface Irrigation (Level)								Date: 7/2/07
 
 Summary: Soil interpretations for ""Surface Irrigation (Level)"" evaluate a soil's limitation(s) for basin, paddy, level furrow, or level border irrigation systems.  The ratings are for soils in their natural condition and do not consider present land use.
@@ -16975,7 +16975,7 @@ isohyperthermic,		May, June, July, August,
 isomesic, hyperthermic		February, March, April,
 				May, June, July, August,
 				September, October, 
-				November and December",Yes,07/19/2018 19:46:25,23574,77173,6862267
+				November and December",Yes,07/19/2018 19:46:25,23574,77238,6870266
 WMS - Pond Reservoir Area,limitation,"Summary:
 
 Soil interpretations for various water management practices are developed for use in evaluating the potential of the soil for various water management practices.  These practices may involve the movement of water to or from a site, holding water on a site, or securing a water source.  The soil survey interpretation rating guides are applicable to both heavily and sparsely populated areas, depending upon the objectives of the user.  The ratings are for soils in their present condition and do not consider present land use.  Soil limitation ratings and associated restrictive features are given for ponds and reservoir areas; embankments, dikes, and levees; and excavated ponds.  Minor restrictive soil features are identified but not considered as part of the overall rating process.  These restrictive features could be important factors where the major restrictive features are overcome through design application.
@@ -17123,7 +17123,7 @@ DEPTH TO BEDROCK SOFT
 		Limiting	= ""pf""
 		Not limiting	not = ""pf""
 		
-	Null USDA Texture Modifier are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,978,77173,6862268
+	Null USDA Texture Modifier are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,978,77238,6870267
 "WMS - Subsurface Water Management, Outflow Quality",limitation,"WMS - Water Management System, Outflow Quality
 
 Summary: Soil interpretations for ""WMS - Water Management System, Outflow Quality"" evaluate a soil's limitations for outflow quality from conservation systems that involve the movement or conveyance of surface water across the landscape and excess subsurface water from the soil. Such conveyances are graded ditches, grassed waterways, terraces, diversions, tile drains and underground outlets etc. The ratings are for soils in their natural condition and do not consider present land use. 
@@ -17235,7 +17235,7 @@ Restriction limits:
          Very Limited              => 3.0
          Somewhat limited     > 1.0 and < 3.0 
          Not limited                =< 1.0 
-          Null K factor is assigned to the ""not rated"" class.",Yes,07/19/2018 19:46:25,37173,77173,6862269
+          Null K factor is assigned to the ""not rated"" class.",Yes,07/19/2018 19:46:25,37173,77238,6870268
 "WMS - Subsurface Water Management, System Installation",limitation,"WMS - Subsurface Water Management, System Installation 
 
 Summary: Soil interpretations for ""WMS  Subsurface Water Management, System Installation"" evaluate a soil's limitation(s) for systems that involve installation of underground drainage systems. These systems are designed to remove excess subsurface water from the soil and reduce soil saturation. The ratings are for soils in their natural condition. and do not consider present land use.
@@ -17472,7 +17472,7 @@ national interpretation was dropped in the late 1990s. The original interpretati
 criteria were modified and adapted to reflect Texas needs and converted to a state soil 
 interpretation, ""WMS Tile Drains and Underground Outlets."" This interpretation was subjected to 
 national review and is proposed for reestablishment as a National Soil Interpretation, ""WMS  
-Subsurface Water Management, System Installation",Yes,07/19/2018 19:46:25,37167,77173,6862270
+Subsurface Water Management, System Installation",Yes,07/19/2018 19:46:25,37167,77238,6870269
 "WMS - Subsurface Water Management, System Performance",limitation,"WMS - Subsurface Water Management, System Performance  
 
 Summary: Soil interpretations for ""WMS  Subsurface Water Management, System Performance"" evaluate a soil's limitation(s) for systems that involve performance and functionality of underground drainage systems. These systems are designed to remove excess subsurface water from the soil and reduce soil saturation. The ratings are for soils in their natural condition and do not consider present land use.
@@ -17644,7 +17644,7 @@ ___________________________________________________
 The original national ""Tile Drains and Underground Outlet"" interpretation was published in Part 620, Soil 
 Interpretation Rating Guides, of the National Soil Survey Handbook (1993 version). The national interpretation was dropped in the late 1990s. The original interpretation rules and criteria were modified and adapted to reflect Texas needs and converted to a state soil interpretation, ""WMS Tile Drains and Underground Outlets (TX)."" This 
 interpretation was subjected to national review and is proposed for reestablishment as a National Soil 
-Interpretation, ""WMS  Subsurface Water Management, System Performance (TX).",Yes,07/19/2018 19:46:25,37161,77173,6862271
+Interpretation, ""WMS  Subsurface Water Management, System Performance (TX).",Yes,07/19/2018 19:46:25,37161,77238,6870270
 "WMS - Surface Water Management, System",limitation,"WMS  Surface Water Management, System 
 	 
 Summary: Soil interpretations for ""WMS - Surface Water Management, System"" evaluate a soil's limitations for conservation systems that involve the movement or conveyance of surface water across the landscape. Such conveyances are graded ditches, grassed waterways, terraces, diversions, etc. The ratings are for soils in their natural condition and do not consider present land use.
@@ -17789,7 +17789,7 @@ Restriction limits:
 	Very Limited             => 3.0
 	Somewhat limited    > 1.0 and < 3.0 
 	Not limited               =< 1.0 
-Null K factor is assigned to the ""not rated"" class.",Yes,07/19/2018 19:46:25,37179,77173,6862272
+Null K factor is assigned to the ""not rated"" class.",Yes,07/19/2018 19:46:25,37179,77238,6870271
 SOH - Agricultural Organic Soil Subsidence,limitation,"Agricultural Organic Soil Subsidence
 
 Organic soils used in agricultural production are subject to a loss of volume and depth of organic material due to oxidation caused by above normal microbial activity resulting from excessive water drainage, soil disturbance, or extended drought. Microbial mediated oxidation is the primary driver of volume reduction once water is removed.   Soil shrinkage and compaction due to dewatering is considered to be secondary. Any drawdown resulting in water levels below soil surface can result in increased subsidence rates.  The subsidence rate can also be influenced by agricultural practices. The type of tillage operation, such as plowing, disc harrowing and switch plowing, moldboard plowing increase the oxidation rate.  The use of  no-till practice is recommended to slow the subsidence. Any aggressive tillage measure increases microbiological activity and decreases carbon sequestration.  Drainage water management can be implemented to control water tables to help slow the subsidence rate.
@@ -17903,7 +17903,7 @@ Restrictive limits:
         Somewhat limiting   Between 3.5 and 5.0 or between 7 and 9.5 
         Limiting            Between 5.0 and 7.0
 
-All of the above criteria are evaluated and a membership value is derived for each.  The average membership value is returned as the rating for that soil.  An initial criterion is applied to determine if the soil is organic or not.",Yes,07/19/2018 19:46:25,62848,77173,6862247
+All of the above criteria are evaluated and a membership value is derived for each.  The average membership value is returned as the rating for that soil.  An initial criterion is applied to determine if the soil is organic or not.",Yes,07/19/2018 19:46:25,62848,77238,6870246
 SOH - Concentration of Salts- Soil Surface,limitation,"Salts of sodium, calcium, potassium, and magnesium are produced by the weathering of minerals in soils.  Some salts can be added to the surface due to aeolian deposition.  Excess salts can be concentrated in soils when precipitation is sufficient to move salts within the soil but of insufficient quantity to move the salts out of the soil.  Salts move downward with percolating precipitation from the generally convex recharge areas of the landscape to the generally concave discharge areas.  Net water movement can be upward in these areas due to evapotranspiration or water movement may be more or less horizontal due to restrictive layers or differences in water transmission rates.  
 
 Criteria:
@@ -17961,7 +17961,7 @@ All other classes or no flooding                                                
 Property evaluated: PONDING DURATION CLASS
 
 Ponding duration ""LONG""                     No salts on surface due to ponding
-All other classes or no ponding            No ponding effects",Yes,07/19/2018 19:46:25,62833,77173,6862248
+All other classes or no ponding            No ponding effects",Yes,07/19/2018 19:46:25,62833,77238,6870247
 SOH - Dynamic Soil Properties Response to Biochar,suitability,"Dynamic Soil Properties Response to Biochar
 
 Biochar is the solid byproduct of the decomposition of organic materials in oxygen-limited environments at high temperatures, known as pyrolysis. The extremely carbon-rich material has an average half-life of 1,400 years, due to its recalcitrant condensed aromatic ring structure, allowing it to sequester carbon in soils over long periods of time, with the potential to provide substantial increases to soil organic matter. Although it has only recently begun to receive attention as a soil health amendment, biochar has been used to increase the fertility, productivity, and health of soils around the world by indigenous communities for thousands of years, most notably in the Amazon rainforest.
@@ -18171,7 +18171,7 @@ USDA-NRCS. National Soil Science Handbook, Part 618.37 pp. 618-22  618-23.
 
 Vaccari, F.P., Baronti, S., Lugato, E., Genesio, L., Castaldi, S., Fornasier, F. Miglietta, F. 2011. Biochar 	as a strategy to sequester carbon and increase yield in durum wheat. Eur. J. Agron., 34, pp. 231-	238
 
-Zhang, M., Riaz, M., Zhang, L, El-desouki, Z., Jiang, C. 2019. Biochar induces changes to basic soil 	properties and bacterial communities of different soils to varying degrees at 25 mm rainfall: 	more effective on acidic soils. Front. Microbiol. 10:1321. doi: 10.3389/fmicb.2019.01321",Yes,09/13/2021 16:08:53,70134,77173,6862249
+Zhang, M., Riaz, M., Zhang, L, El-desouki, Z., Jiang, C. 2019. Biochar induces changes to basic soil 	properties and bacterial communities of different soils to varying degrees at 25 mm rainfall: 	more effective on acidic soils. Front. Microbiol. 10:1321. doi: 10.3389/fmicb.2019.01321",Yes,09/13/2021 16:08:53,70134,77238,6870248
 AGR - Industrial Hemp for Fiber and Seed Production,suitability,"Summmary:
 
 Industrial hemp produced for fiber and seed is seeing a resurgence in interest from farmers in many states.  Although commonly cultivated in the United States prior to the 1940s, it fell out of vogue with the advent of other materials for producing rope and textiles.  Industrial hemp is a non-drug variety of Cannabis sativa which has very low levels (<0.3%) of the psychoactive compound, tetrahydracannabinal (THC).  It is a highly productive plant which can grow in a variety of climate and soil conditions.  Any machinery that is easily adjustable, such as row widths, and performs well is suitable for sowing industrial hemp. Standard grain drills and modified alfalfa seeders are examples of suitable machinery. Ease of converting farm equipment to sow seeds makes this an appealing alternative. Ideally, industrial hemp should be incorporated into a four-year crop rotation. Industrial hemp does require an adequate amount of nutrients. Major nutrients include but, not limited to: (1) nitrogen, (2) potassium, and (3) phosphorus. Industrial hemp's dense canopy  makes for effective weed suppression. 
@@ -18385,7 +18385,7 @@ Purdue University, Hemp Project, Hemp Production.  https://purduehemp.org/hemp-p
 
 USDA, Soil Survey Manual, Soil Science Division Staff, Agriculture Handbook No. 18, March 2017, p. 207
 
-Valtcho D Jeliazkov, Jay Noller, Sam Angima, Silvia I Rondon, Richard J Roseberg, Sunny Summers, Gordon Jones, Vladimir Sikora. 2019. What is Industrial Hemp?.  Oregon State University Extension Service. https://catalog.extension.oregonstate.edu/sites/catalog/files/project/pdf/em9240.pdf",Yes,01/19/2021 22:51:31,70135,77173,6862156
+Valtcho D Jeliazkov, Jay Noller, Sam Angima, Silvia I Rondon, Richard J Roseberg, Sunny Summers, Gordon Jones, Vladimir Sikora. 2019. What is Industrial Hemp?.  Oregon State University Extension Service. https://catalog.extension.oregonstate.edu/sites/catalog/files/project/pdf/em9240.pdf",Yes,01/19/2021 22:51:31,70135,77238,6870155
 MIL - Trafficability Veh. Type 1 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 1 1-pass wet season
 
 Summary:  Military category type 1 vehicles are lightweight vehicles with low contact pressure (less than 2.0 pounds per square inch) such as amphibious tracked vehicles used to carry cargo.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 1.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -18518,7 +18518,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25195,77173,6862225
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25195,77238,6870224
 MIL - Trafficability Veh. Type 1 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 1 50-pass wet season
 
 Summary:  Military category type 1 vehicles are lightweight vehicles with low contact pressure (less than 2.0 pounds per square inch).  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 1.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -18669,7 +18669,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25196,77173,6862226
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25196,77238,6870225
 MIL - Trafficability Veh. Type 1 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 1 dry season
 
 Summary:  Military category type 1 vehicles are lightweight vehicles with low contact pressure (less than 2.0 pounds per square inch).  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 1.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -18783,7 +18783,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25197,77173,6862227
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25197,77238,6870226
 MIL - Trafficability Veh. Type 2 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 2 1-pass wet season
 
 Summary:  Military category type-2 vehicles are engineer and high speed tractors with comparatively wide tracks and low contact pressures such as wide tracked tanks or landing vehicles (25,000-100,000 pound vehicle weight) or lighter wheeled vehicles such as pickup trucks and HumVee (3,000 to 10,000 vehicle weight).  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 2.   Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -18926,7 +18926,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25198,77173,6862228
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25198,77238,6870227
 MIL - Trafficability Veh. Type 2 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 2 50-pass wet season
 
 Summary:  Military category type-2 vehicles are engineer and high speed tractors with comparatively wide tracks and low contact pressures.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 2.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19080,7 +19080,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25199,77173,6862229
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25199,77238,6870228
 MIL - Trafficability Veh. Type 2 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 2 dry season
 
 Summary:  Military category type-2 vehicles are engineer and high speed tractors with comparatively wide tracks and low contact pressures.  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 2.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19166,7 +19166,7 @@ THEN the following strength rating index is assigned according to the soils Unif
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25200,77173,6862230
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25200,77238,6870229
 MIL - Trafficability Veh. Type 3 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 3 1-pass wet season
 
 Summary:   Military category type-3 vehicles are tractors with average contact pressures, tanks with comparatively low contact pressures, and some trailed vehicles with very low contact pressures.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 3.  Examples include heavy tracked vehicles such as M1 tanks,  amored bulldozer, or 105mm Howitzer or lighter wheeled vehicles such as 5 ton 6x6 cargo truck or  2.5 ton 4x4 cargo trucks with20-36 thousand pound vehicle weight.   Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19315,7 +19315,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25201,77173,6862231
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25201,77238,6870230
 MIL - Trafficability Veh. Type 3 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 3 50-pass wet season
 
 Summary:   Military category type-3 vehicles are tractors with average contact pressures, tanks with comparatively low contact pressures, and some trailed vehicles with very low contact pressures.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 3.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19465,7 +19465,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25202,77173,6862232
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25202,77238,6870231
 MIL - Trafficability Veh. Type 3 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 3 dry season
 
 Summary:  Military category type-3 vehicles are tractors with average contact pressures, tanks with comparatively low contact pressures, and some trailed vehicles with very low contact pressures.  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 3.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19566,7 +19566,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25203,77173,6862233
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25203,77238,6870232
 MIL - Trafficability Veh. Type 4 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 4 1-pass wet season
 
 Summary:  Military category type-4 vehicles are most medium tanks, tractors with high contact pressures, and all-wheel-drive trucks and trailed vehicles with low contact pressures.  Examples include heavy tracked vehicles in the range of 120,000 to 140,000 pound vehicle weights to wheeled vehicles in the range of 17,000 to 25,000 vehicle weight (Truck, van, 2-1/2 ton, 6x6, M109A1).  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 4.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19717,7 +19717,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25204,77173,6862234
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25204,77238,6870233
 MIL - Trafficability Veh. Type 4 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 4 50-pass wet season
 
 Summary:  Military category type-4 vehicles are most medium tanks, tractors with high contact pressures, and all-wheel-drive trucks and trailed vehicles with low contact pressures.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 4.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19867,7 +19867,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25205,77173,6862235
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25205,77238,6870234
 MIL - Trafficability Veh. Type 4 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 4 dry season
 
 Summary:  Military category type-4 vehicles are most medium tanks, tractors with high contact pressures, and all-wheel-drive trucks and trailed vehicles with low contact pressures.  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 4.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -19970,7 +19970,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25206,77173,6862236
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25206,77238,6870235
 MIL - Trafficability Veh. Type 5 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 5 1-pass wet season
 
 Summary:  Military category type-5 vehicles are most all-wheel-drive trucks, a great number of trailed vehicles, and heavy tanks such as 5 ton 6x6 dump trucks or 5 ton 6x6 truck tractors in the weight range of 32,000 to 45,000 pounds vehicle weight.  Civilian semi tractors could be included in type 5.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 5.   Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20102,7 +20102,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25207,77173,6862237
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25207,77238,6870236
 MIL - Trafficability Veh. Type 5 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 5 50-pass wet season
 
 Summary:  Military category type-5 vehicles are most all-wheel-drive trucks, a great number of trailed vehicles, and heavy tanks.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 5.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20234,7 +20234,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25208,77173,6862238
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25208,77238,6870237
 MIL - Trafficability Veh. Type 5 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 5 dry season
 
 Summary:  Military category type-5 vehicles are most all-wheel-drive trucks, a great number of trailed vehicles, and heavy tanks.  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 5.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20336,7 +20336,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25209,77173,6862239
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25209,77238,6870238
 MIL - Trafficability Veh. Type 6 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 6 1-pass wet season
 
 Summary:  Military category type-6 vehicles are a great number of all-wheel-drive and rear-wheel-drive trucks and trailed vehicles intended primarily for highway use such as the 10 ton 6x6 M125A1 .  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 6.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20469,7 +20469,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25210,77173,6862240
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25210,77238,6870239
 MIL - Trafficability Veh. Type 6 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 6 50-pass wet season
 
 Summary:  Military category type-6 vehicles are a great number of all-wheel-drive and rear-wheel-drive trucks and trailed vehicles intended primarily for highway use.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 6.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20599,7 +20599,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25211,77173,6862241
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25211,77238,6870240
 MIL - Trafficability Veh. Type 6 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 6 dry season
 
 Summary:  Military category type-6 vehicles are a great number of all-wheel-drive and rear-wheel-drive trucks and trailed vehicles intended primarily for highway use.  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 6.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20700,7 +20700,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25212,77173,6862242
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25212,77238,6870241
 MIL - Trafficability Veh. Type 7 1-pass wet season (DOD),suitability,"MIL - Trafficability Veh. Type 7 1-pass wet season
 
 Summary:  Military category type-7 vehicles are rear-wheel-drive vehicles and others that generally are not expected to operate off road, especially in wet soils.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 7.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20836,7 +20836,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25213,77173,6862243
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25213,77238,6870242
 MIL - Trafficability Veh. Type 7 50-passes wet season (DOD),suitability,"MIL - Trafficability Veh. Type 7 50-pass wet season
 
 Summary:  Military category type-7 vehicles are rear-wheel-drive vehicles and others that generally are not expected to operate off road, especially in wet soils.  Soils trafficability during the wet season is the capacity of soils to support vehicles in category type 7.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -20966,7 +20966,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,02/09/2016 16:02:12,25214,77173,6862244
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,02/09/2016 16:02:12,25214,77238,6870243
 MIL - Trafficability Veh. Type 7 dry season (DOD),suitability,"MIL - Trafficability Veh. Type 7 dry season
 
 Summary:  Military category type-7 vehicles are rear-wheel-drive vehicles and others that generally are not expected to operate off road, especially in wet soils.  Soils trafficability during the dry season is the capacity of soils to support vehicles in category type 7.  Trafficability estimates can be made from terrain data such as topography and soil data and weather conditions.  The Military Trafficability interpretations are base on procedures and criteria contained Army Field Manual - 5-430-00-1; Chapter Seven and are conservative estimates for use in operations planning.  Commanders and engineers must be cautious as the interpreted results can vary greatly.
@@ -21067,7 +21067,7 @@ THEN the following stickiness rating index is assigned according to the soils Un
 		Somewhat Suited		 > 0 to < 50%
 		Suited			 = 0%
 		
-	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25215,77173,6862245
+	Null > 10 inch rock fragment data are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,25215,77238,6870244
 NCCPI - National Commodity Crop Productivity Index (Ver 3.0),suitability,"A soil may be a full member, partial member, or non-member of the set of soils that are suited to growing commodity crops.  This NCCPI is designed to predict the relative productivity of soils for growing major commodity crops.
 
 Factors rated are soil chemical properties, soil physical properties, landscape characteristics, and climate.  The scope of this rating is nationwide.  Climate factors to a large extent drive what crops are grown in an area.  Version attempts to accomodate ""corn"", ""soybeans"", ""small grains"", and ""cotton"" climates and to an extent the differing soil property preferences of the different crops.
@@ -21082,7 +21082,7 @@ Look forthe NCCPI User Guide.
 http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_050734.pdf
 
 This is the updated version of NCCPI.  It is current as of April 1, 2012.
-This version is current as of 7/25/2017.",Yes,04/13/2020 19:34:44,54955,77173,6862246
+This version is current as of 7/25/2017.",Yes,04/13/2020 19:34:44,54955,77238,6870245
 DHS - Suitability for Clay Liner Material,suitability,"Clay Liner for Waste Disposal				
 
 Clay Liner for Waste Disposal is a constructed geologic barrier used to confine and isolate solid and liquid waste in disposal sites where protection of soil, ground water, and surface water is important.  The primary objective of the geologic barrier is to control leachate and gas migration.  Flexible membranes and drainage layers may be used with clay liner for waste disposal.  In some situations, bentonite is added to soils low in clay to achieve the desired hydraulic conductivity.
@@ -21543,7 +21543,7 @@ Property used:  GYPSUM WTD_AVE FROM 20CM
 
 Interpretive limits:  	                Well suited  		0 percent gypsum
 			Somewhat suited		0 to 5 percent gypsum
-			Poorly suited		>5 percent gypsum",Yes,07/19/2018 19:46:25,20382,77173,6862174
+			Poorly suited		>5 percent gypsum",Yes,07/19/2018 19:46:25,20382,77238,6870173
 DHS - Suitability for Composting Medium and Final Cover,suitability,"Summary:
 
 Soil survey interpretations for composting medium and final cover materials are made to provide guidance to users in selecting the site of a potential source.  Soils may be selected as potential source materials because they are nearby, are the only source available, or meet some or all of the physical or chemical properties required for the intended application.  In theory, every soil may be used as source materials, but in reality, only a few soils have the profile characteristics that meet the defined criteria and performance requirements when rated for a specific propose.  The use of rating guides can provide the user a means to select potential sites for further evaluation.  Final site evaluation and selection require an onsite inspection to determine the suitability and quality of the materials for the intended purpose.  Implementation of these interpretations helps minimize the need for excessive random exploratory investigation by pinpointing potential sites.
@@ -21853,7 +21853,7 @@ AND
 		Poorly suited	 < 3.5
 		Suited		=> 3.5
 			
-	Null pH values are assigned to the Not rated class.",Yes,07/19/2018 19:46:25,20472,77173,6862175
+	Null pH values are assigned to the Not rated class.",Yes,07/19/2018 19:46:25,20472,77238,6870174
 ENG - Construction Materials; Gravel Source,suitability,"Summary:
 
 Soil survey interpretations for construction materials are made to provide guidance to users in selecting the site of a potential source.  Soils may be selected as potential source materials because they are nearby, are the only source available, or meets some or all of the physical or chemical properties required for the intended application.  In theory, every soil may be used as source materials, but in reality, only a few soils have the profile characteristics that meet the defined criteria and performance requirements when rated for a specific propose.  The use of rating guides can provide the user a means to select potential sites for further evaluation.
@@ -22023,7 +22023,7 @@ OR
 		Limiting	= ""pf""
 		Not limiting	not = ""pf""
 		
-	Null depths are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,10324,77173,6862176
+	Null depths are assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,10324,77238,6870175
 ENG - Construction Materials; Reclamation,suitability,"Summary:
 
 Soil survey interpretations for construction materials are made to provide guidance to users in selecting the site of a potential source.  Soils may be selected as potential source materials because they are nearby, are the only source available, or meets some or all of the physical or chemical properties required for the intended application.  In theory, every soil may be used as source materials, but in reality, only a few soils have the profile characteristics that meet the defined criteria and performance requirements when rated for a specific propose.  The use of rating guides can provide the user a means to select potential sites for further evaluation.
@@ -22248,7 +22248,7 @@ AND
 		Limiting		""1"" and ""2""
 		Not limiting		all others			
 		
-	Null K factor whole is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,10514,77173,6862177
+	Null K factor whole is assigned to the Not limiting class.",Yes,07/19/2018 19:46:25,10514,77238,6870176
 ENG - Construction Materials; Roadfill,suitability,"Summary:
 
 Soil survey interpretations for construction materials are made to provide guidance to users in selecting the site of a potential source.  Soils may be selected as potential source materials because they are nearby, are the only source available, or meets some or all of the physical or chemical properties required for the intended application.  In theory, every soil may be used as source materials, but in reality, only a few soils have the profile characteristics that meet the defined criteria and performance requirements when rated for a specific propose.  The use of rating guides can provide the user a means to select potential sites for further evaluation.
@@ -22473,7 +22473,7 @@ Property used:  UNIFIED DOMINANT CONDITION IN DEPTH 25-200CM
 Restrictive limits:
 
                                      Not OH-T                  Does not liquefy
-                                     OH-T                         Liquefaction",Yes,07/19/2018 19:46:25,10028,77173,6862178
+                                     OH-T                         Liquefaction",Yes,07/19/2018 19:46:25,10028,77238,6870177
 ENG - Construction Materials; Sand Source,suitability,"Summary:
 
 Soil survey interpretations for construction materials are made to provide guidance to users in selecting the site of a potential source.  Soils may be selected as potential source materials because they are nearby, are the only source available, or meets some or all of the physical or chemical properties required for the intended application.  In theory, every soil may be used as source materials, but in reality, only a few soils have the profile characteristics that meet the defined criteria and performance requirements when rated for a specific propose.  The use of rating guides can provide the user a means to select potential sites for further evaluation.
@@ -22630,7 +22630,7 @@ AND
 		Somewhat limiting	> 0% to < 35%
 		Not limiting		= 0%
 		
-	Null > 10 inch rock fragments are assigned to the Not rated class.",Yes,07/19/2018 19:46:25,10332,77173,6862179
+	Null > 10 inch rock fragments are assigned to the Not rated class.",Yes,07/19/2018 19:46:25,10332,77238,6870178
 ENG - Construction Materials; Topsoil,suitability,"Summary:
 
 Soil survey interpretations for construction materials are made to provide guidance to users in selecting the site of a potential source.  Soils may be selected as potential source materials because they are nearby, are the only source available, or meets some or all of the physical or chemical properties required for the intended application.  In theory, every soil may be used as source materials, but in reality, only a few soils have the profile characteristics that meet the defined criteria and performance requirements when rated for a specific propose.  The use of rating guides can provide the user a means to select potential sites for further evaluation.
@@ -22985,7 +22985,7 @@ Subrule used:  pH and Lime Requirement, which reports the highest fuzzy number f
                                            Suitability limits:
                                                                         Suited                           pH>4.8
                                                                         Moderately suited        pH 4.0 to 4.8
-                                                                        Not suited                    pH <4.0",Yes,07/19/2018 19:46:25,10345,77173,6862180
+                                                                        Not suited                    pH <4.0",Yes,07/19/2018 19:46:25,10345,77238,6870179
 DHS - Potential for Radioactive Bioaccumulation,suitability,"DHS - Hazard of Radioactive Bioaccumulation
 
 
@@ -23186,7 +23186,7 @@ Calculation:
 
 Bioaccumulation Material Gain Potential = [(Erosion Factor, Organic 0.02/2)+(Susceptibility to Gain/2)]*(Slope for Material Loss 0-100/2)
 
-The fuzzy numbers from these subrules are added to the lower of the sorption or attenuation rules to obtain the rating for the soil.",Yes,07/19/2018 19:46:25,20799,77173,6862169
+The fuzzy numbers from these subrules are added to the lower of the sorption or attenuation rules to obtain the rating for the soil.",Yes,07/19/2018 19:46:25,20799,77238,6870168
 FOR (USFS) - Road Construction/Maintenance (Natural Surface),suitability,"FOR (USFS) - Road Construction/Maintenance (Natural Surface)
 
 Application and Limitations
@@ -23220,4 +23220,4 @@ USDA, Natural Resources Conservation Service, National Forestry Manual, Septembe
 
 USDA, Natural Resources Conservation Service, National Soil Survey Handbook Part 620- Soil Interpretation Guides, 1993 (For historic use only).
 
-USDA, Forest Service.  FSH7709.56- Road Preconstruction Handbook Chapter 40-Design.  Effective August 19, 2011.",Yes,07/19/2018 19:46:25,58534,77173,6862215
+USDA, Forest Service.  FSH7709.56- Road Preconstruction Handbook Chapter 40-Design.  Effective August 19, 2011.",Yes,07/19/2018 19:46:25,58534,77238,6870214
