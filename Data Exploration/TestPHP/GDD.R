@@ -69,3 +69,20 @@ mydata2<- mydata2 %>%
 
 
 write.csv(mydata, "Output\\Speciality_Crops_GDD_2015-2021.csv", row.names = FALSE)
+
+data2<-mydata2%>%
+  group_by(data.date)%>%
+  mutate(year = substr(data.date,0,4),Month=month.name[as.numeric(substr(data.date,6,7))])%>%
+  ungroup%>%
+  select(year,Month,everything())%>%
+  select(-X,-data.date)%>%
+  select(-3,-4,-5,-6)%>%
+  pivot_longer(3:ncol(data2))
+data3<-data2%>%
+  group_by(year,Month,name)%>%
+  summarise(value= sum(value))
+data3<-data3%>%
+  select(year,Month,Crops=name,value)
+data3<-data3%>%
+  mutate(Crops= substr(Crops,0,nchar(Crops)-3))
+write.csv(data3,"Output\\Formatted_gdd.csv",row.names = FALSE)
