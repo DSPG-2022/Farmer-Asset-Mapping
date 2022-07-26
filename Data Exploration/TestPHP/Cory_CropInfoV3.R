@@ -145,5 +145,9 @@ Simple<- Simple%>%
 
 ##Runs the updating urls
 source("Cory_UpdateRiskURLParams.R")  
-
+Simple<-Simple%>%
+  filter(!is.na(`Types of Crops`))
 write.csv(Simple,"Output\\CropSelection2.csv", row.names=FALSE)
+
+
+
