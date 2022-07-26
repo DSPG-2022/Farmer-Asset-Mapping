@@ -2801,1426 +2801,6 @@
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='aggClimData' inline='true' name='federated.0d9iof10hal72o1dam3z80jt5jbu' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='aggClimData' name='textscan.1paaox80spdh2s1h9ivuh1pm0cdz'>
-            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Output' filename='aggClimData.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1paaox80spdh2s1h9ivuh1pm0cdz' name='aggClimData.csv' table='[aggClimData#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='integer' name='year' ordinal='1' />
-            <column datatype='integer' name='Month' ordinal='2' />
-            <column datatype='real' name='AverageTempH' ordinal='3' />
-            <column datatype='real' name='AverageTempL' ordinal='4' />
-            <column datatype='real' name='SumPrecip' ordinal='5' />
-            <column datatype='real' name='SumClimPrecip' ordinal='6' />
-            <column datatype='date' date-parse-format='MM/yyyy' name='Date' ordinal='7' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1paaox80spdh2s1h9ivuh1pm0cdz' name='aggClimData.csv' table='[aggClimData#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='integer' name='year' ordinal='1' />
-            <column datatype='integer' name='Month' ordinal='2' />
-            <column datatype='real' name='AverageTempH' ordinal='3' />
-            <column datatype='real' name='AverageTempL' ordinal='4' />
-            <column datatype='real' name='SumPrecip' ordinal='5' />
-            <column datatype='real' name='SumClimPrecip' ordinal='6' />
-            <column datatype='date' date-parse-format='MM/yyyy' name='Date' ordinal='7' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F1</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[F1]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>F1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>year</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[year]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>year</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Month</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Month]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>Month</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AverageTempH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[AverageTempH]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>AverageTempH</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AverageTempL</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[AverageTempL]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>AverageTempL</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SumPrecip</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[SumPrecip]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>SumPrecip</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SumClimPrecip</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[SumClimPrecip]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>SumClimPrecip</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Date</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[Date]</local-name>
-            <parent-name>[aggClimData.csv]</parent-name>
-            <remote-alias>Date</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Average High Temp' datatype='real' name='[AverageTempH]' role='measure' type='quantitative' />
-      <column caption='Average Low Temp' datatype='real' name='[AverageTempL]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
-      <column caption='Expected Precipation' datatype='real' name='[SumClimPrecip]' role='measure' type='quantitative' />
-      <column caption='Recorded Precipation' datatype='real' name='[SumPrecip]' role='measure' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='aggClimData.csv' datatype='table' name='[__tableau_internal_object_id__].[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]' role='measure' type='quantitative' />
-      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
-      <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
-      <column-instance column='[AverageTempH]' derivation='Sum' name='[sum:AverageTempH:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[AverageTempL]' derivation='Sum' name='[sum:AverageTempL:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[SumClimPrecip]' derivation='Sum' name='[sum:SumClimPrecip:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[SumPrecip]' derivation='Sum' name='[sum:SumPrecip:qk]' pivot='key' type='quantitative' />
-      <group caption='Action (Year)' hidden='true' name='[Action (Year)]' name-style='unqualified' user:auto-column='sheet_link'>
-        <groupfilter function='crossjoin'>
-          <groupfilter function='level-members' level='[none:year:ok]' />
-        </groupfilter>
-      </group>
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Datasources/federated 1.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/26/2022 05:37:16 PM' username='tableau_internal_user'>
-          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <refresh>
-            <refresh-event add-from-file-path='aggClimData' increment-value='%null%' refresh-type='create' rows-inserted='46' timestamp-start='2022-07-26 17:37:16.195' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>F1</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[F1]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>F1</remote-alias>
-              <ordinal>0</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>46</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>year</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[year]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>year</remote-alias>
-              <ordinal>1</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>7</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Month</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Month]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Month</remote-alias>
-              <ordinal>2</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>7</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>AverageTempH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[AverageTempH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AverageTempH</remote-alias>
-              <ordinal>3</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>46</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>AverageTempL</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[AverageTempL]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AverageTempL</remote-alias>
-              <ordinal>4</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>46</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SumPrecip</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[SumPrecip]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SumPrecip</remote-alias>
-              <ordinal>5</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>46</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SumClimPrecip</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[SumClimPrecip]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SumClimPrecip</remote-alias>
-              <ordinal>6</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>8</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Date</remote-name>
-              <remote-type>133</remote-type>
-              <local-name>[Date]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Date</remote-alias>
-              <ordinal>7</ordinal>
-              <family>aggClimData.csv</family>
-              <local-type>date</local-type>
-              <aggregation>Year</aggregation>
-              <approx-count>46</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:AverageTempH:qk]&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:SumPrecip:qk]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:SumClimPrecip:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:AverageTempL:qk]&quot;</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='aggClimData.csv' id='aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F'>
-            <properties context=''>
-              <relation connection='textscan.1paaox80spdh2s1h9ivuh1pm0cdz' name='aggClimData.csv' table='[aggClimData#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='F1' ordinal='0' />
-                  <column datatype='integer' name='year' ordinal='1' />
-                  <column datatype='integer' name='Month' ordinal='2' />
-                  <column datatype='real' name='AverageTempH' ordinal='3' />
-                  <column datatype='real' name='AverageTempL' ordinal='4' />
-                  <column datatype='real' name='SumPrecip' ordinal='5' />
-                  <column datatype='real' name='SumClimPrecip' ordinal='6' />
-                  <column datatype='date' date-parse-format='MM/yyyy' name='Date' ordinal='7' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='testRotation.csv+ (Multiple Connections)' inline='true' name='federated.196lg1112aosps1fd57un0qiatar' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='testRotation' name='textscan.19wjsva1hh0vdz0zo0h031xeqdme'>
-            <connection class='textscan' directory='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Input' filename='testRotation.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-          <named-connection caption='Sanika-Crop_Rotation' name='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Sanika-Crop_Rotation.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c' name='Sheet1' table='[Sheet1$]' type='table'>
-          <columns gridOrigin='A1:D75:no:A1:D75:0' header='yes' outcome='6'>
-            <column datatype='string' name='Crop' ordinal='0' />
-            <column datatype='integer' name='Example' ordinal='1' />
-            <column datatype='integer' name='Year' ordinal='2' />
-            <column datatype='string' name='Month' ordinal='3' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
-          <relation connection='textscan.19wjsva1hh0vdz0zo0h031xeqdme' name='testRotation.csv' table='[testRotation#csv]' type='table'>
-            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-              <column datatype='integer' name='F1' ordinal='0' />
-              <column datatype='string' name='Types of Crops' ordinal='1' />
-              <column datatype='string' name='Example Included...2' ordinal='2' />
-              <column datatype='string' name='Soil Types' ordinal='3' />
-              <column datatype='string' name='Rooting Depth' ordinal='4' />
-              <column datatype='integer' name='Depth_l' ordinal='5' />
-              <column datatype='integer' name='Depth_h' ordinal='6' />
-              <column datatype='string' name='pH-Level' ordinal='7' />
-              <column datatype='real' name='ph_L' ordinal='8' />
-              <column datatype='real' name='ph_H' ordinal='9' />
-              <column datatype='string' name='Type of Irrigation' ordinal='10' />
-              <column datatype='string' name='Rainfall/Precipitation' ordinal='11' />
-              <column datatype='string' name='Temperature Tolerances' ordinal='12' />
-              <column datatype='string' name='Pesticides' ordinal='13' />
-              <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='14' />
-              <column datatype='string' name='Storage Temp (  ̊F)' ordinal='15' />
-              <column datatype='string' name='Storage Humidity (%)' ordinal='16' />
-              <column datatype='string' name='Storage Life' ordinal='17' />
-              <column datatype='string' name='Base Temp (F)' ordinal='18' />
-              <column datatype='string' name='Example Included...19' ordinal='19' />
-              <column datatype='integer' name='Example' ordinal='20' />
-              <column datatype='string' name='Year' ordinal='21' />
-              <column datatype='string' name='Month' ordinal='22' />
-            </columns>
-          </relation>
-          <relation connection='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c' name='Sheet1' table='[Sheet1$]' type='table'>
-            <columns gridOrigin='A1:D75:no:A1:D75:0' header='yes' outcome='6'>
-              <column datatype='string' name='Crop' ordinal='0' />
-              <column datatype='integer' name='Example' ordinal='1' />
-              <column datatype='integer' name='Year' ordinal='2' />
-              <column datatype='string' name='Month' ordinal='3' />
-            </columns>
-          </relation>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <cols>
-          <map key='[Base Temp (F)]' value='[testRotation.csv].[Base Temp (F)]' />
-          <map key='[Crop]' value='[Sheet1].[Crop]' />
-          <map key='[Depth_h]' value='[testRotation.csv].[Depth_h]' />
-          <map key='[Depth_l]' value='[testRotation.csv].[Depth_l]' />
-          <map key='[Example (Sheet1)]' value='[Sheet1].[Example]' />
-          <map key='[Example Included...19]' value='[testRotation.csv].[Example Included...19]' />
-          <map key='[Example Included...2]' value='[testRotation.csv].[Example Included...2]' />
-          <map key='[Example]' value='[testRotation.csv].[Example]' />
-          <map key='[F1]' value='[testRotation.csv].[F1]' />
-          <map key='[Month (Sheet1)]' value='[Sheet1].[Month]' />
-          <map key='[Month]' value='[testRotation.csv].[Month]' />
-          <map key='[Pesticides]' value='[testRotation.csv].[Pesticides]' />
-          <map key='[Rainfall/Precipitation]' value='[testRotation.csv].[Rainfall/Precipitation]' />
-          <map key='[Rooting Depth]' value='[testRotation.csv].[Rooting Depth]' />
-          <map key='[Soil Types]' value='[testRotation.csv].[Soil Types]' />
-          <map key='[Storage Humidity (%)]' value='[testRotation.csv].[Storage Humidity (%)]' />
-          <map key='[Storage Life]' value='[testRotation.csv].[Storage Life]' />
-          <map key='[Storage Temp (  ̊F)]' value='[testRotation.csv].[Storage Temp (  ̊F)]' />
-          <map key='[Temperature Tolerances]' value='[testRotation.csv].[Temperature Tolerances]' />
-          <map key='[Type of Irrigation]' value='[testRotation.csv].[Type of Irrigation]' />
-          <map key='[Types of Crops]' value='[testRotation.csv].[Types of Crops]' />
-          <map key='[Vulnerabilities (heat, moisture, pests)]' value='[testRotation.csv].[Vulnerabilities (heat, moisture, pests)]' />
-          <map key='[Year (Sheet1)]' value='[Sheet1].[Year]' />
-          <map key='[Year]' value='[testRotation.csv].[Year]' />
-          <map key='[pH-Level]' value='[testRotation.csv].[pH-Level]' />
-          <map key='[ph_H]' value='[testRotation.csv].[ph_H]' />
-          <map key='[ph_L]' value='[testRotation.csv].[ph_L]' />
-        </cols>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:D75:no:A1:D75:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>6</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F1</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[F1]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>F1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Types of Crops</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Types of Crops]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Types of Crops</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Example Included...2</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Example Included...2]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Example Included...2</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Soil Types</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Soil Types]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Soil Types</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Rooting Depth</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Rooting Depth]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Rooting Depth</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Depth_l</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Depth_l]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Depth_l</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Depth_h</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Depth_h]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Depth_h</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pH-Level</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[pH-Level]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>pH-Level</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ph_L</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ph_L]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>ph_L</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ph_H</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ph_H]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>ph_H</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Type of Irrigation</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Type of Irrigation]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Type of Irrigation</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Rainfall/Precipitation</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Rainfall/Precipitation]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Rainfall/Precipitation</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Temperature Tolerances</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Temperature Tolerances]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Temperature Tolerances</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Pesticides</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Pesticides]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Pesticides</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Storage Temp (  ̊F)</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Storage Temp (  ̊F)]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Storage Temp (  ̊F)</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Storage Humidity (%)</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Storage Humidity (%)]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Storage Humidity (%)</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Storage Life</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Storage Life]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Storage Life</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Base Temp (F)</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Base Temp (F)]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Base Temp (F)</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Example Included...19</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Example Included...19]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Example Included...19</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Example</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Example]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Example</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Year]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Year</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Month</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Month]</local-name>
-            <parent-name>[testRotation.csv]</parent-name>
-            <remote-alias>Month</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Crop</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Crop]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Crop</remote-alias>
-            <ordinal>23</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Example</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Example (Sheet1)]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Example</remote-alias>
-            <ordinal>24</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Year (Sheet1)]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Year</remote-alias>
-            <ordinal>25</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Month</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Month (Sheet1)]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Month</remote-alias>
-            <ordinal>26</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Match' datatype='string' name='[Calculation_3086373175551025152]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='IF  [Types of Crops] ==  [Crop]&#13;&#10;THEN &quot;Match&quot;&#13;&#10;END' />
-      </column>
-      <column caption='Coordinate' datatype='integer' name='[Calculation_3868029187619586051]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='0' />
-      </column>
-      <column caption='Example{Filter}sheet1' datatype='string' datatype-customized='true' default-role='measure' default-type='ordinal' name='[Calculation_3868029187619721220]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='STR([Example (Sheet1)])' />
-      </column>
-      <column caption='Depth h' datatype='integer' name='[Depth_h]' role='measure' type='quantitative' />
-      <column caption='Depth l' datatype='integer' name='[Depth_l]' role='measure' type='quantitative' />
-      <column aggregation='Sum' datatype='integer' name='[Example (Sheet1)]' role='dimension' type='ordinal' />
-      <column datatype='integer' name='[Year (Sheet1)]' role='dimension' type='ordinal' />
-      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' role='measure' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='testRotation.csv' datatype='table' name='[__tableau_internal_object_id__].[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]' role='measure' type='quantitative' />
-      <column caption='ph H' datatype='real' name='[ph_H]' role='measure' type='quantitative' />
-      <column caption='ph L' datatype='real' name='[ph_L]' role='measure' type='quantitative' />
-      <column-instance column='[Calculation_3868029187619721220]' derivation='Count' name='[cnt:Calculation_3868029187619721220:ok]' pivot='key' type='ordinal' />
-      <column-instance column='[Calculation_3086373175551025152]' derivation='None' name='[none:Calculation_3086373175551025152:nk]' pivot='key' type='nominal' />
-      <mapped-images>
-        <mapped-image caption='ex1' expression='file:Image/ex1.jpg' name='[MappedImage1]'>
-          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
-          <groupfilter function='crossjoin'>
-            <groupfilter function='member' level='[Example (Sheet1)]' member='1' />
-          </groupfilter>
-        </mapped-image>
-        <mapped-image caption='ex2' expression='file:Image/ex2.jpg' name='[MappedImage2]'>
-          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
-          <groupfilter function='crossjoin'>
-            <groupfilter function='member' level='[Example (Sheet1)]' member='2' />
-          </groupfilter>
-        </mapped-image>
-        <mapped-image caption='ex3' expression='file:Image/ex3.jpg' name='[MappedImage3]'>
-          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
-          <groupfilter function='crossjoin'>
-            <groupfilter function='member' level='[Example (Sheet1)]' member='3' />
-          </groupfilter>
-        </mapped-image>
-        <mapped-image caption='ex4' expression='file:Image/ex4.jpg' name='[MappedImage4]'>
-          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
-          <groupfilter function='crossjoin'>
-            <groupfilter function='member' level='[Example (Sheet1)]' member='4' />
-          </groupfilter>
-        </mapped-image>
-        <mapped-image caption='ex5' expression='file:Image/ex5.jpg' name='[MappedImage5]'>
-          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
-          <groupfilter function='crossjoin'>
-            <groupfilter function='member' level='[Example (Sheet1)]' member='5' />
-          </groupfilter>
-        </mapped-image>
-      </mapped-images>
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/~CropSelectionV2__43860.twb Files/testRotation.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/26/2022 05:35:06 PM' username='tableau_internal_user'>
-          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Sheet1_ED3A113BCA7E409D862650584390C3B3' table='[Extract].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' type='table' />
-          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
-            <relation name='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E' table='[Extract].[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]' type='table' />
-            <relation name='Sheet1_ED3A113BCA7E409D862650584390C3B3' table='[Extract].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' type='table' />
-          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-          <cols>
-            <map key='[Base Temp (F)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Base Temp (F)]' />
-            <map key='[Crop]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Crop]' />
-            <map key='[Depth_h]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Depth_h]' />
-            <map key='[Depth_l]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Depth_l]' />
-            <map key='[Example (Sheet1)]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Example]' />
-            <map key='[Example Included...19]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Example Included...19]' />
-            <map key='[Example Included...2]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Example Included...2]' />
-            <map key='[Example]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Example]' />
-            <map key='[F1]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[F1]' />
-            <map key='[Month (Sheet1)]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Month]' />
-            <map key='[Month]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Month]' />
-            <map key='[Pesticides]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Pesticides]' />
-            <map key='[Rainfall/Precipitation]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Rainfall/Precipitation]' />
-            <map key='[Rooting Depth]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Rooting Depth]' />
-            <map key='[Soil Types]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Soil Types]' />
-            <map key='[Storage Humidity (%)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Storage Humidity (%)]' />
-            <map key='[Storage Life]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Storage Life]' />
-            <map key='[Storage Temp (  ̊F)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Storage Temp (  ̊F)]' />
-            <map key='[Temperature Tolerances]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Temperature Tolerances]' />
-            <map key='[Type of Irrigation]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Type of Irrigation]' />
-            <map key='[Types of Crops]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Types of Crops]' />
-            <map key='[Vulnerabilities (heat, moisture, pests)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Vulnerabilities (heat, moisture, pests)]' />
-            <map key='[Year (Sheet1)]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Year]' />
-            <map key='[Year]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Year]' />
-            <map key='[pH-Level]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[pH-Level]' />
-            <map key='[ph_H]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[ph_H]' />
-            <map key='[ph_L]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[ph_L]' />
-          </cols>
-          <refresh>
-            <refresh-event add-from-file-path='testRotation.csv+ (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='102' timestamp-start='2022-07-26 17:35:05.795' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>F1</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[F1]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>F1</remote-alias>
-              <ordinal>0</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>28</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Types of Crops</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Types of Crops]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Types of Crops</remote-alias>
-              <ordinal>1</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Example Included...2</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Example Included...2]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Example Included...2</remote-alias>
-              <ordinal>2</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>10</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Soil Types</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Soil Types]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Soil Types</remote-alias>
-              <ordinal>3</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Rooting Depth</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Rooting Depth]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Rooting Depth</remote-alias>
-              <ordinal>4</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Depth_l</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Depth_l]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Depth_l</remote-alias>
-              <ordinal>5</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Depth_h</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Depth_h]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Depth_h</remote-alias>
-              <ordinal>6</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pH-Level</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[pH-Level]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>pH-Level</remote-alias>
-              <ordinal>7</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>8</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ph_L</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ph_L]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>ph_L</remote-alias>
-              <ordinal>8</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>5</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ph_H</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ph_H]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>ph_H</remote-alias>
-              <ordinal>9</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Type of Irrigation</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Type of Irrigation]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Type of Irrigation</remote-alias>
-              <ordinal>10</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Rainfall/Precipitation</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Rainfall/Precipitation]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Rainfall/Precipitation</remote-alias>
-              <ordinal>11</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Temperature Tolerances</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Temperature Tolerances]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Temperature Tolerances</remote-alias>
-              <ordinal>12</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Pesticides</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Pesticides]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Pesticides</remote-alias>
-              <ordinal>13</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
-              <ordinal>14</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Storage Temp (  ̊F)</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Storage Temp (  ̊F)]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Storage Temp (  ̊F)</remote-alias>
-              <ordinal>15</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>10</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Storage Humidity (%)</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Storage Humidity (%)]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Storage Humidity (%)</remote-alias>
-              <ordinal>16</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>12</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Storage Life</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Storage Life]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Storage Life</remote-alias>
-              <ordinal>17</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>12</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Base Temp (F)</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Base Temp (F)]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Base Temp (F)</remote-alias>
-              <ordinal>18</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Example Included...19</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Example Included...19]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Example Included...19</remote-alias>
-              <ordinal>19</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Example</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Example]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Example</remote-alias>
-              <ordinal>20</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Year</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Year]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Year</remote-alias>
-              <ordinal>21</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Month</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Month]</local-name>
-              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
-              <remote-alias>Month</remote-alias>
-              <ordinal>22</ordinal>
-              <family>testRotation.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>12</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Crop</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Crop]</local-name>
-              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
-              <remote-alias>Crop</remote-alias>
-              <ordinal>23</ordinal>
-              <family>Sheet1</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>41</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Example</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Example (Sheet1)]</local-name>
-              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
-              <remote-alias>Example</remote-alias>
-              <ordinal>24</ordinal>
-              <family>Sheet1</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>5</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Year</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Year (Sheet1)]</local-name>
-              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
-              <remote-alias>Year</remote-alias>
-              <ordinal>25</ordinal>
-              <family>Sheet1</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>5</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Month</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Month (Sheet1)]</local-name>
-              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
-              <remote-alias>Month</remote-alias>
-              <ordinal>26</ordinal>
-              <family>Sheet1</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>28</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='shape' field='[cnt:Calculation_3868029187619721220:ok]' type='shape'>
-            <map to='circle'>
-              <bucket>16</bucket>
-            </map>
-            <map to='square'>
-              <bucket>74</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:Calculation_3086373175551025152:nk]' type='palette'>
-            <map to='#f28e2b'>
-              <bucket>&quot;Match&quot;</bucket>
-            </map>
-            <map to='#ffffff'>
-              <bucket>%null%</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='Sheet1' id='Sheet1_ED3A113BCA7E409D862650584390C3B3'>
-            <properties context=''>
-              <relation connection='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c' name='Sheet1' table='[Sheet1$]' type='table'>
-                <columns gridOrigin='A1:D75:no:A1:D75:0' header='yes' outcome='6'>
-                  <column datatype='string' name='Crop' ordinal='0' />
-                  <column datatype='integer' name='Example' ordinal='1' />
-                  <column datatype='integer' name='Year' ordinal='2' />
-                  <column datatype='string' name='Month' ordinal='3' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Sheet1_ED3A113BCA7E409D862650584390C3B3' table='[Extract].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' type='table' />
-            </properties>
-          </object>
-          <object caption='testRotation.csv' id='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E'>
-            <properties context=''>
-              <relation connection='textscan.19wjsva1hh0vdz0zo0h031xeqdme' name='testRotation.csv' table='[testRotation#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='F1' ordinal='0' />
-                  <column datatype='string' name='Types of Crops' ordinal='1' />
-                  <column datatype='string' name='Example Included...2' ordinal='2' />
-                  <column datatype='string' name='Soil Types' ordinal='3' />
-                  <column datatype='string' name='Rooting Depth' ordinal='4' />
-                  <column datatype='integer' name='Depth_l' ordinal='5' />
-                  <column datatype='integer' name='Depth_h' ordinal='6' />
-                  <column datatype='string' name='pH-Level' ordinal='7' />
-                  <column datatype='real' name='ph_L' ordinal='8' />
-                  <column datatype='real' name='ph_H' ordinal='9' />
-                  <column datatype='string' name='Type of Irrigation' ordinal='10' />
-                  <column datatype='string' name='Rainfall/Precipitation' ordinal='11' />
-                  <column datatype='string' name='Temperature Tolerances' ordinal='12' />
-                  <column datatype='string' name='Pesticides' ordinal='13' />
-                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='14' />
-                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='15' />
-                  <column datatype='string' name='Storage Humidity (%)' ordinal='16' />
-                  <column datatype='string' name='Storage Life' ordinal='17' />
-                  <column datatype='string' name='Base Temp (F)' ordinal='18' />
-                  <column datatype='string' name='Example Included...19' ordinal='19' />
-                  <column datatype='integer' name='Example' ordinal='20' />
-                  <column datatype='string' name='Year' ordinal='21' />
-                  <column datatype='string' name='Month' ordinal='22' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E' table='[Extract].[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]' type='table' />
-            </properties>
-          </object>
-        </objects>
-        <relationships>
-          <relationship>
-            <expression op='='>
-              <expression op='[Example]' />
-              <expression op='[Example (Sheet1)]' />
-            </expression>
-            <first-end-point object-id='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E' />
-            <second-end-point object-id='Sheet1_ED3A113BCA7E409D862650584390C3B3' />
-          </relationship>
-        </relationships>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='CropSelection2_SSURGO_Mapunits.shp+ (Multiple Connections)' inline='true' name='federated.1ypll0s155mbss146jdqx0pt53cr' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -4231,13 +2811,13 @@
             <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Output' filename='CropSelection2.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='CropSelection2 (2)' name='textscan.0lor6u81o23lgc1f31yz7060qlah'>
-            <connection class='textscan' directory='Data/OneDrive - Iowa State University/DSPG' filename='CropSelection2.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='C:/Users/cornd/AppData/Local/Temp/TableauTemp/2922226422/Data/OneDrive - Iowa State University/DSPG' filename='CropSelection2.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='Formatted_gdd (1)' name='textscan.0pqgcia1gf97pq1gjcctn1hk6ep8'>
             <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Output' filename='Formatted_gdd.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='Sanika-Crop_Rotation' name='excel-direct.0n2yh0p1eaxmqu0zuy4fj0ageene'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Sanika-Crop_Rotation.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Sanika-Crop_Rotation.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.021u2gd1cqihm41dmm81u14ytv4q' name='CropSelection2.csv' table='[CropSelection2#csv]' type='table'>
@@ -6977,10 +5557,10 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='hzrdLinks' name='textscan.0se6zq818ed0co17lo3ux0jkp2dg'>
-            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP' filename='hzrdLinks.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP' filename='hzrdLinks.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='hzrdLinks (2)' name='textscan.0q05xp80tt930s12nkbv71mi72x1'>
-            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP' filename='hzrdLinks.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP' filename='hzrdLinks.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0q05xp80tt930s12nkbv71mi72x1' name='hzrdLinks.csv' table='[hzrdLinks#csv]' type='table'>
@@ -7182,17 +5762,351 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='aggClimData' inline='true' name='federated.0d9iof10hal72o1dam3z80jt5jbu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='aggClimData' name='textscan.1paaox80spdh2s1h9ivuh1pm0cdz'>
+            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Output' filename='aggClimData.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1paaox80spdh2s1h9ivuh1pm0cdz' name='aggClimData.csv' table='[aggClimData#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='integer' name='Month' ordinal='2' />
+            <column datatype='real' name='AverageTempH' ordinal='3' />
+            <column datatype='real' name='AverageTempL' ordinal='4' />
+            <column datatype='real' name='SumPrecip' ordinal='5' />
+            <column datatype='real' name='SumClimPrecip' ordinal='6' />
+            <column datatype='date' date-parse-format='MM/yyyy' name='Date' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1paaox80spdh2s1h9ivuh1pm0cdz' name='aggClimData.csv' table='[aggClimData#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='integer' name='Month' ordinal='2' />
+            <column datatype='real' name='AverageTempH' ordinal='3' />
+            <column datatype='real' name='AverageTempL' ordinal='4' />
+            <column datatype='real' name='SumPrecip' ordinal='5' />
+            <column datatype='real' name='SumClimPrecip' ordinal='6' />
+            <column datatype='date' date-parse-format='MM/yyyy' name='Date' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AverageTempH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AverageTempH]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>AverageTempH</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AverageTempL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AverageTempL]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>AverageTempL</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SumPrecip</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SumPrecip]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>SumPrecip</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SumClimPrecip</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SumClimPrecip]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>SumClimPrecip</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[aggClimData.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Average High Temp' datatype='real' name='[AverageTempH]' role='measure' type='quantitative' />
+      <column caption='Average Low Temp' datatype='real' name='[AverageTempL]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Expected Precipation' datatype='real' name='[SumClimPrecip]' role='measure' type='quantitative' />
+      <column caption='Recorded Precipation' datatype='real' name='[SumPrecip]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='aggClimData.csv' datatype='table' name='[__tableau_internal_object_id__].[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[AverageTempH]' derivation='Sum' name='[sum:AverageTempH:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AverageTempL]' derivation='Sum' name='[sum:AverageTempL:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SumClimPrecip]' derivation='Sum' name='[sum:SumClimPrecip:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SumPrecip]' derivation='Sum' name='[sum:SumPrecip:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Year)' hidden='true' name='[Action (Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:year:ok]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Datasources/federated 1.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/26/2022 05:37:16 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='aggClimData' increment-value='%null%' refresh-type='create' rows-inserted='46' timestamp-start='2022-07-26 17:37:16.195' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>2</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AverageTempH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[AverageTempH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AverageTempH</remote-alias>
+              <ordinal>3</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AverageTempL</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[AverageTempL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AverageTempL</remote-alias>
+              <ordinal>4</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SumPrecip</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SumPrecip]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SumPrecip</remote-alias>
+              <ordinal>5</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SumClimPrecip</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SumClimPrecip]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SumClimPrecip</remote-alias>
+              <ordinal>6</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>7</ordinal>
+              <family>aggClimData.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:AverageTempH:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:SumPrecip:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:SumClimPrecip:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0d9iof10hal72o1dam3z80jt5jbu].[sum:AverageTempL:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='aggClimData.csv' id='aggClimData.csv_80CF89A07B6C4197A08CBEC05C08AB7F'>
+            <properties context=''>
+              <relation connection='textscan.1paaox80spdh2s1h9ivuh1pm0cdz' name='aggClimData.csv' table='[aggClimData#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='integer' name='Month' ordinal='2' />
+                  <column datatype='real' name='AverageTempH' ordinal='3' />
+                  <column datatype='real' name='AverageTempL' ordinal='4' />
+                  <column datatype='real' name='SumPrecip' ordinal='5' />
+                  <column datatype='real' name='SumClimPrecip' ordinal='6' />
+                  <column datatype='date' date-parse-format='MM/yyyy' name='Date' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
     <datasource caption='Sheet1 (Crop-Info_Farmer Asset Mapping)' inline='true' name='federated.0b5qsdk1a0f5o6175gj6w0srulw4' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Crop-Info_Farmer Asset Mapping' name='excel-direct.1n6v2i80su4vpn1etuinj0gh9v8y'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Input/Crop-Info_Farmer Asset Mapping.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cornd/AppData/Local/Temp/TableauTemp/2922226422/Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Input/Crop-Info_Farmer Asset Mapping.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='Crop-Info_Farmer Asset Mapping (2)' name='excel-direct.1l3o8df14w96lm1ah5k2f1emlkh1'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/OneDrive - Iowa State University/DSPG/Crop-Info_Farmer Asset Mapping.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cornd/AppData/Local/Temp/TableauTemp/2922226422/Data/OneDrive - Iowa State University/DSPG/Crop-Info_Farmer Asset Mapping.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='Sanika-Crop_Rotation' name='excel-direct.0o012cz00x97a61g321490j8assd'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Downloads/Sanika-Crop_Rotation.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cornd/AppData/Local/Temp/TableauTemp/2922226422/Data/Downloads/Sanika-Crop_Rotation.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1n6v2i80su4vpn1etuinj0gh9v8y' name='Sheet1' table='[Sheet1$]' type='table'>
@@ -7739,8 +6653,8 @@
       <column caption='ph H' datatype='string' name='[ph_H]' role='dimension' type='nominal' />
       <column caption='ph L' datatype='string' name='[ph_L]' role='dimension' type='nominal' />
       <column-instance column='[Types of Crops]' derivation='None' name='[none:Types of Crops:nk]' pivot='key' type='nominal' />
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/CropSelectionV2 1.twb files/federated.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/19/2022 01:33:14 PM' username='tableau_internal_user'>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/CropSelectionFinal.twb Files/Sheet1 (Crop-Info_Farmer Asset Mapping).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <cols>
@@ -7772,9 +6686,6 @@
             <map key='[ph_H]' value='[Extract].[ph_H]' />
             <map key='[ph_L]' value='[Extract].[ph_L]' />
           </cols>
-          <refresh>
-            <refresh-event add-from-file-path='Sheet1 (Crop-Info_Farmer Asset Mapping)' increment-value='%null%' refresh-type='create' rows-inserted='20' timestamp-start='2022-07-19 13:33:13.741' />
-          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>Types of Crops</remote-name>
@@ -7789,7 +6700,6 @@
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Example Included</remote-name>
@@ -7804,7 +6714,6 @@
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Soil Types</remote-name>
@@ -7819,7 +6728,6 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Rooting Depth</remote-name>
@@ -7834,7 +6742,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Depth_l</remote-name>
@@ -7848,7 +6755,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Depth_h</remote-name>
@@ -7862,7 +6768,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pH-Level</remote-name>
@@ -7877,7 +6782,6 @@
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ph_L</remote-name>
@@ -7892,7 +6796,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ph_H</remote-name>
@@ -7907,7 +6810,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Type of Irrigation</remote-name>
@@ -7922,7 +6824,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Rainfall/Precipitation</remote-name>
@@ -7937,7 +6838,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Temperature Tolerances</remote-name>
@@ -7952,7 +6852,6 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Pesticides</remote-name>
@@ -7967,7 +6866,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
@@ -7982,7 +6880,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Storage Temp (  ̊F)</remote-name>
@@ -7997,7 +6894,6 @@
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Storage Humidity (%)</remote-name>
@@ -8012,7 +6908,6 @@
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Storage Life</remote-name>
@@ -8027,7 +6922,6 @@
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Crop Maturity Early Variety (days)</remote-name>
@@ -8041,7 +6935,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>14</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Crop Maturity Late Variety</remote-name>
@@ -8055,7 +6948,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Soil Magnesium</remote-name>
@@ -8070,7 +6962,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Soil Boron</remote-name>
@@ -8085,7 +6976,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Manganese</remote-name>
@@ -8100,7 +6990,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Boron</remote-name>
@@ -8115,7 +7004,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Copper</remote-name>
@@ -8130,7 +7018,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Zinc</remote-name>
@@ -8145,7 +7032,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Molybdenum</remote-name>
@@ -8160,7 +7046,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Iron</remote-name>
@@ -8175,7 +7060,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_797A54EAEBFF4C429D153793E73DCEA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -8297,6 +7181,1092 @@
             </properties>
           </object>
         </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='testRotation.csv+ (Multiple Connections)' inline='true' name='federated.196lg1112aosps1fd57un0qiatar' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='testRotation' name='textscan.19wjsva1hh0vdz0zo0h031xeqdme'>
+            <connection class='textscan' directory='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Input' filename='testRotation.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Sanika-Crop_Rotation' name='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/OneDrive/Documents/GitHub/Farmer-Asset-Mapping/Data Exploration/TestPHP/Sanika-Crop_Rotation.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D75:no:A1:D75:0' header='yes' outcome='6'>
+            <column datatype='string' name='Crop' ordinal='0' />
+            <column datatype='integer' name='Example' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='string' name='Month' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.19wjsva1hh0vdz0zo0h031xeqdme' name='testRotation.csv' table='[testRotation#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Types of Crops' ordinal='1' />
+              <column datatype='string' name='Example Included...2' ordinal='2' />
+              <column datatype='string' name='Soil Types' ordinal='3' />
+              <column datatype='string' name='Rooting Depth' ordinal='4' />
+              <column datatype='integer' name='Depth_l' ordinal='5' />
+              <column datatype='integer' name='Depth_h' ordinal='6' />
+              <column datatype='string' name='pH-Level' ordinal='7' />
+              <column datatype='real' name='ph_L' ordinal='8' />
+              <column datatype='real' name='ph_H' ordinal='9' />
+              <column datatype='string' name='Type of Irrigation' ordinal='10' />
+              <column datatype='string' name='Rainfall/Precipitation' ordinal='11' />
+              <column datatype='string' name='Temperature Tolerances' ordinal='12' />
+              <column datatype='string' name='Pesticides' ordinal='13' />
+              <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='14' />
+              <column datatype='string' name='Storage Temp (  ̊F)' ordinal='15' />
+              <column datatype='string' name='Storage Humidity (%)' ordinal='16' />
+              <column datatype='string' name='Storage Life' ordinal='17' />
+              <column datatype='string' name='Base Temp (F)' ordinal='18' />
+              <column datatype='string' name='Example Included...19' ordinal='19' />
+              <column datatype='integer' name='Example' ordinal='20' />
+              <column datatype='string' name='Year' ordinal='21' />
+              <column datatype='string' name='Month' ordinal='22' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:D75:no:A1:D75:0' header='yes' outcome='6'>
+              <column datatype='string' name='Crop' ordinal='0' />
+              <column datatype='integer' name='Example' ordinal='1' />
+              <column datatype='integer' name='Year' ordinal='2' />
+              <column datatype='string' name='Month' ordinal='3' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Base Temp (F)]' value='[testRotation.csv].[Base Temp (F)]' />
+          <map key='[Crop]' value='[Sheet1].[Crop]' />
+          <map key='[Depth_h]' value='[testRotation.csv].[Depth_h]' />
+          <map key='[Depth_l]' value='[testRotation.csv].[Depth_l]' />
+          <map key='[Example (Sheet1)]' value='[Sheet1].[Example]' />
+          <map key='[Example Included...19]' value='[testRotation.csv].[Example Included...19]' />
+          <map key='[Example Included...2]' value='[testRotation.csv].[Example Included...2]' />
+          <map key='[Example]' value='[testRotation.csv].[Example]' />
+          <map key='[F1]' value='[testRotation.csv].[F1]' />
+          <map key='[Month (Sheet1)]' value='[Sheet1].[Month]' />
+          <map key='[Month]' value='[testRotation.csv].[Month]' />
+          <map key='[Pesticides]' value='[testRotation.csv].[Pesticides]' />
+          <map key='[Rainfall/Precipitation]' value='[testRotation.csv].[Rainfall/Precipitation]' />
+          <map key='[Rooting Depth]' value='[testRotation.csv].[Rooting Depth]' />
+          <map key='[Soil Types]' value='[testRotation.csv].[Soil Types]' />
+          <map key='[Storage Humidity (%)]' value='[testRotation.csv].[Storage Humidity (%)]' />
+          <map key='[Storage Life]' value='[testRotation.csv].[Storage Life]' />
+          <map key='[Storage Temp (  ̊F)]' value='[testRotation.csv].[Storage Temp (  ̊F)]' />
+          <map key='[Temperature Tolerances]' value='[testRotation.csv].[Temperature Tolerances]' />
+          <map key='[Type of Irrigation]' value='[testRotation.csv].[Type of Irrigation]' />
+          <map key='[Types of Crops]' value='[testRotation.csv].[Types of Crops]' />
+          <map key='[Vulnerabilities (heat, moisture, pests)]' value='[testRotation.csv].[Vulnerabilities (heat, moisture, pests)]' />
+          <map key='[Year (Sheet1)]' value='[Sheet1].[Year]' />
+          <map key='[Year]' value='[testRotation.csv].[Year]' />
+          <map key='[pH-Level]' value='[testRotation.csv].[pH-Level]' />
+          <map key='[ph_H]' value='[testRotation.csv].[ph_H]' />
+          <map key='[ph_L]' value='[testRotation.csv].[ph_L]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D75:no:A1:D75:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Types of Crops</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Types of Crops]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Types of Crops</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Example Included...2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Example Included...2]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Example Included...2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soil Types</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Soil Types]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Soil Types</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rooting Depth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rooting Depth]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Rooting Depth</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth_l</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Depth_l]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Depth_l</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth_h</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Depth_h]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Depth_h</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH-Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pH-Level]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>pH-Level</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph_L]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>ph_L</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_H</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph_H]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>ph_H</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type of Irrigation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type of Irrigation]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Type of Irrigation</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rainfall/Precipitation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rainfall/Precipitation]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Rainfall/Precipitation</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature Tolerances</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Temperature Tolerances]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Temperature Tolerances</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pesticides</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pesticides]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Pesticides</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Temp (  ̊F)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Temp (  ̊F)]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Storage Temp (  ̊F)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Humidity (%)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Humidity (%)]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Storage Humidity (%)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage Life</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Storage Life]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Storage Life</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base Temp (F)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Base Temp (F)]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Base Temp (F)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Example Included...19</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Example Included...19]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Example Included...19</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Example</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Example]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Example</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[testRotation.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Crop]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crop</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Example</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Example (Sheet1)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Example</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year (Sheet1)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Month (Sheet1)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Match' datatype='string' name='[Calculation_3086373175551025152]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF  [Types of Crops] ==  [Crop]&#13;&#10;THEN &quot;Match&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Coordinate' datatype='integer' name='[Calculation_3868029187619586051]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column caption='Example{Filter}sheet1' datatype='string' datatype-customized='true' default-role='measure' default-type='ordinal' name='[Calculation_3868029187619721220]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([Example (Sheet1)])' />
+      </column>
+      <column caption='Depth h' datatype='integer' name='[Depth_h]' role='measure' type='quantitative' />
+      <column caption='Depth l' datatype='integer' name='[Depth_l]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Example (Sheet1)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Year (Sheet1)]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='testRotation.csv' datatype='table' name='[__tableau_internal_object_id__].[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]' role='measure' type='quantitative' />
+      <column caption='ph H' datatype='real' name='[ph_H]' role='measure' type='quantitative' />
+      <column caption='ph L' datatype='real' name='[ph_L]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_3868029187619721220]' derivation='Count' name='[cnt:Calculation_3868029187619721220:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_3086373175551025152]' derivation='None' name='[none:Calculation_3086373175551025152:nk]' pivot='key' type='nominal' />
+      <mapped-images>
+        <mapped-image caption='ex1' expression='file:Image/ex1.jpg' name='[MappedImage1]'>
+          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
+          <groupfilter function='crossjoin'>
+            <groupfilter function='member' level='[Example (Sheet1)]' member='1' />
+          </groupfilter>
+        </mapped-image>
+        <mapped-image caption='ex2' expression='file:Image/ex2.jpg' name='[MappedImage2]'>
+          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
+          <groupfilter function='crossjoin'>
+            <groupfilter function='member' level='[Example (Sheet1)]' member='2' />
+          </groupfilter>
+        </mapped-image>
+        <mapped-image caption='ex3' expression='file:Image/ex3.jpg' name='[MappedImage3]'>
+          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
+          <groupfilter function='crossjoin'>
+            <groupfilter function='member' level='[Example (Sheet1)]' member='3' />
+          </groupfilter>
+        </mapped-image>
+        <mapped-image caption='ex4' expression='file:Image/ex4.jpg' name='[MappedImage4]'>
+          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
+          <groupfilter function='crossjoin'>
+            <groupfilter function='member' level='[Example (Sheet1)]' member='4' />
+          </groupfilter>
+        </mapped-image>
+        <mapped-image caption='ex5' expression='file:Image/ex5.jpg' name='[MappedImage5]'>
+          <mapping bottom='0' left='0' right='400' top='800' x='[Calculation_3868029187619586051]' y='[Calculation_3868029187619586051]' />
+          <groupfilter function='crossjoin'>
+            <groupfilter function='member' level='[Example (Sheet1)]' member='5' />
+          </groupfilter>
+        </mapped-image>
+      </mapped-images>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/~CropSelectionV2__43860.twb Files/testRotation.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/26/2022 05:35:06 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Sheet1_ED3A113BCA7E409D862650584390C3B3' table='[Extract].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E' table='[Extract].[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]' type='table' />
+            <relation name='Sheet1_ED3A113BCA7E409D862650584390C3B3' table='[Extract].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[Base Temp (F)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Base Temp (F)]' />
+            <map key='[Crop]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Crop]' />
+            <map key='[Depth_h]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Depth_h]' />
+            <map key='[Depth_l]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Depth_l]' />
+            <map key='[Example (Sheet1)]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Example]' />
+            <map key='[Example Included...19]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Example Included...19]' />
+            <map key='[Example Included...2]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Example Included...2]' />
+            <map key='[Example]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Example]' />
+            <map key='[F1]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[F1]' />
+            <map key='[Month (Sheet1)]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Month]' />
+            <map key='[Month]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Month]' />
+            <map key='[Pesticides]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Pesticides]' />
+            <map key='[Rainfall/Precipitation]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Rainfall/Precipitation]' />
+            <map key='[Rooting Depth]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Rooting Depth]' />
+            <map key='[Soil Types]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Soil Types]' />
+            <map key='[Storage Humidity (%)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Storage Humidity (%)]' />
+            <map key='[Storage Life]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Storage Life]' />
+            <map key='[Storage Temp (  ̊F)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Storage Temp (  ̊F)]' />
+            <map key='[Temperature Tolerances]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Temperature Tolerances]' />
+            <map key='[Type of Irrigation]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Type of Irrigation]' />
+            <map key='[Types of Crops]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Types of Crops]' />
+            <map key='[Vulnerabilities (heat, moisture, pests)]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Vulnerabilities (heat, moisture, pests)]' />
+            <map key='[Year (Sheet1)]' value='[Sheet1_ED3A113BCA7E409D862650584390C3B3].[Year]' />
+            <map key='[Year]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[Year]' />
+            <map key='[pH-Level]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[pH-Level]' />
+            <map key='[ph_H]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[ph_H]' />
+            <map key='[ph_L]' value='[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E].[ph_L]' />
+          </cols>
+          <refresh>
+            <refresh-event add-from-file-path='testRotation.csv+ (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='102' timestamp-start='2022-07-26 17:35:05.795' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Types of Crops</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Types of Crops]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Types of Crops</remote-alias>
+              <ordinal>1</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Example Included...2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Example Included...2]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Example Included...2</remote-alias>
+              <ordinal>2</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Soil Types</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Soil Types]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Soil Types</remote-alias>
+              <ordinal>3</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rooting Depth</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Rooting Depth]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Rooting Depth</remote-alias>
+              <ordinal>4</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Depth_l</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Depth_l]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Depth_l</remote-alias>
+              <ordinal>5</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Depth_h</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Depth_h]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Depth_h</remote-alias>
+              <ordinal>6</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pH-Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pH-Level]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>pH-Level</remote-alias>
+              <ordinal>7</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ph_L</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ph_L]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>ph_L</remote-alias>
+              <ordinal>8</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ph_H</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ph_H]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>ph_H</remote-alias>
+              <ordinal>9</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of Irrigation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of Irrigation]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Type of Irrigation</remote-alias>
+              <ordinal>10</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rainfall/Precipitation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Rainfall/Precipitation]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Rainfall/Precipitation</remote-alias>
+              <ordinal>11</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Temperature Tolerances</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Temperature Tolerances]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Temperature Tolerances</remote-alias>
+              <ordinal>12</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pesticides</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pesticides]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Pesticides</remote-alias>
+              <ordinal>13</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vulnerabilities (heat, moisture, pests)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vulnerabilities (heat, moisture, pests)]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Vulnerabilities (heat, moisture, pests)</remote-alias>
+              <ordinal>14</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Storage Temp (  ̊F)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Storage Temp (  ̊F)]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Storage Temp (  ̊F)</remote-alias>
+              <ordinal>15</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Storage Humidity (%)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Storage Humidity (%)]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Storage Humidity (%)</remote-alias>
+              <ordinal>16</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Storage Life</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Storage Life]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Storage Life</remote-alias>
+              <ordinal>17</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Base Temp (F)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Base Temp (F)]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Base Temp (F)</remote-alias>
+              <ordinal>18</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Example Included...19</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Example Included...19]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Example Included...19</remote-alias>
+              <ordinal>19</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Example</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Example]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Example</remote-alias>
+              <ordinal>20</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>21</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>22</ordinal>
+              <family>testRotation.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Crop</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Crop]</local-name>
+              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
+              <remote-alias>Crop</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Example</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Example (Sheet1)]</local-name>
+              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
+              <remote-alias>Example</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year (Sheet1)]</local-name>
+              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Month (Sheet1)]</local-name>
+              <parent-name>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_ED3A113BCA7E409D862650584390C3B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[cnt:Calculation_3868029187619721220:ok]' type='shape'>
+            <map to='circle'>
+              <bucket>16</bucket>
+            </map>
+            <map to='square'>
+              <bucket>74</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_3086373175551025152:nk]' type='palette'>
+            <map to='#f28e2b'>
+              <bucket>&quot;Match&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_ED3A113BCA7E409D862650584390C3B3'>
+            <properties context=''>
+              <relation connection='excel-direct.02if4xt1vye0eg1dnl43n1fidj1c' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D75:no:A1:D75:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Crop' ordinal='0' />
+                  <column datatype='integer' name='Example' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='string' name='Month' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Sheet1_ED3A113BCA7E409D862650584390C3B3' table='[Extract].[Sheet1_ED3A113BCA7E409D862650584390C3B3]' type='table' />
+            </properties>
+          </object>
+          <object caption='testRotation.csv' id='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E'>
+            <properties context=''>
+              <relation connection='textscan.19wjsva1hh0vdz0zo0h031xeqdme' name='testRotation.csv' table='[testRotation#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Types of Crops' ordinal='1' />
+                  <column datatype='string' name='Example Included...2' ordinal='2' />
+                  <column datatype='string' name='Soil Types' ordinal='3' />
+                  <column datatype='string' name='Rooting Depth' ordinal='4' />
+                  <column datatype='integer' name='Depth_l' ordinal='5' />
+                  <column datatype='integer' name='Depth_h' ordinal='6' />
+                  <column datatype='string' name='pH-Level' ordinal='7' />
+                  <column datatype='real' name='ph_L' ordinal='8' />
+                  <column datatype='real' name='ph_H' ordinal='9' />
+                  <column datatype='string' name='Type of Irrigation' ordinal='10' />
+                  <column datatype='string' name='Rainfall/Precipitation' ordinal='11' />
+                  <column datatype='string' name='Temperature Tolerances' ordinal='12' />
+                  <column datatype='string' name='Pesticides' ordinal='13' />
+                  <column datatype='string' name='Vulnerabilities (heat, moisture, pests)' ordinal='14' />
+                  <column datatype='string' name='Storage Temp (  ̊F)' ordinal='15' />
+                  <column datatype='string' name='Storage Humidity (%)' ordinal='16' />
+                  <column datatype='string' name='Storage Life' ordinal='17' />
+                  <column datatype='string' name='Base Temp (F)' ordinal='18' />
+                  <column datatype='string' name='Example Included...19' ordinal='19' />
+                  <column datatype='integer' name='Example' ordinal='20' />
+                  <column datatype='string' name='Year' ordinal='21' />
+                  <column datatype='string' name='Month' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E' table='[Extract].[testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Example]' />
+              <expression op='[Example (Sheet1)]' />
+            </expression>
+            <first-end-point object-id='testRotation.csv_FD2017B8D72A4E96941B6D98A5005F4E' />
+            <second-end-point object-id='Sheet1_ED3A113BCA7E409D862650584390C3B3' />
+          </relationship>
+        </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
   </datasources>
@@ -11074,7 +11044,7 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
       <simple-id uuid='{6691B3C1-E37C-46A4-A2A4-CA0FDF050281}' />
     </dashboard>
   </dashboards>
-  <windows source-height='135'>
+  <windows source-height='167'>
     <window class='worksheet' name='NewSoilWorksheet'>
       <cards>
         <edge name='left'>
@@ -11120,7 +11090,7 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='28'>
             <card type='title' />
           </strip>
         </edge>
@@ -11158,12 +11128,12 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
       <active id='-1' />
       <simple-id uuid='{CFA1000E-E3C0-4A07-A5E4-477A66486D12}' />
     </window>
-    <window class='dashboard' maximized='true' name='Weather'>
+    <window class='dashboard' name='Weather'>
       <viewpoints>
         <viewpoint name='Precipitation'>
           <current-page>
             <multibucket>
-              <bucket>2020</bucket>
+              <bucket>2022</bucket>
             </multibucket>
           </current-page>
           <zoom type='entire-view' />
@@ -11171,13 +11141,13 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
         <viewpoint name='Temperature'>
           <current-page>
             <multibucket>
-              <bucket>2020</bucket>
+              <bucket>2022</bucket>
             </multibucket>
           </current-page>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='6' />
       <simple-id uuid='{52CFEB7A-1EEB-4784-9DE6-98C283509C9D}' />
     </window>
     <window class='dashboard' name='RiskLinks'>
@@ -11224,7 +11194,7 @@ Total Phosphorous Content: <[federated.1ypll0s155mbss146jdqx0pt53cr].[none:ptota
       <active id='64' />
       <simple-id uuid='{9F40EC17-47A3-49B4-9CF5-8FEB27036B9E}' />
     </window>
-    <window class='dashboard' name='Crop Rotation'>
+    <window class='dashboard' maximized='true' name='Crop Rotation'>
       <viewpoints>
         <viewpoint name='CropRotation' />
         <viewpoint name='Example2'>
