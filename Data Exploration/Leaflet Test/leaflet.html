@@ -32,14 +32,30 @@ crossorigin=""></script>
 <script>
     console.clear();
 
-var map = L.map('map', {drawControl: true}).setView([42.2, -93], 7);
+var map = L.map('map').setView([42.2, -93], 7);
 
 // add a tile layer
-var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
-	maxZoom: 16
-}).addTo(map);
+googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3']
+})
 
+googleHybrid.addTo(map);
+
+OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+})
+
+OpenStreetMap_Mapnik.addTo(map);
+
+//Layer Control
+var baseLayers = {
+    "Hybrid": googleHybrid,
+    "OpenStreetMap": OpenStreetMap_Mapnik
+};
+
+L.control.layers(baseLayers).addTo(map);
 
 
 </script>
