@@ -63,7 +63,7 @@ library(rgeos)
 library ("geosphere")
 
 
-
+##part of url for websraping
 base_url <- "https://mesonet.agron.iastate.edu/iemre/"
 target_request <- "multiday/"
 end_of_url <- "json"
@@ -77,6 +77,7 @@ url_list <-list()
 #Create empty dataframe
 df <- data.frame()
 
+##Scrapes Data for correct time length and adds to df
 for (i in 1:length(StartDates)) {
   
   url <- paste0(base_url, target_request, StartDates[i], "/", EndDates[i], "/", lat, "/", lon, "/", end_of_url)
