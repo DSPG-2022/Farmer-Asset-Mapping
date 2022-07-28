@@ -1,4 +1,4 @@
-usethi---
+---
 title: "Developing Specialty Crop Data and Calculating GDDs"
 output: rmarkdown::html_vignette
 vignette: >
