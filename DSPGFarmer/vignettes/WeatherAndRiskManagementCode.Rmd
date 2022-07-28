@@ -81,6 +81,12 @@ for(yearVal in 0:YearRange){
 
 
 ```{r}
+
+##----lat and lon are retrieved from user input but as an example, lat and lon will be provided here-----
+
+lat <- 42
+lon <- -98
+
 base_url <- "https://mesonet.agron.iastate.edu/iemre/"
 target_request <- "multiday/"
 end_of_url <- "json"
@@ -95,15 +101,21 @@ url_list <-list()
 df <- data.frame()
 
 for (i in 1:length(StartDates)) {
-    
+      
       url <- paste0(base_url, target_request, StartDates[i], "/", EndDates[i], "/", lat, "/", lon, "/", end_of_url)
         url_list <- c(url_list, url)
         print(url)  
         data <- as.data.frame(jsonlite::fromJSON(url))
         df <- rbind(df,data)
 }
+
 ##----Save data to a csv file----
-write.csv(df,"Output\\WeatherData.csv")
+#write.csv(df,"path/to/save/filename.csv")
 ```  
+```{r}
+##----Display first few line of dataset
+head(df)
+```
+
 
   
