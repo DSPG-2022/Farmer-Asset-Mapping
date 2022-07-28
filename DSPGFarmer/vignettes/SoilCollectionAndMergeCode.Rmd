@@ -73,13 +73,11 @@ lon= as.numeric(args[6])
   
 ```{r, eval=FALSE}
 Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
-```
+```  
   
-The SSURGO data has both spatical and tabular data, but for cleaning we only want to look at the tabluar
+The SSURGO data has both spatial and tabular data, but for cleaning we only want to look at the tabular data.This data will be merged to the spatial file in tableau  
 
-Will Merge it to the spatial file in tableau
-
-[More Information About SSURGO data structure](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)
+[More Information About SSURGO data structure](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627) 
 
 ```{r, eval=FALSE}
 Data <- Area$tabular
@@ -88,7 +86,7 @@ Data <- Area$tabular
 componet <- Data$component
 muaggart <-Data$muaggatt
 mapunit <-Data$mapunit
-comonth <- Data$comonth %>% filter(month=="May") ##only want month of may to follow CSR2
+comonth <- Data$comonth %>% filter(month=="May") ##only want month of May to follow CSR2
 coerosionacc <- Data$coerosionacc %>% filter(rvindicator=="Yes") ##only care about dominant areas
 chorizon <- Data$chorizon
 chtexturegrp <-Data$chtexturegrp %>%filter(rvindicator == "Yes") ##only care about dominant areas
