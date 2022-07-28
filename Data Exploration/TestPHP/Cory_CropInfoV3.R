@@ -18,9 +18,7 @@ ymin(s) <- as.numeric(args[1])
 ymax(s) <- as.numeric(args[2])
 xmin(s) <- as.numeric(args[3])
 xmax(s) <- as.numeric(args[4])
-print("Hello")
-print(s)
-print(s@extent@xmin)
+
 lat = as.numeric(args[5])
 lon= as.numeric(args[6])
 
@@ -41,14 +39,14 @@ Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
 ##Web soil srubey has two folders, spatical and tabluar data
 Data <- Area$tabular
 
-##State Fips and State Abv (IA) 
+##State Fips and State Abv (IA)
 ##Used In Updates Risk URL PARAMETERS
 Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol[1],3,5))))
 StateAbv <-substr(Data$legend$areasymbol[1],0,2)
 
 
 ##Tables of data we are using
-componet <- Data$component 
+componet <- Data$component
 muaggart <-Data$muaggatt
 mapunit <-Data$mapunit
 comonth <- Data$comonth %>% filter(month=="May") #only want month of may to follow CSR2
@@ -109,7 +107,7 @@ Overall2 <- Overall2 %>%
 Simple <- as_tibble(Overall2) %>%
   dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws0150wta, flodfreqcl,floddurcl,pondfreqcl,
-         ponddurcl,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
+         ponddurcl,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal,
          soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H,Boron,Copper,Zinc,Molybdenum,Iron,Manganese,`Soil Boron`,`Soil Magnesium`,`Storage Life`,`Crop Maturity Late Variety`,`Crop Maturity Early Variety (days)`,`Storage Humidity (%)`,`Storage Temp (  ̊F)`,`Base Temp in F`,Nitrogen)
 CropRotation <- read_excel("Sanika-Crop_Rotation.xlsx")
 
@@ -122,9 +120,9 @@ Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all
 Simple<- Simple%>%
   mutate(Flags =
            ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",",PH does not fit into range"))%>%
-  mutate(Flags = 
+  mutate(Flags =
            ifelse(soilTextdes != `Soil Types`,Flags+1,Flags),FlagDesc = ifelse(soilTextdes!=`Soil Types`,paste(FlagDesc,"soil texture does not match",sep=', '),FlagDesc))%>%
-  mutate(Flags = 
+  mutate(Flags =
            ifelse(tfact <4,Flags+1,Flags),FlagDesc =ifelse(tfact <4,paste(FlagDesc,"this soil's erosion tolerance may be an issue",sep=', '),FlagDesc) )%>%
   mutate(Flags  =
            ifelse(Kfact> .38,Flags+1,Flags),FlagDesc =ifelse(Kfact> .38,paste(FlagDesc,"this soil is more susceptible to erosion",sep=', '),FlagDesc))%>%
@@ -137,8 +135,8 @@ Simple<- Simple%>%
   mutate(Flags  =
            ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",Flags+1,Flags),FlagDesc =ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",paste(FlagDesc,"this soil's drainage may be limited",sep=', '),FlagDesc))%>%
   mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,3,nchar(FlagDesc)),FlagDesc))%>%
- 
-  
+
+
 
 ##NEED TO FIX
 #  mutate(Flags  =
@@ -147,7 +145,7 @@ Simple<- Simple%>%
          #  ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",Flags+1,Flags),FlagDesc =ifelse(flodfreqcl == "Frequent" | flodfreqcl== "Very frequent" |flodfreqcl=="",paste(FlagDesc,"This soil's may have an issue with flooding",sep=','),FlagDesc))
 
 ##Runs the updating urls
-source("Cory_UpdateRiskURLParams.R")  
+source("Cory_UpdateRiskURLParams.R")
 ##Removes Land Not being used like Areas of Water
 
 write.csv(Simple,"Output\\CropSelection2.csv", row.names=FALSE)
