@@ -21,23 +21,23 @@ library(tidyverse)
 library(rmarkdown)
 ```
 
-#Data
+# Data
 
 Weather data is retrieved from [Iowa Environmental Mesonet Reanalysis (IEMRE)](https://mesonet.agron.iastate.edu/iemre/) ![alt text](https://mesonet.agron.iastate.edu/images/logo_small.png "IEM")  
 
 
 IEM provides:  
-*A regular data set of Iowa Environmental Data.
-*Access to hourly and daily interval data.
-*Hourly data includes 2 Meter Air Temperature, 10 Meter Wind Speed, and Direction and Precipitation.
-*Daily data includes High and Low 2 Meter Air Temperature and Precipitation.  
+* A regular data set of Iowa Environmental Data.  
+* Access to hourly and daily interval data.  
+* Hourly data includes 2 Meter Air Temperature, 10 Meter Wind Speed, and Direction and Precipitation.  
+* Daily data includes High and Low 2 Meter Air Temperature and Precipitation. 
 
 Data can be accessed through some JSON web services; MultiDay Request, Single Day Request, and Single Day's Hourly (CDT/CST) Request. Example [MultiDay Request](https://mesonet.agron.iastate.edu/iemre/multiday/2010-05-01/2010-09-30/42.54/-96.40/json). Other request examples are available on the IEMRE page. Multi-year querying is not supported at this time. 
 
   
-#Methods
+# Methods
 
-##Script to create list of weather dates for user selection
+## Script to create list of weather dates for user selection
 
 ```{r model-function}
 Year= 2015
@@ -70,7 +70,7 @@ for(yearVal in 0:YearRange){
 }
 ```
 
-##Script to retrieve data from IEMRE
+## Script to retrieve data from IEMRE
 
 
 | Variable      | Description           
