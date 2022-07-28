@@ -14,6 +14,83 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-library(DSPGFarmer)
+The libraries Used To Gather, Clean and Merge Soil Data
+
+```{r setup, eval =FALSE}
+#library(DSPGFarmer)
+library(FedData)
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(sqldf)
+library(raster)
 ```
+
+
+
+Gathering Inputs from PHP
+
+```{r, eval=FALSE}
+setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
+args <- commandArgs(TRUE)
+
+##Bounding Box Input
+s <- raster(ncol=2, nrow=2)
+
+##INPUTS from php
+ymin(s) <- as.numeric(args[1])
+ymax(s) <- as.numeric(args[2])
+xmin(s) <- as.numeric(args[3])
+xmax(s) <- as.numeric(args[4])
+
+lat = as.numeric(args[5])
+lon= as.numeric(args[6])
+
+```
+
+# Gather Data from Web Soil Survey (SSURGO Data)
+### Input:
+  can Either be a Rasterlayer or a Spatial object
+  
+  For this, we are using a Rasterlayer that uses the coordinates selected from the user as the bounding box
+  
+### Output:
+  It downloads 2 Folders to local File, a __RAW__ and an __EXTRACTIONS__ folder
+  
+  Raw is raw zipped data, EXTRACTIONS holds info being used, has both tabular (.csv) and spatial object (.shp)
+  
+  In Extraction, will have folder named as label parameter
+  
+
+  
+  
+### force.redo:
+  Parameter in function that if
+  
+  set to false, means that if there is already data in label folder, then it won't download data from web soil survey
+  
+  set to true, any time it is called it will download data from web soil survey and overwrite what is stored in label folder
+  
+```{r, eval=FALSE}
+Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
+```
+  
+The SSURGO data has both spatical and tabular data, but for cleaning we only want to look at the tabluar
+
+Will Merge it to the spatial file in tableau
+
+[More Information About SSURGO data structure](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627)
+
+```{r, eval=FALSE}
+Data <- Area$tabular
+
+##Tables of data we are using
+componet <- Data$component
+muaggart <-Data$muaggatt
+mapunit <-Data$mapunit
+comonth <- Data$comonth %>% filter(month=="May") ##only want month of may to follow CSR2
+coerosionacc <- Data$coerosionacc %>% filter(rvindicator=="Yes") ##only care about dominant areas
+chorizon <- Data$chorizon
+chtexturegrp <-Data$chtexturegrp %>%filter(rvindicator == "Yes") ##only care about dominant areas
+```
+
