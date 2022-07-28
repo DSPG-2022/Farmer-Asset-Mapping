@@ -1,0 +1,19 @@
+---
+title: "Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(DSPGFarmer)
+```
