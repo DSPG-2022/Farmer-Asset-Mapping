@@ -31,9 +31,7 @@ library(ggplot2)
 =======
 # Data
 
-```{r, eval=FALSE}
 ##----Load weather data retrieved from Iowa Mesonet Reanalysis Tool (IEMRE)----
->>>>>>> 59adff1e5fadd223d939c04de8dba180ac4354df
 mydata <- read.csv("2015_2021_clim.csv")
 View(mydata)
 
@@ -46,9 +44,6 @@ View(newdata)
 ```{r, eval=FALSE}
 =======
 
-```{r,eval=FALSE}
-
->>>>>>> 59adff1e5fadd223d939c04de8dba180ac4354df
 new_data <- newdata[-c(20:38), ] 
 View(new_data)
 
@@ -129,7 +124,7 @@ glimpse(mydata)
 ```{r, eval=FALSE}
 mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar(date)-3), nchar(date))) %>% mutate(Month = ifelse(Month ==1,10,Month))%>% group_by(year, Month) %>% summarise(acc_gdd_onion= sum(as.numeric(OnionGDD)),acc_gdd_peas = sum(as.numeric(PeasGDD)), acc_gdd_asparaguss = sum(as.numeric(AsparagusGDD)), acc_gdd_potato = sum(as.numeric(PotatoGDD)), acc_gdd_cabbage = sum(as.numeric(CabbageGDD)), acc_gdd_sweet_potato = sum(as.numeric(Sweet_PotatoGDD)), acc_gdd_Squash = sum(as.numeric(SquashGDD)), acc_gdd_cucumber = sum(as.numeric(CucumberGDD)), acc_gdd_Cauliflower = sum(as.numeric(CauliflowerGDD)), acc_gdd_Pumpkin = sum(as.numeric(PumpkinGDD)), acc_gdd_Tomato = sum(as.numeric(TomatoGDD)), acc_gdd_Watermelon = sum(as.numeric(WatermelonGDD)), acc_gdd_carrot = sum(as.numeric(CarrotGDD)), acc_gdd_sweet_corn = sum(as.numeric(Sweet_cornGDD)), acc_gdd_lettuce = sum(as.numeric(LettuceGDD)), acc_gdd_Eggplant = sum(as.numeric(EggplantGDD)), acc_gdd_radish = sum(as.numeric(RadishGDD)), acc_gdd_spinach = sum(as.numeric(SpinachGDD)), acc_gdd_cantaloupe = sum(as.numeric(CantaloupeGDD)))
 =======
->>>>>>> 59adff1e5fadd223d939c04de8dba180ac4354df
+
 
 ``` 
 
@@ -163,5 +158,4 @@ write.csv(mydata2, "S:/misc/clg/DSPG2022/ProjectB/Speciality_Crops_GDD_cleaned_2
 ```{r}
 ##----Save data to a csv file----
 #write.csv(mydata2, "S:/misc/clg/DSPG2022/ProjectB/Speciality_Crops_GDD_cleaned_2015-2021.csv", row.names = FALSE)
->>>>>>> 59adff1e5fadd223d939c04de8dba180ac4354df
 ```
