@@ -59,6 +59,9 @@
       <a href="../articles/SpecialtyCropAndGddCode.html">Developing Specialty Crop Data and Calculating GDDs</a>
     </li>
     <li>
+      <a href="../articles/UserInterfaceCode.html">Creating the Interactive User Input for Automating the Dashboard</a>
+    </li>
+    <li>
       <a href="../articles/WeatherAndRiskManagementCode.html">Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard</a>
     </li>
   </ul>
@@ -79,6 +82,7 @@
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>Exploring Weather and Climate Data, Scraping,
 and Connecting to the Dashboard</h1>
+                        <h4 data-toc-skip class="author">Nabil</h4>
             
       
       
@@ -92,71 +96,38 @@ and Connecting to the Dashboard</h1>
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">DSPGFarmer</span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://arxiv.org/abs/1403.2805" class="external-link">jsonlite</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; -- <span style="font-weight: bold;">Attaching packages</span> --------------------------------------- tidyverse 1.3.1 --</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">ggplot2</span> 3.3.5     <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">purrr  </span> 0.3.4</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">tibble </span> 3.1.6     <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">dplyr  </span> 1.0.8</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">tidyr  </span> 1.2.0     <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">stringr</span> 1.4.0</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">readr  </span> 2.1.2     <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">forcats</span> 0.5.1</span></span>
-<span><span class="co">#&gt; -- <span style="font-weight: bold;">Conflicts</span> ------------------------------------------ tidyverse_conflicts() --</span></span>
-<span><span class="co">#&gt; <span style="color: #BB0000;">x</span> <span style="color: #0000BB;">dplyr</span>::<span style="color: #00BB00;">filter()</span>  masks <span style="color: #0000BB;">stats</span>::filter()</span></span>
-<span><span class="co">#&gt; <span style="color: #BB0000;">x</span> <span style="color: #0000BB;">purrr</span>::<span style="color: #00BB00;">flatten()</span> masks <span style="color: #0000BB;">jsonlite</span>::flatten()</span></span>
-<span><span class="co">#&gt; <span style="color: #BB0000;">x</span> <span style="color: #0000BB;">dplyr</span>::<span style="color: #00BB00;">lag()</span>     masks <span style="color: #0000BB;">stats</span>::lag()</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/rstudio/rmarkdown" class="external-link">rmarkdown</a></span><span class="op">)</span></span></code></pre></div>
-<p>#Data</p>
+<div class="section level2">
+<h2 id="data">Data<a class="anchor" aria-label="anchor" href="#data"></a>
+</h2>
 <p>Weather data is retrieved from <a href="https://mesonet.agron.iastate.edu/iemre/" class="external-link">Iowa Environmental
 Mesonet Reanalysis (IEMRE)</a> <img src="https://mesonet.agron.iastate.edu/images/logo_small.png" title="IEM" alt="alt text"></p>
-<p>IEM provides:<br><em>A regular data set of Iowa Environmental Data. </em>Access to hourly
-and daily interval data. <em>Hourly data includes 2 Meter Air
-Temperature, 10 Meter Wind Speed, and Direction and Precipitation.
-</em>Daily data includes High and Low 2 Meter Air Temperature and
+<p>IEM provides:<br>
+* A regular data set of Iowa Environmental Data.<br>
+* Access to hourly and daily interval data.<br>
+* Hourly data includes 2 Meter Air Temperature, 10 Meter Wind Speed, and
+Direction and Precipitation.<br>
+* Daily data includes High and Low 2 Meter Air Temperature and
 Precipitation.</p>
-<p>Data can be accessed through some JSON web services; Multiday
+<p>Data can be accessed through some JSON web services; MultiDay
 Request, Single Day Request, and Single Day’s Hourly (CDT/CST) Request.
 Example <a href="https://mesonet.agron.iastate.edu/iemre/multiday/2010-05-01/2010-09-30/42.54/-96.40/json" class="external-link">MultiDay
 Request</a>. Other request examples are available on the IEMRE page.
 Multi-year querying is not supported at this time.</p>
-<p>#Methods</p>
+</div>
+<div class="section level2">
+<h2 id="methods">Methods<a class="anchor" aria-label="anchor" href="#methods"></a>
+</h2>
+<div class="section level3">
+<h3 id="script-to-create-list-of-weather-dates-for-user-selection">Script to create list of weather dates for user selection<a class="anchor" aria-label="anchor" href="#script-to-create-list-of-weather-dates-for-user-selection"></a>
+</h3>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Define function for fitting model</span></span>
-<span><span class="co">#' Fit a model of life expectancy by year</span></span>
-<span><span class="co">#'</span></span>
-<span><span class="co">#' @param data Tibble; Input gapminder data for one country. Must include columns</span></span>
-<span><span class="co">#' 'lifeExp', 'year_rel', and 'country'</span></span>
-<span><span class="co">#'</span></span>
-<span><span class="co">#' @return Tibble; results of fitting a linear model of life expectancy by year</span></span>
-<span><span class="co">#' </span></span>
-<span></span>
-<span><span class="va">Year</span><span class="op">=</span> <span class="fl">2015</span></span>
-<span><span class="va">startMonth</span> <span class="op">=</span> <span class="fl">4</span></span>
-<span><span class="va">EndMonth</span> <span class="op">=</span> <span class="fl">10</span></span>
-<span></span>
-<span><span class="va">CurrentDate</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.Date</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="fl">2</span></span>
-<span><span class="va">StartDates</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="va">EndDates</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">EndDay</span> <span class="op">=</span> <span class="fu">lubridate</span><span class="fu">::</span><span class="fu"><a href="https://lubridate.tidyverse.org/reference/days_in_month.html" class="external-link">days_in_month</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/as.Date.html" class="external-link">as.Date</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="va">EndMonth</span>,<span class="st">"/01/2000"</span>,sep<span class="op">=</span><span class="st">""</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">StartMonthCorrect</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/format.html" class="external-link">format</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/as.Date.html" class="external-link">as.Date</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="va">startMonth</span>,<span class="st">"/01/2000"</span>,sep<span class="op">=</span><span class="st">""</span><span class="op">)</span>, <span class="st">"%m/%d/%y"</span><span class="op">)</span>,<span class="st">"%m"</span><span class="op">)</span></span>
-<span><span class="va">EndMonthCorrect</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/format.html" class="external-link">format</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/as.Date.html" class="external-link">as.Date</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="va">EndMonth</span>,<span class="st">"/01/2000"</span>,sep<span class="op">=</span><span class="st">""</span><span class="op">)</span>, <span class="st">"%m/%d/%y"</span><span class="op">)</span>,<span class="st">"%m"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">YearRange</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/numeric.html" class="external-link">as.numeric</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/format.html" class="external-link">format</a></span><span class="op">(</span><span class="va">CurrentDate</span>,<span class="st">"%Y"</span><span class="op">)</span><span class="op">)</span><span class="op">-</span><span class="va">Year</span></span>
-<span></span>
-<span><span class="kw">for</span><span class="op">(</span><span class="va">yearVal</span> <span class="kw">in</span> <span class="fl">0</span><span class="op">:</span><span class="va">YearRange</span><span class="op">)</span><span class="op">{</span></span>
-<span>  </span>
-<span>    </span>
-<span>  <span class="va">StartDate</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="va">Year</span><span class="op">+</span><span class="va">yearVal</span>,<span class="st">"-"</span>,<span class="va">StartMonthCorrect</span>,<span class="st">'-'</span>,<span class="st">"01"</span>,sep<span class="op">=</span><span class="st">""</span><span class="op">)</span></span>
-<span>  <span class="va">EndDate</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="va">Year</span><span class="op">+</span><span class="va">yearVal</span>,<span class="st">"-"</span>,<span class="va">EndMonthCorrect</span>,<span class="st">"-"</span>,<span class="va">EndDay</span>,sep<span class="op">=</span><span class="st">""</span><span class="op">)</span></span>
-<span>  <span class="kw">if</span><span class="op">(</span><span class="va">Year</span><span class="op">+</span><span class="va">yearVal</span><span class="op">==</span><span class="fu"><a href="https://rdrr.io/r/base/numeric.html" class="external-link">as.numeric</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/format.html" class="external-link">format</a></span><span class="op">(</span><span class="va">CurrentDate</span>,<span class="st">"%Y"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span><span class="op">{</span></span>
-<span>    <span class="va">EndDate</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/format.html" class="external-link">format</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.Date</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="fl">2</span>,<span class="st">"%Y-%m-%d"</span><span class="op">)</span></span>
-<span>  <span class="op">}</span></span>
-<span>  <span class="va">StartDates</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/append.html" class="external-link">append</a></span><span class="op">(</span><span class="va">StartDates</span>,<span class="va">StartDate</span><span class="op">)</span></span>
-<span>  <span class="va">EndDates</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/append.html" class="external-link">append</a></span><span class="op">(</span><span class="va">EndDates</span>,<span class="va">EndDate</span><span class="op">)</span></span>
-<span><span class="op">}</span></span></code></pre></div>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">Year</span><span class="op">=</span> <span class="fl">2015</span></span>
 <span><span class="va">startMonth</span> <span class="op">=</span> <span class="fl">4</span></span>
 <span><span class="va">EndMonth</span> <span class="op">=</span> <span class="fl">10</span></span>
 <span></span>
+<span><span class="co">##----------------------------------------------------------------------------</span></span>
+<span></span>
 <span><span class="va">CurrentDate</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.Date</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="fl">2</span></span>
 <span><span class="va">StartDates</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="va">EndDates</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span>
@@ -179,11 +150,114 @@ Multi-year querying is not supported at this time.</p>
 <span>  <span class="va">StartDates</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/append.html" class="external-link">append</a></span><span class="op">(</span><span class="va">StartDates</span>,<span class="va">StartDate</span><span class="op">)</span></span>
 <span>  <span class="va">EndDates</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/append.html" class="external-link">append</a></span><span class="op">(</span><span class="va">EndDates</span>,<span class="va">EndDate</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="script-to-retrieve-data-from-iemre">Script to retrieve data from IEMRE<a class="anchor" aria-label="anchor" href="#script-to-retrieve-data-from-iemre"></a>
+</h3>
+<table class="table">
+<colgroup>
+<col width="46%">
+<col width="53%">
+</colgroup>
+<thead><tr class="header">
+<th>Variable</th>
+<th align="center">Description</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>base_url</td>
+<td align="center">Url for IEMRE</td>
+</tr>
+<tr class="even">
+<td>target_request</td>
+<td align="center">Which data to access. Ex.”Multiday” – Multiday
+Request</td>
+</tr>
+<tr class="odd">
+<td>End_of_url</td>
+<td align="center">Output is a JSON file</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span></span>
+<span><span class="co">##----lat and lon are retrieved from user input but as an example, lat and lon will be provided here-----</span></span>
+<span></span>
+<span><span class="va">lat</span> <span class="op">&lt;-</span> <span class="fl">42</span></span>
+<span><span class="va">lon</span> <span class="op">&lt;-</span> <span class="op">-</span><span class="fl">98</span></span>
+<span></span>
+<span><span class="va">base_url</span> <span class="op">&lt;-</span> <span class="st">"https://mesonet.agron.iastate.edu/iemre/"</span></span>
+<span><span class="va">target_request</span> <span class="op">&lt;-</span> <span class="st">"multiday/"</span></span>
+<span><span class="va">end_of_url</span> <span class="op">&lt;-</span> <span class="st">"json"</span></span>
+<span></span>
+<span><span class="co">#Create empty list to store url's</span></span>
+<span><span class="va">url_list</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">##----Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.-----</span></span>
+<span><span class="co">##----url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/lat/lon/json------</span></span>
+<span></span>
+<span><span class="co">##----Create empty dataframe----</span></span>
+<span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="kw">for</span> <span class="op">(</span><span class="va">i</span> <span class="kw">in</span> <span class="fl">1</span><span class="op">:</span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">StartDates</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span>
+<span>      </span>
+<span>      <span class="va">url</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">base_url</span>, <span class="va">target_request</span>, <span class="va">StartDates</span><span class="op">[</span><span class="va">i</span><span class="op">]</span>, <span class="st">"/"</span>, <span class="va">EndDates</span><span class="op">[</span><span class="va">i</span><span class="op">]</span>, <span class="st">"/"</span>, <span class="va">lat</span>, <span class="st">"/"</span>, <span class="va">lon</span>, <span class="st">"/"</span>, <span class="va">end_of_url</span><span class="op">)</span></span>
+<span>        <span class="va">url_list</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">url_list</span>, <span class="va">url</span><span class="op">)</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span>  </span>
+<span>        <span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.data.frame.html" class="external-link">as.data.frame</a></span><span class="op">(</span><span class="fu">jsonlite</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/jsonlite/man/fromJSON.html" class="external-link">fromJSON</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span><span class="op">)</span></span>
+<span>        <span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/cbind.html" class="external-link">rbind</a></span><span class="op">(</span><span class="va">df</span>,<span class="va">data</span><span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2015-04-01/2015-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2016-04-01/2016-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2017-04-01/2017-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2018-04-01/2018-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2019-04-01/2019-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2020-04-01/2020-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2021-04-01/2021-10-31/42/-98/json"</span></span>
+<span><span class="co">#&gt; [1] "https://mesonet.agron.iastate.edu/iemre/multiday/2022-04-01/2022-07-26/42/-98/json"</span></span>
+<span></span>
+<span><span class="co">##----Save data to a csv file----</span></span>
+<span><span class="co">#write.csv(df,"path/to/save/filename.csv")</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co">##----Display first few line of dataset</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span></span>
+<span><span class="co">#&gt;    data.date data.mrms_precip_in data.prism_precip_in data.daily_high_f</span></span>
+<span><span class="co">#&gt; 1 2015-04-01         0.007874016                    0            84.992</span></span>
+<span><span class="co">#&gt; 2 2015-04-02         0.275590551                    0            63.104</span></span>
+<span><span class="co">#&gt; 3 2015-04-03         0.027559055                    0            51.512</span></span>
+<span><span class="co">#&gt; 4 2015-04-04         0.000000000                    0            67.442</span></span>
+<span><span class="co">#&gt; 5 2015-04-05         0.000000000                    0            71.924</span></span>
+<span><span class="co">#&gt; 6 2015-04-06         0.000000000                    0            55.112</span></span>
+<span><span class="co">#&gt;   data.12z_high_f data.climate_daily_high_f data.daily_low_f data.12z_low_f</span></span>
+<span><span class="co">#&gt; 1          79.196                      54.1           51.944         34.034</span></span>
+<span><span class="co">#&gt; 2          83.876                      54.5           37.004         38.336</span></span>
+<span><span class="co">#&gt; 3          62.726                      54.8           30.254         28.958</span></span>
+<span><span class="co">#&gt; 4          52.178                      55.1           28.688         26.960</span></span>
+<span><span class="co">#&gt; 5          68.180                      55.5           37.940         29.246</span></span>
+<span><span class="co">#&gt; 6          74.012                      55.8           48.164         38.498</span></span>
+<span><span class="co">#&gt;   data.climate_daily_low_f data.daily_precip_in data.12z_precip_in</span></span>
+<span><span class="co">#&gt; 1                     30.3           0.00000000                  0</span></span>
+<span><span class="co">#&gt; 2                     30.6           0.00000000                  0</span></span>
+<span><span class="co">#&gt; 3                     30.9           0.00000000                  0</span></span>
+<span><span class="co">#&gt; 4                     31.3           0.00000000                  0</span></span>
+<span><span class="co">#&gt; 5                     31.6           0.00000000                  0</span></span>
+<span><span class="co">#&gt; 6                     31.9           0.03425197                  0</span></span>
+<span><span class="co">#&gt;   data.climate_daily_precip_in</span></span>
+<span><span class="co">#&gt; 1                         0.07</span></span>
+<span><span class="co">#&gt; 2                         0.08</span></span>
+<span><span class="co">#&gt; 3                         0.07</span></span>
+<span><span class="co">#&gt; 4                         0.08</span></span>
+<span><span class="co">#&gt; 5                         0.08</span></span>
+<span><span class="co">#&gt; 6                         0.08</span></span></code></pre></div>
+</div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
 
-      </div>
+        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
+    </nav>
+</div>
 
 </div>
 
