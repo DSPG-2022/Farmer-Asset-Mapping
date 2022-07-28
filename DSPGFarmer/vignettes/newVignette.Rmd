@@ -1,0 +1,21 @@
+---
+title: "Beginning Farmer Asset Mapping"
+author: "DSPG 2022 Team"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{New Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, include=FALSE}
+library(DSPGFarmer)
+```
+
