@@ -1,5 +1,6 @@
 ---
 title: "Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard"
+author: "Nabil"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard}
@@ -14,14 +15,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+```{r setup, eval=FALSE}
 library(DSPGFarmer)
 library(jsonlite)
 library(tidyverse)
 library(rmarkdown)
 ```
 
-#Data
+# Data
 
 Weather data is retrieved from [Iowa Environmental Mesonet Reanalysis (IEMRE)](https://mesonet.agron.iastate.edu/iemre/) ![alt text](https://mesonet.agron.iastate.edu/images/logo_small.png "IEM")  
 
