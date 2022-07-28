@@ -18,6 +18,9 @@ ymin(s) <- as.numeric(args[1])
 ymax(s) <- as.numeric(args[2])
 xmin(s) <- as.numeric(args[3])
 xmax(s) <- as.numeric(args[4])
+print("Hello")
+print(s)
+print(s@extent@xmin)
 lat = as.numeric(args[5])
 lon= as.numeric(args[6])
 
@@ -40,8 +43,8 @@ Data <- Area$tabular
 
 ##State Fips and State Abv (IA) 
 ##Used In Updates Risk URL PARAMETERS
-Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol,3,5))))
-StateAbv <-substr(Data$legend$areasymbol,0,2)
+Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol[1],3,5))))
+StateAbv <-substr(Data$legend$areasymbol[1],0,2)
 
 
 ##Tables of data we are using
@@ -107,7 +110,7 @@ Simple <- as_tibble(Overall2) %>%
   dplyr::select(musym.x,mukey,cokey,muname = muname.x,taxorder,compname,slope.r,slopegradwta, slope.l,slope.h,localphase,erokind,erocl,tfact,Kfact,wei,
          niccdcd,hydgrp,soilslippot,drainagecl,drclassdcd,niccdcd,awc,aws025wta,aws0150wta, flodfreqcl,floddurcl,pondfreqcl,
          ponddurcl,flodfreqdcd,flodfreqmax,pondfreqprs,iacornsr,ph,ph_l,ph_h,cec7,gypsum,ksat,ec,sar,caco3,om,ptotal, 
-         soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H,Boron,Copper,Zinc,Molybdenum,Iron,Manganese,)
+         soilTextdes =soilTextsum,`Types of Crops`,`Soil Types`,`Rooting Depth`,`pH-Level`,`Temperature Tolerances`,ph_L,ph_H,Boron,Copper,Zinc,Molybdenum,Iron,Manganese,`Soil Boron`,`Soil Magnesium`,`Storage Life`,`Crop Maturity Late Variety`,`Crop Maturity Early Variety (days)`,`Storage Humidity (%)`,`Storage Temp (  ̊F)`,`Base Temp in F`,Nitrogen)
 CropRotation <- read_excel("Sanika-Crop_Rotation.xlsx")
 
 ##Merges with crop rotation
@@ -118,24 +121,24 @@ Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all
 ##TODO ADD WEIGHT
 Simple<- Simple%>%
   mutate(Flags =
-           ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",",pH does not fit into range"))%>%
+           ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",",PH does not fit into range"))%>%
   mutate(Flags = 
-           ifelse(soilTextdes != `Soil Types`,Flags+1,Flags),FlagDesc = ifelse(soilTextdes!=`Soil Types`,paste(FlagDesc,"Soil Texture does not match",sep=','),FlagDesc))%>%
+           ifelse(soilTextdes != `Soil Types`,Flags+1,Flags),FlagDesc = ifelse(soilTextdes!=`Soil Types`,paste(FlagDesc,"soil texture does not match",sep=', '),FlagDesc))%>%
   mutate(Flags = 
-           ifelse(tfact <4,Flags+1,Flags),FlagDesc =ifelse(tfact <4,paste(FlagDesc,"Soil Erosion Tolerance may be an issue",sep=','),FlagDesc) )%>%
+           ifelse(tfact <4,Flags+1,Flags),FlagDesc =ifelse(tfact <4,paste(FlagDesc,"this soil's erosion tolerance may be an issue",sep=', '),FlagDesc) )%>%
   mutate(Flags  =
-           ifelse(Kfact> .38,Flags+1,Flags),FlagDesc =ifelse(Kfact> .38,paste(FlagDesc,"This soil is more susceptible to erosion",sep=','),FlagDesc))%>%
+           ifelse(Kfact> .38,Flags+1,Flags),FlagDesc =ifelse(Kfact> .38,paste(FlagDesc,"this soil is more susceptible to erosion",sep=', '),FlagDesc))%>%
   mutate(Flags  =
-           ifelse(om<2 | om>8,Flags+1,Flags),FlagDesc =ifelse(om< 2|om>8,paste(FlagDesc,"This soil's organic matter percent could be an issue",sep=','),FlagDesc))%>%
+           ifelse(om<2 | om>8,Flags+1,Flags),FlagDesc =ifelse(om< 2|om>8,paste(FlagDesc,"this soil's organic matter percent could be an issue",sep=', '),FlagDesc))%>%
   mutate(Flags  =
-           ifelse(erocl == "Class 2",Flags+1,Flags),FlagDesc =ifelse(erocl == "Class 2",paste(FlagDesc,"This soil's topsoil may have been depleated",sep=','),FlagDesc))%>%
+           ifelse(erocl == "Class 2",Flags+1,Flags),FlagDesc =ifelse(erocl == "Class 2",paste(FlagDesc,"this soil's topsoil may have been depleated",sep=', '),FlagDesc))%>%
   mutate(Flags  =
-           ifelse(aws0150wta <=9.00,Flags+1,Flags),FlagDesc =ifelse(aws0150wta<=9.00,paste(FlagDesc,"This soil's water holding may be limited",sep=','),FlagDesc))%>%
+           ifelse(aws0150wta <=9.00,Flags+1,Flags),FlagDesc =ifelse(aws0150wta<=9.00,paste(FlagDesc,"this soil's water holding may be limited",sep=', '),FlagDesc))%>%
   mutate(Flags  =
-           ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",Flags+1,Flags),FlagDesc =ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",paste(FlagDesc,"This soil's drainage may be limited",sep=','),FlagDesc))%>%
-  mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,2,nchar(FlagDesc)),FlagDesc))
+           ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",Flags+1,Flags),FlagDesc =ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",paste(FlagDesc,"this soil's drainage may be limited",sep=', '),FlagDesc))%>%
+  mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,3,nchar(FlagDesc)),FlagDesc))%>%
+ 
   
-
 
 ##NEED TO FIX
 #  mutate(Flags  =
@@ -146,8 +149,7 @@ Simple<- Simple%>%
 ##Runs the updating urls
 source("Cory_UpdateRiskURLParams.R")  
 ##Removes Land Not being used like Areas of Water
-Simple<-Simple%>%
-  filter(!is.na(`Types of Crops`))
+
 write.csv(Simple,"Output\\CropSelection2.csv", row.names=FALSE)
 
 

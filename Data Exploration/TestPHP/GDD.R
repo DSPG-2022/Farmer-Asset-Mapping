@@ -61,22 +61,15 @@ mydata$RadishGDD= ifelse(mydata$RadishGDD < 0,0,mydata$RadishGDD )
 mydata$SpinachGDD= ifelse(mydata$SpinachGDD < 0, 0,mydata$SpinachGDD )
 mydata$CantaloupeGDD= ifelse(mydata$CantaloupeGDD < 0, 0,mydata$CantaloupeGDD )
 
-
-
-
-##Saves Raw Data
-write.csv(mydata, "Output\\Speciality_Crops_GDD_2015-2021.csv", row.names = FALSE)
-
-##Takes Everyday and Aggregates the values by month/year
-data2<-mydata2%>%
+data2<- mydata %>%
   group_by(data.date)%>%
   mutate(year = substr(data.date,0,4),Month=month.name[as.numeric(substr(data.date,6,7))])%>%
   ungroup%>%
   ##Reformat to nice order and remove unneeded Columns
   select(year,Month,everything())%>%
   select(-X,-data.date)%>%
-  select(-3,-4,-5,-6)%>%
-  ##Convert to long format
+  select(-3,-4,-5,-6)
+data2<- data2%>%
   pivot_longer(3:ncol(data2))
 data3<-data2%>%
   group_by(year,Month,name)%>%
@@ -87,6 +80,13 @@ data3<-data3%>%
   select(year,Month,Crops=name,value)
 data3<-data3%>%
   mutate(Crops= substr(Crops,0,nchar(Crops)-3))
+
+
+##Saves Raw Data
+write.csv(mydata, "Output\\Speciality_Crops_GDD_2015-2021.csv", row.names = FALSE)
+
+##Takes Everyday and Aggregates the values by month/year
+
 
 ##Saves to CSV
 write.csv(data3,"Output\\Formatted_gdd.csv",row.names = FALSE)
