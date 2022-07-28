@@ -72,6 +72,14 @@ for(yearVal in 0:YearRange){
 
 ##Script to retrieve data from IEMRE
 
+
+| Variable      | Description           
+| ------------- |:-------------:                                               |
+| base_url      | Url for IEMRE                                                |
+| target_request| Which data to access. Ex.”Multiday” – Multiday Request       |
+| End_of_url    | Output is a JSON file                                        |
+
+
 ```{r}
 base_url <- "https://mesonet.agron.iastate.edu/iemre/"
 target_request <- "multiday/"
@@ -94,6 +102,8 @@ for (i in 1:length(StartDates)) {
         data <- as.data.frame(jsonlite::fromJSON(url))
         df <- rbind(df,data)
 }
+##----Save data to a csv file----
+write.csv(df,"Output\\WeatherData.csv")
 ```  
 
   
