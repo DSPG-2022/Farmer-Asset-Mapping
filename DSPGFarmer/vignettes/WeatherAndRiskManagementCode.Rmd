@@ -16,4 +16,93 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(DSPGFarmer)
+library(jsonlite)
+library(tidyverse)
+library(rmarkdown)
 ```
+
+#Data
+
+Weather data is retrieved from [Iowa Environmental Mesonet Reanalysis (IEMRE)](https://mesonet.agron.iastate.edu/iemre/) ![alt text](https://mesonet.agron.iastate.edu/images/logo_small.png "IEM")  
+
+
+IEM provides:  
+*A regular data set of Iowa Environmental Data.
+*Access to hourly and daily interval data.
+*Hourly data includes 2 Meter Air Temperature, 10 Meter Wind Speed, and Direction and Precipitation.
+*Daily data includes High and Low 2 Meter Air Temperature and Precipitation.  
+
+Data can be accessed through some JSON web services; Multiday Request, Single Day Request, and Single Day's Hourly (CDT/CST) Request. Example [MultiDay Request](https://mesonet.agron.iastate.edu/iemre/multiday/2010-05-01/2010-09-30/42.54/-96.40/json). Other request examples are available on the IEMRE page. Multi-year querying is not supported at this time. 
+
+  
+#Methods
+
+```{r model-function}
+# Define function for fitting model
+#' Fit a model of life expectancy by year
+#'
+#' @param data Tibble; Input gapminder data for one country. Must include columns
+#' 'lifeExp', 'year_rel', and 'country'
+#'
+#' @return Tibble; results of fitting a linear model of life expectancy by year
+#' 
+
+Year= 2015
+startMonth = 4
+EndMonth = 10
+
+CurrentDate <- Sys.Date()-2
+StartDates <- list()
+EndDates <-list()
+
+EndDay = lubridate::days_in_month(as.Date(paste(EndMonth,"/01/2000",sep="")))
+
+StartMonthCorrect <-format(as.Date(paste(startMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
+EndMonthCorrect <-format(as.Date(paste(EndMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
+
+YearRange = as.numeric(format(CurrentDate,"%Y"))-Year
+
+for(yearVal in 0:YearRange){
+  
+    
+  StartDate = paste(Year+yearVal,"-",StartMonthCorrect,'-',"01",sep="")
+  EndDate = paste(Year+yearVal,"-",EndMonthCorrect,"-",EndDay,sep="")
+  if(Year+yearVal==as.numeric(format(CurrentDate,"%Y"))){
+    EndDate <- format(Sys.Date()-2,"%Y-%m-%d")
+  }
+  StartDates <-append(StartDates,StartDate)
+  EndDates <-append(EndDates,EndDate)
+}
+```
+
+  
+```{r}
+Year= 2015
+startMonth = 4
+EndMonth = 10
+
+CurrentDate <- Sys.Date()-2
+StartDates <- list()
+EndDates <-list()
+
+EndDay = lubridate::days_in_month(as.Date(paste(EndMonth,"/01/2000",sep="")))
+
+StartMonthCorrect <-format(as.Date(paste(startMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
+EndMonthCorrect <-format(as.Date(paste(EndMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
+
+YearRange = as.numeric(format(CurrentDate,"%Y"))-Year
+
+for(yearVal in 0:YearRange){
+  
+    
+  StartDate = paste(Year+yearVal,"-",StartMonthCorrect,'-',"01",sep="")
+  EndDate = paste(Year+yearVal,"-",EndMonthCorrect,"-",EndDay,sep="")
+  if(Year+yearVal==as.numeric(format(CurrentDate,"%Y"))){
+    EndDate <- format(Sys.Date()-2,"%Y-%m-%d")
+  }
+  StartDates <-append(StartDates,StartDate)
+  EndDates <-append(EndDates,EndDate)
+}
+```  
+
+  
