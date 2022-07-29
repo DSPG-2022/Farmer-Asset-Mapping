@@ -1,0 +1,5 @@
+"0","## Downloads data from the IEM website in json format"
+"0","#download.file(url = full_url, destfile = ""test.json"")"
+"0",""
+"0","#Read Json file"
+"0","IEM_json <- fromJSON(file = ""test.json"")"

@@ -1,0 +1,2 @@
+"0","#Converting output to a long format"
+"0","IEM_long <- gather(IEM_data, key = ""variables"", value = ""data"")"

@@ -1,0 +1,28 @@
+"0","knitr::opts_chunk$set"
+"1","function (...) 
+"
+"1","{
+"
+"1","    dots = resolve(...)
+"
+"1","    if (length(dots)) 
+"
+"1","        defaults <<- merge(dots)
+"
+"1","    invisible(NULL)
+"
+"1","}
+"
+"1","<bytecode: 0x000002bafff96e00>
+"
+"1","<environment: 0x000002bafffa5698>
+"
+"0","library(ggplot2)"
+"0","library(httr)"
+"0","library(xml2)"
+"0","library(readr)"
+"0","library(rvest)"
+"0","library(tidyr)"
+"0","library(rjson)"
+"0","library(stringr)"
+"0","library(tidyverse)"

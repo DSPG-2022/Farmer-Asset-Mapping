@@ -1,0 +1,2 @@
+"0","#Converting to data frame"
+"0","IEM_data <- as.data.frame(IEM_json)"

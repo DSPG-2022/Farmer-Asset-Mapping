@@ -1,0 +1,13 @@
+"0","pop10 <- get_decennial(year = 2010, "
+"0","                         variable = ""P001001"", "
+"0","                         state = ""IA"", "
+"0","                         geography = ""place"", "
+"0","                         output = ""wide"") %>% "
+"0","  mutate(year = 2010) %>%  "
+"0","  rename(total_pop = P001001)"
+"2","Getting data from the 2010 decennial Census
+"
+"2","Using FIPS code '19' for state 'IA'
+"
+"2","Using Census Summary File 1
+"

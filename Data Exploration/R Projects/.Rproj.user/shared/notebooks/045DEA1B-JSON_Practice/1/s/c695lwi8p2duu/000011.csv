@@ -1,0 +1,40 @@
+"0","#Pivoting data frame to Wide Format"
+"0","IEM_wide <- IEM_long %>%"
+"0","  mutate(row = row_number()) %>%"
+"0","  pivot_wider(-row,"
+"0","              names_from = variables,"
+"0","              values_from = data"
+"0","  )"
+"2","Warning:"
+"2"," Values from `data` are not uniquely identified; output will contain list-cols.
+* Use `values_fn = list` to suppress this warning.
+* Use `values_fn = {summary_fun}` to summarise duplicates.
+* Use the following dplyr code to identify duplicates.
+  {data} %>%
+    dplyr::group_by(variables) %>%
+    dplyr::summarise(n = dplyr::n(), .groups = ""drop"") %>%
+    dplyr::filter(n > 1L)
+"
+"0","IEM_please <- IEM_wide %>%"
+"0","  unnest(IEM_wide)"
+"1","[1m[33mError[39m:[22m
+[33m![39m Must subset columns with a valid subscript vector.
+[31mx[39m Subscript has the wrong type `tbl_df<
+  date                   : list
+  mrms_precip_in         : list
+  prism_precip_in        : list
+  daily_high_f           : list
+  12z_high_f             : list
+  climate_daily_high_f   : list
+  daily_low_f            : list
+  12z_low_f              : list
+  climate_daily_low_f    : list
+  daily_precip_in        : list
+  12z_precip_in          : list
+  climate_daily_precip_in: list
+>`.
+[34mi[39m It must be numeric or character.
+Backtrace:
+[90m  1. [39mIEM_wide %>% unnest(IEM_wide)
+[90m 19. [39m[1mrlang[22m::cnd_signal(`<vctrs___>`)
+"

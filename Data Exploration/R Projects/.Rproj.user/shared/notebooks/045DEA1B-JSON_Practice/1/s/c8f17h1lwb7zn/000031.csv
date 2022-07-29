@@ -1,0 +1,7 @@
+"0","#Cleaning value names before converting wide"
+"0",""
+"0","IEM_clean_variables <- IEM_long$variables %>% "
+"0","  str_replace(""data."", """") %>%"
+"0","  str_replace(""\\..*"", """")"
+"0","  "
+"0","IEM_long$variables = c(IEM_clean_variables)"
