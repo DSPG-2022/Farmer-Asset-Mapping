@@ -14,6 +14,127 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-library(DSPGFarmer)
+
+```{r setup, include=FALSE}
+#library(DSPGFarmer)
 ```
+
+This is a php script used with OutlineUI.html for DSPG Farmer-Asset-Mapping
+
+Allows Users to select a bounding box where their farm is, along wimth inputs for weather data they want
+
+will take inputs and run R scripts based on those inputs to produce CSV's of data to be used in Tableau
+
+Current Time it takes ~2minutes(30-45sec for weather and 1:15 for soil)
+
+# PHP code
+
+In our HTML file, the user will zoom into the region they want data for, and give use other inputs
+
+1. Year of weather data to go back to
+2. Range of Months to look at for weather
+
+As they submit their inputs, HTML posts them to PHP, where they are received and assigned to variables
+```{eval=FALSE}
+header('Access-Control-Allow-Origin *');
+ 
+#coords should be an array of 4 numbers, xmin,xmax,ymin,ymax of a bounding box
+
+$coords = $_POST['coords'];
+
+
+#startmonth is for range of months to look at for weather data
+
+$startmonth = $_POST['smonth'];
+
+
+#endmonth is for range of months to look at for weather data
+
+$endmonth = $_POST['emonth'];
+
+
+#year is for weather data
+
+$year = $_POST['year'];
+
+```
+
+
+We take the coords bounding box and assign each extreme a value
+```{eval=FALSE}
+    $xmin = $coords[0];
+    $xmax = $coords[1];
+    $ymin = $coords[3];
+    $ymax = $coords[2];
+```
+
+
+### Centroid
+For the weather data, we want to be using the center of the Bounding Box, so we run an R script using command exec() to run a command line call to run the R script to calculate the centroid, given the bounding box as inputs and recieving the x,y coords pair as outputs
+
+```{eval=FALSE}
+$centroid = exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" C:\\xampp\\htdocs\\centroid_calc.R $xmin $xmax $ymin $ymax");
+```
+
+The return value is a string in the format "x,y" of coordinates representing the centroid, we want to convert this string into an array
+
+```{eval=FALSE}
+	$centpoints = preg_split("/\,/", $centroid);
+```
+
+## RScripts
+
+  Now that we have all the inputs needed to obtain data
+  
+  We run our R code using Rscript
+  
+  The first script ran is the script that obtains the raw weather data from IEMRE
+  
+  5 inputs: year, startmonth, endmonth, and centerpoints
+   
+  This does not need to return anything to PHP because it writes its data straight to a csv locally
+  
+```{}
+	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\WeatherScript.R\" $year $startmonth $endmonth $centpoints[0] $centpoints[1]");
+
+```
+
+
+ After that is ran, we can run the script that aggregates the weather data and the script that calculated GDD for each crop
+ 
+ We have to run these after the weather scrapping script because they are dependent on the raw weather data 
+ 
+ They do not need inputs because they will be using the csv as their input source
+ 
+ They both save their data as local csv's
+ 
+```{}
+	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\GDD.R\"");
+	
+	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\TempDataSummary.R\"");
+
+```
+ 
+Finally We can run our Soil gathering script
+
+This script obtains the soil data and merges it with our specialty crop data
+
+It also obtain the county FIPS code it is in and the State ID to use in updating the Risk Managment Url querys
+
+6 inputs: bounding box,  centerpoints
+
+Saves data as a CSV
+```{}
+	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\Cory_CropInfoV3.R\" $xmin $xmax $ymin $ymax $centpoints[0] $centpoints[1]");
+
+```
+
+
+After all data has been collected and stored
+
+PHP will output to HTML that the data has been collected
+
+```{}
+	echo "Data Collected";
+```
+
