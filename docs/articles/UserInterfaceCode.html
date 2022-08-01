@@ -40,34 +40,44 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
-  <a href="../reference/index.html">Reference</a>
+  <a href="../index.html">
+    <span class="fa fa-home fa-lg"></span>
+     
+  </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Articles
+    Dashboard Development
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="../articles/BeginningFarmerAssetMapping.html">Beginning Farmer Asset Mapping</a>
-    </li>
-    <li>
       <a href="../articles/SoilCollectionAndMergeCode.html">Retreiving and Connecting Soil Data to the Dashboard</a>
     </li>
     <li>
       <a href="../articles/SpecialtyCropAndGddCode.html">Developing Specialty Crop Data and Calculating GDDs</a>
     </li>
     <li>
-      <a href="../articles/UserInterfaceCode.html">Creating the Interactive User Input for Automating the Dashboard</a>
+      <a href="../articles/WeatherAndRiskManagementCode.html">Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard</a>
     </li>
     <li>
-      <a href="../articles/WeatherAndRiskManagementCode.html">Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard</a>
+      <a href="../articles/UserInterfaceCode.html">Creating the Interactive User Input for Automating the Dashboard</a>
     </li>
   </ul>
 </li>
+<li>
+  <a href="../reference/index.html">Reference</a>
+</li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://github.com/DSPG2021/DHR-Disabilities/" class="external-link">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
 <!--/.nav-collapse -->
   </div>
@@ -91,13 +101,105 @@ Automating the Dashboard</h1>
 
     
     
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">DSPGFarmer</span><span class="op">)</span></span></code></pre></div>
+<p>This is a php script used with OutlineUI.html for DSPG
+Farmer-Asset-Mapping</p>
+<p>Allows Users to select a bounding box where their farm is, along
+wimth inputs for weather data they want</p>
+<p>will take inputs and run R scripts based on those inputs to produce
+CSV’s of data to be used in Tableau</p>
+<p>Current Time it takes ~2minutes(30-45sec for weather and 1:15 for
+soil)</p>
+<div class="section level2">
+<h2 id="php-code">PHP code<a class="anchor" aria-label="anchor" href="#php-code"></a>
+</h2>
+<p>In our HTML file, the user will zoom into the region they want data
+for, and give use other inputs</p>
+<ol style="list-style-type: decimal">
+<li>Year of weather data to go back to</li>
+<li>Range of Months to look at for weather</li>
+</ol>
+<p>As they submit their inputs, HTML posts them to PHP, where they are
+received and assigned to variables</p>
+<pre eval="FALSE"><code>header('Access-Control-Allow-Origin *');
+ 
+#coords should be an array of 4 numbers, xmin,xmax,ymin,ymax of a bounding box
+
+$coords = $_POST['coords'];
+
+
+#startmonth is for range of months to look at for weather data
+
+$startmonth = $_POST['smonth'];
+
+
+#endmonth is for range of months to look at for weather data
+
+$endmonth = $_POST['emonth'];
+
+
+#year is for weather data
+
+$year = $_POST['year'];
+</code></pre>
+<p>We take the coords bounding box and assign each extreme a value</p>
+<pre eval="FALSE"><code>    $xmin = $coords[0];
+    $xmax = $coords[1];
+    $ymin = $coords[3];
+    $ymax = $coords[2];</code></pre>
+<div class="section level4">
+<h4 id="centroid">Centroid<a class="anchor" aria-label="anchor" href="#centroid"></a>
+</h4>
+<p>For the weather data, we want to be using the center of the Bounding
+Box, so we run an R script using command exec() to run a command line
+call to run the R script to calculate the centroid, given the bounding
+box as inputs and recieving the x,y coords pair as outputs</p>
+<pre eval="FALSE"><code>$centroid = exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" C:\\xampp\\htdocs\\centroid_calc.R $xmin $xmax $ymin $ymax");</code></pre>
+<p>The return value is a string in the format “x,y” of coordinates
+representing the centroid, we want to convert this string into an
+array</p>
+<pre eval="FALSE"><code>    $centpoints = preg_split("/\,/", $centroid);</code></pre>
+</div>
+<div class="section level3">
+<h3 id="rscripts">RScripts<a class="anchor" aria-label="anchor" href="#rscripts"></a>
+</h3>
+<p>Now that we have all the inputs needed to obtain data</p>
+<p>We run our R code using Rscript</p>
+<p>The first script ran is the script that obtains the raw weather data
+from IEMRE</p>
+<p>5 inputs: year, startmonth, endmonth, and centerpoints</p>
+<p>This does not need to return anything to PHP because it writes its
+data straight to a csv locally</p>
+<pre><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\WeatherScript.R\" $year $startmonth $endmonth $centpoints[0] $centpoints[1]"</span><span class="op">)</span>;</span></code></pre>
+<p>After that is ran, we can run the script that aggregates the weather
+data and the script that calculated GDD for each crop</p>
+<p>We have to run these after the weather scrapping script because they
+are dependent on the raw weather data</p>
+<p>They do not need inputs because they will be using the csv as their
+input source</p>
+<p>They both save their data as local csv’s</p>
+<pre><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\GDD.R\""</span><span class="op">)</span>;</span>
+<span>    </span>
+<span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\TempDataSummary.R\""</span><span class="op">)</span>;</span></code></pre>
+<p>Finally We can run our Soil gathering script</p>
+<p>This script obtains the soil data and merges it with our specialty
+crop data</p>
+<p>It also obtain the county FIPS code it is in and the State ID to use
+in updating the Risk Managment Url querys</p>
+<p>6 inputs: bounding box, centerpoints</p>
+<p>Saves data as a CSV</p>
+<pre><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\Cory_CropInfoV3.R\" $xmin $xmax $ymin $ymax $centpoints[0] $centpoints[1]"</span><span class="op">)</span>;</span></code></pre>
+<p>After all data has been collected and stored</p>
+<p>PHP will output to HTML that the data has been collected</p>
+<pre><code>    echo "Data Collected";</code></pre>
+</div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
 
-      </div>
+        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
+    </nav>
+</div>
 
 </div>
 

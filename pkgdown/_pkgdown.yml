@@ -1,0 +1,35 @@
+toc:
+  depth: 4
+
+home:
+  title: Successful Employment for Iowans With Disabilities
+
+navbar:
+  structure:
+    left:
+    - home
+    - process
+    - reference
+    right:
+    - github
+  components:
+    home:
+      icon: fa-home fa-lg
+      href: index.html
+    process:
+      text: Dashboard Development
+      menu:
+      - text: Retreiving and Connecting Soil Data to the Dashboard
+        href: articles/SoilCollectionAndMergeCode.html
+      - text: Developing Specialty Crop Data and Calculating GDDs
+        href: articles/SpecialtyCropAndGddCode.html
+      - text: Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard
+        href: articles/WeatherAndRiskManagementCode.html
+      - text: Creating the Interactive User Input for Automating the Dashboard
+        href: articles/UserInterfaceCode.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    github:
+      icon: fa-github fa-lg
+      href: https://github.com/DSPG2021/Farmer-Asset-Mapping/

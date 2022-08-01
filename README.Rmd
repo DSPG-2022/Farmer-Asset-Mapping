@@ -1,3 +1,18 @@
+---
+title: "Demographics"
+output: github_document
+vignette: >
+  %\VignetteIndexEntry{Demographics}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
 This project is the home page of ...
 
 
