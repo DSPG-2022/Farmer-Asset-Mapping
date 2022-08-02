@@ -40,7 +40,7 @@ View(mydata)
 ### Retrieved the data and information from the *2022-Midwest-Veg-Guide* and the *Donald N. Maynard, George J. Hochmuth -Knott's Handbook forVegetable Growers-Wiley*
 
 ### Snippet of the dataset
-![This is an image]
+![This is an image](file:///S:/misc/clg/DSPG2022/ProjectB/crop_ss.png)
 
 ```{r model-function}
 newdata <- read.csv("Crop-Info_Farmer Asset Mapping.csv")
