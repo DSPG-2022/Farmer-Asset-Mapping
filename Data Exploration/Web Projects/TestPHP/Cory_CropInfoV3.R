@@ -5,6 +5,7 @@ library(dplyr)
 library(tidyr)
 library(sqldf)
 library(raster)
+library(cdlTools)
 
 setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\Web Projects\\TestPHP")
 args <- commandArgs(TRUE)
@@ -38,12 +39,12 @@ Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
 
 ##Web soil srubey has two folders, spatical and tabluar data
 Data <- Area$tabular
-
+Data$legend
 ##State Fips and State Abv (IA)
 ##Used In Updates Risk URL PARAMETERS
-Statefips<- as.numeric(sum(19000,as.numeric(substr(Data$legend$areasymbol[1],3,5))))
 StateAbv <-substr(Data$legend$areasymbol[1],0,2)
 
+Statefips<-fips(StateAbv, to = "FIPS") *1000 + as.numeric(substr(Data$legend$areasymbol[1],3,5))
 
 ##Tables of data we are using
 componet <- Data$component
