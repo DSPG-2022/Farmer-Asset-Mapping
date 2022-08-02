@@ -119,13 +119,13 @@ Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all
 ##TODO ADD WEIGHT
 Simple<- Simple%>%
   mutate(Flags =
-           ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",",PH does not fit into range"))%>%
+           ifelse(ph <= ph_H & ph>=ph_L,0,1),FlagDesc = ifelse(ph <= ph_H & ph>=ph_L,"",", pH does not fit into range"))%>%
   mutate(Flags =
            ifelse(soilTextdes != `Soil Types`,Flags+1,Flags),FlagDesc = ifelse(soilTextdes!=`Soil Types`,paste(FlagDesc,"soil texture does not match",sep=', '),FlagDesc))%>%
   mutate(Flags =
            ifelse(tfact <4,Flags+1,Flags),FlagDesc =ifelse(tfact <4,paste(FlagDesc,"this soil's erosion tolerance may be an issue",sep=', '),FlagDesc) )%>%
   mutate(Flags  =
-           ifelse(Kfact> .38,Flags+1,Flags),FlagDesc =ifelse(Kfact> .38,paste(FlagDesc,"this soil is more susceptible to erosion",sep=', '),FlagDesc))%>%
+           ifelse(Kfact> .38 | is.na(Kfact),Flags+1,Flags),FlagDesc =ifelse(Kfact> .38 | is.na(Kfact),paste(FlagDesc,"this soil is more susceptible to erosion",sep=', '),FlagDesc))%>%
   mutate(Flags  =
            ifelse(om<2 | om>8,Flags+1,Flags),FlagDesc =ifelse(om< 2|om>8,paste(FlagDesc,"this soil's organic matter percent could be an issue",sep=', '),FlagDesc))%>%
   mutate(Flags  =
@@ -134,8 +134,7 @@ Simple<- Simple%>%
            ifelse(aws0150wta <=9.00,Flags+1,Flags),FlagDesc =ifelse(aws0150wta<=9.00,paste(FlagDesc,"this soil's water holding may be limited",sep=', '),FlagDesc))%>%
   mutate(Flags  =
            ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",Flags+1,Flags),FlagDesc =ifelse(drclassdcd =="Very poorly drained" | drclassdcd == "Poorly drained",paste(FlagDesc,"this soil's drainage may be limited",sep=', '),FlagDesc))%>%
-  mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,3,nchar(FlagDesc)),FlagDesc))%>%
-
+  mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,3,nchar(FlagDesc)),FlagDesc))
 
 
 ##NEED TO FIX
