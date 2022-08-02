@@ -8,6 +8,7 @@ navbar:
   structure:
     left:
     - home
+    - dashboard
     - process
     - reference
     right:
@@ -16,19 +17,22 @@ navbar:
     home:
       icon: fa-home fa-lg
       href: index.html
+    dashboard:
+      text: Dashboard
+      menu:
+      - text: Beginning Farmer's Asset Mapping Dashboard
+        href: articles/BeginningFarmerDashboard.html
     process:
       text: Dashboard Development
       menu:
-      - text: Beginning Farmer Asset Mapping
-        href: articles/BeginningFarmerDashboard.html
       - text: Retreiving and Connecting Soil Data to the Dashboard
-        href: articles/SoilCollectionAndMergeCode.html
+        href: articles/Dashboard_Development/SoilCollectionAndMergeCode.html
       - text: Developing Specialty Crop Data and Calculating GDDs
-        href: articles/SpecialtyCropAndGddCode.html
+        href: articles/Dashboard_Development/SpecialtyCropAndGddCode.html
       - text: Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard
-        href: articles/WeatherAndRiskManagementCode.html
+        href: articles/Dashboard_Development/WeatherAndRiskManagementCode.html
       - text: Creating the Interactive User Input for Automating the Dashboard
-        href: articles/UserInterfaceCode.html
+        href: articles/Dashboard_Development/UserInterfaceCode.html
     reference:
       text: Reference
       href: reference/index.html

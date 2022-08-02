@@ -1,5 +1,5 @@
 ---
-title: "Beginning Farmer Dashboard"
+title: "Beginning Farmer's Asset Mapping Dashboard"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Beginning Farmer Dashboard}
