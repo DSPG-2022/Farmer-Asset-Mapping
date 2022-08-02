@@ -8,7 +8,7 @@ library(ggplot2)
 library(readxl)
 
 ##Sets correct Working Directory
-setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
+setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\Web Projects\\TestPHP")
 
 ##Raw Weather Data
 mydata <- read.csv("Output\\WeatherData.csv")

@@ -6,7 +6,7 @@ library(tidyr)
 library(sqldf)
 library(raster)
 
-setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
+setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\Web Projects\\TestPHP")
 args <- commandArgs(TRUE)
 
 
