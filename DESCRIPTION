@@ -1,12 +1,11 @@
 Package: DSPGFarmer
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Beginning Farmer's Asset Mapping
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: DSPG 2022
+Maintainer: Harun Celik <hcelik@iastate.edu>
+Description: This webpage hosts the Beginngin Farmer's Asset Mapping dashboard and project development documentation.
+License:
 Encoding: UTF-8
 LazyData: true
 Suggests: 
