@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
 
 ```{r, eval=FALSE}
@@ -31,7 +31,7 @@ library(ggplot2)
 
 ### Loaded the weather data. Data was retrieved from [**Iowa Mesonet Reanalysis Tool (IEMRE)**](https://mesonet.agron.iastate.edu/iemre/)
 
-```{r model-function}
+```{r model-function, eval=FALSE}
 mydata <- read.csv("2015_2021_clim.csv")
 View(mydata)
 ```
@@ -40,9 +40,9 @@ View(mydata)
 ### Retrieved the data and information from the *2022-Midwest-Veg-Guide* and the *Donald N. Maynard, George J. Hochmuth -Knott's Handbook forVegetable Growers-Wiley*
 
 ### Snippet of the dataset
-![This is an image](file:///S:/misc/clg/DSPG2022/ProjectB/crop_ss.png)
+#This is an image](file:///S:/misc/clg/DSPG2022/ProjectB/crop_ss.png)
 
-```{r model-function}
+```{r model-function1, eval=FALSE}
 newdata <- read.csv("Crop-Info_Farmer Asset Mapping.csv")
 View(newdata)
 ```
@@ -50,7 +50,7 @@ View(newdata)
 # Cleaning the Data
 ### dropping certain columns and removing rows with no data, for easy and clear visualization
 
-```{r model-function}
+```{r model-function2, eval=FALSE}
 new_data <- newdata[-c(20:38), ] 
 View(new_data)
 
@@ -105,7 +105,7 @@ mydata$CantaloupeGDD <- mydata$Average_temp - 65
 View(mydata)
 ``` 
 
-```{r model-function}
+```{r model-function3, eval=FALSE}
 ##----If the base temperature is below average tempearature of the day, GDD is 0 ----
 mydata$OnionGDD= ifelse(mydata$OnionGDD < 0, "0", mydata$OnionGDD)
 mydata$PeasGDD= ifelse(mydata$PeasGDD < 0, "0",mydata$PeasGDD )
@@ -142,7 +142,7 @@ mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar
 ##----Specify target months ----
 mydata2<- mydata2 %>%
   mutate(Date = paste(Month,year,sep="/"))
-
+ 
 mydata2$Month = ifelse(mydata2$Month == 4,"April",
                        ifelse(mydata2$Month == 5, "May",
                               ifelse(mydata2$Month == 6, "June",
