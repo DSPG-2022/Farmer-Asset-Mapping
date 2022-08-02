@@ -29,7 +29,7 @@ The __Dashboard__ section contains the finalized visualization for this project'
 ## Navigation
 
 - __Dashboards__
-    + [Beginning Farmer's Asset Mapping Dashboard](https://dspg-2022.github.io/DHR-Disabilities/articles/BeginningFarmerDashboard.html)
+    + [Beginning Farmer's Asset Mapping Dashboard](https://dspg-2022.github.io/Farmer-Asset-Mapping/articles/BeginningFarmerDashboard.html)
 - __Dashboard Development__
     + [Retreiving and Connecting Soil Data to the Dashboard](https://dspg-2022.github.io/Farmer-Asset-Mapping/articles/SoilCollectionAndMergeCode.html)
     + [Developing Specialty Crop Data and Calculating GDDs](https://dspg-2022.github.io/Farmer-Asset-Mapping/articles/SpecialtyCropAndGddCode.html)

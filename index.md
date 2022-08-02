@@ -24,7 +24,7 @@ for this project.
 
 -   **Dashboards**
     -   [Beginning Farmer’s Asset Mapping
-        Dashboard](https://dspg-2022.github.io/DHR-Disabilities/articles/BeginningFarmerDashboard.html)
+        Dashboard](https://dspg-2022.github.io/Farmer-Asset-Mapping/articles/BeginningFarmerDashboard.html)
 -   **Dashboard Development**
     -   [Retreiving and Connecting Soil Data to the
         Dashboard](https://dspg-2022.github.io/Farmer-Asset-Mapping/articles/SoilCollectionAndMergeCode.html)
