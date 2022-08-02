@@ -19,6 +19,8 @@ navbar:
     process:
       text: Dashboard Development
       menu:
+      - text: Beginning Farmer Asset Mapping
+        href: articles/BeginningFarmerDashboard.html
       - text: Retreiving and Connecting Soil Data to the Dashboard
         href: articles/SoilCollectionAndMergeCode.html
       - text: Developing Specialty Crop Data and Calculating GDDs

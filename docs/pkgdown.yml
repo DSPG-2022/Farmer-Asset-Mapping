@@ -2,10 +2,10 @@ pandoc: '2.18'
 pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
-  BeginningFarmerAssetMapping: BeginningFarmerAssetMapping.html
+  BeginningFarmerDashboard: BeginningFarmerDashboard.html
   SoilCollectionAndMergeCode: SoilCollectionAndMergeCode.html
   SpecialtyCropAndGddCode: SpecialtyCropAndGddCode.html
   UserInterfaceCode: UserInterfaceCode.html
   WeatherAndRiskManagementCode: WeatherAndRiskManagementCode.html
-last_built: 2022-07-29T20:59Z
+last_built: 2022-08-01T14:55Z
 
