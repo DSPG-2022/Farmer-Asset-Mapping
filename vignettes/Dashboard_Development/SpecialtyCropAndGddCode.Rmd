@@ -42,7 +42,9 @@ Information about the Specialty Crops, and their Base Temperature is required to
 The information and data used to create the specialty crop dataset is collected from the *2022-Midwest-Veg-Guide* and the *Donald N. Maynard, George J. Hochmuth -Knott's Handbook forVegetable Growers-Wiley*.
 
 ### Snippet of the dataset
-knitr::include_graphics("(https://github.com/DSPG-2022/Farmer-Asset-Mapping/blob/main/man/figures/crop_ss.png")
+```{r}
+knitr::include_graphics("../../man/figures/crop_ss.png")
+```
 
 ```{r model-function1, eval=FALSE}
 newdata <- read.csv("Crop-Info_Farmer Asset Mapping.csv")
