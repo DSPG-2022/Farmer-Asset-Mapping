@@ -7,7 +7,7 @@ library(tidyr)
 ##Script Used to Aggregate Weather Data
 
 ##Sets Correct Working Directory
-setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
+setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\Web Projects\\TestPHP")
 TempData <-read.csv("Output\\WeatherData.csv")
 
 ###Gets Month,year to Aggreate daily data to month/year
@@ -22,4 +22,3 @@ TempData2<- TempData2 %>%
 
 write.csv(TempData2,"Output\\aggClimData.csv")
 
-         

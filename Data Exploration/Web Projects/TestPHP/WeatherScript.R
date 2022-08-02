@@ -1,8 +1,8 @@
-# This will let the script know 
+# This will let the script know
 args <- commandArgs(TRUE)
 
 
-setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP")
+setwd("C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\Web Projects\\TestPHP")
 
 ##Inputs from PHP
 Year= as.numeric(args[1])
@@ -31,23 +31,23 @@ EndMonthCorrect <-format(as.Date(paste(EndMonth,"/01/2000",sep=""), "%m/%d/%y"),
 YearRange = as.numeric(format(CurrentDate,"%Y"))-Year
 
 for(yearVal in 0:YearRange){
-  
+
   ##Formats correct Year input based on year, month,day
   StartDate = paste(Year+yearVal,"-",StartMonthCorrect,'-',"01",sep="")
   EndDate = paste(Year+yearVal,"-",EndMonthCorrect,"-",EndDay,sep="")
-  
+
   ##end date will be current day
   if(Year+yearVal==as.numeric(format(CurrentDate,"%Y"))){
     EndDate <- format(Sys.Date()-2,"%Y-%m-%d")
   }
-  
+
   ##appends to list of dates
   StartDates <-append(StartDates,StartDate)
   EndDates <-append(EndDates,EndDate)
 }
 
 
-library(ncdf4) 
+library(ncdf4)
 library(raster)
 library(tidyverse)
 library(jsonlite)
@@ -79,13 +79,13 @@ df <- data.frame()
 
 ##Scrapes Data for correct time length and adds to df
 for (i in 1:length(StartDates)) {
-  
+
   url <- paste0(base_url, target_request, StartDates[i], "/", EndDates[i], "/", lat, "/", lon, "/", end_of_url)
   url_list <- c(url_list, url)
-  print(url) 
+  print(url)
   data <- as.data.frame(jsonlite::fromJSON(url))
   df <- rbind(df,data)
-  
+
 }
 
 
