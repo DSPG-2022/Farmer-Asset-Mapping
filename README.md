@@ -1,4 +1,4 @@
-DSPG - Beginning Farmer Asset Mapping
+DSPG - Beginning Farmer’s Asset Mapping
 ================
 DSPG 2022
 

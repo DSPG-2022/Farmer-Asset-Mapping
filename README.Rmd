@@ -1,5 +1,5 @@
 ---
-title: DSPG - Beginning Farmer Asset Mapping
+title: DSPG - Beginning Farmer's Asset Mapping
 output: github_document
 author: DSPG 2022
 ---
