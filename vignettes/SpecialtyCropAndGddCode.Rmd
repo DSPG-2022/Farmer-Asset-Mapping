@@ -30,8 +30,10 @@ library(ggplot2)
 ```{r, eval=FALSE}
 =======
 # Data
+### Loaded the weather data. Data was retrieved from [**Iowa Mesonet Reanalysis Tool (IEMRE)**](https://mesonet.agron.iastate.edu/iemre/)
 
-##----Load weather data retrieved from Iowa Mesonet Reanalysis Tool (IEMRE)----
+
+
 mydata <- read.csv("2015_2021_clim.csv")
 View(mydata)
 
