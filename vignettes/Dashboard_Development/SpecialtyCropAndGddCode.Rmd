@@ -39,13 +39,18 @@ View(mydata)
 ### Loaded the specialty crop dataset as a csv 
 ### Retrieved the data and information from the *2022-Midwest-Veg-Guide* and the *Donald N. Maynard, George J. Hochmuth -Knott's Handbook forVegetable Growers-Wiley*
 
+### Snippet of the dataset
+![This is an image]
+
 ```{r model-function}
 newdata <- read.csv("Crop-Info_Farmer Asset Mapping.csv")
 View(newdata)
 ```
 
+# Cleaning the Data
+### dropping certain columns and removing rows with no data, for easy and clear visualization
 
-
+```{r model-function}
 new_data <- newdata[-c(20:38), ] 
 View(new_data)
 
@@ -56,7 +61,8 @@ mydata$Average_temp = (mydata$daily_high_f + mydata$daily_low_f)/2
 
 View(mydata)
 
-##----Calculating base temperature for GDD ----
+### Calculating base temperature for Growing Degree Days. 
+
 
 mydata$OnionGDD <- mydata$Average_temp - 40
 
@@ -97,7 +103,9 @@ mydata$SpinachGDD <- mydata$Average_temp - 35
 mydata$CantaloupeGDD <- mydata$Average_temp - 65
 
 View(mydata)
+``` 
 
+```{r model-function}
 ##----If the base temperature is below average tempearature of the day, GDD is 0 ----
 mydata$OnionGDD= ifelse(mydata$OnionGDD < 0, "0", mydata$OnionGDD)
 mydata$PeasGDD= ifelse(mydata$PeasGDD < 0, "0",mydata$PeasGDD )
@@ -121,13 +129,10 @@ mydata$CantaloupeGDD= ifelse(mydata$CantaloupeGDD < 0, "0",mydata$CantaloupeGDD 
 
 View(mydata)
 glimpse(mydata)
-<<<<<<< HEAD
 ```
 ```{r, eval=FALSE}
 mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar(date)-3), nchar(date))) %>% mutate(Month = ifelse(Month ==1,10,Month))%>% group_by(year, Month) %>% summarise(acc_gdd_onion= sum(as.numeric(OnionGDD)),acc_gdd_peas = sum(as.numeric(PeasGDD)), acc_gdd_asparaguss = sum(as.numeric(AsparagusGDD)), acc_gdd_potato = sum(as.numeric(PotatoGDD)), acc_gdd_cabbage = sum(as.numeric(CabbageGDD)), acc_gdd_sweet_potato = sum(as.numeric(Sweet_PotatoGDD)), acc_gdd_Squash = sum(as.numeric(SquashGDD)), acc_gdd_cucumber = sum(as.numeric(CucumberGDD)), acc_gdd_Cauliflower = sum(as.numeric(CauliflowerGDD)), acc_gdd_Pumpkin = sum(as.numeric(PumpkinGDD)), acc_gdd_Tomato = sum(as.numeric(TomatoGDD)), acc_gdd_Watermelon = sum(as.numeric(WatermelonGDD)), acc_gdd_carrot = sum(as.numeric(CarrotGDD)), acc_gdd_sweet_corn = sum(as.numeric(Sweet_cornGDD)), acc_gdd_lettuce = sum(as.numeric(LettuceGDD)), acc_gdd_Eggplant = sum(as.numeric(EggplantGDD)), acc_gdd_radish = sum(as.numeric(RadishGDD)), acc_gdd_spinach = sum(as.numeric(SpinachGDD)), acc_gdd_cantaloupe = sum(as.numeric(CantaloupeGDD)))
 =======
-
-
 ``` 
 
 ```{r,eval=FALSE}
