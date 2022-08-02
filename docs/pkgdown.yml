@@ -3,9 +3,9 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   BeginningFarmerDashboard: BeginningFarmerDashboard.html
-  SoilCollectionAndMergeCode: SoilCollectionAndMergeCode.html
-  SpecialtyCropAndGddCode: SpecialtyCropAndGddCode.html
-  UserInterfaceCode: UserInterfaceCode.html
-  WeatherAndRiskManagementCode: WeatherAndRiskManagementCode.html
-last_built: 2022-08-02T13:35Z
+  SoilCollectionAndMergeCode: Dashboard_Development/SoilCollectionAndMergeCode.html
+  SpecialtyCropAndGddCode: Dashboard_Development/SpecialtyCropAndGddCode.html
+  UserInterfaceCode: Dashboard_Development/UserInterfaceCode.html
+  WeatherAndRiskManagementCode: Dashboard_Development/WeatherAndRiskManagementCode.html
+last_built: 2022-08-02T14:59Z
 
