@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
-
+Downloading Libraries to Load, Clean and Format Data
 ```{r, eval=FALSE}
 library(dplyr)
 library(tidyr)
@@ -27,9 +27,10 @@ library(ggplot2)
 ```
 
 
-# Data
+# Pulling Data
 
-### Loaded the weather data. Data was retrieved from [**Iowa Mesonet Reanalysis Tool (IEMRE)**](https://mesonet.agron.iastate.edu/iemre/)
+### Loading Weather Data
+For the purpose of calculations of the Growing Degree Days, data about the average temperature of days is required. For this reason, the first task is to load the data. It was retrieved from [**Iowa Mesonet Reanalysis Tool (IEMRE)**](https://mesonet.agron.iastate.edu/iemre/)
 
 ```{r model-function, eval=FALSE}
 mydata <- read.csv("2015_2021_clim.csv")
@@ -37,10 +38,11 @@ View(mydata)
 ```
 
 ### Loaded the specialty crop dataset as a csv 
-### Retrieved the data and information from the *2022-Midwest-Veg-Guide* and the *Donald N. Maynard, George J. Hochmuth -Knott's Handbook forVegetable Growers-Wiley*
+Information about the Specialty Crops, and their Base Temperature is required to measue the GDD. Thus the dataset is loaded as a csv. 
+The information and data used to create the specialty crop dataset is collected from the *2022-Midwest-Veg-Guide* and the *Donald N. Maynard, George J. Hochmuth -Knott's Handbook forVegetable Growers-Wiley*.
 
 ### Snippet of the dataset
-![This is an image](https://github.com/DSPG-2022/Farmer-Asset-Mapping/blob/main/man/figures/crop_ss.png)
+knitr::include_graphics("(https://github.com/DSPG-2022/Farmer-Asset-Mapping/blob/main/man/figures/crop_ss.png")
 
 ```{r model-function1, eval=FALSE}
 newdata <- read.csv("Crop-Info_Farmer Asset Mapping.csv")
@@ -48,18 +50,17 @@ View(newdata)
 ```
 
 # Cleaning the Data
-### Dropping certain columns and removing rows with no data, for easy and clear visualization
+Dropped certain columns that didn't have information required for the GDD calculations. Additionally removed rows with no/null data, for easy and clear visualization
 
 ```{r model-function2, eval=FALSE}
 new_data <- newdata[-c(20:38), ] 
 View(new_data)
-
-new_data <- subset(new_data, select = -c(`Type.of.Irrigation`,`Precipitation`, `X`, `X.1`))
   
 mydata = subset(mydata, select = -c(`mrms_precip_in`,`prism_precip_in`,`X12z_high_f`,`climate_daily_high_f`,`X12z_low_f`,`climate_daily_low_f`,`daily_precip_in`,`X12z_precip_in`,`climate_daily_precip_in` ) )
 ```
 # Calculations
-### Calculating the average temperatures of the days from 2015-2021
+
+Calculated the average temperatures of every day from 2015-2021.This was done by adding the *lowest Temperature of that day* to the *Highest Temperature of that day*, and then diving the sum by 2.
 
 ```{r model-function3, eval=FALSE}
 mydata$Average_temp = (mydata$daily_high_f + mydata$daily_low_f)/2
@@ -68,7 +69,8 @@ View(mydata)
 ```
 
 ### Calculating the Growing Degree Days 
-- The calculations are made by subtracting the Base Temperatures of the crops from the Mean Temperature of the Day.
+- The calculations are made by subtracting the Base Temperatures of the crops from the Mean Temperature of the Day. 
+- This helped to get the GDD for all the specialty crops, from 2015-2021.
 
 ```{r model-function4, eval=FALSE}
 mydata$OnionGDD <- mydata$Average_temp - 40
@@ -111,7 +113,8 @@ mydata$CantaloupeGDD <- mydata$Average_temp - 65
 
 View(mydata)
 ``` 
-### If Average Temperature of the day is lesser than the Base Temperature, then GDD = 0
+If Average Temperature of the day is lesser than the Base Temperature, then the GDD = 0. 
+The code helps to search GDD values that have negative value, and replace those values with 0
 
 ```{r model-function4, eval=FALSE}
 mydata$OnionGDD= ifelse(mydata$OnionGDD < 0, "0", mydata$OnionGDD)
@@ -137,12 +140,15 @@ mydata$CantaloupeGDD= ifelse(mydata$CantaloupeGDD < 0, "0",mydata$CantaloupeGDD 
 View(mydata)
 glimpse(mydata)
 ```
-### Seperating the Months and Years, in order to group data by the Year
+# Formatting
+
+Seperating the Months and Years, in order to group data by the Year
 ```{r, eval=FALSE}
 mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar(date)-3), nchar(date))) %>% mutate(Month = ifelse(Month ==1,10,Month))%>% group_by(year, Month) %>% summarise(acc_gdd_onion= sum(as.numeric(OnionGDD)),acc_gdd_peas = sum(as.numeric(PeasGDD)), acc_gdd_asparaguss = sum(as.numeric(AsparagusGDD)), acc_gdd_potato = sum(as.numeric(PotatoGDD)), acc_gdd_cabbage = sum(as.numeric(CabbageGDD)), acc_gdd_sweet_potato = sum(as.numeric(Sweet_PotatoGDD)), acc_gdd_Squash = sum(as.numeric(SquashGDD)), acc_gdd_cucumber = sum(as.numeric(CucumberGDD)), acc_gdd_Cauliflower = sum(as.numeric(CauliflowerGDD)), acc_gdd_Pumpkin = sum(as.numeric(PumpkinGDD)), acc_gdd_Tomato = sum(as.numeric(TomatoGDD)), acc_gdd_Watermelon = sum(as.numeric(WatermelonGDD)), acc_gdd_carrot = sum(as.numeric(CarrotGDD)), acc_gdd_sweet_corn = sum(as.numeric(Sweet_cornGDD)), acc_gdd_lettuce = sum(as.numeric(LettuceGDD)), acc_gdd_Eggplant = sum(as.numeric(EggplantGDD)), acc_gdd_radish = sum(as.numeric(RadishGDD)), acc_gdd_spinach = sum(as.numeric(SpinachGDD)), acc_gdd_cantaloupe = sum(as.numeric(CantaloupeGDD)))
 ```
 
-### Specifying the target months, and formatting the dates clearly
+Specifying the target months, and formatting the dates clearly. 
+The target months include April, May, June, July, August, September and October. Other months have lower average temperatures, thus not possible to grow crops then.
 
 ```{r, eval=FALSE}
 mydata2<- mydata2 %>%
@@ -160,8 +166,7 @@ mydata2$Month = ifelse(mydata2$Month == 4,"April",
 View(mydata2)
 ```  
 
-
-### Saving the data as a csv file to the local directory
+ Saving the data as a csv file to the local directory
 
 ```{r, eval=FALSE}
 write.csv(mydata2, "S:/misc/clg/DSPG2022/ProjectB/Speciality_Crops_GDD_cleaned_2015-2021.csv", row.names = FALSE)
