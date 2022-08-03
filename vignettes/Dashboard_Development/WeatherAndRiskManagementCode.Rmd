@@ -9,11 +9,10 @@ vignette: >
 ---
 
 ```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+  knitr::opts_chunk$set(eval=FALSE)
 ```
+
+Load libraries
 
 ```{r setup, eval=FALSE}
 library(DSPGFarmer)
@@ -38,16 +37,18 @@ Data can be accessed through some JSON web services; MultiDay Request, Single Da
   
 # Methods
 
-## Script to create list of weather dates for user selection
+## Script to create list of dates for user selection
 
 ```{r model-function}
+#Instantiate variables
+
 Year= 2015
 startMonth = 4
 EndMonth = 10
 
 ##----------------------------------------------------------------------------
 
-CurrentDate <- Sys.Date()-2
+CurrentDate <- Sys.Date()-2 #Because there is a 2-3 day delay in data availability we subtract a few days from the current date
 StartDates <- list()
 EndDates <-list()
 
@@ -106,7 +107,7 @@ for (i in 1:length(StartDates)) {
       url <- paste0(base_url, target_request, StartDates[i], "/", EndDates[i], "/", lat, "/", lon, "/", end_of_url)
         url_list <- c(url_list, url)
         print(url)  
-        data <- as.data.frame(jsonlite::fromJSON(url))
+        data <- as.data.frame(jsonlite::fromJSON(url)) #Extract JSON data and convert to a dataframe
         df <- rbind(df,data)
 }
 
