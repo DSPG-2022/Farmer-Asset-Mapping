@@ -39,5 +39,7 @@ weather_data_cleaned <- read.csv("weather_data.csv", skip = 6)
 ```{r}
 # This cleans the data from NA values as well as rows which don't contain the necessary data
 weather_data_cleaned %>% separate(weather_data_cleaned, into = c("Year", "Year_Day", "Precipitation(mm)"), sep = ", ", convert = TRUE)
+
+# Separation needs more work because of column types...
 ```
 
