@@ -1,5 +1,6 @@
 ---
 title: "Developing Specialty Crop Data and Calculating GDDs"
+author: "Sanika Gokakkar"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Developing Specialty Crop Data and Calculating GDDs}
@@ -27,7 +28,7 @@ library(ggplot2)
 ```
 
 
-# Pulling Data
+# Step One: Pulling Data
 
 ### Loading Weather Data
 For the purpose of calculations of the Growing Degree Days, data about the average temperature of days is required. For this reason, the first task is to load the data. It was retrieved from [**Iowa Mesonet Reanalysis Tool (IEMRE)**](https://mesonet.agron.iastate.edu/iemre/)
@@ -51,7 +52,7 @@ newdata <- read.csv("Crop-Info_Farmer Asset Mapping.csv")
 View(newdata)
 ```
 
-# Cleaning the Data
+# Step Two: Cleaning the Data
 Dropped certain columns that didn't have information required for the GDD calculations. Additionally removed rows with no/null data, for easy and clear visualization
 
 ```{r model-function2, eval=FALSE}
@@ -60,7 +61,7 @@ View(new_data)
   
 mydata = subset(mydata, select = -c(`mrms_precip_in`,`prism_precip_in`,`X12z_high_f`,`climate_daily_high_f`,`X12z_low_f`,`climate_daily_low_f`,`daily_precip_in`,`X12z_precip_in`,`climate_daily_precip_in` ) )
 ```
-# Calculations
+# Step Three: Calculations
 
 Calculated the average temperatures of every day from 2015-2021.This was done by adding the *lowest Temperature of that day* to the *Highest Temperature of that day*, and then diving the sum by 2.
 
@@ -142,7 +143,7 @@ mydata$CantaloupeGDD= ifelse(mydata$CantaloupeGDD < 0, "0",mydata$CantaloupeGDD 
 View(mydata)
 glimpse(mydata)
 ```
-# Formatting
+# Step Four: Formatting
 
 Seperating the Months and Years, in order to group data by the Year
 ```{r, eval=FALSE}
@@ -167,9 +168,8 @@ mydata2$Month = ifelse(mydata2$Month == 4,"April",
                                                                                                                                                                                                                                                                                                
 View(mydata2)
 ```  
-
- Saving the data as a csv file to the local directory
+Saving the data as a csv file to the local directory
 
 ```{r, eval=FALSE}
-write.csv(mydata2, "S:/misc/clg/DSPG2022/ProjectB/Speciality_Crops_GDD_cleaned_2015-2021.csv", row.names = FALSE)
+write.csv(mydata2, "S:/DSPG2022/ProjectB/Speciality_Crops_GDD_cleaned_2015-2021.csv", row.names = FALSE)
 ```
