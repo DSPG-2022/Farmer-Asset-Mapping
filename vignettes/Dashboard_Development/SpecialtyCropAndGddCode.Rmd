@@ -119,7 +119,7 @@ View(mydata)
 If Average Temperature of the day is lesser than the Base Temperature, then the GDD = 0. 
 The code helps to search GDD values that have negative value, and replace those values with 0
 
-```{r model-function4, eval=FALSE}
+```{r model-function5, eval=FALSE}
 mydata$OnionGDD= ifelse(mydata$OnionGDD < 0, "0", mydata$OnionGDD)
 mydata$PeasGDD= ifelse(mydata$PeasGDD < 0, "0",mydata$PeasGDD )
 mydata$AsparagusGDD= ifelse(mydata$AsparagusGDD < 0, "0", mydata$AsparagusGDD )
@@ -145,7 +145,7 @@ glimpse(mydata)
 ```
 # Step Four: Formatting
 
-Seperating the Months and Years, in order to group data by the Year
+Separating the Months and Years, in order to group data by the Year
 ```{r, eval=FALSE}
 mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar(date)-3), nchar(date))) %>% mutate(Month = ifelse(Month ==1,10,Month))%>% group_by(year, Month) %>% summarise(acc_gdd_onion= sum(as.numeric(OnionGDD)),acc_gdd_peas = sum(as.numeric(PeasGDD)), acc_gdd_asparaguss = sum(as.numeric(AsparagusGDD)), acc_gdd_potato = sum(as.numeric(PotatoGDD)), acc_gdd_cabbage = sum(as.numeric(CabbageGDD)), acc_gdd_sweet_potato = sum(as.numeric(Sweet_PotatoGDD)), acc_gdd_Squash = sum(as.numeric(SquashGDD)), acc_gdd_cucumber = sum(as.numeric(CucumberGDD)), acc_gdd_Cauliflower = sum(as.numeric(CauliflowerGDD)), acc_gdd_Pumpkin = sum(as.numeric(PumpkinGDD)), acc_gdd_Tomato = sum(as.numeric(TomatoGDD)), acc_gdd_Watermelon = sum(as.numeric(WatermelonGDD)), acc_gdd_carrot = sum(as.numeric(CarrotGDD)), acc_gdd_sweet_corn = sum(as.numeric(Sweet_cornGDD)), acc_gdd_lettuce = sum(as.numeric(LettuceGDD)), acc_gdd_Eggplant = sum(as.numeric(EggplantGDD)), acc_gdd_radish = sum(as.numeric(RadishGDD)), acc_gdd_spinach = sum(as.numeric(SpinachGDD)), acc_gdd_cantaloupe = sum(as.numeric(CantaloupeGDD)))
 ```

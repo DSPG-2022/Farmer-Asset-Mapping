@@ -104,6 +104,7 @@
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>Creating the Interactive User Input for
 Automating the Dashboard</h1>
+                        <h4 data-toc-skip class="author">Cory Roth</h4>
             
       
       
@@ -181,7 +182,7 @@ from IEMRE</p>
 <p>5 inputs: year, startmonth, endmonth, and centerpoints</p>
 <p>This does not need to return anything to PHP because it writes its
 data straight to a csv locally</p>
-<pre><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\WeatherScript.R\" $year $startmonth $endmonth $centpoints[0] $centpoints[1]"</span><span class="op">)</span>;</span></code></pre>
+<pre eval="FALSE"><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\WeatherScript.R\" $year $startmonth $endmonth $centpoints[0] $centpoints[1]"</span><span class="op">)</span>;</span></code></pre>
 <p>After that is ran, we can run the script that aggregates the weather
 data and the script that calculated GDD for each crop</p>
 <p>We have to run these after the weather scrapping script because they
@@ -189,7 +190,7 @@ are dependent on the raw weather data</p>
 <p>They do not need inputs because they will be using the csv as their
 input source</p>
 <p>They both save their data as local csv’s</p>
-<pre><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\GDD.R\""</span><span class="op">)</span>;</span>
+<pre eval="FALSE"><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\GDD.R\""</span><span class="op">)</span>;</span>
 <span>    </span>
 <span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\TempDataSummary.R\""</span><span class="op">)</span>;</span></code></pre>
 <p>Finally We can run our Soil gathering script</p>
@@ -199,10 +200,10 @@ crop data</p>
 in updating the Risk Managment Url querys</p>
 <p>6 inputs: bounding box, centerpoints</p>
 <p>Saves data as a CSV</p>
-<pre><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\Cory_CropInfoV3.R\" $xmin $xmax $ymin $ymax $centpoints[0] $centpoints[1]"</span><span class="op">)</span>;</span></code></pre>
+<pre eval="FALSE"><code><span>    <span class="fu"><a href="https://rlang.r-lib.org/reference/exec.html" class="external-link">exec</a></span><span class="op">(</span><span class="st">"\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\Cory_CropInfoV3.R\" $xmin $xmax $ymin $ymax $centpoints[0] $centpoints[1]"</span><span class="op">)</span>;</span></code></pre>
 <p>After all data has been collected and stored</p>
 <p>PHP will output to HTML that the data has been collected</p>
-<pre><code>    echo "Data Collected";</code></pre>
+<pre eval="FALSE"><code>    echo "Data Collected";</code></pre>
 </div>
 </div>
   </div>
