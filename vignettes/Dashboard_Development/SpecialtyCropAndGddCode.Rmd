@@ -145,20 +145,15 @@ glimpse(mydata)
 ```
 # Step Four: Formatting
 
-<<<<<<< HEAD
 Separating the Months and Years, in order to group data by the Year
 ```{r, eval=FALSE}
-=======
-Seperating the Months and Years, in order to group data by the Year
-```{r}
->>>>>>> 327d11a74f8c99e878dbd10a8b065088ce77f228
 mydata2 <- mydata %>% mutate(Month = substr(date,0,1), year= substr(date, (nchar(date)-3), nchar(date))) %>% mutate(Month = ifelse(Month ==1,10,Month))%>% group_by(year, Month) %>% summarise(acc_gdd_onion= sum(as.numeric(OnionGDD)),acc_gdd_peas = sum(as.numeric(PeasGDD)), acc_gdd_asparaguss = sum(as.numeric(AsparagusGDD)), acc_gdd_potato = sum(as.numeric(PotatoGDD)), acc_gdd_cabbage = sum(as.numeric(CabbageGDD)), acc_gdd_sweet_potato = sum(as.numeric(Sweet_PotatoGDD)), acc_gdd_Squash = sum(as.numeric(SquashGDD)), acc_gdd_cucumber = sum(as.numeric(CucumberGDD)), acc_gdd_Cauliflower = sum(as.numeric(CauliflowerGDD)), acc_gdd_Pumpkin = sum(as.numeric(PumpkinGDD)), acc_gdd_Tomato = sum(as.numeric(TomatoGDD)), acc_gdd_Watermelon = sum(as.numeric(WatermelonGDD)), acc_gdd_carrot = sum(as.numeric(CarrotGDD)), acc_gdd_sweet_corn = sum(as.numeric(Sweet_cornGDD)), acc_gdd_lettuce = sum(as.numeric(LettuceGDD)), acc_gdd_Eggplant = sum(as.numeric(EggplantGDD)), acc_gdd_radish = sum(as.numeric(RadishGDD)), acc_gdd_spinach = sum(as.numeric(SpinachGDD)), acc_gdd_cantaloupe = sum(as.numeric(CantaloupeGDD)))
 ```
 
 Specifying the target months, and formatting the dates clearly. 
 The target months include April, May, June, July, August, September and October. Other months have lower average temperatures, thus not possible to grow crops then.
 
-```{r}
+```{r, eval=FALSE}
 mydata2<- mydata2 %>%
   mutate(Date = paste(Month,year,sep="/"))
  
@@ -175,6 +170,6 @@ View(mydata2)
 ```  
 Saving the data as a csv file to the local directory
 
-```{r}
+```{r, eval=FALSE}
 write.csv(mydata2, "S:/DSPG2022/ProjectB/Speciality_Crops_GDD_cleaned_2015-2021.csv", row.names = FALSE)
 ```
