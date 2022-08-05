@@ -20,6 +20,11 @@ contains all of the methodology, processes, and review of the data
 sources that went into creating the scripting and dashboard development
 for this project.
 
+The presentation slides can be accessed
+<a href=https://github.com/DSPG-2022/DHR-Disabilities/blob/main/man/figures/PresSlides.pdf>here</a>
+and the recorded final presentation
+[here](https://www.youtube.com/watch?v=SG259_CYy2k)
+
 ## Navigation
 
 -   **Dashboards**
