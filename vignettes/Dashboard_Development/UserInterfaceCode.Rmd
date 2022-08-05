@@ -1,6 +1,7 @@
 ---
 title: "Creating the Interactive User Input for Automating the Dashboard"
 output: rmarkdown::html_vignette
+author: "Cory Roth"
 vignette: >
   %\VignetteIndexEntry{Creating the Interactive User Input for Automating the Dashboard}
   %\VignetteEngine{knitr::rmarkdown}
@@ -94,7 +95,7 @@ The return value is a string in the format "x,y" of coordinates representing the
    
   This does not need to return anything to PHP because it writes its data straight to a csv locally
   
-```{}
+```{eval=FALSE}
 	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\WeatherScript.R\" $year $startmonth $endmonth $centpoints[0] $centpoints[1]");
 
 ```
@@ -108,7 +109,7 @@ The return value is a string in the format "x,y" of coordinates representing the
  
  They both save their data as local csv's
  
-```{}
+```{eval=FALSE}
 	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\GDD.R\"");
 	
 	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\TempDataSummary.R\"");
@@ -124,7 +125,7 @@ It also obtain the county FIPS code it is in and the State ID to use in updating
 6 inputs: bounding box,  centerpoints
 
 Saves data as a CSV
-```{}
+```{eval=FALSE}
 	exec("\"C:\\Program Files\\R\\R-4.2.0\\bin\\Rscript.exe\" \"C:\\Users\\cornd\\OneDrive\\Documents\\GitHub\\Farmer-Asset-Mapping\\Data Exploration\\TestPHP\\Cory_CropInfoV3.R\" $xmin $xmax $ymin $ymax $centpoints[0] $centpoints[1]");
 
 ```
@@ -134,7 +135,7 @@ After all data has been collected and stored
 
 PHP will output to HTML that the data has been collected
 
-```{}
+```{eval=FALSE}
 	echo "Data Collected";
 ```
 

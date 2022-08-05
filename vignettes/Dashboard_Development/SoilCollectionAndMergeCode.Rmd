@@ -1,5 +1,6 @@
 ---
 title: "Retreiving and Connecting Soil Data to the Dashboard"
+author: "Cory Roth"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Retreiving and Connecting Soil Data to the Dashboard}
@@ -14,6 +15,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+This script takes in the bounding box coordinates and gathers the soil data from the web soil survey. It then cleans and selects the information that we want, as well as merges it with the crop data to calculate suitability
+
 The libraries Used To Gather, Clean and Merge Soil Data
 
 ```{r setup, eval =FALSE}
@@ -26,8 +29,6 @@ library(sqldf)
 library(raster)
 library(cdlTools)
 ```
-
-
 
 Gathering Inputs from PHP
 
@@ -50,32 +51,33 @@ lon= as.numeric(args[6])
 ```
 
 # Gather Data from Web Soil Survey (SSURGO Data)
-### Input:
-  can Either be a Rasterlayer or a Spatial object
-  
-  For this, we are using a Rasterlayer that uses the coordinates selected from the user as the bounding box
-  
-### Output:
-  It downloads 2 Folders to local File, a __RAW__ and an __EXTRACTIONS__ folder
-  
-  Raw is raw zipped data, EXTRACTIONS holds info being used, has both tabular (.csv) and spatial object (.shp)
-  
-  In Extraction, will have folder named as label parameter
-  
 
-  
-  
+### Input:
+
+can Either be a Rasterlayer or a Spatial object
+
+For this, we are using a Rasterlayer that uses the coordinates selected from the user as the bounding box
+
+### Output:
+
+It downloads 2 Folders to local File, a **RAW** and an **EXTRACTIONS** folder
+
+Raw is raw zipped data, EXTRACTIONS holds info being used, has both tabular (.csv) and spatial object (.shp)
+
+In Extraction, will have folder named as label parameter
+
 ### force.redo:
-  Parameter in function that if
-  
-  set to false, means that if there is already data in label folder, then it won't download data from web soil survey
-  
-  set to true, any time it is called it will download data from web soil survey and overwrite what is stored in label folder
-  
+
+Parameter in function that if
+
+set to false, means that if there is already data in label folder, then it won't download data from web soil survey
+
+set to true, any time it is called it will download data from web soil survey and overwrite what is stored in label folder
+
 ```{r, eval=FALSE}
 Area<- get_ssurgo(template = s,label = "CropSelection_V3", force.redo =TRUE)
 ```
-  
+
 # Cleaning and Merging SSURGO Data
 
 The SSURGO data has both spatical and tabular data, but for cleaning we only want to look at the tabluar
@@ -97,8 +99,8 @@ chorizon <- Data$chorizon
 chtexturegrp <-Data$chtexturegrp %>%filter(rvindicator == "Yes") ##only care about dominant areas
 ```
 
-
 Merging The map units data and components together
+
 ```{r, eval=FALSE}
 Overall<- merge(muaggart,componet,by = "mukey", all = TRUE)
 Overall<- merge(Overall,mapunit,by = "mukey", all = TRUE)
@@ -110,15 +112,13 @@ chorizon2 <-chorizon2%>%
   mutate(depth = hzdept.r /2.54) ##convert cm to inches
 ```
 
-
 Some Data of SSURGO comes in at varying depth levels, like pH or Available Water Storage
 
-Because Crops have a specific max rooting depth, we only want to look at the values of data that are in the rooting depths range
-(0 - Max Rooting Depth)
+Because Crops have a specific max rooting depth, we only want to look at the values of data that are in the rooting depths range (0 - Max Rooting Depth)
 
 CropData is our Database of specialty crops that includes the rooting depth
 
-sqldf (which uses SQL) is used because we are merging based on an __inequality__ and it makes it easier to do than in R
+sqldf (which uses SQL) is used because we are merging based on an **inequality** and it makes it easier to do than in R
 
 ```{r, eval=FALSE}
 CropData <- read_excel("Input\\Crop-Info_Farmer Asset Mapping.xlsx")
@@ -137,14 +137,12 @@ MergedDataNoNA <- MergedData %>%
 Now that we are looking at the right depths, we find what value to use
 
 For quantitative values like pH and AWS:
-  
+
     We use the average based on all depths in range
-    
+
 For qualitative values like soil texture:
-  
+
     We follow how the query tool on the Web soil survey does and use the surface layer data
-
-
 
 ```{r, eval=FALSE}
 chorzonSim <-MergedDataNoNA%>%
@@ -189,14 +187,13 @@ Simple <- merge(Simple,CropRotation, by.x = "Types of Crops", by.y = "Crop", all
 
 ```
 
-
 ## Adding Flags
 
 This section of code is going to be how we determine flags
 
-Based on the corn sutability rating and the information we gleamed from research, we have a list of 10 variables that deal with soil and are important to crop growth 
+Based on the corn sutability rating and the information we gleamed from research, we have a list of 10 variables that deal with soil and are important to crop growth
 
-We will determine how many issues there are for all map units in the selected area for __each__ crop
+We will determine how many issues there are for all map units in the selected area for **each** crop
 
 ```{r , eval=FALSE}
 Simple<- Simple%>%
@@ -219,8 +216,7 @@ Simple<- Simple%>%
   mutate(FlagDesc =  ifelse(substr(FlagDesc,1,1)==',',substr(FlagDesc,3,nchar(FlagDesc)),FlagDesc))
 ```
 
-
-To save having to output the fips code and state abbreviation back into php and run this script, we just run it from this R script 
+To save having to output the fips code and state abbreviation back into php and run this script, we just run it from this R script
 
 This Code takes in the lat and lon of the user, along with the County FIPS code and State ID to update the links we provide so that when users select the links, it shows to the location they selected
 
@@ -233,8 +229,8 @@ source("Cory_UpdateRiskURLParams.R")
 
 ```
 
-
 Finally, we save our data to a csv
+
 ```{r, eval=FALSE}
 write.csv(Simple,"Output\\CropSelection2.csv", row.names=FALSE)
 ```
