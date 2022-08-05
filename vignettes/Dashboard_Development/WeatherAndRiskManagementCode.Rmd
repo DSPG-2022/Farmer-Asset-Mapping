@@ -1,6 +1,6 @@
 ---
 title: "Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard"
-author: "Nabil"
+author: "Nabil Idris"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Exploring Weather and Climate Data, Scraping, and Connecting to the Dashboard}
@@ -12,7 +12,9 @@ vignette: >
   knitr::opts_chunk$set(eval=FALSE)
 ```
 
-Load libraries
+This vignette explains the process to create list of dates for user selection and to retrieve data from Iowa Mesonet Reanalysis (IEMRE)
+
+##Load libraries
 
 ```{r setup, eval=FALSE}
 library(DSPGFarmer)
@@ -21,7 +23,8 @@ library(tidyverse)
 library(rmarkdown)
 ```
 
-# Data
+
+## Data
 
 Weather data is retrieved from [Iowa Environmental Mesonet Reanalysis (IEMRE)](https://mesonet.agron.iastate.edu/iemre/) ![alt text](https://mesonet.agron.iastate.edu/images/logo_small.png "IEM")  
 
@@ -34,8 +37,6 @@ IEM provides:
 
 Data can be accessed through some JSON web services; MultiDay Request, Single Day Request, and Single Day's Hourly (CDT/CST) Request. Example [MultiDay Request](https://mesonet.agron.iastate.edu/iemre/multiday/2010-05-01/2010-09-30/42.54/-96.40/json). Other request examples are available on the IEMRE page. Multi-year querying is not supported at this time. 
 
-  
-# Methods
 
 ## Script to create list of dates for user selection
 
@@ -52,8 +53,10 @@ CurrentDate <- Sys.Date()-2 #Because there is a 2-3 day delay in data availabili
 StartDates <- list()
 EndDates <-list()
 
+#Calculate the number of days remaining in the cureent month using the lubridate package
 EndDay = lubridate::days_in_month(as.Date(paste(EndMonth,"/01/2000",sep="")))
 
+#Format dates into m/d/y format
 StartMonthCorrect <-format(as.Date(paste(startMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
 EndMonthCorrect <-format(as.Date(paste(EndMonth,"/01/2000",sep=""), "%m/%d/%y"),"%m")
 
@@ -74,9 +77,10 @@ for(yearVal in 0:YearRange){
 
 ## Script to retrieve data from IEMRE
 
+Table containing variable description.
 
 | Variable      | Description           
-| ------------- |:-------------:                                               |
+|:------------- |:-------------:                                               |
 | base_url      | Url for IEMRE                                                |
 | target_request| Which data to access. Ex.”Multiday” – Multiday Request       |
 | End_of_url    | Output is a JSON file                                        |
@@ -96,8 +100,8 @@ end_of_url <- "json"
 #Create empty list to store url's
 url_list <-list()
 
-##----Loop through the start and end dates. First date is the start date, second date is the end date. Dates are paired.-----
-##----url format is: https://mesonet.agron.iastate.edu/iemre/multiday/start_dates/end_dates/lat/lon/json------
+##----Loop through the start and end dates.-----
+##----url format is: https://mesonet.agron.iastate.edu/iemre/multiday/StartDates/EndDates/lat/lon/json------
 
 ##----Create empty dataframe----
 df <- data.frame()
